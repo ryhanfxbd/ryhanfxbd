@@ -1,0 +1,32 @@
+name: BDlivetv Auto Update
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-playlists:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Probe playlists and write status report
+        run: python scripts/refresh_playlists.py
+
+      - name: Commit and push status report
+        run: |
+          git config user.name "BDlivetv Auto Update"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/playlist_status.json
+          git diff --cached --quiet || git commit -m "BDlivetv Auto Update: playlist status $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
