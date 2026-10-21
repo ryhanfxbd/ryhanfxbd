@@ -1,0 +1,89 @@
+{
+  "updatedAt": "2026-10-21T18:21:50Z",
+  "playlists": [
+    {
+      "name": "akash all player",
+      "file": "app/akash_all_player.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/akash_all_player.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "akash go",
+      "file": "app/akash_go.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/akash_go.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "Aynaott",
+      "file": "app/Aynaott.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/Aynaott.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "Cartoon",
+      "file": "app/Cartoon.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/Cartoon.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "iptv bd",
+      "file": "app/iptv_bd.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/iptv_bd.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "jio hotstar",
+      "file": "app/jio_hotstar.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/jio_hotstar.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "jio tv",
+      "file": "app/jio_tv.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/jio_tv.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "live sports",
+      "file": "app/live_sports.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/live_sports.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "mpd.Zee5",
+      "file": "app/mpd.Zee5.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/mpd.Zee5.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "RoarZone",
+      "file": "app/RoarZone.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/RoarZone.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "sonyLiv",
+      "file": "app/sonyLiv.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/sonyLiv.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "Toffee",
+      "file": "app/Toffee.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/Toffee.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "toffee all player",
+      "file": "app/toffee_all_player.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/toffee_all_player.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "vood",
+      "file": "app/vood.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/vood.m3u",
+      "tier": "free"
+    }
+  ]
+}
