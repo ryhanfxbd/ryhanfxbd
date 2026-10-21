@@ -3,9 +3,12 @@
 
 Discovers every app/*.m3u playlist in this repository, probes each
 unique stream URL, and writes a status report to app/playlist_status.json.
+It also writes a playlist manifest to app/playlists.json (every app/*.m3u
+except the built-in default channels.m3u) that the BD LIVE TV app syncs
+its playlist sources from.
 
 The script NEVER edits or deletes channels in the playlists.
-It only writes the status report.
+It only writes the status report and the manifest.
 
 Stdlib only (urllib). Runs on GitHub Actions via
 .github/workflows/bdlivetv-auto-update.yml
@@ -26,6 +29,9 @@ if not (REPO_ROOT / "app").is_dir():
     REPO_ROOT = Path.cwd()
 
 STATUS_PATH = REPO_ROOT / "app" / "playlist_status.json"
+MANIFEST_PATH = REPO_ROOT / "app" / "playlists.json"
+RAW_BASE = "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/"
+BUILTIN_DEFAULT = "channels.m3u"  # the app loads it as its built-in source
 GENERATOR = "BDlivetv Auto Update"
 TIMEOUT = 10
 WORKERS = 10
@@ -205,8 +211,9 @@ def main():
         print("  %s -> ok=%d restricted=%d dead=%d"
               % (rel, ok, restricted, len(dead)))
 
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     report = {
-        "updatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "updatedAt": now,
         "generator": GENERATOR,
         "sources": sources,
     }
@@ -214,6 +221,25 @@ def main():
         json.dumps(report, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8")
     print("Wrote %s" % STATUS_PATH)
+
+    # Playlist manifest the app syncs from: every discovered app/*.m3u
+    # except the built-in default (channels.m3u), sorted by display name.
+    manifest_entries = []
+    for path in playlist_files:
+        if path.name == BUILTIN_DEFAULT:
+            continue
+        manifest_entries.append({
+            "name": path.stem.replace("_", " "),
+            "file": "app/" + path.name,
+            "url": RAW_BASE + path.name,
+            "tier": "free",
+        })
+    manifest_entries.sort(key=lambda e: e["name"].lower())
+    manifest = {"updatedAt": now, "playlists": manifest_entries}
+    MANIFEST_PATH.write_text(
+        json.dumps(manifest, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8")
+    print("Wrote %s (%d playlist(s))" % (MANIFEST_PATH, len(manifest_entries)))
 
 
 if __name__ == "__main__":
