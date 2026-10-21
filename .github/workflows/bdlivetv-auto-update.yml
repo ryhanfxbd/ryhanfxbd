@@ -27,6 +27,6 @@ jobs:
         run: |
           git config user.name "BDlivetv Auto Update"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add app/playlist_status.json
+          git add app/playlist_status.json app/playlists.json
           git diff --cached --quiet || git commit -m "BDlivetv Auto Update: playlist status $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
