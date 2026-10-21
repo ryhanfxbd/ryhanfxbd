@@ -89,3 +89,6 @@ http://103.151.60.162:2122/play/a011/index.m3u8?hls
 http://103.151.60.162:2122/play/a02p/index.m3u8?hls
 #EXTINF:-1 tvg-id="ZeeBanglaSonar.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540" group-title="Entertainment",Zee Bangla Sonar (576p)
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8
+#EXTINF:-1 group-title="Test",MPD Test (Demo)
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd
