@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-22T00:14:17Z",
+  "updatedAt": "2026-10-22T06:23:28Z",
   "generator": "BDlivetv Auto Update",
   "sources": {
     "app/Aynaott.m3u": {
       "total": 138,
-      "ok": 73,
+      "ok": 72,
       "restricted": 13,
       "dead": [
         {
@@ -123,11 +123,6 @@
           "reason": "timeout after 10s"
         },
         {
-          "name": "DW News",
-          "url": "https://tvsen6.aynaott.com/Qq3s5WR2/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "Iran Press",
           "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8",
           "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'live.presstv.ir'. (_ssl.c:1016)"
@@ -141,6 +136,11 @@
           "name": "TV9 Bharatvarsh",
           "url": "https://tvsen3.aynaott.com/v9NqPxRd/index.m3u8",
           "reason": "timeout after 10s"
+        },
+        {
+          "name": "Republic TV Bharat",
+          "url": "https://tvsen6.aynaott.com/faGd3tuq/index.m3u8",
+          "reason": "HTTP 404"
         },
         {
           "name": "ANB News",
@@ -223,6 +223,11 @@
           "reason": "timeout after 10s"
         },
         {
+          "name": "Goldmines Bollywood",
+          "url": "https://tvsen6.aynaott.com/55xNrLdf/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "9XM",
           "url": "https://tvsen3.aynaott.com/qCrLpS9v/index.m3u8",
           "reason": "timeout after 10s"
@@ -258,8 +263,8 @@
           "reason": "timeout after 10s"
         },
         {
-          "name": "HBO 2",
-          "url": "https://tvsen3.aynaott.com/u3NjUrny/index.m3u8",
+          "name": "Goldmines Movies",
+          "url": "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -1130,7 +1135,7 @@
     },
     "app/channels.m3u": {
       "total": 45,
-      "ok": 33,
+      "ok": 32,
       "restricted": 1,
       "dead": [
         {
@@ -1174,6 +1179,11 @@
           "reason": "HTTP 511"
         },
         {
+          "name": "Probashi TV News (1080p)",
+          "url": "http://158.69.24.53:8080/probashi_tv/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "RTV (Bangladesh) (720p)",
           "url": "http://tvsen5.aynascope.net/RtvHD/index.m3u8",
           "reason": "connection error: timed out"
@@ -1192,7 +1202,7 @@
     },
     "app/iptv_bd.m3u": {
       "total": 145,
-      "ok": 89,
+      "ok": 90,
       "restricted": 9,
       "dead": [
         {
@@ -1243,11 +1253,6 @@
         {
           "name": "My TV",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/playlist.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)"
-        },
-        {
-          "name": "ATN Bangla",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8",
           "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)"
         },
         {
@@ -2068,7 +2073,7 @@
         {
           "name": "Somoy TV",
           "url": "https://sm-monirul.xyz/@monirul_Islam_SM/toffee/play/somoy_tv.m3u8",
-          "reason": "HTTP 404"
+          "reason": "HTTP 520"
         },
         {
           "name": "Jamuna TV",
@@ -2138,7 +2143,7 @@
         {
           "name": "Desh TV",
           "url": "https://sm-monirul.xyz/@monirul_Islam_SM/toffee/play/desh_tv.m3u8",
-          "reason": "HTTP 404"
+          "reason": "HTTP 520"
         },
         {
           "name": "Independent TV",
