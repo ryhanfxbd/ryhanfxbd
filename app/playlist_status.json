@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-21T18:20:20Z",
+  "updatedAt": "2026-10-22T00:14:17Z",
   "generator": "BDlivetv Auto Update",
   "sources": {
     "app/Aynaott.m3u": {
       "total": 138,
-      "ok": 69,
+      "ok": 73,
       "restricted": 13,
       "dead": [
         {
@@ -143,16 +143,6 @@
           "reason": "timeout after 10s"
         },
         {
-          "name": "Republic TV Bharat",
-          "url": "https://tvsen6.aynaott.com/faGd3tuq/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Bharat Samachar",
-          "url": "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "ANB News",
           "url": "https://tvsen6.aynaott.com/H5aeGVSjindex.m3u8",
           "reason": "HTTP 404"
@@ -160,11 +150,6 @@
         {
           "name": "News 1 India",
           "url": "https://tvsen6.aynaott.com/TaVfw58T/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Sadhna Prime News",
-          "url": "https://tvsen3.aynaott.com/P2hjvFHV/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -186,11 +171,6 @@
           "name": "BTV National",
           "url": "https://tvsen6.aynaott.com/opREbXLqJ2HFYPCXTJBa/index.m3u8",
           "reason": "timeout after 10s"
-        },
-        {
-          "name": "Thikana",
-          "url": "https://5dd3981940faa.streamlock.net:443/thikanatv/thikanatv/playlist.m3u8",
-          "reason": "connection error: _ssl.c:999: The handshake operation timed out"
         },
         {
           "name": "Cartoon Network",
@@ -278,8 +258,8 @@
           "reason": "timeout after 10s"
         },
         {
-          "name": "Goldmines Movies",
-          "url": "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
+          "name": "HBO 2",
+          "url": "https://tvsen3.aynaott.com/u3NjUrny/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -291,7 +271,7 @@
     },
     "app/Cartoon.m3u": {
       "total": 23,
-      "ok": 15,
+      "ok": 17,
       "restricted": 1,
       "dead": [
         {
@@ -318,16 +298,6 @@
           "name": "Sony Yay",
           "url": "http://live.balajibroadband.com:3500/live/872.m3u8",
           "reason": "HTTP 500"
-        },
-        {
-          "name": "Oggy",
-          "url": "https://live20.bozztv.com/giatvplayout7/giatv-210728/tracks-v1a1/mono.ts.m3u8",
-          "reason": "HTTP 502"
-        },
-        {
-          "name": "ZB CARTOON",
-          "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
-          "reason": "HTTP 404"
         }
       ]
     },
@@ -1160,7 +1130,7 @@
     },
     "app/channels.m3u": {
       "total": 45,
-      "ok": 32,
+      "ok": 33,
       "restricted": 1,
       "dead": [
         {
@@ -1214,11 +1184,6 @@
           "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)"
         },
         {
-          "name": "Star Jalsha (576p)",
-          "url": "http://103.151.60.162:2122/play/a00w/index.m3u8?hls",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "T Sports (1080p)",
           "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
           "reason": "HTTP 404"
@@ -1227,14 +1192,9 @@
     },
     "app/iptv_bd.m3u": {
       "total": 145,
-      "ok": 84,
+      "ok": 89,
       "restricted": 9,
       "dead": [
-        {
-          "name": "Sony Wah",
-          "url": "https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009253",
-          "reason": "HTTP 429"
-        },
         {
           "name": "Green Tv",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/greentv.stream/playlist.m3u8",
@@ -1269,6 +1229,11 @@
           "name": "Asian TV",
           "url": "https://mtlivestream.com/hls/asian/ytlive/index.m3u8",
           "reason": "connection error: [Errno -2] Name or service not known"
+        },
+        {
+          "name": "Channel 9",
+          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8",
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)"
         },
         {
           "name": "Gazi TV HD",
@@ -1361,16 +1326,6 @@
           "reason": "connection error: timed out"
         },
         {
-          "name": "Sony Pal",
-          "url": "https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009273",
-          "reason": "HTTP 429"
-        },
-        {
-          "name": "Sony SAB HD",
-          "url": "https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009248",
-          "reason": "HTTP 429"
-        },
-        {
           "name": "Duronto TV",
           "url": "http://103.165.93.31:8095/duranta/tracks-v1a1/mono.m3u8",
           "reason": "connection error: timed out"
@@ -1384,11 +1339,6 @@
           "name": "Nick Bangla",
           "url": "http://103.165.93.31:8095/nick/tracks-v1a1/mono.m3u8",
           "reason": "connection error: timed out"
-        },
-        {
-          "name": "Sony Yay Hindi",
-          "url": "https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971",
-          "reason": "HTTP 429"
         },
         {
           "name": "Cartoon Network Hindi",
@@ -1416,11 +1366,6 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Sony MAX HD",
-          "url": "https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009247",
-          "reason": "HTTP 429"
-        },
-        {
           "name": "Star Gold",
           "url": "http://103.151.60.162:2122/play/a01n/index.m3u8?hls",
           "reason": "HTTP 404"
@@ -1444,11 +1389,6 @@
           "name": "MANORANJAN TV",
           "url": "https://cdn-1.pishow.tv/live/1013/master.m3u8",
           "reason": "HTTP 404"
-        },
-        {
-          "name": "Sony Marathi",
-          "url": "https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009259",
-          "reason": "HTTP 429"
         },
         {
           "name": "B4U Kadak",
