@@ -18,6 +18,7 @@ import json
 import socket
 import ssl
 import urllib.error
+import zlib
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -107,7 +108,24 @@ def parse_entries(text):
     return entries
 
 
+SAMPLE_BYTES = 1024  # how much of a response body the probe inspects
+
+MEDIA_CONTENT_TYPES = frozenset({
+    "application/vnd.apple.mpegurl",
+    "application/x-mpegurl",
+    "audio/mpegurl",
+    "audio/x-mpegurl",
+    "application/dash+xml",
+})
+
+
 def _fetch(url, headers, use_range):
+    """GET a URL, following redirects to the final response.
+
+    Returns (code, content_type, sample, final_url): sample is the first
+    SAMPLE_BYTES of the body (gzip-decoded when needed), final_url is the
+    URL after any redirects.
+    """
     req_headers = {
         "User-Agent": headers.get("User-Agent", DEFAULT_UA),
         "Accept": "*/*",
@@ -116,37 +134,90 @@ def _fetch(url, headers, use_range):
         if k.lower() != "user-agent":
             req_headers[k] = v
     if use_range:
-        req_headers["Range"] = "bytes=0-0"
+        req_headers["Range"] = "bytes=0-%d" % (SAMPLE_BYTES - 1)
     req = urllib.request.Request(url, headers=req_headers, method="GET")
     with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
         try:
-            resp.read(512)
+            sample = resp.read(SAMPLE_BYTES)
         except Exception:
-            pass
-        return resp.getcode() or 200
+            sample = b""
+        if sample[:2] == b"\x1f\x8b":  # gzip-encoded body
+            try:
+                sample = zlib.decompressobj(16 + zlib.MAX_WBITS).decompress(
+                    sample, SAMPLE_BYTES)
+            except Exception:
+                pass
+        content_type = resp.headers.get_content_type() if resp.headers else ""
+        return resp.getcode() or 200, content_type, sample, resp.geturl()
+
+
+def _looks_like_html(content_type, sample):
+    if content_type == "text/html":
+        return True
+    head = sample.lstrip().lower()
+    return head.startswith(b"<!doctype html") or head.startswith(b"<html")
+
+
+def _is_mpeg_ts(sample):
+    """MPEG-TS: 0x47 sync byte at the start of every 188-byte packet."""
+    if len(sample) < 2 * 188 + 1:
+        return sample[:1] == b"\x47"
+    return sample[0] == 0x47 and sample[188] == 0x47 and sample[376] == 0x47
+
+
+def _is_stream_like(content_type, sample):
+    """True when the response looks like an actual stream, not a web page."""
+    if sample.startswith(b"#EXTM3U"):
+        return True
+    if content_type in MEDIA_CONTENT_TYPES:
+        return True
+    if content_type.startswith(("video/", "audio/")):
+        return True
+    if content_type in ("application/octet-stream", "text/plain", "") \
+            and _is_mpeg_ts(sample):
+        return True
+    # DASH manifest served under a generic XML content type.
+    if sample.lstrip().startswith(b"<?xml") and b"<MPD" in sample:
+        return True
+    return False
+
+
+def _classify_status_code(code):
+    """Classification when only the HTTP status is known (error responses)."""
+    if code == 405:
+        return "ok", "HTTP %d" % code
+    if code in (401, 403):
+        return "restricted", "HTTP %d (host answered, access restricted)" % code
+    return "dead", "HTTP %d" % code
 
 
 def probe(url, headers):
     """Classify one stream URL. Returns (status, reason).
 
     status: "ok" | "restricted" | "dead"
-    - ok:         2xx/3xx, or 405 (host answered)
+    - ok:         the final response (after redirects) is stream-like —
+                  an #EXTM3U playlist body, a media content type, or an
+                  MPEG-TS body — or 405 (host answered)
     - restricted: 403 or 401 (host answered, access restricted)
-    - dead:       connection failure, timeout, 404/410, 5xx, other errors
+    - dead:       connection failure, timeout, 404/410, 5xx, other errors,
+                  or a 2xx response that is not a stream (e.g. the HTML
+                  page a dead shortlink redirects to)
     """
     try:
-        code = _fetch(url, headers, use_range=True)
+        code, content_type, sample, _final_url = _fetch(
+            url, headers, use_range=True)
     except urllib.error.HTTPError as e:
         if e.code == 416:
             # Range not satisfiable -> retry once with a plain GET.
             try:
-                code = _fetch(url, headers, use_range=False)
+                code, content_type, sample, _final_url = _fetch(
+                    url, headers, use_range=False)
             except urllib.error.HTTPError as e2:
-                code = e2.code
+                return _classify_status_code(e2.code)
             except Exception as e2:  # noqa: BLE001
                 return "dead", "HTTP 416 then %s: %s" % (type(e2).__name__, e2)
         else:
-            code = e.code
+            return _classify_status_code(e.code)
     except (socket.timeout, TimeoutError):
         return "dead", "timeout after %ss" % TIMEOUT
     except urllib.error.URLError as e:
@@ -154,11 +225,14 @@ def probe(url, headers):
     except Exception as e:  # noqa: BLE001
         return "dead", "%s: %s" % (type(e).__name__, e)
 
-    if 200 <= code < 400 or code == 405:
-        return "ok", "HTTP %d" % code
-    if code in (401, 403):
-        return "restricted", "HTTP %d (host answered, access restricted)" % code
-    return "dead", "HTTP %d" % code
+    if 200 <= code < 400:
+        if _looks_like_html(content_type, sample):
+            return "dead", "not a stream (web page)"
+        if _is_stream_like(content_type, sample):
+            return "ok", "HTTP %d" % code
+        return "dead", "not a stream (content-type %s)" % (
+            content_type or "unknown")
+    return _classify_status_code(code)
 
 
 def main():
