@@ -102,6 +102,12 @@
       "file": "app/yupptvfast.m3u",
       "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/yupptvfast.m3u",
       "tier": "free"
+    },
+    {
+      "name": "iptv-org Sports",
+      "file": "app/iptv_org_sports.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/iptv_org_sports.m3u",
+      "tier": "free"
     }
   ]
 }
