@@ -12,7 +12,7 @@
       "teamB": "India"
     },
     {
-      "channel": "",
+      "channel": "espn",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/juj7y91725980615.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/gsfe5x1550073324.png",
       "id": "illawarra-hawks-sydney-kings-2026-10-22",
@@ -78,7 +78,7 @@
       "teamB": "Benfica Women"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
       "id": "philadelphia-76ers-cleveland-cavaliers-2026-10-22",
@@ -89,7 +89,7 @@
       "teamB": "Cleveland Cavaliers"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
       "id": "oklahoma-city-thunder-denver-nuggets-2026-10-23",
@@ -232,7 +232,7 @@
       "teamB": "Elitzur Shomron"
     },
     {
-      "channel": "",
+      "channel": "espn",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/7gkvnd1755701286.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/adpuke1755702629.png",
       "id": "perth-wildcats-melbourne-united-2026-10-23",
@@ -266,17 +266,6 @@
     },
     {
       "channel": "",
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/i9pmzz1774414104.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/gz2h0s1784825082.png",
-      "id": "saturn-ramenskoye-rodina-m-moscow-2026-10-23",
-      "league": "Russia FNL 2 Group 3",
-      "sport": "Football",
-      "startUtc": "2026-10-23T11:00:00Z",
-      "teamA": "Saturn Ramenskoye",
-      "teamB": "Rodina-M Moscow"
-    },
-    {
-      "channel": "",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/2ud1eb1772171522.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/r201he1772169702.png",
       "id": "margveti-2006-zestaponi-iberia-2010-2026-10-23",
@@ -296,6 +285,17 @@
       "startUtc": "2026-10-23T11:00:00Z",
       "teamA": "Al-Arabi SC",
       "teamB": "Nejmeh"
+    },
+    {
+      "channel": "",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/i9pmzz1774414104.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/gz2h0s1784825082.png",
+      "id": "saturn-ramenskoye-rodina-m-moscow-2026-10-23",
+      "league": "Russia FNL 2 Group 3",
+      "sport": "Football",
+      "startUtc": "2026-10-23T11:00:00Z",
+      "teamA": "Saturn Ramenskoye",
+      "teamB": "Rodina-M Moscow"
     },
     {
       "channel": "",
@@ -398,6 +398,17 @@
     },
     {
       "channel": "",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/ta6fk81784159046.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/romhqy1679510715.png",
+      "id": "adaletgucu-krsehir-2026-10-23",
+      "league": "Turkish 3 Lig Group 3",
+      "sport": "Football",
+      "startUtc": "2026-10-23T11:30:00Z",
+      "teamA": "Adaletgücü",
+      "teamB": "Kırşehir"
+    },
+    {
+      "channel": "",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/fselg31578830678.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ml8oes1753832298.png",
       "id": "bylis-pogradeci-2026-10-23",
@@ -431,39 +442,6 @@
     },
     {
       "channel": "",
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/ta6fk81784159046.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/romhqy1679510715.png",
-      "id": "adaletgucu-krsehir-2026-10-23",
-      "league": "Turkish 3 Lig Group 3",
-      "sport": "Football",
-      "startUtc": "2026-10-23T11:30:00Z",
-      "teamA": "Adaletgücü",
-      "teamB": "Kırşehir"
-    },
-    {
-      "channel": "",
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/6axmqo1700049549.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/c34irb1700048843.png",
-      "id": "zhejiang-golden-bulls-qingdao-eagles-2026-10-23",
-      "league": "Chinese CBA",
-      "sport": "Basketball",
-      "startUtc": "2026-10-23T11:35:00Z",
-      "teamA": "Zhejiang Golden Bulls",
-      "teamB": "Qingdao Eagles"
-    },
-    {
-      "channel": "",
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/2lesth1700075559.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/iume8z1650191851.png",
-      "id": "nanjing-monkey-kings-shandong-hi-speed-kirin-2026-10-23",
-      "league": "Chinese CBA",
-      "sport": "Basketball",
-      "startUtc": "2026-10-23T11:35:00Z",
-      "teamA": "Nanjing Monkey Kings",
-      "teamB": "Shandong Hi-Speed Kirin"
-    },
-    {
-      "channel": "",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/v0ugmi1700075249.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/zuik5q1700075475.png",
       "id": "beijing-royal-fighters-jiangsu-dragons-2026-10-23",
@@ -486,6 +464,17 @@
     },
     {
       "channel": "",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/2lesth1700075559.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/iume8z1650191851.png",
+      "id": "nanjing-monkey-kings-shandong-hi-speed-kirin-2026-10-23",
+      "league": "Chinese CBA",
+      "sport": "Basketball",
+      "startUtc": "2026-10-23T11:35:00Z",
+      "teamA": "Nanjing Monkey Kings",
+      "teamB": "Shandong Hi-Speed Kirin"
+    },
+    {
+      "channel": "",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/w4k1k11700076101.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/rnfqre1700075419.png",
       "id": "tianjin-pioneers-guangzhou-long-lions-2026-10-23",
@@ -494,6 +483,17 @@
       "startUtc": "2026-10-23T11:35:00Z",
       "teamA": "Tianjin Pioneers",
       "teamB": "Guangzhou Long-Lions"
+    },
+    {
+      "channel": "",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/6axmqo1700049549.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/c34irb1700048843.png",
+      "id": "zhejiang-golden-bulls-qingdao-eagles-2026-10-23",
+      "league": "Chinese CBA",
+      "sport": "Basketball",
+      "startUtc": "2026-10-23T11:35:00Z",
+      "teamA": "Zhejiang Golden Bulls",
+      "teamB": "Qingdao Eagles"
     },
     {
       "channel": "",
@@ -552,6 +552,17 @@
     },
     {
       "channel": "",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/vht2ab1583166614.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/8cq3lk1752771555.png",
+      "id": "dpmm-johor-darul-ta-zim-2026-10-23",
+      "league": "Malaysia Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-23T12:15:00Z",
+      "teamA": "DPMM",
+      "teamB": "Johor Darul Ta'zim"
+    },
+    {
+      "channel": "",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/o0fu2m1788454777.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/zwlyve1757913196.png",
       "id": "the-cong-viettel-bac-ninh-2026-10-23",
@@ -560,6 +571,28 @@
       "startUtc": "2026-10-23T12:15:00Z",
       "teamA": "Thể Công Viettel",
       "teamB": "Bắc Ninh"
+    },
+    {
+      "channel": "",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/ezol7s1760240222.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/e4sikw1760240630.png",
+      "id": "soko-kleczew-slask-wrocaw-ii-2026-10-23",
+      "league": "Polish II liga",
+      "sport": "Football",
+      "startUtc": "2026-10-23T12:30:00Z",
+      "teamA": "Sokół Kleczew",
+      "teamB": "Śląsk Wrocław II"
+    },
+    {
+      "channel": "",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/chkgy61582375294.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/7lap4f1725937149.png",
+      "id": "gol-gohar-sirjan-kheybar-khorramabad-2026-10-23",
+      "league": "Iranian Persian Gulf Pro League",
+      "sport": "Football",
+      "startUtc": "2026-10-23T12:30:00Z",
+      "teamA": "Gol Gohar Sirjan",
+      "teamB": "Kheybar Khorramabad"
     },
     {
       "channel": "",
@@ -936,7 +969,7 @@
       "teamB": "Surrey 89ers"
     },
     {
-      "channel": "",
+      "channel": "Sony Ten Sports 2 HD",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
       "id": "vfb-stuttgart-borussia-monchengladbach-2026-10-23",
@@ -958,7 +991,7 @@
       "teamB": "Valencia Basket"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
       "id": "torino-monza-2026-10-23",
@@ -969,7 +1002,7 @@
       "teamB": "Monza"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
       "id": "brest-nice-2026-10-23",
@@ -1002,7 +1035,7 @@
       "teamB": "Nottingham Forest"
     },
     {
-      "channel": "",
+      "channel": "DAZN LaLiga",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
       "id": "alaves-malaga-2026-10-23",
@@ -1024,7 +1057,7 @@
       "teamB": "South Georgia Tormenta"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/olhug01621594702.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ehq8l31778197349.png",
       "id": "milwaukee-bucks-chicago-bulls-2026-10-23",
@@ -1068,7 +1101,7 @@
       "teamB": "Platense"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/dxac7a1778227278.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/lct96a1778227205.png",
       "id": "washington-wizards-toronto-raptors-2026-10-23",
@@ -1079,7 +1112,7 @@
       "teamB": "Toronto Raptors"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/j0mpu81778198371.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/epenxg1781034811.png",
       "id": "orlando-magic-minnesota-timberwolves-2026-10-23",
@@ -1090,7 +1123,7 @@
       "teamB": "Minnesota Timberwolves"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/y3lutb1778226511.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",
       "id": "indiana-pacers-dallas-mavericks-2026-10-23",
@@ -1101,7 +1134,7 @@
       "teamB": "Dallas Mavericks"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/xqtvvp1422380623.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/7o1noy1778226315.png",
       "id": "charlotte-hornets-atlanta-hawks-2026-10-23",
@@ -1112,7 +1145,7 @@
       "teamB": "Atlanta Hawks"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/4j85bn1667936589.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/4k8obt1778226764.png",
       "id": "boston-celtics-new-york-knicks-2026-10-23",
@@ -1123,7 +1156,7 @@
       "teamB": "New York Knicks"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
       "id": "miami-heat-detroit-pistons-2026-10-24",
@@ -1134,7 +1167,7 @@
       "teamB": "Detroit Pistons"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
       "id": "san-antonio-spurs-houston-rockets-2026-10-24",
@@ -1145,7 +1178,7 @@
       "teamB": "Houston Rockets"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
       "id": "utah-jazz-new-orleans-pelicans-2026-10-24",
@@ -1156,7 +1189,7 @@
       "teamB": "New Orleans Pelicans"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
       "id": "golden-state-warriors-memphis-grizzlies-2026-10-24",
@@ -1167,7 +1200,7 @@
       "teamB": "Memphis Grizzlies"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
       "id": "los-angeles-lakers-la-clippers-2026-10-24",
@@ -1178,7 +1211,7 @@
       "teamB": "LA Clippers"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
       "id": "sacramento-kings-portland-trail-blazers-2026-10-24",
@@ -1189,7 +1222,7 @@
       "teamB": "Portland Trail Blazers"
     },
     {
-      "channel": "",
+      "channel": "espn",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/juj7y91725980615.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ubzenr1545867000.png",
       "id": "illawarra-hawks-brisbane-bullets-2026-10-24",
@@ -1211,7 +1244,7 @@
       "teamB": "India"
     },
     {
-      "channel": "",
+      "channel": "espn",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/73xo0d1755702709.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/zp72061755701355.png",
       "id": "south-east-melbourne-phoenix-adelaide-36ers-2026-10-24",
@@ -1233,7 +1266,7 @@
       "teamB": "Manchester City"
     },
     {
-      "channel": "",
+      "channel": "DAZN LaLiga",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
       "id": "rayo-vallecano-elche-2026-10-24",
@@ -1244,7 +1277,7 @@
       "teamB": "Elche"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
       "id": "cagliari-bologna-2026-10-24",
@@ -1255,7 +1288,7 @@
       "teamB": "Bologna"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
       "id": "como-sassuolo-2026-10-24",
@@ -1266,7 +1299,7 @@
       "teamB": "Sassuolo"
     },
     {
-      "channel": "",
+      "channel": "Sony Ten Sports 2 HD",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
       "id": "fc-augsburg-1-fc-union-berlin-2026-10-24",
@@ -1277,7 +1310,7 @@
       "teamB": "1. FC Union Berlin"
     },
     {
-      "channel": "",
+      "channel": "Sony Ten Sports 2 HD",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
       "id": "fc-cologne-schalke-04-2026-10-24",
@@ -1288,7 +1321,7 @@
       "teamB": "Schalke 04"
     },
     {
-      "channel": "",
+      "channel": "Sony Ten Sports 2 HD",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
       "id": "mainz-werder-bremen-2026-10-24",
@@ -1299,7 +1332,7 @@
       "teamB": "Werder Bremen"
     },
     {
-      "channel": "",
+      "channel": "Sony Ten Sports 2 HD",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
       "id": "rb-leipzig-sv-elversberg-2026-10-24",
@@ -1310,7 +1343,7 @@
       "teamB": "SV Elversberg"
     },
     {
-      "channel": "",
+      "channel": "Sony Ten Sports 2 HD",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
       "id": "sc-paderborn-07-hamburg-sv-2026-10-24",
@@ -1343,7 +1376,7 @@
       "teamB": "Fulham"
     },
     {
-      "channel": "",
+      "channel": "DAZN LaLiga",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
       "id": "racing-santander-espanyol-2026-10-24",
@@ -1354,7 +1387,7 @@
       "teamB": "Espanyol"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
       "id": "napoli-as-roma-2026-10-24",
@@ -1376,7 +1409,7 @@
       "teamB": "Tottenham Hotspur"
     },
     {
-      "channel": "",
+      "channel": "DAZN LaLiga",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
       "id": "valencia-villarreal-2026-10-24",
@@ -1387,7 +1420,7 @@
       "teamB": "Villarreal"
     },
     {
-      "channel": "",
+      "channel": "Sony Ten Sports 2 HD",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
       "id": "borussia-dortmund-eintracht-frankfurt-2026-10-24",
@@ -1409,7 +1442,7 @@
       "teamB": "Baskets Wolmirstedt"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
       "id": "lazio-parma-2026-10-24",
@@ -1420,7 +1453,7 @@
       "teamB": "Parma"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
       "id": "lens-paris-fc-2026-10-24",
@@ -1431,7 +1464,7 @@
       "teamB": "Paris FC"
     },
     {
-      "channel": "",
+      "channel": "DAZN LaLiga",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
       "id": "atletico-madrid-deportivo-2026-10-24",
@@ -1464,7 +1497,7 @@
       "teamB": "Indy Eleven"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
       "id": "charlotte-hornets-miami-heat-2026-10-24",
@@ -1486,7 +1519,7 @@
       "teamB": "Rhode Island FC"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
       "id": "cleveland-cavaliers-brooklyn-nets-2026-10-24",
@@ -1497,7 +1530,7 @@
       "teamB": "Brooklyn Nets"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mil.png",
       "id": "philadelphia-76ers-milwaukee-bucks-2026-10-24",
@@ -1508,7 +1541,7 @@
       "teamB": "Milwaukee Bucks"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
       "id": "chicago-bulls-washington-wizards-2026-10-25",
@@ -1519,7 +1552,7 @@
       "teamB": "Washington Wizards"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
       "id": "dallas-mavericks-san-antonio-spurs-2026-10-25",
@@ -1530,7 +1563,7 @@
       "teamB": "San Antonio Spurs"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/hou.png",
       "id": "atlanta-hawks-houston-rockets-2026-10-25",
@@ -1541,7 +1574,7 @@
       "teamB": "Houston Rockets"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/den.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/no.png",
       "id": "denver-nuggets-new-orleans-pelicans-2026-10-25",
@@ -1585,7 +1618,7 @@
       "teamB": "Las Vegas Lights"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/gs.png",
       "id": "phoenix-suns-golden-state-warriors-2026-10-25",
@@ -1596,7 +1629,7 @@
       "teamB": "Golden State Warriors"
     },
     {
-      "channel": "",
+      "channel": "espn",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/v2c1wc1550073460.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/83088b1725978587.png",
       "id": "cairns-taipans-new-zealand-breakers-2026-10-25",
@@ -1607,7 +1640,7 @@
       "teamB": "New Zealand Breakers"
     },
     {
-      "channel": "",
+      "channel": "espn",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/adpuke1755702629.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/gsfe5x1550073324.png",
       "id": "melbourne-united-sydney-kings-2026-10-25",
@@ -1618,7 +1651,7 @@
       "teamB": "Sydney Kings"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
       "id": "internazionale-fiorentina-2026-10-25",
@@ -1629,7 +1662,7 @@
       "teamB": "Fiorentina"
     },
     {
-      "channel": "",
+      "channel": "DAZN LaLiga",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
       "id": "athletic-club-getafe-2026-10-25",
@@ -1684,7 +1717,7 @@
       "teamB": "AFC Bournemouth"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
       "id": "atalanta-frosinone-2026-10-25",
@@ -1695,7 +1728,7 @@
       "teamB": "Frosinone"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
       "id": "genoa-venezia-2026-10-25",
@@ -1706,7 +1739,7 @@
       "teamB": "Venezia"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
       "id": "as-monaco-lille-2026-10-25",
@@ -1728,7 +1761,7 @@
       "teamB": "Artland Dragons"
     },
     {
-      "channel": "",
+      "channel": "Sony Ten Sports 2 HD",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
       "id": "tsg-hoffenheim-bayer-leverkusen-2026-10-25",
@@ -1739,7 +1772,7 @@
       "teamB": "Bayer Leverkusen"
     },
     {
-      "channel": "",
+      "channel": "DAZN LaLiga",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
       "id": "celta-vigo-real-betis-2026-10-25",
@@ -1750,7 +1783,7 @@
       "teamB": "Real Betis"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
       "id": "aj-auxerre-le-mans-2026-10-25",
@@ -1761,7 +1794,7 @@
       "teamB": "Le Mans"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
       "id": "angers-lorient-2026-10-25",
@@ -1772,7 +1805,7 @@
       "teamB": "Lorient"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
       "id": "marseille-le-havre-ac-2026-10-25",
@@ -1783,7 +1816,7 @@
       "teamB": "Le Havre AC"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
       "id": "stade-rennais-strasbourg-2026-10-25",
@@ -1794,7 +1827,7 @@
       "teamB": "Strasbourg"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
       "id": "toulouse-troyes-2026-10-25",
@@ -1816,7 +1849,7 @@
       "teamB": "Leeds United"
     },
     {
-      "channel": "",
+      "channel": "Sony Ten Sports 2 HD",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
       "id": "sc-freiburg-bayern-munich-2026-10-25",
@@ -1827,7 +1860,7 @@
       "teamB": "Bayern Munich"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
       "id": "lecce-juventus-2026-10-25",
@@ -1838,7 +1871,7 @@
       "teamB": "Juventus"
     },
     {
-      "channel": "",
+      "channel": "DAZN LaLiga",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
       "id": "real-sociedad-levante-2026-10-25",
@@ -1849,7 +1882,7 @@
       "teamB": "Levante"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
       "id": "udinese-ac-milan-2026-10-25",
@@ -1860,7 +1893,7 @@
       "teamB": "AC Milan"
     },
     {
-      "channel": "",
+      "channel": "BEIN Sports 1",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
       "id": "paris-saint-germain-lyon-2026-10-25",
@@ -1871,7 +1904,7 @@
       "teamB": "Lyon"
     },
     {
-      "channel": "",
+      "channel": "DAZN LaLiga",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
       "id": "barcelona-real-madrid-2026-10-25",
@@ -1882,7 +1915,7 @@
       "teamB": "Real Madrid"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
       "id": "utah-jazz-los-angeles-lakers-2026-10-25",
@@ -1893,7 +1926,7 @@
       "teamB": "Los Angeles Lakers"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ind.png",
       "id": "brooklyn-nets-indiana-pacers-2026-10-25",
@@ -1904,7 +1937,7 @@
       "teamB": "Indiana Pacers"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/ny.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
       "id": "new-york-knicks-orlando-magic-2026-10-25",
@@ -1915,7 +1948,7 @@
       "teamB": "Orlando Magic"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
       "id": "minnesota-timberwolves-toronto-raptors-2026-10-25",
@@ -1926,7 +1959,7 @@
       "teamB": "Toronto Raptors"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
       "id": "oklahoma-city-thunder-la-clippers-2026-10-25",
@@ -1937,7 +1970,7 @@
       "teamB": "LA Clippers"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
       "id": "philadelphia-76ers-detroit-pistons-2026-10-25",
@@ -1970,7 +2003,7 @@
       "teamB": "Vélez Sarsfield"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sac.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mem.png",
       "id": "sacramento-kings-memphis-grizzlies-2026-10-26",
@@ -2014,7 +2047,7 @@
       "teamB": "Niners Chemnitz"
     },
     {
-      "channel": "",
+      "channel": "DAZN LaLiga",
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
       "id": "sevilla-osasuna-2026-10-26",
@@ -2036,7 +2069,7 @@
       "teamB": "Estudiantes de La Plata"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/wsh.png",
       "id": "charlotte-hornets-washington-wizards-2026-10-26",
@@ -2047,7 +2080,7 @@
       "teamB": "Washington Wizards"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/min.png",
       "id": "cleveland-cavaliers-minnesota-timberwolves-2026-10-26",
@@ -2058,7 +2091,7 @@
       "teamB": "Minnesota Timberwolves"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/chi.png",
       "id": "boston-celtics-chicago-bulls-2026-10-26",
@@ -2069,7 +2102,7 @@
       "teamB": "Chicago Bulls"
     },
     {
-      "channel": "",
+      "channel": "NBA",
       "flagA": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/dal.png",
       "id": "miami-heat-dallas-mavericks-2026-10-26",
@@ -2081,5 +2114,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-10-23T12:19:41Z"
+  "updatedAt": "2026-10-23T12:33:53Z"
 }
