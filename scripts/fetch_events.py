@@ -444,10 +444,17 @@ def fetch_espn(days):
 # ---------------------------------------------------------------------------
 
 def load_channel_names(app_dir):
-    """norm_key(cleaned name) -> display name, from every app/*.m3u."""
+    """norm_key(cleaned name) -> display name, from every app/*.m3u
+    plus the corpus-only lists under data/ (e.g. the public iptv-org
+    sports index — kept OUT of app/ on the owner's instruction so its
+    channels never become an app source or appear in Home/Live TV,
+    while event mapping may still reference its channel names)."""
     by_key = {}
-    for path in sorted(app_dir.glob("*.m3u"),
-                       key=lambda p: p.name.lower()):
+    paths = list(app_dir.glob("*.m3u"))
+    data_dir = app_dir.parent / "data"
+    if data_dir.is_dir():
+        paths += list(data_dir.glob("*.m3u"))
+    for path in sorted(paths, key=lambda p: p.name.lower()):
         text = path.read_text(encoding="utf-8", errors="replace")
         for raw in text.splitlines():
             line = raw.strip()
