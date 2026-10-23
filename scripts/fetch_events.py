@@ -19,10 +19,14 @@ Live/Today from startUtc itself (Cricket stays "live" 8h, Football
 3h, anything else 4h), so this file stores fixtures only — no
 status field to maintain.
 
-Channel links are CONSERVATIVE: a small rule table maps a league /
-team to a candidate channel name, and the mapping is applied only
-when that exact name exists in the merged playlists (app/*.m3u).
-An event without a verified channel stays info-only in the app.
+Channel links are collected from the playlists themselves
+(app/*.m3u) in three passes: dedicated event channels whose own
+name carries the fixture (both teams, team + competition, or a
+dedicated league brand), then a league broadcaster table whose
+candidate names are each verified against the corpus at runtime.
+There is deliberately NO generic sport-level fallback — a wrong
+Watch channel is worse than none, so an event with no verified
+channel stays info-only in the app.
 
 If every source fails, nothing is written and the script exits
 non-zero — a good events.json is never replaced by an empty one.
@@ -418,36 +422,26 @@ def fetch_espn(days):
 
 
 # ---------------------------------------------------------------------------
-# Channel mapping — conservative; a candidate is used ONLY when its
-# normalized name exists among the merged playlists' channel names.
-# The emitted value is the playlist's own display form.
+# Channel mapping — collected from the playlists themselves.
+#
+# A channel may only be attached when it EXISTS in app/*.m3u (the
+# app matches by normalized name; HD/SD are part of a channel's
+# identity, trailing 720p-style tokens are ignored upstream by
+# clean_name). Three passes, in priority order:
+#
+#   A — dedicated event channels: the channel's own name carries
+#       the fixture — BOTH teams' tokens, one team's token plus
+#       the competition's token, or a dedicated league brand
+#       (e.g. "LIVE EVENTS IPL (CTV)", "DAZN LaLiga").
+#   B — league broadcaster table: candidate names per league /
+#       team, each verified against the corpus at runtime and
+#       skipped silently when absent; candidates are in flagship
+#       order (HD form, lowest number) so the pick is
+#       deterministic and self-adjusts to the playlists.
+#   C — no channel (info-only card). Deliberately NO generic
+#       sport-level fallback: a wrong Watch channel is worse
+#       than none.
 # ---------------------------------------------------------------------------
-
-# (sports, league keywords, either-team keywords, candidate names)
-CHANNEL_RULES = (
-    ({"Cricket"}, (), ("bangladesh",),
-     ("T Sports", "Gazi TV", "T Sports HD", "Gazi TV HD")),
-    ({"Cricket"}, ("indian premier league",), (),
-     ("Star Sports 1 HD",)),
-    ({"Cricket"}, ("pakistan super league",), (),
-     ("A Sports HD", "PTV Sports")),
-    ({"Cricket"}, (), ("pakistan",),
-     ("PTV Sports", "PTV Sports HD")),
-    ({"Cricket"}, ("asia cup",), (),
-     ("Star Sports 1 HD", "T Sports")),
-    ({"Cricket"}, (), ("india",),
-     ("Star Sports 1 HD",)),
-    ({"Cricket"}, ("icc", "world cup", "champions trophy"), (),
-     ("Star Sports 1 HD", "T Sports")),
-    ({"Football"}, ("english premier league",), (),
-     ("Star Sports Select 1 HD", "STAR SPORTS 1 SELECT HD",
-      "Star Sports Select 1")),
-    ({"Football"}, ("uefa champions league",), (),
-     ("Sony Ten Sports 1 HD", "Ten Sports")),
-    ({"Football"}, (), ("bangladesh",),
-     ("T Sports",)),
-)
-
 
 def load_channel_names(app_dir):
     """norm_key(cleaned name) -> display name, from every app/*.m3u."""
@@ -466,21 +460,237 @@ def load_channel_names(app_dir):
     return by_key
 
 
-def map_channel(ev, by_key):
+def _tokens(text):
+    """Word tokens of a name (emoji / punctuation dropped)."""
+    return set(re.findall(r"[a-z0-9]+", norm_key(text)))
+
+
+# National-team match tokens: the country name's words plus the
+# codes broadcasters actually put in channel names. Any ONE token
+# present in a channel name counts as that team's mark.
+NATIONAL_TOKENS = {}
+
+
+def _nat(name, *tokens):
+    NATIONAL_TOKENS[norm_key(name)] = set(tokens)
+
+
+_nat("bangladesh", "bangladesh", "ban", "bd")
+_nat("india", "india", "ind")
+_nat("pakistan", "pakistan", "pak")
+_nat("sri lanka", "sri", "lanka", "sl", "lka")
+_nat("afghanistan", "afghanistan", "afg")
+_nat("new zealand", "new", "zealand", "nz", "nzl")
+_nat("australia", "australia", "aus")
+_nat("england", "england", "eng")
+_nat("south africa", "south", "africa", "sa", "rsa")
+_nat("west indies", "west", "indies", "wi")
+_nat("zimbabwe", "zimbabwe", "zim")
+_nat("ireland", "ireland", "ire")
+_nat("nepal", "nepal", "nep")
+_nat("uae", "uae", "emirates")
+_nat("united arab emirates", "uae", "emirates")
+_nat("usa", "usa", "america")
+_nat("united states", "usa", "america")
+_nat("united states of america", "usa", "america")
+_nat("scotland", "scotland", "sco")
+_nat("netherlands", "netherlands", "ned", "holland")
+_nat("argentina", "argentina", "arg")
+_nat("brazil", "brazil", "bra")
+_nat("france", "france", "fra")
+_nat("germany", "germany", "ger", "deu")
+_nat("spain", "spain", "esp")
+_nat("portugal", "portugal", "por")
+_nat("italy", "italy", "ita")
+_nat("japan", "japan", "jpn")
+_nat("south korea", "korea", "kor")
+_nat("iran", "iran", "irn")
+
+# Words that carry no club identity on their own.
+_CLUB_STOPWORDS = {
+    "football", "club", "cricket", "fc", "sc", "cf", "afc", "the",
+    "city", "united", "town", "county", "athletic", "albion",
+    "wanderers", "rovers", "hotspur", "women", "woman", "ladies",
+    "youth", "reserves",
+}
+
+_LEAGUE_STOPWORDS = {"the", "and", "of"}
+
+
+def team_tokens(name):
+    """Tokens that identify a team inside a channel name: the
+    alias set for a national side, else the club name's
+    distinctive words."""
+    key = norm_key(name)
+    if key in NATIONAL_TOKENS:
+        return set(NATIONAL_TOKENS[key])
+    return {t for t in _tokens(name)
+            if len(t) >= 4 and t not in _CLUB_STOPWORDS}
+
+
+def league_tokens(name):
+    return {t for t in _tokens(name)
+            if len(t) >= 4 and t not in _LEAGUE_STOPWORDS}
+
+
+def build_channel_index(by_key):
+    """[(display, token set)] for every distinct playlist channel."""
+    index = []
+    seen = set()
+    for display in by_key.values():
+        if display in seen:
+            continue
+        seen.add(display)
+        index.append((display, _tokens(display)))
+    return index
+
+
+# Distinctive competition brands for dedicated-channel spotting:
+# (sports, league keywords, token sets — any one fully contained
+# in a channel's name marks that channel as dedicated to the
+# competition).
+DEDICATED_LEAGUE_TOKENS = (
+    ({"Cricket"}, ("indian premier league",), ({"ipl"},)),
+    ({"Football"}, ("la liga", "laliga"), ({"laliga"}, {"la", "liga"})),
+    ({"Football"}, ("world cup",), ({"world", "cup"},)),
+)
+
+_DEDICATED_MARKERS = {"live", "event", "events"}
+
+
+def _pass_a(ev, index):
+    """Dedicated event channels, most specific match wins."""
+    toks_a = team_tokens(ev["teamA"])
+    toks_b = team_tokens(ev["teamB"])
+    lg = league_tokens(ev["league"])
+    league_key = norm_key(ev["league"])
+    sport_word = norm_key(ev["sport"])
+    dedicated = [token_sets for sports, kws, token_sets
+                 in DEDICATED_LEAGUE_TOKENS
+                 if ev["sport"] in sports
+                 and any(k in league_key for k in kws)]
+    best = None
+    for display, ctoks in index:
+        hit_a = toks_a & ctoks
+        hit_b = toks_b & ctoks
+        tier, spec = 0, 0
+        if hit_a and hit_b:
+            # Both teams named in the channel.
+            tier, spec = 3, len(hit_a) + len(hit_b)
+        elif (hit_a or hit_b) and lg & ctoks:
+            # One team + the competition named in the channel.
+            tier, spec = 2, len(hit_a) + len(hit_b) + len(lg & ctoks)
+        elif any(ts <= ctoks for token_sets in dedicated
+                 for ts in token_sets):
+            # Channel dedicated to this competition. A branded
+            # one ("DAZN LaLiga") beats a bare league-name entry
+            # ("la liga"): spec rewards tokens beyond the brand.
+            tier = 1
+            extra = min(len(ctoks - ts) for token_sets in dedicated
+                        for ts in token_sets if ts <= ctoks)
+            spec = 2 if extra else 1
+        if not tier:
+            continue
+        rank = (tier, spec,
+                1 if _DEDICATED_MARKERS & ctoks else 0,
+                1 if sport_word in ctoks else 0,
+                -len(ctoks), display)
+        if best is None or rank > best[0]:
+            best = (rank, display)
+    return best[1] if best else ""
+
+
+# (sports, league keywords, either-team keywords, candidate names
+# in flagship order). A league keyword matches when it is a
+# substring of the normalized league name OR one whole league
+# token (so "nba" hits the league "NBA" but not "WNBA"). Every
+# candidate is verified against the corpus at runtime.
+BROADCASTER_RULES = (
+    # --- Cricket ---
+    ({"Cricket"}, (), ("bangladesh",),
+     ("T Sports", "Gazi TV", "T Sports HD", "Gazi TV HD")),
+    ({"Cricket"}, ("indian premier league",), (),
+     ("Star Sports 1 HD", "Star Sports 2 HD")),
+    ({"Cricket"}, ("pakistan super league",), (),
+     ("A Sports HD", "PTV Sports HD", "A Sports", "PTV Sports")),
+    ({"Cricket"}, ("bangladesh premier league",), (),
+     ("T Sports", "Gazi TV")),
+    ({"Cricket"}, (), ("pakistan",),
+     ("PTV Sports HD", "PTV Sports")),
+    ({"Cricket"}, ("asia cup",), (),
+     ("Star Sports 1 HD", "T Sports")),
+    ({"Cricket"}, (), ("india",),
+     ("Star Sports 1 HD",)),
+    ({"Cricket"}, ("icc", "world cup", "champions trophy",
+                   "world test championship"), (),
+     ("Star Sports 1 HD", "T Sports", "PTV Sports HD")),
+    ({"Cricket"}, ("big bash",), (),
+     ("Star Sports 1 HD", "Star Sports 2 HD")),
+    # --- Football ---
+    ({"Football"}, ("english premier league",), (),
+     ("STAR SPORTS 1 SELECT HD", "Star Sports Select 1",
+      "Sky Sports", "TNT Sport 1", "BEIN Sports 1")),
+    ({"Football"}, ("uefa champions league",), (),
+     ("Sony Ten Sports 1 HD", "Sony Ten 1 HD", "Ten Sports",
+      "BEIN Sports 1")),
+    ({"Football"}, ("la liga", "laliga"), (),
+     ("BEIN Sports 1", "BEIN SPORTS 2 HD")),
+    ({"Football"}, ("serie a",), (),
+     ("BEIN Sports 1", "BEIN SPORTS 2 HD")),
+    ({"Football"}, ("bundesliga",), (),
+     ("Sony Ten Sports 2 HD", "Sony Ten 2 HD", "Sony Sports Ten 2",
+      "BEIN Sports 1")),
+    ({"Football"}, ("ligue 1",), (),
+     ("BEIN Sports 1", "BEIN SPORTS 2 HD")),
+    ({"Football"}, ("fa cup",), (),
+     ("Sony Ten Sports 1 HD", "Sony Ten 1 HD")),
+    ({"Football"}, (), ("bangladesh",),
+     ("T Sports", "T Sports HD")),
+    # --- Basketball ---
+    ({"Basketball"}, ("national basketball association", "nba"), (),
+     ("NBA",)),
+    # Only the AUSTRALIAN NBL (ESPN carries it) — Bulgaria / Czech
+    # leagues brand themselves "NBL" too and must stay unmapped.
+    ({"Basketball"}, ("australian nbl", "nbl australia"), (),
+     ("ESPN", "ESPN 2")),
+    # --- Tennis: the Grand Slams live on Eurosport in this corpus ---
+    ({"Tennis"}, ("wimbledon", "roland garros", "french open",
+                  "australian open", "us open"), (),
+     ("Eurosport HD", "Eurosport")),
+)
+
+
+def _pass_b(ev, by_key):
+    """League broadcaster table, verified against the corpus."""
     league = norm_key(ev["league"])
+    lg_toks = _tokens(ev["league"])
     teams = (norm_key(ev["teamA"]), norm_key(ev["teamB"]))
-    for sports, league_kws, team_kws, candidates in CHANNEL_RULES:
+    for sports, league_kws, team_kws, candidates in BROADCASTER_RULES:
         if ev["sport"] not in sports:
             continue
-        if league_kws and not any(k in league for k in league_kws):
+        if league_kws and not any(k in league or k in lg_toks
+                                  for k in league_kws):
             continue
-        if team_kws and not any(k in t for k in team_kws for t in teams):
+        if team_kws and not any(k in t for k in team_kws
+                                for t in teams):
             continue
         for cand in candidates:
             hit = by_key.get(norm_key(cand))
             if hit:
                 return hit
     return ""
+
+
+def map_channel(ev, by_key, index):
+    """Returns (display channel, pass) — pass is "A", "B" or ""
+    (unmapped)."""
+    hit = _pass_a(ev, index)
+    if hit:
+        return hit, "A"
+    hit = _pass_b(ev, by_key)
+    if hit:
+        return hit, "B"
+    return "", ""
 
 
 # ---------------------------------------------------------------------------
@@ -530,6 +740,7 @@ def main():
         return 1
 
     by_key = load_channel_names(APP_DIR)
+    index = build_channel_index(by_key)
     print("  %d channel name(s) in the merged playlists"
           % len(by_key), flush=True)
 
@@ -540,7 +751,7 @@ def main():
             continue
         ev["flagA"] = flag_for(ev["teamA"], ev["badgeA"])
         ev["flagB"] = flag_for(ev["teamB"], ev["badgeB"])
-        ev["channel"] = map_channel(ev, by_key)
+        ev["channel"], ev["mpass"] = map_channel(ev, by_key, index)
         key = (ev["sport"], _team_key(ev["teamA"]),
                _team_key(ev["teamB"]), ev["start"].strftime("%Y-%m-%d"))
         rank = (_priority(ev), 1 if ev["source"] == "tsdb" else 0)
@@ -593,9 +804,15 @@ def main():
     for ev in out_events:
         per_sport[ev["sport"]] = per_sport.get(ev["sport"], 0) + 1
     mapped = sum(1 for ev in out_events if ev["channel"])
+    in_pass = {"A": 0, "B": 0}
+    for ev in events:
+        if ev.get("mpass") in in_pass:
+            in_pass[ev["mpass"]] += 1
     print("Wrote %s" % OUTPUT_PATH)
-    print("  total: %d event(s); with channel: %d"
-          % (len(out_events), mapped))
+    print("  total: %d event(s); with channel: %d "
+          "(pass A: %d, pass B: %d); unmapped: %d"
+          % (len(out_events), mapped, in_pass["A"], in_pass["B"],
+             len(out_events) - mapped))
     for sport in sorted(per_sport):
         print("    %s: %d" % (sport, per_sport[sport]))
     return 0
