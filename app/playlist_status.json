@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-23T00:16:18Z",
+  "updatedAt": "2026-10-23T06:22:27Z",
   "generator": "BDlivetv Auto Update",
   "sources": {
     "app/Aynaott.m3u": {
       "total": 138,
-      "ok": 82,
+      "ok": 80,
       "restricted": 12,
       "dead": [
         {
@@ -26,11 +26,6 @@
           "name": "BTV NATIONAL HD",
           "url": "https://tvsen6.aynaott.com/opREbXLqJ2HFYPCXTJBa/index.m3u8",
           "reason": "timeout after 10s"
-        },
-        {
-          "name": "Deepto TV",
-          "url": "https://tvsen5.aynaott.com/tK2BNdfsdfsdf/index.m3u8",
-          "reason": "HTTP 404"
         },
         {
           "name": "A Sports",
@@ -93,14 +88,14 @@
           "reason": "timeout after 10s"
         },
         {
+          "name": "Sangeet Bangla",
+          "url": "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "News Time Bangla",
           "url": "https://tvsen6.aynaott.com/xjkX3euD/index.m3u8",
           "reason": "timeout after 10s"
-        },
-        {
-          "name": "DW News",
-          "url": "https://tvsen6.aynaott.com/Qq3s5WR2/index.m3u8",
-          "reason": "HTTP 404"
         },
         {
           "name": "Iran Press",
@@ -116,6 +111,11 @@
           "name": "TV9 Bharatvarsh",
           "url": "https://tvsen3.aynaott.com/v9NqPxRd/index.m3u8",
           "reason": "timeout after 10s"
+        },
+        {
+          "name": "Bharat Samachar",
+          "url": "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8",
+          "reason": "HTTP 404"
         },
         {
           "name": "ANB News",
@@ -170,7 +170,7 @@
         {
           "name": "Movie Bangla",
           "url": "https://tvsen7.aynascope.net/moviebangla/index.m3u8",
-          "reason": "timeout after 10s"
+          "reason": "connection error: timed out"
         },
         {
           "name": "Republic Bangla",
@@ -213,6 +213,11 @@
           "reason": "timeout after 10s"
         },
         {
+          "name": "Nat Geo TV",
+          "url": "https://tvsen3.aynaott.com/7mm4pwCy/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "Zoom TV",
           "url": "https://live.zoomnews.info/live/Zoom_playlist.m3u8",
           "reason": "timeout after 10s"
@@ -221,6 +226,11 @@
           "name": "Manoranjan Movies",
           "url": "https://tvsen6.aynaott.com/vhu6qz5N/index.m3u8",
           "reason": "timeout after 10s"
+        },
+        {
+          "name": "Goldmines Movies",
+          "url": "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
+          "reason": "HTTP 404"
         },
         {
           "name": "And TV",
@@ -1095,7 +1105,7 @@
     },
     "app/channels.m3u": {
       "total": 45,
-      "ok": 28,
+      "ok": 27,
       "restricted": 1,
       "dead": [
         {
@@ -1104,14 +1114,14 @@
           "reason": "connection error: timed out"
         },
         {
+          "name": "ATN Bangla (720p)",
+          "url": "http://tvsen5.aynascope.net/atnbangla/index.m3u8",
+          "reason": "connection error: timed out"
+        },
+        {
           "name": "ATN Music (360p)",
           "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
           "reason": "HTTP 404"
-        },
-        {
-          "name": "Channel S (Bangladesh)",
-          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
-          "reason": "HTTP 500"
         },
         {
           "name": "DBC News (480p)",
@@ -1131,6 +1141,11 @@
         {
           "name": "Jalsha Movies HD (1080p)",
           "url": "http://103.185.24.134:3001/JALSHA-MOVIES-HD/index.m3u8",
+          "reason": "connection error: timed out"
+        },
+        {
+          "name": "Maasranga TV (720p)",
+          "url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8",
           "reason": "connection error: timed out"
         },
         {
@@ -1159,9 +1174,9 @@
           "reason": "connection error: timed out"
         },
         {
-          "name": "Probashi TV News (1080p)",
-          "url": "http://158.69.24.53:8080/probashi_tv/index.m3u8",
-          "reason": "HTTP 404"
+          "name": "RTV (Bangladesh) (720p)",
+          "url": "http://tvsen5.aynascope.net/RtvHD/index.m3u8",
+          "reason": "connection error: timed out"
         },
         {
           "name": "Rupashi Bangla TV (720p)",
@@ -1182,7 +1197,7 @@
     },
     "app/iptv_bd.m3u": {
       "total": 145,
-      "ok": 22,
+      "ok": 24,
       "restricted": 9,
       "dead": [
         {
@@ -1324,11 +1339,6 @@
           "name": "Desh TV",
           "url": "https://ftp.assadikb.workers.dev/stream.m3u8?id=desh_tv",
           "reason": "not a stream (web page)"
-        },
-        {
-          "name": "ATN Bangla",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)"
         },
         {
           "name": "Channel I",
@@ -1478,11 +1488,6 @@
         {
           "name": "History TV18 HD Hindi",
           "url": "https://madanitv.assadikb.workers.dev/live.php?id=578&e=.m3u8",
-          "reason": "not a stream (web page)"
-        },
-        {
-          "name": "Star Plus",
-          "url": "https://babu.khelalive.top/vids/iptv.php?action=m3u8&id=a0fo#EXTINF:-1 tvg-id=\"123\" tvg-name=\"Sony SAB\" tvg-logo=\"https://otapp.store/uploads/tv_image/sm/sony-sab-hd.png\" group-title=\"Popular Channel-(জনপ্রিয় চ্যানেল)\",Sony SAB",
           "reason": "not a stream (web page)"
         },
         {
