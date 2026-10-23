@@ -71,14 +71,15 @@ UA_ESPN = ("Mozilla/5.0 (compatible; BDlivetvEventsBot/1.0; "
 TIMEOUT = 15
 MAX_EVENTS = 200
 
-# TSDB sport name -> app sport name ("Soccer" is shown as Football;
-# TSDB's "Fighting" covers MMA cards).
-TSDB_DAY_SPORTS = ("Cricket", "Soccer", "Basketball", "Tennis",
-                   "Fighting")
-TSDB_LIVE_SPORTS = ("Cricket", "Soccer", "Basketball")
-SPORT_MAP = {"Soccer": "Football", "Fighting": "MMA"}
+# Owner's rule (2026-10-23): the Events feed carries CRICKET and
+# FOOTBALL only — no other sports are fetched or written.
+# TSDB sport name -> app sport name ("Soccer" is shown as Football).
+TSDB_DAY_SPORTS = ("Cricket", "Soccer")
+TSDB_LIVE_SPORTS = ("Cricket", "Soccer")
+SPORT_MAP = {"Soccer": "Football"}
+ALLOWED_SPORTS = ("Cricket", "Football")
 
-# ESPN league paths -> app sport. Football majors + NBA + IPL.
+# ESPN league paths -> app sport. Football majors + IPL.
 ESPN_LEAGUES = (
     ("soccer/eng.1", "Football"),
     ("soccer/esp.1", "Football"),
@@ -86,7 +87,6 @@ ESPN_LEAGUES = (
     ("soccer/ger.1", "Football"),
     ("soccer/fra.1", "Football"),
     ("soccer/uefa.champions", "Football"),
-    ("basketball/nba", "Basketball"),
     ("cricket/8048", "Cricket"),
 )
 
@@ -760,6 +760,11 @@ def main():
     events = [ev for _rank, ev in best.values()]
     print("  %d unique event(s) in window after dedupe" % len(events),
           flush=True)
+
+    # Hard guarantee for the owner's cricket+football-only rule:
+    # even if a source starts returning another sport, it never
+    # reaches the file.
+    events = [ev for ev in events if ev["sport"] in ALLOWED_SPORTS]
 
     if len(events) > MAX_EVENTS:
         events.sort(key=lambda e: (-_priority(e), e["start"]))
