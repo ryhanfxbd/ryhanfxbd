@@ -83,10 +83,16 @@ _RES_TOKEN = re.compile(
 # stripped, so fused brand numbers survive ("9X Jalwa", "TV9 News").
 _SERIAL_TOKEN = re.compile(r"^\d{1,4}\s*[\.\)\|\:\-\u2013]?\s+")
 
+# Keep-list — mirrors the app: these brand names keep their leading
+# number even though it is a standalone token ("24 Ghanta" and
+# "24 Taas" are the channels' real names, not playlist numbering).
+_KEEP_SERIAL_NAMES = {"24 ghanta", "24 taas"}
+
 
 def clean_name(name):
     out = (name or "").strip()
-    out = _SERIAL_TOKEN.sub("", out).strip()
+    if norm_key(out) not in _KEEP_SERIAL_NAMES:
+        out = _SERIAL_TOKEN.sub("", out).strip()
     while True:
         stripped = _RES_TOKEN.sub("", out).strip()
         if stripped == out:
