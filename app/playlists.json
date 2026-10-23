@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-10-23T08:03:23Z",
+  "updatedAt": "2026-10-23T10:28:55Z",
   "playlists": [
+    {
+      "name": "120+ FIFA LIVE",
+      "file": "app/120+ FIFA LIVE.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/120+ FIFA LIVE.m3u",
+      "tier": "free"
+    },
     {
       "name": "akash all player",
       "file": "app/akash_all_player.m3u",
@@ -23,6 +29,12 @@
       "name": "Cartoon",
       "file": "app/Cartoon.m3u",
       "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/Cartoon.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "dishd2h",
+      "file": "app/dishd2h.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/dishd2h.m3u",
       "tier": "free"
     },
     {
@@ -89,6 +101,12 @@
       "name": "vood",
       "file": "app/vood.m3u",
       "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/vood.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "yupptvfast",
+      "file": "app/yupptvfast.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/yupptvfast.m3u",
       "tier": "free"
     }
   ]
