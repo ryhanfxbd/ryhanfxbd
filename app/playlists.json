@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T06:22:27Z",
+  "updatedAt": "2026-10-23T08:03:23Z",
   "playlists": [
     {
       "name": "akash all player",
@@ -47,6 +47,12 @@
       "name": "live sports",
       "file": "app/live_sports.m3u",
       "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/live_sports.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "LiveTV Favorites 1",
+      "file": "app/LiveTV_Favorites_1.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/LiveTV_Favorites_1.m3u",
       "tier": "free"
     },
     {
