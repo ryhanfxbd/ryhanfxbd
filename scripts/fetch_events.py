@@ -795,6 +795,46 @@ def main():
             "channel": ev["channel"],
         })
 
+    # Manual fixtures (app/manual_events.json): hand-added matches
+    # the free sources miss (e.g. a tri-series TheSportsDB does not
+    # carry). Same schema as the output events; a manual entry
+    # replaces a fetched one with the same id, and entries outside
+    # the window or outside the allowed sports are ignored.
+    manual_path = APP_DIR / "manual_events.json"
+    if manual_path.exists():
+        try:
+            manual = json.loads(
+                manual_path.read_text(encoding="utf-8"))
+            kept = []
+            for entry in manual.get("events") or []:
+                start = _parse_espn_time(entry.get("startUtc"))
+                if (entry.get("sport") in ALLOWED_SPORTS
+                        and start is not None
+                        and window_start <= start < window_end
+                        and entry.get("id")
+                        and entry.get("teamA") and entry.get("teamB")):
+                    kept.append({
+                        "id": entry["id"],
+                        "sport": entry["sport"],
+                        "league": entry.get("league", ""),
+                        "teamA": entry["teamA"],
+                        "teamB": entry["teamB"],
+                        "flagA": entry.get("flagA", ""),
+                        "flagB": entry.get("flagB", ""),
+                        "startUtc": start.strftime(
+                            "%Y-%m-%dT%H:%M:%SZ"),
+                        "channel": entry.get("channel", ""),
+                    })
+            if kept:
+                manual_ids = {e["id"] for e in kept}
+                out_events = [e for e in out_events
+                              if e["id"] not in manual_ids] + kept
+                out_events.sort(key=lambda e: e["startUtc"])
+                print("  manual fixtures merged: %d" % len(kept),
+                      flush=True)
+        except Exception as e:  # noqa: BLE001
+            print("  manual fixtures skipped (%s)" % e, flush=True)
+
     report = {
         "updatedAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "generator": GENERATOR,
