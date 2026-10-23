@@ -16,6 +16,8 @@ Stdlib only (urllib). Runs on GitHub Actions via
 
 import json
 import socket
+import subprocess
+import sys
 import time
 import ssl
 import urllib.error
@@ -343,6 +345,19 @@ def main():
         json.dumps(manifest, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8")
     print("Wrote %s (%d playlist(s))" % (MANIFEST_PATH, len(manifest_entries)))
+
+    # Category + Logo bots: keep app/channel_categories.json and
+    # app/channel_logos.json in step with the playlists. Best-effort -
+    # a bot failure must never break the status report.
+    for bot_name in ("categorize_channels.py", "fix_logos.py"):
+        bot_script = REPO_ROOT / "scripts" / bot_name
+        if bot_script.exists():
+            try:
+                subprocess.run(
+                    [sys.executable, str(bot_script)],
+                    check=False, timeout=3000)
+            except Exception as e:  # noqa: BLE001
+                print("%s failed: %s" % (bot_name, e))
 
 
 if __name__ == "__main__":
