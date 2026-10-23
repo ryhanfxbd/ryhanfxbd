@@ -24,9 +24,12 @@ Channel links are collected from the playlists themselves
 name carries the fixture (both teams, team + competition, or a
 dedicated league brand), then a league broadcaster table whose
 candidate names are each verified against the corpus at runtime.
-There is deliberately NO generic sport-level fallback — a wrong
-Watch channel is worse than none, so an event with no verified
-channel stays info-only in the app.
+ALL verified matches are collected — up to five per event — into
+the event's "channels" list (dedicated channels first, then
+broadcasters); "channel" keeps the first one for older app
+builds. There is deliberately NO generic sport-level fallback —
+a wrong Watch channel is worse than none, so an event with no
+verified channel stays info-only in the app.
 
 If every source fails, nothing is written and the script exits
 non-zero — a good events.json is never replaced by an empty one.
@@ -436,11 +439,16 @@ def fetch_espn(days):
 #   B — league broadcaster table: candidate names per league /
 #       team, each verified against the corpus at runtime and
 #       skipped silently when absent; candidates are in flagship
-#       order (HD form, lowest number) so the pick is
-#       deterministic and self-adjusts to the playlists.
+#       order (HD form, lowest number). Every matching rule
+#       contributes all of its verified candidates — a fixture
+#       carried by two broadcasters lists both.
 #   C — no channel (info-only card). Deliberately NO generic
 #       sport-level fallback: a wrong Watch channel is worse
 #       than none.
+#
+# Passes A and B are concatenated (A first), deduplicated and
+# capped at MAX_CHANNELS: one fixture often airs on several of
+# the owner's channels, and the app offers each of them.
 # ---------------------------------------------------------------------------
 
 def load_channel_names(app_dir):
@@ -566,7 +574,7 @@ _DEDICATED_MARKERS = {"live", "event", "events"}
 
 
 def _pass_a(ev, index):
-    """Dedicated event channels, most specific match wins."""
+    """All dedicated event channels, most specific match first."""
     toks_a = team_tokens(ev["teamA"])
     toks_b = team_tokens(ev["teamB"])
     lg = league_tokens(ev["league"])
@@ -576,7 +584,7 @@ def _pass_a(ev, index):
                  in DEDICATED_LEAGUE_TOKENS
                  if ev["sport"] in sports
                  and any(k in league_key for k in kws)]
-    best = None
+    ranked = []
     for display, ctoks in index:
         hit_a = toks_a & ctoks
         hit_b = toks_b & ctoks
@@ -602,9 +610,9 @@ def _pass_a(ev, index):
                 1 if _DEDICATED_MARKERS & ctoks else 0,
                 1 if sport_word in ctoks else 0,
                 -len(ctoks), display)
-        if best is None or rank > best[0]:
-            best = (rank, display)
-    return best[1] if best else ""
+        ranked.append((rank, display))
+    ranked.sort(reverse=True)
+    return [display for _rank, display in ranked]
 
 
 # (sports, league keywords, either-team keywords, candidate names
@@ -668,10 +676,16 @@ BROADCASTER_RULES = (
 
 
 def _pass_b(ev, by_key):
-    """League broadcaster table, verified against the corpus."""
+    """League broadcaster table, verified against the corpus.
+
+    Every matching rule contributes ALL of its verified
+    candidates, in rule order then flagship order — a rule that
+    names two broadcasters (e.g. Bangladesh cricket -> T Sports /
+    Gazi TV) yields both."""
     league = norm_key(ev["league"])
     lg_toks = _tokens(ev["league"])
     teams = (norm_key(ev["teamA"]), norm_key(ev["teamB"]))
+    out = []
     for sports, league_kws, team_kws, candidates in BROADCASTER_RULES:
         if ev["sport"] not in sports:
             continue
@@ -683,21 +697,35 @@ def _pass_b(ev, by_key):
             continue
         for cand in candidates:
             hit = by_key.get(norm_key(cand))
-            if hit:
-                return hit
-    return ""
+            if hit and hit not in out:
+                out.append(hit)
+    return out
 
 
-def map_channel(ev, by_key, index):
-    """Returns (display channel, pass) — pass is "A", "B" or ""
+MAX_CHANNELS = 5
+
+
+def map_channels(ev, by_key, index):
+    """Returns (channels, pass) — up to MAX_CHANNELS verified
+    channel names in priority order: every dedicated-channel
+    match (pass A) first, then the broadcaster table's entries
+    (pass B), deduplicated. pass is "A" when any dedicated
+    channel matched, else "B" when the table matched, else ""
     (unmapped)."""
-    hit = _pass_a(ev, index)
-    if hit:
-        return hit, "A"
-    hit = _pass_b(ev, by_key)
-    if hit:
-        return hit, "B"
-    return "", ""
+    a_hits = _pass_a(ev, index)
+    b_hits = _pass_b(ev, by_key)
+    channels = []
+    for hit in a_hits + b_hits:
+        if hit not in channels:
+            channels.append(hit)
+    channels = channels[:MAX_CHANNELS]
+    if a_hits:
+        primary = "A"
+    elif b_hits:
+        primary = "B"
+    else:
+        primary = ""
+    return channels, primary
 
 
 # ---------------------------------------------------------------------------
@@ -758,7 +786,8 @@ def main():
             continue
         ev["flagA"] = flag_for(ev["teamA"], ev["badgeA"])
         ev["flagB"] = flag_for(ev["teamB"], ev["badgeB"])
-        ev["channel"], ev["mpass"] = map_channel(ev, by_key, index)
+        ev["channels"], ev["mpass"] = map_channels(ev, by_key, index)
+        ev["channel"] = ev["channels"][0] if ev["channels"] else ""
         key = (ev["sport"], _team_key(ev["teamA"]),
                _team_key(ev["teamB"]), ev["start"].strftime("%Y-%m-%d"))
         rank = (_priority(ev), 1 if ev["source"] == "tsdb" else 0)
@@ -800,6 +829,7 @@ def main():
             "flagB": ev["flagB"],
             "startUtc": ev["start"].strftime("%Y-%m-%dT%H:%M:%SZ"),
             "channel": ev["channel"],
+            "channels": ev["channels"],
         })
 
     # Manual fixtures (app/manual_events.json): hand-added matches
@@ -831,6 +861,9 @@ def main():
                         "startUtc": start.strftime(
                             "%Y-%m-%dT%H:%M:%SZ"),
                         "channel": entry.get("channel", ""),
+                        "channels": ([entry["channel"]]
+                                     if entry.get("channel")
+                                     else []),
                     })
             if kept:
                 manual_ids = {e["id"] for e in kept}
@@ -856,15 +889,17 @@ def main():
     for ev in out_events:
         per_sport[ev["sport"]] = per_sport.get(ev["sport"], 0) + 1
     mapped = sum(1 for ev in out_events if ev["channel"])
+    multi = sum(1 for ev in out_events if len(ev["channels"]) >= 2)
     in_pass = {"A": 0, "B": 0}
     for ev in events:
         if ev.get("mpass") in in_pass:
             in_pass[ev["mpass"]] += 1
     print("Wrote %s" % OUTPUT_PATH)
     print("  total: %d event(s); with channel: %d "
-          "(pass A: %d, pass B: %d); unmapped: %d"
+          "(pass A: %d, pass B: %d); unmapped: %d; "
+          "with 2+ channels: %d"
           % (len(out_events), mapped, in_pass["A"], in_pass["B"],
-             len(out_events) - mapped))
+             len(out_events) - mapped, multi))
     for sport in sorted(per_sport):
         print("    %s: %d" % (sport, per_sport[sport]))
     return 0
