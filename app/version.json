@@ -1,7 +1,7 @@
 {
-  "versionCode": 20,
-  "versionName": "3.8",
-  "apkUrl": "https://github.com/ryhanfxbd/ryhanfxbd/releases/download/v3.8/BDlivetv.apk",
+  "versionCode": 22,
+  "versionName": "3.10",
+  "apkUrl": "https://github.com/ryhanfxbd/ryhanfxbd/releases/download/v3.10/BDlivetv.apk",
   "message": "A new version of BD Live TV is available. Please update to enjoy the latest channels and improvements.",
   "force": false
 }
