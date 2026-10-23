@@ -189,17 +189,6 @@
     },
     {
       "channel": "",
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/7jfvre1616505757.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/gal2qg1786903439.png",
-      "id": "becamex-ho-chi-minh-city-thai-nguyen-2026-10-23",
-      "league": "Vietnam V.League 2",
-      "sport": "Football",
-      "startUtc": "2026-10-23T11:00:00Z",
-      "teamA": "Becamex Hồ Chí Minh City",
-      "teamB": "Thái Nguyên"
-    },
-    {
-      "channel": "",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/s7ps0a1675713447.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/dy71bi1715589787.png",
       "id": "kolkheti-khobi-guria-lanchkhuti-2026-10-23",
@@ -208,6 +197,17 @@
       "startUtc": "2026-10-23T11:00:00Z",
       "teamA": "Kolkheti Khobi",
       "teamB": "Guria Lanchkhuti"
+    },
+    {
+      "channel": "",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/7jfvre1616505757.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/gal2qg1786903439.png",
+      "id": "becamex-ho-chi-minh-city-thai-nguyen-2026-10-23",
+      "league": "Vietnam V.League 2",
+      "sport": "Football",
+      "startUtc": "2026-10-23T11:00:00Z",
+      "teamA": "Becamex Hồ Chí Minh City",
+      "teamB": "Thái Nguyên"
     },
     {
       "channel": "",
@@ -255,6 +255,17 @@
     },
     {
       "channel": "",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/0fnldv1730217291.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/2dcje31694990604.png",
+      "id": "inter-kashi-east-bengal-2026-10-23",
+      "league": "Indian Super League",
+      "sport": "Football",
+      "startUtc": "2026-10-23T11:30:00Z",
+      "teamA": "Inter Kashi",
+      "teamB": "East Bengal"
+    },
+    {
+      "channel": "",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/ta6fk81784159046.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/romhqy1679510715.png",
       "id": "adaletgucu-krsehir-2026-10-23",
@@ -265,15 +276,15 @@
       "teamB": "Kırşehir"
     },
     {
-      "channel": "",
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/0fnldv1730217291.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/2dcje31694990604.png",
-      "id": "inter-kashi-east-bengal-2026-10-23",
-      "league": "Indian Super League",
-      "sport": "Football",
+      "channel": "T Sports",
+      "flagA": "🇿🇼",
+      "flagB": "🇦🇫",
+      "id": "zim-afg-odi-triseries-2026-10-23",
+      "league": "ODI Tri-Series in United Arab Emirates",
+      "sport": "Cricket",
       "startUtc": "2026-10-23T11:30:00Z",
-      "teamA": "Inter Kashi",
-      "teamB": "East Bengal"
+      "teamA": "Zimbabwe",
+      "teamB": "Afghanistan"
     },
     {
       "channel": "",
@@ -354,6 +365,17 @@
     },
     {
       "channel": "",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/vdfhw81725934990.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/oubfpy1725936745.png",
+      "id": "aluminium-arak-zob-ahan-2026-10-23",
+      "league": "Iranian Persian Gulf Pro League",
+      "sport": "Football",
+      "startUtc": "2026-10-23T12:30:00Z",
+      "teamA": "Aluminium Arak",
+      "teamB": "Zob Ahan"
+    },
+    {
+      "channel": "",
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/ezol7s1760240222.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/e4sikw1760240630.png",
       "id": "soko-kleczew-slask-wrocaw-ii-2026-10-23",
@@ -373,17 +395,6 @@
       "startUtc": "2026-10-23T12:30:00Z",
       "teamA": "Gol Gohar Sirjan",
       "teamB": "Kheybar Khorramabad"
-    },
-    {
-      "channel": "",
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/vdfhw81725934990.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/oubfpy1725936745.png",
-      "id": "aluminium-arak-zob-ahan-2026-10-23",
-      "league": "Iranian Persian Gulf Pro League",
-      "sport": "Football",
-      "startUtc": "2026-10-23T12:30:00Z",
-      "teamA": "Aluminium Arak",
-      "teamB": "Zob Ahan"
     },
     {
       "channel": "Sony Ten Sports 2 HD",
@@ -1058,5 +1069,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-10-23T12:43:15Z"
+  "updatedAt": "2026-10-23T12:45:46Z"
 }
