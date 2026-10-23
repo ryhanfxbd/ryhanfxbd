@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T12:19:35Z",
+  "updatedAt": "2026-10-23T14:44:45Z",
   "playlists": [
     {
       "name": "akash all player",
@@ -17,6 +17,24 @@
       "name": "Aynaott",
       "file": "app/Aynaott.m3u",
       "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/Aynaott.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "BDIXI IPTV",
+      "file": "app/BDIXI_IPTV.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/BDIXI_IPTV.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "BDlivetv",
+      "file": "app/BDlivetv.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/BDlivetv.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "BDlivetv BDIX",
+      "file": "app/BDlivetv_BDIX.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/BDlivetv_BDIX.m3u",
       "tier": "free"
     },
     {
