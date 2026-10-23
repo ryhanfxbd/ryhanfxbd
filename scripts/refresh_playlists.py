@@ -16,6 +16,7 @@ Stdlib only (urllib). Runs on GitHub Actions via
 
 import json
 import socket
+import time
 import ssl
 import urllib.error
 import zlib
@@ -188,26 +189,34 @@ def _classify_status_code(code):
         return "ok", "HTTP %d" % code
     if code in (401, 403):
         return "restricted", "HTTP %d (host answered, access restricted)" % code
+    if code >= 500:
+        # A server error says nothing reliable about the stream itself;
+        # from the checker's location it simply could not be verified.
+        return "unknown", "HTTP %d (server error, could not verify)" % code
     return "dead", "HTTP %d" % code
 
 
 def probe(url, headers):
     """Classify one stream URL. Returns (status, reason).
 
-    status: "ok" | "restricted" | "dead"
+    status: "ok" | "restricted" | "dead" | "unknown"
     - ok:         the final response (after redirects) is stream-like —
                   an #EXTM3U playlist body, a media content type, or an
                   MPEG-TS body — or 405 (host answered)
     - restricted: 403 or 401 (host answered, access restricted)
-    - dead:       connection failure, timeout, 404/410, 5xx, other errors,
-                  or a 2xx response that is not a stream (e.g. the HTML
-                  page a dead shortlink redirects to)
+    - dead:       404/410 (also after a plain-GET retry), or a 2xx
+                  response that is not a stream (e.g. the HTML page a
+                  dead shortlink redirects to)
+    - unknown:    the checker could not reach a verdict from its own
+                  network — timeout, DNS failure, connection/SSL error
+                  or a 5xx. Unknown is NEVER reported as dead: a slow or
+                  far-away host may be perfectly live for its viewers.
     """
     try:
         code, content_type, sample, _final_url = _fetch(
             url, headers, use_range=True)
     except urllib.error.HTTPError as e:
-        if e.code == 416:
+        if e.code in (416, 404):
             # Range not satisfiable -> retry once with a plain GET.
             try:
                 code, content_type, sample, _final_url = _fetch(
@@ -215,15 +224,21 @@ def probe(url, headers):
             except urllib.error.HTTPError as e2:
                 return _classify_status_code(e2.code)
             except Exception as e2:  # noqa: BLE001
-                return "dead", "HTTP 416 then %s: %s" % (type(e2).__name__, e2)
+                return "unknown", "HTTP %d then %s: %s (could not verify)" % (
+                    e.code, type(e2).__name__, e2)
         else:
             return _classify_status_code(e.code)
     except (socket.timeout, TimeoutError):
-        return "dead", "timeout after %ss" % TIMEOUT
+        # A timeout from the checker's network (e.g. a slow host on
+        # another continent) does NOT prove the stream is dead for
+        # viewers near it — report it as unverified, never as dead.
+        return "unknown", "timeout after %ss (could not verify)" % TIMEOUT
     except urllib.error.URLError as e:
-        return "dead", "connection error: %s" % (e.reason,)
+        return "unknown", "connection error: %s (could not verify)" % (
+            e.reason,)
     except Exception as e:  # noqa: BLE001
-        return "dead", "%s: %s" % (type(e).__name__, e)
+        return "unknown", "%s: %s (could not verify)" % (
+            type(e).__name__, e)
 
     if 200 <= code < 400:
         if _looks_like_html(content_type, sample):
@@ -233,6 +248,16 @@ def probe(url, headers):
         return "dead", "not a stream (content-type %s)" % (
             content_type or "unknown")
     return _classify_status_code(code)
+
+
+def probe_with_retry(url, headers):
+    """Probe once; an "unknown" verdict gets one retry after a pause —
+    transient slowness must not mislabel a live stream."""
+    status, reason = probe(url, headers)
+    if status == "unknown":
+        time.sleep(2)
+        status, reason = probe(url, headers)
+    return status, reason
 
 
 def main():
@@ -254,7 +279,7 @@ def main():
     print("Probing %d unique stream URL(s)..." % len(unique))
     results = {}
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        futures = {pool.submit(probe, url, hdrs): url
+        futures = {pool.submit(probe_with_retry, url, hdrs): url
                    for url, hdrs in unique.items()}
         done = 0
         for fut in as_completed(futures):
@@ -268,12 +293,15 @@ def main():
         entries = parsed[rel]
         ok = restricted = 0
         dead = []
+        unknown = []
         for name, url, _headers in entries:
             status, reason = results[url]
             if status == "ok":
                 ok += 1
             elif status == "restricted":
                 restricted += 1
+            elif status == "unknown":
+                unknown.append({"name": name, "url": url, "reason": reason})
             else:
                 dead.append({"name": name, "url": url, "reason": reason})
         sources[rel] = {
@@ -281,9 +309,10 @@ def main():
             "ok": ok,
             "restricted": restricted,
             "dead": dead,
+            "unknown": unknown,
         }
-        print("  %s -> ok=%d restricted=%d dead=%d"
-              % (rel, ok, restricted, len(dead)))
+        print("  %s -> ok=%d restricted=%d dead=%d unknown=%d"
+              % (rel, ok, restricted, len(dead), len(unknown)))
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     report = {
