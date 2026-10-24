@@ -1,0 +1,416 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/iptv-org/epg/master/guides/bd.epg.xml"
+
+#EXTINF:-1 tvg-id="s1" tvg-name="BTV" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1784629845642.png" group-title="News", BTV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/BTV.m3u8
+#EXTINF:-1 tvg-id="s2" tvg-name="BTV News" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEize7ExzSD7TeYaIKeMeeMX3HtQViaiA7HA-ar7Xj4fbzaO5KsMTvK4v7_T7hKsslkzJxtGw0pNgaN_12A1N3W0L9T4vFkfS320fsH7w7aeTf6stJeEYUoaPq-CTpjBKfenk9Lzpjf9i2M0r_dnAmkpN8RmxRXRq0EdShNr_qf_xp9l0lL-9zgmAXoP7hEy" group-title="News", BTV News
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/BTV%20News.m3u8
+#EXTINF:-1 tvg-id="s3" tvg-name="BTV Chattogram" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEjeUvpoJ9W7ciHuoteem0df8c7XR--K5Pk9fciC0QAadg_Fp9AFIA0_BZojBRHkU1OkTurxB2h_kUDhc5YmfP4sor7TZmTTpoEgg98Ef5gYS6U_0pzaf0kKG06sujLB0gAR7Ble4PoCqYplY0fNNW1a3IG1CKG_o_Vfl1MPMjzHHsnkdBsNvZzuuhsc7Hw" group-title="News", BTV Chattogram
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/BTV%20Chattogram.m3u8
+#EXTINF:-1 tvg-id="s4" tvg-name="Sangsad Television" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1773247382366.png" group-title="News", Sangsad Television
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sangsad%20Television.m3u8
+#EXTINF:-1 tvg-id="s5" tvg-name="NTV" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png" group-title="News", NTV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/NTV.m3u8
+#EXTINF:-1 tvg-id="s6" tvg-name="Jamuna TV" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png" group-title="News", Jamuna TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Jamuna%20TV.m3u8
+#EXTINF:-1 tvg-id="s7" tvg-name="Star News" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/45/Star_News_Bangladesh.png" group-title="News", Star News
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Star%20News.m3u8
+#EXTINF:-1 tvg-id="s8" tvg-name="Rangdhonu TV" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5Q_mVu4fs8pvlXIrY3N6fow9Z3c4Pva79XsTUMap8y8GwWt8atQH4399_o3hgtvFB3E27I1XIf_w2ESCSHKgc5-NHwvEDn6_WHJqs5om5d2zTwxMpdBnaVicejXODY2l4-Vrl_XKWyx0bNS4gWaezFPf4s_c5JaVXivA1-CP69JGu-CKL6DolG0kARQw/s640/6293927857218064291.jpg" group-title="News", Rangdhonu TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Rangdhonu%20TV.m3u8
+#EXTINF:-1 tvg-id="s9" tvg-name="Channel 1" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEihCknDeYvXfAOC-tokiou95AgqTHy8vRG1Xamh8J5_oGi9idMESWjZ58ofjs3BSrzeABWMCPfq3W7ES7HnLVatwvsMEF1CW7liNJsnMrxwtHSxuRVnvBOhwieeYgYwxRKS_viaAW6KSmyPD1-6EOvQ4ofTySWQrgAfFVCD3IqacjAsMRM0ffigjdxS83Sa" group-title="News", Channel 1
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Channel%201.m3u8
+#EXTINF:-1 tvg-id="s10" tvg-name="Channel 24 HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png" group-title="News", Channel 24 HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Channel%2024%20HD.m3u8
+#EXTINF:-1 tvg-id="s11" tvg-name="Ekattor TV" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png" group-title="News", Ekattor TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Ekattor%20TV.m3u8
+#EXTINF:-1 tvg-id="s12" tvg-name="Independent TV" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739964387847.png" group-title="News", Independent TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Independent%20TV.m3u8
+#EXTINF:-1 tvg-id="s13" tvg-name="ATN News" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739962961772.png" group-title="News", ATN News
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/ATN%20News.m3u8
+#EXTINF:-1 tvg-id="s14" tvg-name="Ekhon TV" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmbgHPg3aJhZLJ-VOwma3v3Bl-srBApt0ogwXZvJhopwz73Pfp7fBirb8ON_gRcSlquhFZJXaEq9D-O9pgPrYXM0GzLnxIwv8bUGNolWvhUQWjCkbh36koep7uncy20Dp2rGulw_YvRTqVYHXbvY3FMb5fMfSrb6LxnZo8So7jHixNAVXn1na2NoWWr0G2/s480/159af631-796d-4342-a2a7-c272f32bcd32.png" group-title="News", Ekhon TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Ekhon%20TV.m3u8
+#EXTINF:-1 tvg-id="s15" tvg-name="Boishakhi TV" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/0/08/Boishakhi_TV_HD_logo_2022.png" group-title="News", Boishakhi TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Boishakhi%20TV.m3u8
+#EXTINF:-1 tvg-id="s16" tvg-name="Channel 9" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png" group-title="News", Channel 9
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Channel%209.m3u8
+#EXTINF:-1 tvg-id="s17" tvg-name="Bangla Vision" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEjxFFxxB2ipZFCdTF1YQvwFLOlsI-Bk6sSRLWzShDUMNhzhwBeIJM5YF7jMivdZEgG13y3zs4Oc8jh-hixjoG5roxrgzPOio83oonQXW8Ndgl4J-jl7ypNFb4_lR4Wyh7G6CYGm_tX0tL22_kWe4GNIT-xiPEU1D6HxaCnFYcNk3BexySxsNSp1zM0taxIp" group-title="News", Bangla Vision
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Bangla%20Vision.m3u8
+#EXTINF:-1 tvg-id="s18" tvg-name="SA TV" tvg-logo="https://otapp.store/uploads/tv_image/sm/sa-tv.png" group-title="News", SA TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/SA%20TV.m3u8
+#EXTINF:-1 tvg-id="s19" tvg-name="Deepto TV" tvg-logo="https://jcwsw2vt33.gpcdn.net/uploads/images/2022/07/25/logos_1384ea456744d5914ba331fa72df78c8_goplay_deepto_logo_final_white.svg" group-title="News", Deepto TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Deepto%20TV.m3u8
+#EXTINF:-1 tvg-id="s20" tvg-name="DBC News" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEiHvXnNWAABrgHiG1odyCDWxrjSXVyX34Z2R6dOGdLBqCHex8DlafChN1rNkBUhNKLdjEWagZ6DHhzpWSGclJ9RF6mOkAbFoW_n91-TUOJzw_fCobCyxLJIRlkps_45p8bkEs8Pq5FDNZgAgLnc6_o_rT3-MCQXw64d5d4oR_ZdcUVQCWN9QCzQyfR4EtI2" group-title="News", DBC News
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/DBC%20News.m3u8
+#EXTINF:-1 tvg-id="s21" tvg-name="Ananda TV" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/wCM3l5sBEef-9-uVXFvD/posters/d80f7aee-5bd7-4edc-97eb-ead0e3ebbe09.png" group-title="News", Ananda TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Ananda%20TV.m3u8
+#EXTINF:-1 tvg-id="s22" tvg-name="News 24" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEgSfWseaMKCVapixAE1CGU_a2GTjCPn7fxxbPh4wlNLmlikrFLcPYtZ49o2guWMIpyFoyPLwFmX7-gK8R_B-406YFOkRRbGRH7BVTHxTip999FSVSkzfIw99Q59NAh_sTKtSejQmZ6XpPg_9TA7pGhnoQvQ9IPVOqozUL2Ct660U4NDIO469wv_bCERzEwS" group-title="News", News 24
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/News%2024.m3u8
+#EXTINF:-1 tvg-id="s23" tvg-name="Maasranga TV" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEhw0-2Lo31q_faZD1Zcf6_1C6CLZ3z4sxUdwdtCZaTSVEXINeqTQSyudQAfAs1qUzwUcnPh-k7vLFQTkw4axUibL0TyITAL_0yVy5XbbkbWaSKlJg1hHJ1nO5zPFmr7e8H2UAAHFTa0Zr3zleM0dkz8dCXCX5VDrKI6bVbM03YISmYyiZ8btMn3W4QogyWH" group-title="News", Maasranga TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Maasranga%20TV.m3u8
+#EXTINF:-1 tvg-id="s24" tvg-name="Channel I" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/qnv835oBcqxnFHJBuQcB/posters/348dfac3-c1e0-485d-a72b-3d282c9e2c73.png" group-title="News", Channel I
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Channel%20I.m3u8
+#EXTINF:-1 tvg-id="s25" tvg-name="Somoy TV" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1784629064327.png" group-title="News", Somoy TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Somoy%20TV.m3u8
+#EXTINF:-1 tvg-id="s26" tvg-name="ATN Bangla TV" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/3a36a406fcc9616cd0b32514bb29eb36.jpg" group-title="News", ATN Bangla TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/ATN%20Bangla%20TV.m3u8
+#EXTINF:-1 tvg-id="s27" tvg-name="My Tv" tvg-logo="https://otapp.store/uploads/tv_image/sm/my-tv.png" group-title="News", My Tv
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/My%20Tv.m3u8
+#EXTINF:-1 tvg-id="s28" tvg-name="Mohona Tv" tvg-logo="https://i.imgur.com/ENyPcL0.png" group-title="News", Mohona Tv
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Mohona%20Tv.m3u8
+#EXTINF:-1 tvg-id="s29" tvg-name="Nagorik Tv" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEh34awV8eGnbBCbV7q3jsNOA-yQM_dDxUQwSRC_aI5gM-CQ1s8Z9ZRoeVHVv3YJhazNoIzfNGPn47AhN4DapGk5BKSlT3CZZ8DFBwusvzrbl6KEoFtvbIv1f9RJ1nqkgR6gP4D1O5uY4xqWNmz0kcgAnv-4EK4MYpBKreO8ljUvWQ53bZTRwZzbR2SzCw5p" group-title="News", Nagorik Tv
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Nagorik%20Tv.m3u8
+#EXTINF:-1 tvg-id="s30" tvg-name="Bijoy Tv" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/bns4l5sBcqxnFHJBVZ32/posters/feaf9f3d-cc3b-4a3d-81a3-2cb703e561eb.png" group-title="News", Bijoy Tv
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Bijoy%20Tv.m3u8
+#EXTINF:-1 tvg-id="s31" tvg-name="Bangla Tv" tvg-logo="https://assets-prod.services.toffeelive.com/JiK-_poBEef-9-uVZv6L/posters/757a328e-70d6-45de-b093-0a843c69ade7.png" group-title="News", Bangla Tv
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Bangla%20Tv.m3u8
+#EXTINF:-1 tvg-id="s32" tvg-name="Asian Tv" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/MyK__poBEef-9-uVmf5l/posters/1eadef5b-28e7-4dc2-b42f-c67a3357c9a0.png" group-title="News", Asian Tv
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Asian%20Tv.m3u8
+#EXTINF:-1 tvg-id="s33" tvg-name="G TV" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEgNpMJMh1mE8UeXxGNUW_wAbSQrblywNT8f_uOj6PvShYwLa8EeVp9ZGdKDVXkFczQSs7xD7s4s9IN97pbKIiecVyOt1-96CtFFeasCwSfeZ4gXRzfFRjS5fhEKCaqu2YsnJXdDXlocUhnO58U9ErsCGCLvpu9YwXiMHLMaxqjHTU8LBJx-c33dQeus_Qmo" group-title="News", G TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/G%20TV.m3u8
+#EXTINF:-1 tvg-id="s34" tvg-name="Movie Bangla" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/CXz4PJwBcqxnFHJBPwrG/posters/2f913e34-3a6c-45e6-9f1f-97bf129a2ff5.png" group-title="Movies", Movie Bangla
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Movie%20Bangla.m3u8
+#EXTINF:-1 tvg-id="s35" tvg-name="R TV" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-07-02/images_d6c5ece652161d2d88ed547f00343687_playmist_rtv_400x400.jpg" group-title="News", R TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/R%20TV.m3u8
+#EXTINF:-1 tvg-id="s36" tvg-name="Desh TV" tvg-logo="https://otapp.store/uploads/tv_image/sm/desh-tv.png" group-title="News", Desh TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Desh%20TV.m3u8
+#EXTINF:-1 tvg-id="s37" tvg-name="Ruposhi Bangla" tvg-logo="http://data.jaagobd.com/media/channel_logos/rb.png" group-title="News", Ruposhi Bangla
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Ruposhi%20Bangla.m3u8
+#EXTINF:-1 tvg-id="s38" tvg-name="Channel S" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/WyPuDJsBEef-9-uVUA_z/posters/ea20055c-a824-443c-8083-ce8e2da8b922.png" group-title="News", Channel S
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Channel%20S.m3u8
+#EXTINF:-1 tvg-id="s39" tvg-name="Ekushe TV" tvg-logo="https://s4.gifyu.com/images/image534fa27d7683f33d.png" group-title="News", Ekushe TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Ekushe%20TV.m3u8
+#EXTINF:-1 tvg-id="s40" tvg-name="Global TV" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/0y_tDJsBNnOkwJLWNrdE/posters/2ff058e1-630f-4657-8dc6-b677e65642c5.png" group-title="News", Global TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Global%20TV.m3u8
+#EXTINF:-1 tvg-id="s41" tvg-name="Nexus TV" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/FHz5PJwBcqxnFHJBdAqW/posters/419869ac-8ddf-4909-86c1-b69f0a3adf13.png" group-title="News", Nexus TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Nexus%20TV.m3u8
+#EXTINF:-1 tvg-id="s42" tvg-name="Green TV" tvg-logo="https://i.postimg.cc/ry4QcVbh/20240822-231240.png" group-title="News", Green TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Green%20TV.m3u8
+#EXTINF:-1 tvg-id="s43" tvg-name="T Sports" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/6e/T_Sports_HD_logo_2021.png" group-title="Sports", T Sports
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/T%20Sports.m3u8
+#EXTINF:-1 tvg-id="s44" tvg-name="Eurosport HD" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgaVBaRl_pRk5vM71k7iNEfh-eGak4CYrf-fUwut12o4b53mt9nW7ZkuvpvDyueypflPR1Ud0yA35caQ7QKK0IC3JmnkVQrMSj2YHz5bxdrY0Ag-2mCbbzPN3Jo74rdjb5Wt4Lp1eRZ-uTDG9FcniNDv6pwxqQ2l6RgB2y7uHGoJ8-cjCFC3hRSOPZtJBD/s1600/image.png" group-title="Sports", Eurosport HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Eurosport%20HD.m3u8
+#EXTINF:-1 tvg-id="s45" tvg-name="Betis vs Barcelona" tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790933165540x302.jpg" group-title="Sports", Betis vs Barcelona
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Betis%20vs%20Barcelona.m3u8
+#EXTINF:-1 tvg-id="s46" tvg-name="Bein Sports 1" tvg-logo="https://cdn.xubilaswebdevcorp.shop/uploads/1791021130497-41-d382558b-2f5d-44c1-af0e-651a2ea928ba-1.png" group-title="Sports", Bein Sports 1
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Bein%20Sports%201.m3u8
+#EXTINF:-1 tvg-id="s124" tvg-name="Bein Sports 2" tvg-logo="https://i.postimg.cc/FzGdttZ1/20250120_193818.png" group-title="Sports", Bein Sports 2
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Bein%20Sports%202.m3u8
+#EXTINF:-1 tvg-id="s125" tvg-name="Bein Sports 3" tvg-logo="https://cdn.xubilaswebdevcorp.shop/uploads/1791021130497-41-d382558b-2f5d-44c1-af0e-651a2ea928ba-1.png" group-title="Sports", Bein Sports 3
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Bein%20Sports%203.m3u8
+#EXTINF:-1 tvg-id="s47" tvg-name="A Sports" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEgrdJvoOBmQsYvgrj4rKvt-MWxVC1Tr_d8Vg6NVDiH4X3ygIHLO_tGmYiUQpq16NJZF55Jl5p-5Cj_vvUA7cABueVFoizKzicTXkPotmLKe2UTijsXxOeFD9bR3ChvuVV6zDTn9MrJGszXPNmw5iUc8WeVgvqwH3-GfQQwc26sBuEVhyyllsqMF6jnOeWkX" group-title="Sports", A Sports
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/A%20Sports.m3u8
+#EXTINF:-1 tvg-id="s48" tvg-name="Star Sports 3" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEiK2BvWIdog5d4_UMPn02p00Bs7utBQ0-ud-qhIRY7WXSt1j930mzFCXqGWmeV1ddM9gCzmmlBvBlo_U6YIQaVmhYUXG4ERGYhqvXEp2qFpBz2md_7vDt_RpAvvUIm9xYrYGuf1ZNrfN8Nc4DnXxZKUOsoAbFLKWi3gGOQyD9YL5GKUQqA3ZbO2syY5ciOn" group-title="Sports", Star Sports 3
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Star%20Sports%203.m3u8
+#EXTINF:-1 tvg-id="s49" tvg-name="Willow TV" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/38-by-xfireflix.png" group-title="Sports", Willow TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Willow%20TV.m3u8
+#EXTINF:-1 tvg-id="s50" tvg-name="Star Sports 1" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/16-by-xfireflix.png" group-title="Sports", Star Sports 1
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Star%20Sports%201.m3u8
+#EXTINF:-1 tvg-id="s51" tvg-name="Star Sports 2" tvg-logo="https://i.postimg.cc/zBgM9nK7/20240823_024306.png" group-title="Sports", Star Sports 2
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Star%20Sports%202.m3u8
+#EXTINF:-1 tvg-id="s52" tvg-name="Star Sports SL 1" tvg-logo="https://tvassets.roarzone.net/images/27.png" group-title="Sports", Star Sports SL 1
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Star%20Sports%20SL%201.m3u8
+#EXTINF:-1 tvg-id="s53" tvg-name="Star Sports SL 2" tvg-logo="https://i.postimg.cc/rmczbb8g/20240825_060019.png" group-title="Sports", Star Sports SL 2
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Star%20Sports%20SL%202.m3u8
+#EXTINF:-1 tvg-id="s54" tvg-name="Unite8 Sports 1 HD" tvg-logo="https://cdn.xubilaswebdevcorp.shop/uploads/1791021130497-41-d382558b-2f5d-44c1-af0e-651a2ea928ba-1.png" group-title="Sports", Unite8 Sports 1 HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Unite8%20Sports%201%20HD.m3u8
+#EXTINF:-1 tvg-id="s55" tvg-name="Unite8 Server 2" tvg-logo="https://cdn.xubilaswebdevcorp.shop/uploads/1791021130497-41-d382558b-2f5d-44c1-af0e-651a2ea928ba-1.png" group-title="Sports", Unite8 Server 2
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Unite8%20Server%202.m3u8
+#EXTINF:-1 tvg-id="s56" tvg-name="PTV Sports" tvg-logo="https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/20-by-xfireflix.png" group-title="Sports", PTV Sports
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/PTV%20Sports.m3u8
+#EXTINF:-1 tvg-id="s57" tvg-name="Sony Sports TEN 1" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEjXp4GTtFL30fkazCObt8Ak9GVdnMcX3GYDCg9nvuEPgdPF9ql0oD_RfNoAZ9XyTeIbPJrql_UygrnlrVOuBjR6tIm_2GkCL9g1VwqRNa83EDIkrWYMgZTdOR5GTGgobZqXgx6sGxKKK9Pj_-BYSbngRG6cqBIYE0ARopFpFLK0wllpjhk0zb2MS7qMTDC4" group-title="Sports", Sony Sports TEN 1
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Sports%20TEN%201.m3u8
+#EXTINF:-1 tvg-id="s58" tvg-name="Sony Sports TEN 2" tvg-logo="https://i.postimg.cc/wjqC7RYx/20240823_024150.png" group-title="Sports", Sony Sports TEN 2
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Sports%20TEN%202.m3u8
+#EXTINF:-1 tvg-id="s59" tvg-name="Sony Sports TEN 3" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEjbXNl3qwLHjQWF9x95z8F0KXwR7kmx-8HSphs6w2nDy1YvNUFPqAB16TPPotG2OIPyy-FdgVHE8jipV-6i6MowbZuuYXenajQGeJU6UQB-omlWRNdybmW39C2uk2iiO3TQkAv2pFL91-SW32-yQkxwXhbN4mQWEi-Gt3mEbnHcCXPCzjjc5O6L0lCiOzMI" group-title="Sports", Sony Sports TEN 3
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Sports%20TEN%203.m3u8
+#EXTINF:-1 tvg-id="s60" tvg-name="Sony Sports TEN 4" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEjZidBd1Cj8x_o7amQxiQJBPTetP6Dj9ksIuTAfA0KCMYC9Ufa_jjaA6dqO2bqI2QFGk7Yu7fkg-eOnG8PlmVcxUZwgyg1dvhJxHBQMSnbV5whzxdMPvkrA4K-c7H30sJ9j-J4wuoGcHlOrxwGa3CCblssZ-_CpyQ-7ef9R8xpCDt_2TvgTvcqA_pCQbyvs" group-title="Sports", Sony Sports TEN 4
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Sports%20TEN%204.m3u8
+#EXTINF:-1 tvg-id="s61" tvg-name="Sony Sports TEN 5" tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-sports-ten-5.png" group-title="Sports", Sony Sports TEN 5
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Sports%20TEN%205.m3u8
+#EXTINF:-1 tvg-id="s62" tvg-name="Ten Cricket" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ra2x_pQBrjBfS2_RWG9l/posters/795170c2-ec78-457e-9fa0-54a23d23361c.webp" group-title="Sports", Ten Cricket
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Ten%20Cricket.m3u8
+#EXTINF:-1 tvg-id="s63" tvg-name="Zee Bangla" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1756017182009.png" group-title="Entertainment", Zee Bangla
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Zee%20Bangla.m3u8
+#EXTINF:-1 tvg-id="s64" tvg-name="Zee Bangla 2" tvg-logo="https://dl.dropbox.com/s/8z5yuaoyryedp6l/ZB.jpg" group-title="Entertainment", Zee Bangla 2
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Zee%20Bangla%202.m3u8
+#EXTINF:-1 tvg-id="s65" tvg-name="Star Jalsha" tvg-logo="https://i.postimg.cc/1tmcNHW3/Star-Jalsha-HD.jpg" group-title="Entertainment", Star Jalsha
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Star%20Jalsha.m3u8
+#EXTINF:-1 tvg-id="s66" tvg-name="Star Jalsha 2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png" group-title="Entertainment", Star Jalsha 2
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Star%20Jalsha%202.m3u8
+#EXTINF:-1 tvg-id="s67" tvg-name="Jalsha Movies HD" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEjg5cvnVMmZ1AvphNTIEZIbMjfF8RznUxPAHiG-9glnUUtqDkdtZ4E18BAH2FuRnwfLQ-R7BCLNtotKXQ4KiEqoIyusbPOBfTIJlJILMRLNIVoPqWNADlcyc9A6fdteSQDuVlFH51P885seQizhb4Q1mUVfCRz87GZMut5ziPK6l4wlVyXzAgtuGcjJScbw" group-title="Entertainment", Jalsha Movies HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Jalsha%20Movies%20HD.m3u8
+#EXTINF:-1 tvg-id="s68" tvg-name="Star Plus" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEi5m9yGNnqjxKSwhExMYy6yfu5I5_h9nZ_5qLPVYz8sm_eoFIHhtpV_S_L-SDEBS_AZ-2TAFdI9nmHk4058Nl9Na3Htt2oBOOYxgzwfgUsZtKLHUWAmOeck0_GGr2hfXAyI_ebwPioyUY7k9fl2pSnTJbRbjmjz3USqa1rGjgvIl6LHRcsO7Qc8aDOOs3CN" group-title="Entertainment", Star Plus
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Star%20Plus.m3u8
+#EXTINF:-1 tvg-id="s69" tvg-name="COLORS BANGLA" tvg-logo="https://tvassets.roarzone.net/images/66.png" group-title="Entertainment", COLORS BANGLA
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/COLORS%20BANGLA.m3u8
+#EXTINF:-1 tvg-id="s70" tvg-name="Dangal TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/36/Dangalv2.png" group-title="Entertainment", Dangal TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Dangal%20TV.m3u8
+#EXTINF:-1 tvg-id="s71" tvg-name="COLORS HD" tvg-logo="https://tvassets.roarzone.net/images/68.png" group-title="Entertainment", COLORS HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/COLORS%20HD.m3u8
+#EXTINF:-1 tvg-id="s72" tvg-name="COLORS TAMIL" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEhHRHOfXX0blkNCJ9KJYkI-5R7t7_uEBaaUJfLnc2o2U4JyXJ9-db08IirRsbkiSolnoLpYlr8aNcvm560p2l9TpXPf0DlKkC0PMP2-cDbu0Xjq6xC4JSbiE8jUodH22skHmmBtI6CVzGbKpDdNv6fRU8fRuicYMwxsHC-wyhZ4fZrgbEUHdI1HOqQIJi_c" group-title="Entertainment", COLORS TAMIL
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/COLORS%20TAMIL.m3u8
+#EXTINF:-1 tvg-id="s73" tvg-name="SONY AATH" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/00/SONY_AATH.png" group-title="Entertainment", SONY AATH
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/SONY%20AATH.m3u8
+#EXTINF:-1 tvg-id="s74" tvg-name="Zee Cinema HD" tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-cinema-hd-veqq3heoalzv.png" group-title="Entertainment", Zee Cinema HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Zee%20Cinema%20HD.m3u8
+#EXTINF:-1 tvg-id="s75" tvg-name="Colors Bangla Cinema" tvg-logo="https://i.postimg.cc/PJbWDxnT/20240822-231631.png" group-title="Entertainment", Colors Bangla Cinema
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Colors%20Bangla%20Cinema.m3u8
+#EXTINF:-1 tvg-id="s76" tvg-name="Enter 10 Bangla" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEg4uxNGLfa6QuCARomG_g6mmtEfuOddrDDtjpw9qWnD2Gv96sD2NLX85BHj3vC3Wz6fC3aWPWFtm4YIybzBAvpH6kW0gAjakRPBLVu-VKKKAD5HgN9JY1-V-CJ7ehBIA4VFrRAb9KlQDAVYfy8CLlFpza5YayD1BmzOOs_ZisiHa2MU5m7ELzvyu5Y5Yofj" group-title="Entertainment", Enter 10 Bangla
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Enter%2010%20Bangla.m3u8
+#EXTINF:-1 tvg-id="s77" tvg-name="Z Bangla Sonar" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEiFOX3l8q4PAvEhXYSKjzpwiwBJ0RIIXkvuE9WWpNLqBqzK7UAclTKPorfZPPsbPCke-qC_KXMy3kHxm8zZtl2PDX4pNqItrMQCyAZaPIW51-bc7dKBRYRRRTu1BW-ZdwfeSuZ4vo5DOrOqeJ8QahBAw5FC-NtlhcgsKxRda9gTi_KcvNi_qc6VScWnelEM" group-title="Entertainment", Z Bangla Sonar
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Z%20Bangla%20Sonar.m3u8
+#EXTINF:-1 tvg-id="s78" tvg-name="Sony Max" tvg-logo="https://assets-prod.services.toffeelive.com/Ay52-JQBv9knK3AHFDWt/posters/00afb30b-3c19-4c4c-abd8-891db94e4767.webp" group-title="Entertainment", Sony Max
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Max.m3u8
+#EXTINF:-1 tvg-id="s79" tvg-name="Sun Bangla" tvg-logo="https://i.postimg.cc/y88mJsQC/20240823_020415.png" group-title="Entertainment", Sun Bangla
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sun%20Bangla.m3u8
+#EXTINF:-1 tvg-id="s80" tvg-name="COLORS CINEPLEX" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ColorsCineplexHD.png" group-title="Entertainment", COLORS CINEPLEX
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/COLORS%20CINEPLEX.m3u8
+#EXTINF:-1 tvg-id="s81" tvg-name="Jalsha Movies" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEhwoKRMWN2R19cBjAHuUpvqBgDs3s0s2Zccsmm5Z7PRjLGsky7M7gz_OAmjA824OGV85X6r5hvqojvO11XcBYCH8LEs8jWxT1rc5eEh0rhQX_bMwJmDx4_wOP2dB7ozLTqSAZ5FMjSkaQl57ibosSQM9NgEKXJ4MkstdZIfRTQ84FeArPFpxx1vG6agkqdP" group-title="Entertainment", Jalsha Movies
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Jalsha%20Movies.m3u8
+#EXTINF:-1 tvg-id="s82" tvg-name="& TV" tvg-logo="https://assets-prod.services.toffeelive.com/5cwRnZUBtpl-Sbt7wWrN/posters/5779ade3-e9ba-4107-b3da-bae6f891500a.png" group-title="Entertainment", & TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/%26%20TV.m3u8
+#EXTINF:-1 tvg-id="s83" tvg-name="PictureTv" tvg-logo="https://assets-prod.services.toffeelive.com/QMwWnZUBtpl-Sbt7S2sx/posters/8cad9a82-842a-47bf-a060-f17011f11c07.png" group-title="Entertainment", PictureTv
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/PictureTv.m3u8
+#EXTINF:-1 tvg-id="s84" tvg-name="Zee Tv" tvg-logo="https://i.postimg.cc/x8BwX6QW/20240823_022929.png" group-title="Entertainment", Zee Tv
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Zee%20Tv.m3u8
+#EXTINF:-1 tvg-id="s85" tvg-name="ZB Cartoon TV" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEidSqszp8yI2CudD8sZttSOsp108tl-toue5O9TOdLQ0xdSf7sO8CysKIFWQboXqV9F2Hd0HX3GXwmNzGDsMufbEQJ7hJsvJAZo3MjZoD7PbXl5O3tMppxMsJK0O8a3uo6gYR4umXUFH3qUlMQlinx3xOPUwEhW-go5UV1wsNt3YNzPhBP6KHpz8-ltaUFA" group-title="Kids", ZB Cartoon TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/ZB%20Cartoon%20TV.m3u8
+#EXTINF:-1 tvg-id="s86" tvg-name="Sangeet Bangla" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEghztCvPxp11vfwUFCzxWoIcwHk2GQdup5SUCOYW_L3NTEBncY5o-wHrv6nfqIO9xmHHvNiAoyukVQuhlu6btjdSAH75Y_HP13xgZy8RDBuRRr3W3hAex5FbkxJQXugqjgiDr9bgqz0NHY5gTYExKKhsKAEaYXq8AzIL8d6LkSVPrO6igh1eRJ6CpqXFpjb" group-title="Music", Sangeet Bangla
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sangeet%20Bangla.m3u8
+#EXTINF:-1 tvg-id="s87" tvg-name="Sangeet Bhojpuri" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEg1pKVh5s3bdVeZeV6kuinAe0smleMBDYem5kTD6ATo3f6lI3mv_6zXAWwmqwujhkDy2k4_YAzYVy1Ry_c5KK-bMjm2KJ7JuYjqosduc75TbmMh0zT58d2vU22AGM8mXepEgSvLxSFqti2vuTzTKuuUnTGc-cpM0snTOm7NIMQ1Qk_Z6sR4ZR64khmPEJYk" group-title="Music", Sangeet Bhojpuri
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sangeet%20Bhojpuri.m3u8
+#EXTINF:-1 tvg-id="s88" tvg-name="9XM Music" tvg-logo="https://otapp.store/uploads/tv_image/sm/9xm.png" group-title="Music", 9XM Music
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/9XM%20Music.m3u8
+#EXTINF:-1 tvg-id="s89" tvg-name="ZOOM Music" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEjw6rB9rR0gk5DaiGJ6J57i6jXPRpNhWa4dxIuKa1XNAbP9vcy7UAf6-QamUmNM9F-LvOftb0iQiSVM1F4ZOJ6rBFVPMsgevQ1JdouYgBE5QIWA9700NLjVWO2VJJtRUa9U9usQfSCt8t-m9-kGas8yhagEiBYg_AVViTzqFsCuV4oBYPUkBpkgDUaSKjgp" group-title="Music", ZOOM Music
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/ZOOM%20Music.m3u8
+#EXTINF:-1 tvg-id="s90" tvg-name="Music Mastii" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRD92lTNDFEe1iA-zJLoFb-mu28rBgjGIqs3qFS_w=s900-c-k-c0x00ffffff-no-rj" group-title="Music", Music Mastii
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Music%20Mastii.m3u8
+#EXTINF:-1 tvg-id="s91" tvg-name="Goldmines SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/Goldmines_logo.png" group-title="Movies", Goldmines SD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Goldmines%20SD.m3u8
+#EXTINF:-1 tvg-id="s92" tvg-name="Star Movies" tvg-logo="https://tvassets.roarzone.net/images/starmovies.png" group-title="Movies", Star Movies
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Star%20Movies.m3u8
+#EXTINF:-1 tvg-id="s93" tvg-name="Duronto TV" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEheHFXILKNF4xiVY7MKviwdQ3eAOzMhfu_KRM85HlSzKxwBdX8izl6_5v_s9a9uXNaP40gnzK21dHYZku0uMhHnQGO9hP9_I0oosQ5TA61DGvHmbhVPfyFtSUJzf_-o__Dz_-N1Veh2NhNXcE-ai_14oEmm0Ej7vRAqDoDdpND2DC_gcgg15hzsXCXqRUNC" group-title="Kids", Duronto TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Duronto%20TV.m3u8
+#EXTINF:-1 tvg-id="s94" tvg-name="POGO" tvg-logo="https://assets-prod.services.toffeelive.com/ny6W-JQBv9knK3AHujXC/posters/7e7c2afe-a663-4c09-983a-2d0fa0f1ca9a.webp" group-title="Kids", POGO
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/POGO.m3u8
+#EXTINF:-1 tvg-id="s95" tvg-name="Discovery Kids" tvg-logo="https://assets-prod.services.toffeelive.com/1i6e-JQBv9knK3AHHTXR/posters/325887a7-84ea-4cf9-a6fd-6111ddc25671.webp" group-title="Kids", Discovery Kids
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Discovery%20Kids.m3u8
+#EXTINF:-1 tvg-id="s96" tvg-name="Cartoon Network" tvg-logo="https://i.postimg.cc/k4mDbyJR/20240823_021424.png" group-title="Kids", Cartoon Network
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Cartoon%20Network.m3u8
+#EXTINF:-1 tvg-id="s97" tvg-name="Nick" tvg-logo="https://tvassets.roarzone.net/images/55.png" group-title="Kids", Nick
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Nick.m3u8
+#EXTINF:-1 tvg-id="s98" tvg-name="HungamaTV" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEgfEjh2jabLKHxc4dDA_yHDC3NoJkmsrrCMxyadqFkGZGdd8AON5typmuDVsZCLBl9TLjeYhkyfV7eVz0kiQ4wgl10B6gEg6pwR6Yk_2QBAm-X2BYPH0RrkleBz9cV8k-EYf4hEQynj194rX5stXOJ3hzQ-oP3AqI73BLx_yIFZdelBvmjaw6moGmPu0uLG" group-title="Kids", HungamaTV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/HungamaTV.m3u8
+#EXTINF:-1 tvg-id="s99" tvg-name="Sony Sab HD" tvg-logo="https://assets-prod.services.toffeelive.com/ES55-JQBv9knK3AHNDWC/posters/13411be9-62b9-4a99-a062-b6e91dfb1099.webp" group-title="Entertainment", Sony Sab HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Sab%20HD.m3u8
+#EXTINF:-1 tvg-id="s100" tvg-name="Sony YaY" tvg-logo="https://i.postimg.cc/jSBDsbBX/20240823_021324.png" group-title="Kids", Sony YaY
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20YaY.m3u8
+#EXTINF:-1 tvg-id="s101" tvg-name="Sony BBC Earth" tvg-logo="https://assets-prod.services.toffeelive.com/MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp" group-title="International", Sony BBC Earth
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20BBC%20Earth.m3u8
+#EXTINF:-1 tvg-id="s102" tvg-name="Sony BBC Earth HINDI" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEguSuKSIfhfvyDDPHRgEGH39wlkreC6uM7geCnN7sZXonfR47FYJFa21Kfysimm_YNl9Dkg5qjG49CYHNuIzfaYhJXzAGKniKYl6xZTcfpJgt9lF1GpV2DYIl7Hq_7YmLiKSpQbHJ4tiuIpN_I6VyaKyCVjF3PFq3WW1-EKCVfEOlmAhOTolI4pSwDaruhb" group-title="International", Sony BBC Earth HINDI
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20BBC%20Earth%20HINDI.m3u8
+#EXTINF:-1 tvg-id="s103" tvg-name="Sony Max 2" tvg-logo="https://assets-prod.services.toffeelive.com/Ii5_-JQBv9knK3AHLDV3/posters/d961cc87-81b6-4b30-8414-8c0af2774818.webp" group-title="Entertainment", Sony Max 2
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Max%202.m3u8
+#EXTINF:-1 tvg-id="s104" tvg-name="Sony Pix" tvg-logo="https://assets-prod.services.toffeelive.com/Ly6C-JQBv9knK3AHOjXt/posters/252e64ca-8d99-46e7-a951-e10c1703c11d.webp" group-title="Entertainment", Sony Pix
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Pix.m3u8
+#EXTINF:-1 tvg-id="s105" tvg-name="Discovery HD" tvg-logo="https://i.postimg.cc/cJ90sMKN/20240823_023541.png" group-title="International", Discovery HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Discovery%20HD.m3u8
+#EXTINF:-1 tvg-id="s106" tvg-name="Discovery Bangla" tvg-logo="http://static.epg.best/us/DiscoveryChannel.us.png" group-title="International", Discovery Bangla
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Discovery%20Bangla.m3u8
+#EXTINF:-1 tvg-id="s107" tvg-name="National Geographic" tvg-logo="https://account.nationalgeographic.com/media/national-geographic/media/National-Geographic-Logo.png" group-title="International", National Geographic
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/National%20Geographic.m3u8
+#EXTINF:-1 tvg-id="s108" tvg-name="Sony Television" tvg-logo="https://images.toffeelive.com/images/program/57/logo/240x240/mobile_logo_149299001666780350.png" group-title="Entertainment", Sony Television
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Television.m3u8
+#EXTINF:-1 tvg-id="s109" tvg-name="Sony Max HD" tvg-logo="https://assets-prod.services.toffeelive.com/Ai51-JQBv9knK3AH_jWs/posters/663e52a6-1a9f-4458-b4aa-7c03d84972f1.webp" group-title="Entertainment", Sony Max HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Max%20HD.m3u8
+#EXTINF:-1 tvg-id="s110" tvg-name="Sony Television HD" tvg-logo="https://images.toffeelive.com/images/program/602/logo/240x240/mobile_logo_495351001666780441.png" group-title="Entertainment", Sony Television HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Television%20HD.m3u8
+#EXTINF:-1 tvg-id="s111" tvg-name="B4U Movie" tvg-logo="https://i.postimg.cc/13nLvxQx/20250630_050504.png" group-title="Movies", B4U Movie
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/B4U%20Movie.m3u8
+#EXTINF:-1 tvg-id="s112" tvg-name="HUM TV" tvg-logo="https://i.postimg.cc/vT4DKmf3/20240925_075103.png" group-title="Entertainment", HUM TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/HUM%20TV.m3u8
+#EXTINF:-1 tvg-id="s113" tvg-name="HUM Sitaray" tvg-logo="https://assets-prod.services.toffeelive.com/WtPBX5UBm1RY_In7mXEU/posters/188d51f6-aeef-41ed-835b-e25ff911e209.png" group-title="Entertainment", HUM Sitaray
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/HUM%20Sitaray.m3u8
+#EXTINF:-1 tvg-id="s114" tvg-name="Animal Planet" tvg-logo="https://images.toffeelive.com/images/program/359/logo/240x240/mobile_logo_835681001673175607.png" group-title="International", Animal Planet
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Animal%20Planet.m3u8
+#EXTINF:-1 tvg-id="s115" tvg-name="Animal Planet HD" tvg-logo="https://images.toffeelive.com/images/program/18096/logo/240x240/mobile_logo_032001001673194753.png" group-title="International", Animal Planet HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Animal%20Planet%20HD.m3u8
+#EXTINF:-1 tvg-id="s116" tvg-name="B4U Music" tvg-logo="https://images.toffeelive.com/images/program/367/logo/115x115/mobile_logo_886909001563629905.png" group-title="Music", B4U Music
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/B4U%20Music.m3u8
+#EXTINF:-1 tvg-id="s117" tvg-name="Zee Bollywood" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/OnSlPJYBcqxnFHJB6lFX/posters/4818f95a-c64a-490f-b310-a49aec026d71.png" group-title="Movies", Zee Bollywood
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Zee%20Bollywood.m3u8
+#EXTINF:-1 tvg-id="s118" tvg-name="Star Gold HD" tvg-logo="https://i.postimg.cc/6pCXvxyz/20240823_022553.png" group-title="Movies", Star Gold HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Star%20Gold%20HD.m3u8
+#EXTINF:-1 tvg-id="s119" tvg-name="Makkah Live" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEhuL7XM2q5f41eFmvH6E2dnJ_sVnkgiiuLn9MFbSvjbUoAwZe1mN-kr9BUU713vlzvoTTsGCVz9Rawpu34E8Lqt7U9-SXlpCUkUAocOA9CL5ePH7XAfcQkvIuOYDg3nEfYUg3hNWHn4OF13Yvgx6TnCHSX1gyjV_TO3r3RbZ2ka5GoNfC9nTk_dO5Uc5dPP" group-title="Bangla", Makkah Live
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Makkah%20Live.m3u8
+#EXTINF:-1 tvg-id="s120" tvg-name="Sony Pal" tvg-logo="https://i.postimg.cc/3rbX1G92/images.jpg" group-title="Entertainment", Sony Pal
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Pal.m3u8
+#EXTINF:-1 tvg-id="s121" tvg-name="Sony Wah" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEhHMbIH8hket3eDZOI8ZDEp5Rg4o7Zt0LrbYfbqNdcIL6Qjf5T02p43V4zYJ4EdZ0tmKTSmDiewR4gPonZhzDDTWXFxTR6BFhoN5I-TQDo7M9gFmVsFrR8tbXyF1VwFOO8ZHGhZHKSB17-gPSNSm_E6_q1T7uaRL0-psN-F3b4WMZypAe2Gvn9BdfIu-JLI" group-title="Entertainment", Sony Wah
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Wah.m3u8
+#EXTINF:-1 tvg-id="s122" tvg-name="Sony Marathi" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEjXIMHUDun2Coqti4RgT0JkaR4TLSInZTDmFx_ldZ8axuNdtMhiYHynNi9PgVWSQetdzXDXeHw6wpdZwGt1cPxK6LEpRStcTrqRHCWVryZURHJC6rl9yxSJbCwpGBL5UyhfvNqu_13kF-qH1VviH3ikQCT2JZ1SLJRxdC6SqoYC5u8LYVtvSWTyMIBRPKzu" group-title="Entertainment", Sony Marathi
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sony%20Marathi.m3u8
+#EXTINF:-1 tvg-id="s123" tvg-name="Sonic Bangla" tvg-logo="https://i.postimg.cc/y8DJ4dpx/20240823_021302.png" group-title="Kids", Sonic Bangla
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Sonic%20Bangla.m3u8
+#EXTINF:-1 tvg-id="s126" tvg-name="Akash Aath" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEgnIqb0YXMkNUFIsV8PeFjJoCuJricN3sOn032npEGZFn-djSaQ0sYUqvUBFHrahnPI7qW0FL-EtiWGP8HEn6_rnodDaLfcCOJAyW50ezyMrYpzOh6WwqblbcB0DFHr01HRT3lKfXqzRvAouvZaji5A5d4HcIR4Am7X0y_m0WHPN-QlFUo3AIJxmvqg_iDN" group-title="Entertainment", Akash Aath
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Akash%20Aath.m3u8
+#EXTINF:-1 tvg-id="s127" tvg-name="Star Gold 2" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEg_J2N2bl6PhBZ_VxfDxMJaj6r2y3vMXFF8daMYNqH8RGSx0t9E93MVH4ddcnISgZCcP8NUip9HcONtzYxtBNLh5GYA8L46QPL-07L5Hfh2F1-ZvkJiBsYcgfaZiujvAAj2gz6buLA9m3D-Rt2QamODzfWVl5i1X7f-OXKOKRo4AZfktDTEciHqPSu2tIMw" group-title="Entertainment", Star Gold 2
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Star%20Gold%202.m3u8
+#EXTINF:-1 tvg-id="s128" tvg-name="Star Movies Select HD" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7mAD3IhvL2X1uwl19Y3ezi4tIew5AEmJD0dG3L5tnWY0eQndG174QeyGeKqDcxWojkJWyen3MlghwsdjISR10n2mLtf1OBxNbEXeyU2kPJkOPed0NXe9p9kPJwxvRbBdLXHcqGgs8xpc-FWvpdoTN1COXBeXDiTiqX8DiN9K1S3eAXDTbOmiywuKA7bgh/s1600/image.png" group-title="Movies", Star Movies Select HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Star%20Movies%20Select%20HD.m3u8
+#EXTINF:-1 tvg-id="s129" tvg-name="History TV 18 HD" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSzR4VjDggquDMNTVLT3gQIEXmw-kKrUDxFQHYIO9vn4FdqKe-1jaUzXckv8rtZ-VE9L6ecCY8kbQdjeDHwhhpWpEof1k5d9MO6K4NVGrlRrPAdHKXFcMjyG18SiZPIJdREMRnJ5TEcYs8IqTT5KPF4vQrT3kGcUfB1wL5WqXEjaGD0M-lsSW3kkmvQyNw/s1600/image.png" group-title="International", History TV 18 HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/History%20TV%2018%20HD.m3u8
+#EXTINF:-1 tvg-id="s130" tvg-name="Nat Geo Wild" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7VArn1a1G6vJCm6HjktbrRAS4-_Eyk4Pz2jyUHsQy3zDeBPQiIZk4V603UGiVLkbNUxlWaZyBObr0khPc-8JpB0VnKGpfbAXztlYPfUcwlovT39_YTjptDorEz4E2ToHI3IX7Z_Z-STrJ8ngZLNGS00VqYrDGd-JyNNqULbi4yO7s7uet2ebGJGHrogGl/s1600/image.png" group-title="International", Nat Geo Wild
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Nat%20Geo%20Wild.m3u8
+#EXTINF:-1 tvg-id="s131" tvg-name="Xplor HD" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSSerf5Fu64mILtEWIwI7ZlpYnGL9ZPBCv1YZS25hrG9fqG35t5500v0JOhk-pDF5wnsnfzWnr5G7D5CgnzDpKghULHHPTX8uHDG4M_DPNc55tcW1_bCr_C3UQTcj1xlvgGhLprSv2FK4dgGVtMeqveMCjzEvBNCOhfeBQxWQyOk70hDtc_Sel5-trCaAo/s1600/image.png" group-title="Movies", Xplor HD
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Xplor%20HD.m3u8
+#EXTINF:-1 tvg-id="s132" tvg-name="Travelxp" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCfi4jX6WvXTeGejkh9f4jgPDn8euzEvm8L0XJWmfpggadPWUIGf4a6kYG6dIAXjK0zPEAsUgDHFsG8to1Z5MOufhIM0Xw55ym5U5Qfe3OyyIb3WMlun4C-z_JeMUbsFJp7xgh-l4FvC_ahbNA_WIe_cfyPS7PjLEDPIRiN5B5gt98IeVj2TWNsxuUQNMa/s1600/image.png" group-title="International", Travelxp
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Travelxp.m3u8
+#EXTINF:-1 tvg-id="s133" tvg-name="Premier Sports" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlA5ROEE9LY5Vm0i7ga1-ku7oHMd38GbTJwVd-DaGGRD4bFvSCvlEIjqrcM5qUX0htLFo3Z89cB-Dcx0zZqs4dJzO0u7P-seGDDmLNeqNpDuZXblqSf4eFcSPQQQgDRqK739kXgl6fVfDMEpsx7nicQsz3YD5mUAXSGp4mDynQTGXyQyFcd5iljJVZ9Ml6/s1600/image.png" group-title="Sports", Premier Sports
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Premier%20Sports.m3u8
+#EXTINF:-1 tvg-id="s134" tvg-name="Star Bharat" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSTozROLm3MeOvaufAnIF7PzSwruUgyCWQBuDzbRmrymylbC21P5DoHLj0pkL1-ZEw_5nHdVcLdQgcfCLYM6DpiJuVTdPsKPT87Env1oHG46aF0yNSNVxZrDa4QS2IWMwSegonx7wrpJ3BkkCcpggfFISB8QSzvol6BzAsf9GqybGuYkkUc4Ld6OXI7Z54/s1600/image.png" group-title="Entertainment", Star Bharat
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Star%20Bharat.m3u8
+#EXTINF:-1 tvg-id="s135" tvg-name="BBC Earth" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiG2smJtahGcG_q6mPD8QlPB_U4ZozEDihpQnCjEjgK_VZlar1pLfaHMY7NhybC1-ALze4eBK2z-m9TayqV8prerzY7chdxoM8jqnAH68EhrdHdr8GfoDqB5_0gQCOdPT7MAoE6SBZ8bRl_D8Z0wnJpNMgamNvkY5XUIq3nsLqRi8ORVMrYglIYgl276HK/s1600/image.png" group-title="International", BBC Earth
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/BBC%20Earth.m3u8
+#EXTINF:-1 tvg-id="s136" tvg-name="Rangdhonu Sports" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOr1yG6RSLE-EjPejEoA-psJKogsqDqhfu768-yhZ58oxt-c5CAD8YuFJuff5P6yKuU1FWlJpMTBKtrmj-04Xr9MhgAlJeJBHvXH9fkLBXPtiWz0nl8W3Uf_rmCVK9h7SOVmDiPVyrRoqr_Zko0pgFZILgjf8Cig9Gq7JCRTuCQ6eMyyVsslWpA32chK7N/s1600/image.png" group-title="Sports", Rangdhonu Sports
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Rangdhonu%20Sports.m3u8
+#EXTINF:-1 tvg-id="s137" tvg-name="Makkah TV" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgpdeV4evPbTiDwfsXxk48qVzyAkX90EsVG2OEHsvOxguk0VZLijANgOZhbE7YabG7p5BPchduhzsX0oDNXHrY9tKBzjH-n1qTLxVjuJDFeFjw7QjgmsLFR186dMrZ_JDZV3b5kKEmz_bx6Q3nI3I-8gh8dsFPKaUNi4jJIpiR0Jo4Un8ujjH32J0MWPT/s1600/image.png" group-title="Bangla", Makkah TV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/Makkah%20TV.m3u8
+#EXTINF:-1 tvg-id="s138" tvg-name="VisionHDTV" tvg-logo="https://www.jagobd.com/wp-content/uploads/2025/03/visionhd.jpg" group-title="Bangla", VisionHDTV
+#EXTVLCOPT:http-referrer=https://www.rangdhonu.live/
+https://app.uckingcrazy1.workers.dev/api/play/VisionHDTV.m3u8
