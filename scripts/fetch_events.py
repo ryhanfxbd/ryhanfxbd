@@ -31,6 +31,15 @@ builds. There is deliberately NO generic sport-level fallback —
 a wrong Watch channel is worse than none, so an event with no
 verified channel stays info-only in the app.
 
+One fallback DOES exist (owner's rule, 2026-10-24): when an
+event's primary channel is not carried by the app's own
+playlists at all, the free public corpus (data/*.m3u — the
+iptv-org sports index) may lend its stream URLs for that channel
+name: the probed-alive ones are written as the event's
+"freeUrls" and the app plays them as a synthetic free channel.
+The app's own playlists always win first; free URLs only ever
+fill a gap, never replace a carried channel.
+
 If every source fails, nothing is written and the script exits
 non-zero — a good events.json is never replaced by an empty one.
 
@@ -50,6 +59,7 @@ import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -550,6 +560,107 @@ def load_channel_health(app_dir):
         return {}
 
 
+def load_free_pool(app_dir):
+    """The free public corpus (data/*.m3u — e.g. the iptv-org
+    sports index): norm_key(cleaned name) -> {"name": display,
+    "urls": [stream URLs in file order, deduped]}. Kept apart
+    from the app sources on the owner's instruction — these
+    streams never become an app playlist; the events feed only
+    borrows their URLs as a fallback for events whose channel
+    the app does not carry (see attach_free_urls)."""
+    pool = {}
+    data_dir = app_dir.parent / "data"
+    if not data_dir.is_dir():
+        return pool
+    for path in sorted(data_dir.glob("*.m3u"),
+                       key=lambda p: p.name.lower()):
+        text = path.read_text(encoding="utf-8", errors="replace")
+        pending = None
+        for raw in text.splitlines():
+            line = raw.strip()
+            if line.startswith("#EXTINF"):
+                name = line.rsplit(",", 1)[-1].strip() \
+                    if "," in line else ""
+                cleaned = clean_name(name)
+                pending = norm_key(cleaned) if cleaned else None
+                if pending and pending not in pool:
+                    pool[pending] = {"name": cleaned, "urls": []}
+            elif line and not line.startswith("#"):
+                if pending:
+                    urls = pool[pending]["urls"]
+                    if line not in urls:
+                        urls.append(line)
+                pending = None
+    return pool
+
+
+def probe_url_ok(url):
+    """Light liveness probe for a free-pool stream URL: True only
+    when the GET answers 2xx (redirects followed) with a body
+    that does not start as an HTML page — an HTML landing page is
+    a dead end, not a stream, the same honesty rule the playlist
+    probe uses. Anything else (error, timeout, non-2xx) is
+    not-ok."""
+    try:
+        req = urllib.request.Request(
+            url, headers={"User-Agent": UA_ESPN})
+        with urllib.request.urlopen(req, timeout=8) as resp:
+            if not (200 <= resp.status < 300):
+                return False
+            head = resp.read(512).lstrip().lower()
+            return not (head.startswith(b"<!doctype")
+                        or head.startswith(b"<html"))
+    except Exception:  # noqa: BLE001
+        return False
+
+
+def attach_free_urls(events, app_keys, pool):
+    """Owner's Events fallback rule: an event whose PRIMARY
+    channel is not carried by the app's own playlists at all may
+    still be playable from the free public corpus. For every
+    such event, probe the pool URLs filed under the primary's
+    name and keep the ones that answer as real streams (pool
+    file order preserved), capped at 4, as the event's
+    "freeUrls". Events whose primary the app carries never get
+    freeUrls — the owner's playlists always come first — and a
+    name absent from the pool (or with no answering URL) keeps
+    the event exactly as mapped. Returns how many events got
+    freeUrls. Best-effort: a probing failure attaches nothing."""
+    wanted = {}
+    for ev in events:
+        primary = ev.get("channel") or ""
+        if not primary:
+            continue
+        key = norm_key(primary)
+        if key in app_keys or key not in pool:
+            continue
+        wanted.setdefault(key, pool[key]["urls"])
+    if not wanted:
+        return 0
+    ok_by_url = {}
+    all_urls = sorted({u for urls in wanted.values() for u in urls})
+    try:
+        with ThreadPoolExecutor(max_workers=8) as ex:
+            for url, ok in ex.map(
+                    lambda u: (u, probe_url_ok(u)), all_urls):
+                ok_by_url[url] = ok
+    except Exception:  # noqa: BLE001 — probing is best-effort
+        return 0
+    attached = 0
+    for ev in events:
+        primary = ev.get("channel") or ""
+        if not primary:
+            continue
+        urls = wanted.get(norm_key(primary))
+        if not urls:
+            continue
+        ok_urls = [u for u in urls if ok_by_url.get(u)][:4]
+        if ok_urls:
+            ev["freeUrls"] = ok_urls
+            attached += 1
+    return attached
+
+
 def _tokens(text):
     """Word tokens of a name (emoji / punctuation dropped)."""
     return set(re.findall(r"[a-z0-9]+", norm_key(text)))
@@ -880,6 +991,9 @@ def main():
     app_keys = load_app_channel_keys(APP_DIR)
     print("  %d channel(s) carried by the app's own playlists"
           % len(app_keys), flush=True)
+    free_pool = load_free_pool(APP_DIR)
+    print("  free corpus pool: %d channel(s) under data/"
+          % len(free_pool), flush=True)
 
     # Attach flags + channel, then dedupe across sources.
     best = {}
@@ -912,6 +1026,15 @@ def main():
               flush=True)
     events.sort(key=lambda e: e["start"])
 
+    # Free fallback (owner's rule): events whose primary channel
+    # the app does not carry get probed free-corpus URLs, so the
+    # app can still play them. Runs on robot-mapped events only —
+    # manual fixtures are merged later and never pass through here.
+    free_attached = attach_free_urls(events, app_keys, free_pool)
+    if free_attached:
+        print("  free fallback: %d event(s) got free stream URLs"
+              % free_attached, flush=True)
+
     used_ids = set()
     out_events = []
     for ev in events:
@@ -922,7 +1045,7 @@ def main():
             slug_id = "%s-%d" % (base, n)
             n += 1
         used_ids.add(slug_id)
-        out_events.append({
+        entry = {
             "id": slug_id,
             "sport": ev["sport"],
             "league": ev["league"],
@@ -933,7 +1056,10 @@ def main():
             "startUtc": ev["start"].strftime("%Y-%m-%dT%H:%M:%SZ"),
             "channel": ev["channel"],
             "channels": ev["channels"],
-        })
+        }
+        if ev.get("freeUrls"):
+            entry["freeUrls"] = ev["freeUrls"]
+        out_events.append(entry)
 
     # Manual fixtures (app/manual_events.json): hand-added matches
     # the free sources miss (e.g. a tri-series TheSportsDB does not
@@ -993,6 +1119,7 @@ def main():
         per_sport[ev["sport"]] = per_sport.get(ev["sport"], 0) + 1
     mapped = sum(1 for ev in out_events if ev["channel"])
     multi = sum(1 for ev in out_events if len(ev["channels"]) >= 2)
+    with_free = sum(1 for ev in out_events if ev.get("freeUrls"))
     in_pass = {"A": 0, "B": 0}
     for ev in events:
         if ev.get("mpass") in in_pass:
@@ -1000,9 +1127,9 @@ def main():
     print("Wrote %s" % OUTPUT_PATH)
     print("  total: %d event(s); with channel: %d "
           "(pass A: %d, pass B: %d); unmapped: %d; "
-          "with 2+ channels: %d"
+          "with 2+ channels: %d; with free fallback: %d"
           % (len(out_events), mapped, in_pass["A"], in_pass["B"],
-             len(out_events) - mapped, multi))
+             len(out_events) - mapped, multi, with_free))
     for sport in sorted(per_sport):
         print("    %s: %d" % (sport, per_sport[sport]))
     return 0
