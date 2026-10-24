@@ -475,6 +475,28 @@ def load_channel_names(app_dir):
     return by_key
 
 
+def load_app_channel_keys(app_dir):
+    """norm_keys of channels carried by the APP's own playlists
+    (app/*.m3u only — NOT the corpus-only data/ lists). Mapping
+    prefers these for the primary slot: a corpus-only name (e.g.
+    an iptv-org index channel the app never loads) renders greyed
+    in the app and its card tap dead-ends, so it must not headline
+    an event when an app-carried channel also covers it."""
+    keys = set()
+    for path in sorted(app_dir.glob("*.m3u"),
+                       key=lambda p: p.name.lower()):
+        text = path.read_text(encoding="utf-8", errors="replace")
+        for raw in text.splitlines():
+            line = raw.strip()
+            if line.startswith("#EXTINF"):
+                name = line.rsplit(",", 1)[-1].strip() \
+                    if "," in line else ""
+                cleaned = clean_name(name)
+                if cleaned:
+                    keys.add(norm_key(cleaned))
+    return keys
+
+
 def load_channel_health(app_dir):
     """norm_key(cleaned name) -> True when the channel has at least
     one stream the Auto Update robot's latest probe did NOT prove
@@ -758,7 +780,7 @@ def _pass_b(ev, by_key):
 MAX_CHANNELS = 5
 
 
-def map_channels(ev, by_key, index, health=None):
+def map_channels(ev, by_key, index, health=None, app_keys=None):
     """Returns (channels, pass) — up to MAX_CHANNELS verified
     channel names in priority order: every dedicated-channel
     match (pass A) first, then the broadcaster table's entries
@@ -780,10 +802,14 @@ def map_channels(ev, by_key, index, health=None):
     for hit in a_hits + b_hits:
         if hit not in channels:
             channels.append(hit)
-    if health:
-        alive = [c for c in channels if health.get(norm_key(c), True)]
-        dead = [c for c in channels if not health.get(norm_key(c), True)]
-        channels = alive + dead
+    if health or app_keys:
+        def rank(c):
+            corpus_only = 1 if (app_keys is not None
+                                and norm_key(c) not in app_keys) else 0
+            all_dead = 0 if (not health
+                             or health.get(norm_key(c), True)) else 1
+            return (corpus_only, all_dead)
+        channels = sorted(channels, key=rank)  # stable: A/B order kept
     channels = channels[:MAX_CHANNELS]
     if a_hits:
         primary = "A"
@@ -851,6 +877,9 @@ def main():
               % (sum(1 for v in health.values() if v),
                  sum(1 for v in health.values() if not v)),
               flush=True)
+    app_keys = load_app_channel_keys(APP_DIR)
+    print("  %d channel(s) carried by the app's own playlists"
+          % len(app_keys), flush=True)
 
     # Attach flags + channel, then dedupe across sources.
     best = {}
@@ -860,7 +889,7 @@ def main():
         ev["flagA"] = flag_for(ev["teamA"], ev["badgeA"])
         ev["flagB"] = flag_for(ev["teamB"], ev["badgeB"])
         ev["channels"], ev["mpass"] = map_channels(ev, by_key, index,
-                                                  health)
+                                                  health, app_keys)
         ev["channel"] = ev["channels"][0] if ev["channels"] else ""
         key = (ev["sport"], _team_key(ev["teamA"]),
                _team_key(ev["teamB"]), ev["start"].strftime("%Y-%m-%d"))
