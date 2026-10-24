@@ -475,6 +475,59 @@ def load_channel_names(app_dir):
     return by_key
 
 
+def load_channel_health(app_dir):
+    """norm_key(cleaned name) -> True when the channel has at least
+    one stream the Auto Update robot's latest probe did NOT prove
+    dead, False when EVERY stream it carries probed dead.
+
+    Reads app/playlist_status.json (written by refresh_playlists.py
+    earlier in the same run) for the dead-URL set, then walks the
+    same corpus files as load_channel_names collecting each
+    channel's URLs. A URL counts as dead only when the probe put it
+    on a dead list — 'unknown'/'restricted'/unprobed URLs keep the
+    channel healthy, because the runner's view is not the viewer's:
+    this only demotes channels the probe positively killed on every
+    server. Any failure (no status file, malformed JSON) yields {}
+    — every channel counts as healthy and mapping is unchanged."""
+    try:
+        status = json.loads((app_dir / "playlist_status.json")
+                            .read_text(encoding="utf-8"))
+        dead_urls = set()
+        for info in (status.get("sources") or {}).values():
+            if not isinstance(info, dict):
+                continue
+            dead = info.get("dead")
+            if isinstance(dead, list):
+                for entry in dead:
+                    if isinstance(entry, dict) and entry.get("url"):
+                        dead_urls.add(entry["url"].strip())
+        if not dead_urls:
+            return {}
+        urls_by_key = {}
+        paths = list(app_dir.glob("*.m3u"))
+        data_dir = app_dir.parent / "data"
+        if data_dir.is_dir():
+            paths += list(data_dir.glob("*.m3u"))
+        for path in sorted(paths, key=lambda p: p.name.lower()):
+            text = path.read_text(encoding="utf-8", errors="replace")
+            pending = None
+            for raw in text.splitlines():
+                line = raw.strip()
+                if line.startswith("#EXTINF"):
+                    name = line.rsplit(",", 1)[-1].strip() \
+                        if "," in line else ""
+                    cleaned = clean_name(name)
+                    pending = norm_key(cleaned) if cleaned else None
+                elif line and not line.startswith("#"):
+                    if pending:
+                        urls_by_key.setdefault(pending, []).append(line)
+                    pending = None
+        return {key: any(u not in dead_urls for u in urls)
+                for key, urls in urls_by_key.items() if urls}
+    except Exception:  # noqa: BLE001 — health is best-effort
+        return {}
+
+
 def _tokens(text):
     """Word tokens of a name (emoji / punctuation dropped)."""
     return set(re.findall(r"[a-z0-9]+", norm_key(text)))
@@ -650,12 +703,12 @@ BROADCASTER_RULES = (
       "BEIN Sports 1")),
     ({"Football"}, ("la liga", "laliga"), (),
      ("BEIN Sports 1", "BEIN SPORTS 2 HD")),
-    ({"Football"}, ("serie a",), (),
+    ({"Football"}, ("italian serie a",), (),
      ("BEIN Sports 1", "BEIN SPORTS 2 HD")),
-    ({"Football"}, ("bundesliga",), (),
+    ({"Football"}, ("german bundesliga",), (),
      ("Sony Ten Sports 2 HD", "Sony Ten 2 HD", "Sony Sports Ten 2",
       "BEIN Sports 1")),
-    ({"Football"}, ("ligue 1",), (),
+    ({"Football"}, ("french ligue 1",), (),
      ("BEIN Sports 1", "BEIN SPORTS 2 HD")),
     ({"Football"}, ("fa cup",), (),
      ("Sony Ten Sports 1 HD", "Sony Ten 1 HD")),
@@ -705,19 +758,32 @@ def _pass_b(ev, by_key):
 MAX_CHANNELS = 5
 
 
-def map_channels(ev, by_key, index):
+def map_channels(ev, by_key, index, health=None):
     """Returns (channels, pass) — up to MAX_CHANNELS verified
     channel names in priority order: every dedicated-channel
     match (pass A) first, then the broadcaster table's entries
     (pass B), deduplicated. pass is "A" when any dedicated
     channel matched, else "B" when the table matched, else ""
-    (unmapped)."""
+    (unmapped).
+
+    When [health] (from load_channel_health) is given, the
+    ordered list is stable-partitioned so channels with at least
+    one not-proven-dead stream come before channels whose every
+    stream the probe killed — a dead flagship (e.g. a Select
+    channel whose only server 404s) must not headline an event
+    while a working alternative sits in the chips. All-dead
+    channels are demoted, never dropped: the probe runs from a
+    foreign network, so its verdict is a hint, not a sentence."""
     a_hits = _pass_a(ev, index)
     b_hits = _pass_b(ev, by_key)
     channels = []
     for hit in a_hits + b_hits:
         if hit not in channels:
             channels.append(hit)
+    if health:
+        alive = [c for c in channels if health.get(norm_key(c), True)]
+        dead = [c for c in channels if not health.get(norm_key(c), True)]
+        channels = alive + dead
     channels = channels[:MAX_CHANNELS]
     if a_hits:
         primary = "A"
@@ -778,6 +844,13 @@ def main():
     index = build_channel_index(by_key)
     print("  %d channel name(s) in the merged playlists"
           % len(by_key), flush=True)
+    health = load_channel_health(APP_DIR)
+    if health:
+        print("  probe health: %d channel(s) with a live server, "
+              "%d all-dead (demoted in mapping)"
+              % (sum(1 for v in health.values() if v),
+                 sum(1 for v in health.values() if not v)),
+              flush=True)
 
     # Attach flags + channel, then dedupe across sources.
     best = {}
@@ -786,7 +859,8 @@ def main():
             continue
         ev["flagA"] = flag_for(ev["teamA"], ev["badgeA"])
         ev["flagB"] = flag_for(ev["teamB"], ev["badgeB"])
-        ev["channels"], ev["mpass"] = map_channels(ev, by_key, index)
+        ev["channels"], ev["mpass"] = map_channels(ev, by_key, index,
+                                                  health)
         ev["channel"] = ev["channels"][0] if ev["channels"] else ""
         key = (ev["sport"], _team_key(ev["teamA"]),
                _team_key(ev["teamB"]), ev["start"].strftime("%Y-%m-%d"))
