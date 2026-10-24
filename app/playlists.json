@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T01:12:50Z",
+  "updatedAt": "2026-10-24T04:59:39Z",
   "playlists": [
     {
       "name": "akash all player",
@@ -29,6 +29,12 @@
       "name": "BDlivetv",
       "file": "app/BDlivetv.m3u",
       "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/BDlivetv.m3u",
+      "tier": "free"
+    },
+    {
+      "name": "BDLiveTV all2",
+      "file": "app/BDLiveTV all2.m3u",
+      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/BDLiveTV all2.m3u",
       "tier": "free"
     },
     {
@@ -77,12 +83,6 @@
       "name": "LiveTV Favorites 1",
       "file": "app/LiveTV_Favorites_1.m3u",
       "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/LiveTV_Favorites_1.m3u",
-      "tier": "free"
-    },
-    {
-      "name": "mpd.Zee5",
-      "file": "app/mpd.Zee5.m3u",
-      "url": "https://raw.githubusercontent.com/ryhanfxbd/ryhanfxbd/main/app/mpd.Zee5.m3u",
       "tier": "free"
     },
     {

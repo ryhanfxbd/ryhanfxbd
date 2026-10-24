@@ -925,7 +925,7 @@
       "channel": "STAR SPORTS 1 HD",
       "channels": [
         "STAR SPORTS 1 HD",
-        "T SPORTS",
+        "T Sports",
         "PTV Sports HD"
       ],
       "flagA": "🇿🇦",
@@ -1031,5 +1031,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-10-24T01:13:58Z"
+  "updatedAt": "2026-10-24T05:00:51Z"
 }
