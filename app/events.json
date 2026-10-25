@@ -362,7 +362,7 @@
       "id": "colorado-springs-switchbacks-fc-tulsa-2026-10-25",
       "league": "American USL Championship",
       "sport": "Football",
-      "startUtc": "2026-10-25T02:00:00Z",
+      "startUtc": "2026-10-25T00:00:00Z",
       "teamA": "Colorado Springs Switchbacks",
       "teamB": "FC Tulsa"
     },
@@ -374,7 +374,7 @@
       "id": "el-paso-locomotive-new-mexico-united-2026-10-25",
       "league": "American USL Championship",
       "sport": "Football",
-      "startUtc": "2026-10-25T02:00:00Z",
+      "startUtc": "2026-10-25T00:00:00Z",
       "teamA": "El Paso Locomotive",
       "teamB": "New Mexico United"
     },
@@ -1027,5 +1027,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-10-25T00:24:57Z"
+  "updatedAt": "2026-10-25T06:32:50Z"
 }
