@@ -440,22 +440,6 @@
       "teamB": "Estudiantes de La Plata"
     },
     {
-      "channel": "STAR SPORTS 1 HD",
-      "channels": [
-        "STAR SPORTS 1 HD",
-        "T Sports",
-        "PTV Sports HD"
-      ],
-      "flagA": "🇿🇦",
-      "flagB": "🇦🇺",
-      "id": "south-africa-australia-2026-10-27",
-      "league": "ICC World Test Championship",
-      "sport": "Cricket",
-      "startUtc": "2026-10-27T00:00:00Z",
-      "teamA": "South Africa",
-      "teamB": "Australia"
-    },
-    {
       "channel": "",
       "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/jup59w1578825794.png",
@@ -480,6 +464,22 @@
       "startUtc": "2026-10-27T07:00:00Z",
       "teamA": "New Zealand",
       "teamB": "India"
+    },
+    {
+      "channel": "STAR SPORTS 1 HD",
+      "channels": [
+        "STAR SPORTS 1 HD",
+        "T Sports",
+        "PTV Sports HD"
+      ],
+      "flagA": "🇿🇦",
+      "flagB": "🇦🇺",
+      "id": "south-africa-australia-2026-10-27",
+      "league": "ICC World Test Championship",
+      "sport": "Cricket",
+      "startUtc": "2026-10-27T08:00:00Z",
+      "teamA": "South Africa",
+      "teamB": "Australia"
     },
     {
       "channel": "Bein Sports 1",
@@ -737,5 +737,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-10-26T06:40:30Z"
+  "updatedAt": "2026-10-26T14:33:13Z"
 }
