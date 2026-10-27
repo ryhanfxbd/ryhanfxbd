@@ -809,14 +809,14 @@ def _pass_a(ev, index):
 BROADCASTER_RULES = (
     # --- Cricket ---
     ({"Cricket"}, (), ("bangladesh",),
-     ("Gazi TV", "T Sports", "Nagorik TV", "T Sports HD",
-      "Gazi TV HD")),
+     ("Gazi TV", "T Sports", "T Sports 2", "Nagorik TV",
+      "T Sports HD", "Gazi TV HD")),
     ({"Cricket"}, ("indian premier league",), (),
      ("Star Sports 1 HD", "Star Sports 2 HD")),
     ({"Cricket"}, ("pakistan super league",), (),
      ("A Sports HD", "PTV Sports HD", "A Sports", "PTV Sports")),
     ({"Cricket"}, ("bangladesh premier league",), (),
-     ("Gazi TV", "T Sports", "Nagorik TV")),
+     ("Gazi TV", "T Sports", "T Sports 2", "Nagorik TV")),
     ({"Cricket"}, (), ("pakistan",),
      ("PTV Sports HD", "PTV Sports")),
     ({"Cricket"}, ("asia cup",), (),

@@ -137,38 +137,14 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/u7liuv1731823246.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/zt02cf1689793480.png",
-      "id": "simal-araz-naxcvan-2026-10-27",
-      "league": "Azerbaijan Cup",
-      "sport": "Football",
-      "startUtc": "2026-10-27T10:00:00Z",
-      "teamA": "Şi̇mal",
-      "teamB": "Araz-Naxçıvan"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/o9z6eq1589558557.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/2axjch1578239819.png",
-      "id": "daejeon-hana-citizen-vissel-kobe-2026-10-27",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/8cq3lk1752771555.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/fmn4hj1582396491.png",
+      "id": "johor-darul-ta-zim-port-2026-10-27",
       "league": "AFC Champions League Elite",
       "sport": "Football",
       "startUtc": "2026-10-27T10:00:00Z",
-      "teamA": "Daejeon Hana Citizen",
-      "teamB": "Vissel Kobe"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/5akmlf1590070888.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/5jevk91653487832.png",
-      "id": "kyoto-sanga-newcastle-jets-2026-10-27",
-      "league": "AFC Champions League Elite",
-      "sport": "Football",
-      "startUtc": "2026-10-27T10:00:00Z",
-      "teamA": "Kyoto Sanga",
-      "teamB": "Newcastle Jets"
+      "teamA": "Johor Darul Ta'zim",
+      "teamB": "Port"
     },
     {
       "channel": "",
@@ -185,14 +161,26 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/8cq3lk1752771555.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/fmn4hj1582396491.png",
-      "id": "johor-darul-ta-zim-port-2026-10-27",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/f9x28m1756835798.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/d46tgg1714571615.png",
+      "id": "agr-1970-istanbulspor-2026-10-27",
+      "league": "Turkish Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T10:00:00Z",
+      "teamA": "Ağrı 1970",
+      "teamB": "İstanbulspor"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/o9z6eq1589558557.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/2axjch1578239819.png",
+      "id": "daejeon-hana-citizen-vissel-kobe-2026-10-27",
       "league": "AFC Champions League Elite",
       "sport": "Football",
       "startUtc": "2026-10-27T10:00:00Z",
-      "teamA": "Johor Darul Ta'zim",
-      "teamB": "Port"
+      "teamA": "Daejeon Hana Citizen",
+      "teamB": "Vissel Kobe"
     },
     {
       "channel": "",
@@ -209,18 +197,6 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/f9x28m1756835798.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/d46tgg1714571615.png",
-      "id": "agr-1970-istanbulspor-2026-10-27",
-      "league": "Turkish Cup",
-      "sport": "Football",
-      "startUtc": "2026-10-27T10:00:00Z",
-      "teamA": "Ağrı 1970",
-      "teamB": "İstanbulspor"
-    },
-    {
-      "channel": "",
-      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/qb7l011791841954.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/mhha7m1614284714.png",
       "id": "marafon-zaqatala-2026-10-27",
@@ -233,14 +209,26 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/vgxccm1685994885.png",
-      "flagB": "https://www.thesportsdb.com/images/media/team/badge/0mlv791792770857.png",
-      "id": "pazarspor-aliaga-2026-10-27",
-      "league": "Turkish Cup",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/u7liuv1731823246.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/zt02cf1689793480.png",
+      "id": "simal-araz-naxcvan-2026-10-27",
+      "league": "Azerbaijan Cup",
       "sport": "Football",
-      "startUtc": "2026-10-27T10:30:00Z",
-      "teamA": "Pazarspor",
-      "teamB": "Aliağa"
+      "startUtc": "2026-10-27T10:00:00Z",
+      "teamA": "Şi̇mal",
+      "teamB": "Araz-Naxçıvan"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/5akmlf1590070888.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/5jevk91653487832.png",
+      "id": "kyoto-sanga-newcastle-jets-2026-10-27",
+      "league": "AFC Champions League Elite",
+      "sport": "Football",
+      "startUtc": "2026-10-27T10:00:00Z",
+      "teamA": "Kyoto Sanga",
+      "teamB": "Newcastle Jets"
     },
     {
       "channel": "",
@@ -253,6 +241,18 @@
       "startUtc": "2026-10-27T10:30:00Z",
       "teamA": "Sardor Tursunzoda",
       "teamB": "Istaravshan"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/vgxccm1685994885.png",
+      "flagB": "https://www.thesportsdb.com/images/media/team/badge/0mlv791792770857.png",
+      "id": "pazarspor-aliaga-2026-10-27",
+      "league": "Turkish Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T10:30:00Z",
+      "teamA": "Pazarspor",
+      "teamB": "Aliağa"
     },
     {
       "channel": "",
@@ -367,9 +367,9 @@
       "channels": [
         "Gazi TV",
         "T Sports",
+        "T Sports 2",
         "Nagorik TV",
-        "Gazi TV HD",
-        "STAR SPORTS 1 HD"
+        "Gazi TV HD"
       ],
       "flagA": "🇧🇩",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/1x0a681646775209.png",
@@ -696,5 +696,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-10-27T11:02:45Z"
+  "updatedAt": "2026-10-27T11:07:39Z"
 }
