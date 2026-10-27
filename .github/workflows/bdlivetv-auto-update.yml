@@ -14,6 +14,8 @@ permissions:
 jobs:
   refresh-playlists:
     runs-on: ubuntu-latest
+    env:
+      CRICAPI_KEY: ${{ secrets.CRICAPI_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
