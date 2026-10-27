@@ -1,0 +1,73 @@
+name: Sports Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-sports-matches:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch football matches and write sports_matches.json
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, os, sys, urllib.request
+          from datetime import datetime, timedelta, timezone
+
+          token = os.environ.get("FOOTBALL_DATA_API_KEY", "").strip()
+          if not token:
+              print("FOOTBALL_DATA_API_KEY secret is not set; skipping.")
+              sys.exit(0)
+
+          now = datetime.now(timezone.utc)
+          date_from = now.strftime("%Y-%m-%d")
+          date_to = (now + timedelta(days=2)).strftime("%Y-%m-%d")
+          url = "https://api.football-data.org/v4/matches?dateFrom=%s&dateTo=%s" % (date_from, date_to)
+          req = urllib.request.Request(url, headers={"X-Auth-Token": token, "User-Agent": "BDLiveTV-Sports-Data"})
+          with urllib.request.urlopen(req, timeout=30) as resp:
+              payload = json.loads(resp.read().decode("utf-8"))
+
+          matches = []
+          for m in payload.get("matches") or []:
+              matches.append({
+                  "id": m.get("id"),
+                  "status": m.get("status"),
+                  "competition": (m.get("competition") or {}).get("name"),
+                  "startTime": m.get("utcDate"),
+                  "homeTeam": (m.get("homeTeam") or {}).get("name"),
+                  "awayTeam": (m.get("awayTeam") or {}).get("name"),
+              })
+
+          out = {
+              "source": "football-data.org",
+              "updatedAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+              "count": len(matches),
+              "matches": matches,
+          }
+          text = json.dumps(out, ensure_ascii=False, indent=2)
+          json.loads(text)
+          with open("sports_matches.json", "w", encoding="utf-8") as fh:
+              fh.write(text + "\n")
+          print("Wrote sports_matches.json with", len(matches), "match(es)")
+          PY
+
+      - name: Commit sports_matches.json if changed
+        run: |
+          if [ -f sports_matches.json ]; then
+            git config user.name "BD LIVE TV Sports Data"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add sports_matches.json
+            git diff --cached --quiet || git commit -m "Sports Data: update sports_matches.json $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          else
+            echo "No sports_matches.json to commit"
+          fi
