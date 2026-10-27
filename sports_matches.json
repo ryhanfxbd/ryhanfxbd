@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-27T20:25:54Z",
+  "updatedAt": "2026-10-27T21:23:05Z",
   "count": 11,
   "matches": [
     {
@@ -28,12 +28,12 @@
       "awayTeam": "Como 1907"
     },
     {
-      "id": 558553,
+      "id": 558549,
       "status": "TIMED",
       "competition": "Serie A",
       "startTime": "2026-10-28T17:30:00Z",
-      "homeTeam": "Parma Calcio 1913",
-      "awayTeam": "Udinese Calcio"
+      "homeTeam": "AC Milan",
+      "awayTeam": "Bologna FC 1909"
     },
     {
       "id": 558550,
@@ -44,12 +44,12 @@
       "awayTeam": "FC Internazionale Milano"
     },
     {
-      "id": 558549,
+      "id": 558553,
       "status": "TIMED",
       "competition": "Serie A",
       "startTime": "2026-10-28T17:30:00Z",
-      "homeTeam": "AC Milan",
-      "awayTeam": "Bologna FC 1909"
+      "homeTeam": "Parma Calcio 1913",
+      "awayTeam": "Udinese Calcio"
     },
     {
       "id": 558554,
@@ -68,6 +68,14 @@
       "awayTeam": "Juventus FC"
     },
     {
+      "id": 555065,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-10-28T22:30:00Z",
+      "homeTeam": "Fluminense FC",
+      "awayTeam": "SC Internacional"
+    },
+    {
       "id": 555068,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
@@ -82,14 +90,6 @@
       "startTime": "2026-10-28T22:30:00Z",
       "homeTeam": "RB Bragantino",
       "awayTeam": "Chapecoense AF"
-    },
-    {
-      "id": 555065,
-      "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-10-28T22:30:00Z",
-      "homeTeam": "Fluminense FC",
-      "awayTeam": "SC Internacional"
     }
   ]
 }
