@@ -545,6 +545,119 @@ def fetch_cricapi(days):
 
 
 # ---------------------------------------------------------------------------
+# Source 4 — sports_matches.json: football fixtures written hourly
+# by the separate Sports Data workflow (football-data.org) into the
+# repo root. Read from the local checkout only — no network call.
+# Any problem with the file skips this source; the other sources
+# are unaffected.
+# ---------------------------------------------------------------------------
+
+_FD_ALIASES = {
+    "FC Internazionale Milano": "Internazionale",
+    "AS Roma": "AS Roma",
+    "AC Milan": "AC Milan",
+    "SSC Napoli": "Napoli",
+    "Club Atlético de Madrid": "Atlético Madrid",
+    "Paris Saint-Germain FC": "Paris Saint-Germain",
+    "Olympique de Marseille": "Marseille",
+    "Olympique Lyonnais": "Lyon",
+    "Sporting Clube de Portugal": "Sporting CP",
+    "RCD Espanyol de Barcelona": "Espanyol",
+    "FC Bayern München": "Bayern Munich",
+    "TSG 1899 Hoffenheim": "TSG Hoffenheim",
+}
+
+_FD_PREFIXES = ("FC ", "AFC ", "AS ", "SS ", "US ", "AC ", "SC ",
+                "RCD ", "UD ", "SL ", "SSC ", "RB ", "SE ")
+
+
+def _fd_clean(name):
+    """football-data.org team name -> ESPN-style short name, so the
+    cross-source dedupe collapses the same fixture into one event."""
+    name = (name or "").strip()
+    if name in _FD_ALIASES:
+        return _FD_ALIASES[name]
+    for prefix in _FD_PREFIXES:
+        if name.startswith(prefix):
+            name = name[len(prefix):].strip()
+            break
+    # Trailing filler, in order: country/league suffixes, club
+    # suffixes, then a trailing year (e.g. "Parma Calcio 1913"
+    # needs the year gone before "Calcio" becomes trailing).
+    changed = True
+    while changed:
+        changed = False
+        for suffix in (" de Fútbol", " de Futbol"):
+            if name.endswith(suffix):
+                name = name[:-len(suffix)]
+                changed = True
+                break
+        if name.endswith(" Calcio"):
+            name = name[:-len(" Calcio")]
+            changed = True
+        for suffix in (" FC", " CF", " SC", " CFC", " AF"):
+            if name.endswith(suffix):
+                name = name[:-len(suffix)]
+                changed = True
+                break
+        stripped = re.sub(r"\s+\d{4}$", "", name)
+        if stripped != name:
+            name = stripped
+            changed = True
+    return name.strip()
+
+
+def fetch_sports_matches(days):
+    try:
+        with open(REPO_ROOT / "sports_matches.json",
+                  encoding="utf-8") as fh:
+            data = json.load(fh)
+        if (not isinstance(data, dict)
+                or not isinstance(data.get("matches"), list)):
+            raise ValueError("unexpected shape")
+    except FileNotFoundError:
+        print("  SportsMatches: skipped (missing file)", flush=True)
+        return [], 0
+    except json.JSONDecodeError as e:
+        print("  SportsMatches: skipped (invalid JSON: %s)" % e,
+              flush=True)
+        return [], 0
+    except Exception as e:  # noqa: BLE001
+        print("  SportsMatches: skipped (%s)" % e, flush=True)
+        return [], 0
+    out = []
+    for m in data["matches"]:
+        if not isinstance(m, dict):
+            continue
+        home_raw = m.get("homeTeam")
+        away_raw = m.get("awayTeam")
+        if (not isinstance(home_raw, str) or not home_raw.strip()
+                or not isinstance(away_raw, str)
+                or not away_raw.strip()):
+            continue
+        start_raw = m.get("startTime")
+        start = _parse_espn_time(
+            start_raw if isinstance(start_raw, str) else "")
+        if start is None:
+            continue
+        league = m.get("competition")
+        out.append({
+            "sport": "Football",
+            "league": league.strip() if isinstance(league, str)
+                      else "",
+            "teamA": _fd_clean(home_raw),
+            "teamB": _fd_clean(away_raw),
+            "start": start,
+            "badgeA": "",
+            "badgeB": "",
+            "source": "sportsdata",
+        })
+    print("  SportsMatches: %d usable response(s), %d raw event(s)"
+          % (1, len(out)), flush=True)
+    return out, 1
+
+
+# ---------------------------------------------------------------------------
 # Channel mapping — collected from the playlists themselves.
 #
 # A channel may only be attached when it EXISTS in app/*.m3u (the
@@ -1091,7 +1204,8 @@ def main():
 
     raw = []
     sources_ok = 0
-    for fetcher in (fetch_tsdb, fetch_espn, fetch_cricapi):
+    for fetcher in (fetch_tsdb, fetch_espn, fetch_cricapi,
+                    fetch_sports_matches):
         try:
             events, ok = fetcher(days)
         except Exception as e:  # noqa: BLE001
