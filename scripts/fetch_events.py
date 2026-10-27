@@ -321,6 +321,47 @@ def _team_key(name):
     return key
 
 
+# Canonical ids for clubs whose name FORM differs between sources
+# (ESPN "Internazionale" vs TSDB "Inter Milan" vs football-data
+# "Inter"). Keys are _team_key() outputs; anything unlisted
+# canonicalizes to its own team key.
+_TEAM_CANON = {
+    "as roma": "roma",
+    "roma": "roma",
+    "internazionale": "inter",
+    "inter milan": "inter",
+    "inter": "inter",
+    "ac milan": "milan",
+    "milan": "milan",
+    "ssc napoli": "napoli",
+    "napoli": "napoli",
+    "genoa cfc": "genoa",
+    "genoa": "genoa",
+    "se palmeiras": "palmeiras",
+    "palmeiras": "palmeiras",
+    "rb bragantino": "bragantino",
+    "bragantino": "bragantino",
+    "chapecoense af": "chapecoense",
+    "chapecoense": "chapecoense",
+}
+
+
+def _canon_team(name):
+    """Canonical team id for duplicate matching across sources."""
+    key = _team_key(name)
+    return _TEAM_CANON.get(key, key)
+
+
+def _league_compatible(a, b):
+    """True when two league labels can describe the same
+    competition: either empty, equal after normalization, or one
+    a substring of the other ("serie a" in "italian serie a")."""
+    la, lb = norm_key(a), norm_key(b)
+    if not la or not lb:
+        return True
+    return la == lb or la in lb or lb in la
+
+
 # ---------------------------------------------------------------------------
 # Source 1 — TheSportsDB
 # ---------------------------------------------------------------------------
@@ -1190,6 +1231,77 @@ def _priority(ev):
     return score
 
 
+def _dedupe_rank(ev):
+    return (_priority(ev), 1 if ev["source"] == "tsdb" else 0)
+
+
+def merge_duplicates(events):
+    """Collapse duplicate fixtures across sources.
+
+    Stage 1 is the historical exact grouping (sport, normalized
+    team names, UTC date). Stage 2 merges stage-1 winners whose
+    CANONICAL teams match as an unordered pair on the same UTC
+    date, with kickoffs within 2 hours and compatible league
+    labels — this catches name-form differences (Internazionale /
+    Inter Milan / Inter) and reversed home/away listings without
+    ever merging fixtures from different dates. The winner keeps
+    its own fields and orientation.
+
+    Events without a kickoff time never take part in merging at
+    all — without a time there is nothing safe to match on.
+    """
+    timed = [ev for ev in events if ev.get("start")]
+    untimed = [ev for ev in events if not ev.get("start")]
+    best = {}
+    for ev in timed:
+        key = (ev["sport"], _team_key(ev["teamA"]),
+               _team_key(ev["teamB"]), ev["start"].strftime("%Y-%m-%d"))
+        rank = _dedupe_rank(ev)
+        if key not in best or rank > best[key][0]:
+            best[key] = (rank, ev)
+    winners = [ev for _rank, ev in best.values()]
+    winners.sort(key=lambda e: (e["sport"], e["teamA"], e["teamB"],
+                                e["start"]))
+
+    kept = []
+    merged_pairs = 0
+    for ev in winners:
+        canon = {_canon_team(ev["teamA"]), _canon_team(ev["teamB"])}
+        match_at = None
+        for i, other in enumerate(kept):
+            if other["sport"] != ev["sport"]:
+                continue
+            if other["start"].date() != ev["start"].date():
+                continue
+            other_canon = {_canon_team(other["teamA"]),
+                           _canon_team(other["teamB"])}
+            if other_canon != canon:
+                continue
+            if abs((other["start"] - ev["start"]).total_seconds()) \
+                    > 2 * 3600:
+                continue
+            if not _league_compatible(other["league"], ev["league"]):
+                continue
+            match_at = i
+            break
+        if match_at is None:
+            kept.append(ev)
+            continue
+        other = kept[match_at]
+        if _dedupe_rank(ev) > _dedupe_rank(other):
+            winner, loser = ev, other
+            kept[match_at] = ev
+        else:
+            winner, loser = other, ev
+        merged_pairs += 1
+        print("  dedupe merged: %s vs %s [%s] into [%s]"
+              % (loser["teamA"], loser["teamB"], loser["source"],
+                 winner["source"]), flush=True)
+    print("  dedupe: %d duplicate pair(s) merged in stage 2"
+          % merged_pairs, flush=True)
+    return kept + untimed
+
+
 def main():
     now = datetime.now(timezone.utc)
     today = now.replace(hour=0, minute=0, second=0, microsecond=0)
@@ -1238,7 +1350,7 @@ def main():
           % len(free_pool), flush=True)
 
     # Attach flags + channel, then dedupe across sources.
-    best = {}
+    prepared = []
     for ev in raw:
         if not (window_start <= ev["start"] < window_end):
             continue
@@ -1247,12 +1359,8 @@ def main():
         ev["channels"], ev["mpass"] = map_channels(ev, by_key, index,
                                                   health, app_keys)
         ev["channel"] = ev["channels"][0] if ev["channels"] else ""
-        key = (ev["sport"], _team_key(ev["teamA"]),
-               _team_key(ev["teamB"]), ev["start"].strftime("%Y-%m-%d"))
-        rank = (_priority(ev), 1 if ev["source"] == "tsdb" else 0)
-        if key not in best or rank > best[key][0]:
-            best[key] = (rank, ev)
-    events = [ev for _rank, ev in best.values()]
+        prepared.append(ev)
+    events = merge_duplicates(prepared)
     print("  %d unique event(s) in window after dedupe" % len(events),
           flush=True)
 
