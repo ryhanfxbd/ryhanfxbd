@@ -113,22 +113,6 @@
       "teamB": "India"
     },
     {
-      "channel": "STAR SPORTS 1 HD",
-      "channels": [
-        "STAR SPORTS 1 HD",
-        "T Sports",
-        "PTV Sports HD"
-      ],
-      "flagA": "🇿🇦",
-      "flagB": "🇦🇺",
-      "id": "south-africa-australia-2026-10-27",
-      "league": "ICC World Test Championship",
-      "sport": "Cricket",
-      "startUtc": "2026-10-27T08:00:00Z",
-      "teamA": "South Africa",
-      "teamB": "Australia"
-    },
-    {
       "channel": "",
       "channels": [],
       "flagA": "🇳🇦",
@@ -158,6 +142,118 @@
       "teamB": "Sri Lanka"
     },
     {
+      "channel": "STAR SPORTS 1 HD",
+      "channels": [
+        "STAR SPORTS 1 HD",
+        "T Sports",
+        "PTV Sports HD"
+      ],
+      "flagA": "🇿🇦",
+      "flagB": "🇦🇺",
+      "id": "south-africa-australia-2026-10-27",
+      "league": "ICC World Test Championship",
+      "sport": "Cricket",
+      "startUtc": "2026-10-27T08:00:00Z",
+      "teamA": "South Africa",
+      "teamB": "Australia"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/x2sniz1787629966.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/f17ilt1727365996.png",
+      "id": "foolad-khuzestan-b-be-sat-kermanshah-2026-10-27",
+      "league": "Iranian Azadegan League",
+      "sport": "Football",
+      "startUtc": "2026-10-27T13:30:00Z",
+      "teamA": "Foolad Khuzestan B",
+      "teamB": "Be'sat Kermanshah"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/wra01k1754609919.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/yu90621724355710.png",
+      "id": "inter-milan-u23-scafatese-2026-10-27",
+      "league": "Italian Serie C Girone C",
+      "sport": "Football",
+      "startUtc": "2026-10-27T13:30:00Z",
+      "teamA": "Inter Milan U23",
+      "teamB": "Scafatese"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/1cluxn1694761982.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/x20iu71737688665.png",
+      "id": "al-tai-jeddah-club-2026-10-27",
+      "league": "Saudi First Division League",
+      "sport": "Football",
+      "startUtc": "2026-10-27T13:45:00Z",
+      "teamA": "Al-Tai",
+      "teamB": "Jeddah Club"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/dtk78w1727367750.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/rxc6ep1585580224.png",
+      "id": "naft-bandar-abbas-mes-rafsanjan-2026-10-27",
+      "league": "Iranian Azadegan League",
+      "sport": "Football",
+      "startUtc": "2026-10-27T14:00:00Z",
+      "teamA": "Naft Bandar Abbas",
+      "teamB": "Mes Rafsanjan"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/uz7slk1689689598.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/kt1mtf1727197974.png",
+      "id": "panserraikos-niki-volos-2026-10-27",
+      "league": "Greek Football Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T14:00:00Z",
+      "teamA": "Panserraikos",
+      "teamB": "Niki Volos"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/dav81l1653224329.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/db1o7v1580055971.png",
+      "id": "sbail-zir-2026-10-27",
+      "league": "Azerbaijan Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T14:00:00Z",
+      "teamA": "Səbail",
+      "teamB": "Zirə"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/de1uaw1729785654.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/xxr6gc1776382874.png",
+      "id": "us-biskra-mc-alger-2026-10-27",
+      "league": "Algerian Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-10-27T14:00:00Z",
+      "teamA": "US Biskra",
+      "teamB": "MC Alger"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/nog9ty1582375530.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/6uarmd1727366122.png",
+      "id": "pars-jonoubi-jam-ario-eslamshahr-2026-10-27",
+      "league": "Iranian Azadegan League",
+      "sport": "Football",
+      "startUtc": "2026-10-27T14:15:00Z",
+      "teamA": "Pars Jonoubi Jam",
+      "teamB": "Ario Eslamshahr"
+    },
+    {
       "channel": "A Sports HD",
       "channels": [
         "A Sports HD"
@@ -170,6 +266,198 @@
       "startUtc": "2026-10-27T14:30:00Z",
       "teamA": "Afghanistan",
       "teamB": "Zimbabwe"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/2x9ixx1579033375.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/3ss1da1594300740.png",
+      "id": "cherno-more-septemvri-sofia-2026-10-27",
+      "league": "Bulgarian First League",
+      "sport": "Football",
+      "startUtc": "2026-10-27T15:00:00Z",
+      "teamA": "Cherno More",
+      "teamB": "Septemvri Sofia"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/i93d561579627760.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ake14u1579347653.png",
+      "id": "fakel-voronezh-akhmat-grozny-2026-10-27",
+      "league": "Russia Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T15:00:00Z",
+      "teamA": "Fakel Voronezh",
+      "teamB": "Akhmat Grozny"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://www.thesportsdb.com/images/media/team/badge/oqs2h11792772341.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/u344y51791651926.png",
+      "id": "kocaelispor-mazdag-fosfatspor-2026-10-27",
+      "league": "Turkish Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T15:00:00Z",
+      "teamA": "Kocaelispor",
+      "teamB": "Mazıdağı Fosfatspor"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/h8jwvd1579003944.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/2jawis1742401717.png",
+      "id": "pyunik-yerevan-ararat-yerevan-2026-10-27",
+      "league": "Armenian Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T15:00:00Z",
+      "teamA": "Pyunik Yerevan",
+      "teamB": "Ararat Yerevan"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/m9kga71579004188.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/6wd8p31742400922.png",
+      "id": "urartu-andranik-2026-10-27",
+      "league": "Armenian Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T15:00:00Z",
+      "teamA": "Urartu",
+      "teamB": "Andranik"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/j4nvuy1677530944.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/qk226f1785174909.png",
+      "id": "al-wehda-al-saqer-2026-10-27",
+      "league": "Saudi First Division League",
+      "sport": "Football",
+      "startUtc": "2026-10-27T15:25:00Z",
+      "teamA": "Al-Wehda",
+      "teamB": "Al-Saqer"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/eaf2vb1785777279.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/bcq8ix1785777516.png",
+      "id": "asteras-tripolis-kifisia-2026-10-27",
+      "league": "Greek Football Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T15:30:00Z",
+      "teamA": "Asteras Tripolis",
+      "teamB": "Kifisia"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/y9h9v01674457975.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/gzy3fw1787594069.png",
+      "id": "express-kataka-2026-10-27",
+      "league": "Ugandan Premier League",
+      "sport": "Football",
+      "startUtc": "2026-10-27T16:00:00Z",
+      "teamA": "Express",
+      "teamB": "Kataka"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/nsdow61769308517.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/o3ovws1741016376.png",
+      "id": "levadia-tallinn-tartu-tammeka-2026-10-27",
+      "league": "Estonian Meistriliiga",
+      "sport": "Football",
+      "startUtc": "2026-10-27T16:00:00Z",
+      "teamA": "Levadia Tallinn",
+      "teamB": "Tartu Tammeka"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/tjdek71752946922.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/q1vzog1614288005.png",
+      "id": "ludogorets-razgrad-ii-dobrudzha-dobrich-2026-10-27",
+      "league": "Bulgarian Second League",
+      "sport": "Football",
+      "startUtc": "2026-10-27T16:00:00Z",
+      "teamA": "Ludogorets Razgrad II",
+      "teamB": "Dobrudzha Dobrich"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/j20glc1615407888.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/0bfuvm1615840685.png",
+      "id": "narva-trans-nomme-united-2026-10-27",
+      "league": "Estonian Meistriliiga",
+      "sport": "Football",
+      "startUtc": "2026-10-27T16:00:00Z",
+      "teamA": "Narva Trans",
+      "teamB": "Nõmme United"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/9gw5y31658759727.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/6mfat21579813003.png",
+      "id": "primorje-rudar-velenje-2026-10-27",
+      "league": "Slovenian 2 SNL",
+      "sport": "Football",
+      "startUtc": "2026-10-27T16:00:00Z",
+      "teamA": "Primorje",
+      "teamB": "Rudar Velenje"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/gh0sjd1625755749.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/u6as761681106836.png",
+      "id": "radomlje-mura-2026-10-27",
+      "league": "Slovenian 1. SNL",
+      "sport": "Football",
+      "startUtc": "2026-10-27T16:00:00Z",
+      "teamA": "Radomlje",
+      "teamB": "Mura"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/k21gkm1617893374.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/tu1o951756536150.png",
+      "id": "shabab-al-ahli-dubai-esteghlal-2026-10-27",
+      "league": "AFC Champions League Elite",
+      "sport": "Football",
+      "startUtc": "2026-10-27T16:00:00Z",
+      "teamA": "Shabab Al-Ahli Dubai",
+      "teamB": "Esteghlal"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/4t4q221579813009.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/tjrpd91725470466.png",
+      "id": "tabor-sezana-slovan-ljubljana-2026-10-27",
+      "league": "Slovenian 2 SNL",
+      "sport": "Football",
+      "startUtc": "2026-10-27T16:00:00Z",
+      "teamA": "Tabor Sežana",
+      "teamB": "Slovan Ljubljana"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/2834fk1764457130.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/h9fub91731038289.png",
+      "id": "yeni-mersin-idmanyurdu-musspor-2026-10-27",
+      "league": "Turkish Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T16:00:00Z",
+      "teamA": "Yeni Mersin İdmanyurdu",
+      "teamB": "Muşspor"
     },
     {
       "channel": "Bein Sports 1",
@@ -591,5 +879,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-10-27T14:31:39Z"
+  "updatedAt": "2026-10-27T16:31:55Z"
 }
