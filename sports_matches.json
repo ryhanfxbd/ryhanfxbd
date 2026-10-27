@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-27T15:36:03Z",
+  "updatedAt": "2026-10-27T16:36:58Z",
   "count": 11,
   "matches": [
     {
@@ -52,14 +52,6 @@
       "awayTeam": "Bologna FC 1909"
     },
     {
-      "id": 558554,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-10-28T19:45:00Z",
-      "homeTeam": "AC Monza",
-      "awayTeam": "SSC Napoli"
-    },
-    {
       "id": 558552,
       "status": "TIMED",
       "competition": "Serie A",
@@ -68,12 +60,12 @@
       "awayTeam": "Juventus FC"
     },
     {
-      "id": 555068,
+      "id": 558554,
       "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-10-28T22:30:00Z",
-      "homeTeam": "Santos FC",
-      "awayTeam": "SE Palmeiras"
+      "competition": "Serie A",
+      "startTime": "2026-10-28T19:45:00Z",
+      "homeTeam": "AC Monza",
+      "awayTeam": "SSC Napoli"
     },
     {
       "id": 555062,
@@ -82,6 +74,14 @@
       "startTime": "2026-10-28T22:30:00Z",
       "homeTeam": "RB Bragantino",
       "awayTeam": "Chapecoense AF"
+    },
+    {
+      "id": 555068,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-10-28T22:30:00Z",
+      "homeTeam": "Santos FC",
+      "awayTeam": "SE Palmeiras"
     },
     {
       "id": 555065,
