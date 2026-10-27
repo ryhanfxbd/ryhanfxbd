@@ -51,6 +51,7 @@ Stdlib only. Runs at the end of the Auto Update refresh
 
 import gzip
 import json
+import os
 import re
 import socket
 import sys
@@ -255,7 +256,9 @@ def _get_json(url, ua):
             return json.loads(raw.decode("utf-8", "replace"))
         except Exception as e:  # noqa: BLE001
             if attempt == 2:
-                print("  fetch failed: %s (%s)" % (url, e), flush=True)
+                safe_url = re.sub(r"apikey=[^&]+", "apikey=***", url)
+                print("  fetch failed: %s (%s)" % (safe_url, e),
+                      flush=True)
                 return None
             time.sleep(1.0)
     return None
@@ -430,6 +433,113 @@ def fetch_espn(days):
                     out.append(parsed)
             time.sleep(0.1)
     print("  ESPN: %d usable response(s), %d raw event(s)"
+          % (ok, len(out)), flush=True)
+    return out, ok
+
+
+# ---------------------------------------------------------------------------
+# Source 3 — CricAPI (CricketData.org): broad international cricket
+# coverage the other two sources miss (e.g. Afghanistan-hosted
+# series). Needs a free API key in the CRICAPI_KEY env var (a
+# GitHub Actions secret); without one the source is skipped.
+# Free plan: 100 hits/day — this fetcher uses at most 4 hits per
+# run (1 series list + up to 3 pages of currentMatches).
+# ---------------------------------------------------------------------------
+
+CRICAPI_BASE = "https://api.cricapi.com/v1"
+
+# Series-name fragments that mark a CricAPI series as major when
+# neither side is a national team (see _cricapi_keep).
+_CRICAPI_MAJOR = ("premier league", "asia cup", "world cup",
+                  "champions trophy", "the ashes", "big bash",
+                  "super league", "championship")
+
+
+def _parse_gmt_time(value):
+    """CricAPI dateTimeGMT is GMT but often carries no offset
+    suffix — treat a suffix-less value as UTC, never local."""
+    value = (value or "").strip()
+    if value and not re.search(r"(Z|[+-]\d{2}:?\d{2})$", value):
+        value += "Z"
+    return _parse_espn_time(value)
+
+
+def _cricapi_event(m, series_names):
+    teams = [t.strip() for t in (m.get("teams") or [])
+             if t and str(t).strip()]
+    if len(teams) < 2:
+        names = [(ti.get("name") or "").strip()
+                 for ti in (m.get("teamInfo") or [])]
+        teams = [n for n in names if n]
+    if len(teams) < 2 or teams[0] == teams[1]:
+        return None
+    start = _parse_gmt_time(m.get("dateTimeGMT") or "")
+    if start is None:
+        return None
+    league = series_names.get(m.get("series_id") or "", "")
+    if not league:
+        league = ((m.get("name") or "").split(",")[0].strip()
+                  or "International Cricket")
+    info = {norm_key(ti.get("name") or ""): ti
+            for ti in (m.get("teamInfo") or [])}
+
+    def badge(team):
+        ti = info.get(norm_key(team)) or {}
+        return (ti.get("img") or "").strip()
+
+    return {
+        "sport": "Cricket",
+        "league": league,
+        "teamA": teams[0],
+        "teamB": teams[1],
+        "start": start,
+        "badgeA": badge(teams[0]),
+        "badgeB": badge(teams[1]),
+        "source": "cricapi",
+    }
+
+
+def _cricapi_keep(ev):
+    """Quality filter: national-team matches always; otherwise
+    only major series — CricAPI's raw feed carries a lot of
+    regional/domestic cricket the Events page does not want."""
+    if (norm_key(ev["teamA"]) in NATIONAL_TOKENS
+            or norm_key(ev["teamB"]) in NATIONAL_TOKENS):
+        return True
+    league = norm_key(ev["league"])
+    return any(h in league
+               for h in _CRICAPI_MAJOR + MAJOR_LEAGUE_HINTS)
+
+
+def fetch_cricapi(days):
+    key = os.environ.get("CRICAPI_KEY", "").strip()
+    if not key:
+        print("  CricAPI: skipped (no CRICAPI_KEY)", flush=True)
+        return [], 0
+    ok = 0
+    series_names = {}
+    data = _get_json("%s/series?apikey=%s&offset=0"
+                     % (CRICAPI_BASE, key), UA_ESPN)
+    if data:
+        ok += 1
+        for s in data.get("data") or []:
+            if s.get("id") and s.get("name"):
+                series_names[s["id"]] = s["name"].strip()
+    out = []
+    for offset in (0, 25, 50):
+        data = _get_json("%s/currentMatches?apikey=%s&offset=%d"
+                         % (CRICAPI_BASE, key, offset), UA_ESPN)
+        if data is None:
+            break
+        ok += 1
+        rows = data.get("data") or []
+        for m in rows:
+            parsed = _cricapi_event(m, series_names)
+            if parsed and _cricapi_keep(parsed):
+                out.append(parsed)
+        if len(rows) < 25:
+            break
+    print("  CricAPI: %d usable response(s), %d raw event(s)"
           % (ok, len(out)), flush=True)
     return out, ok
 
@@ -981,7 +1091,7 @@ def main():
 
     raw = []
     sources_ok = 0
-    for fetcher in (fetch_tsdb, fetch_espn):
+    for fetcher in (fetch_tsdb, fetch_espn, fetch_cricapi):
         try:
             events, ok = fetcher(days)
         except Exception as e:  # noqa: BLE001
