@@ -27,7 +27,9 @@
     {
       "channel": "Bein Sports 1",
       "channels": [
-        "Bein Sports 1"
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
@@ -42,7 +44,8 @@
       "channel": "Bein Sports 1",
       "channels": [
         "Bein Sports 1",
-        "DAZN LaLiga"
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
@@ -108,9 +111,167 @@
       "teamB": "Australia"
     },
     {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/bb3mxq1583010789.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/61ii8h1661354521.png",
+      "id": "pss-sleman-borneo-samarinda-2026-10-27",
+      "league": "Indonesian Super League",
+      "sport": "Football",
+      "startUtc": "2026-10-27T08:30:00Z",
+      "teamA": "PSS Sleman",
+      "teamB": "Borneo Samarinda"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/56pye91786903338.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/wepxxa1755752429.png",
+      "id": "lam-ong-pvf-cand-2026-10-27",
+      "league": "Vietnam V.League 2",
+      "sport": "Football",
+      "startUtc": "2026-10-27T08:30:00Z",
+      "teamA": "Lâm Đồng",
+      "teamB": "PVF-CAND"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/8cq3lk1752771555.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/fmn4hj1582396491.png",
+      "id": "johor-darul-ta-zim-port-2026-10-27",
+      "league": "AFC Champions League Elite",
+      "sport": "Football",
+      "startUtc": "2026-10-27T10:00:00Z",
+      "teamA": "Johor Darul Ta'zim",
+      "teamB": "Port"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/o9z6eq1589558557.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/2axjch1578239819.png",
+      "id": "daejeon-hana-citizen-vissel-kobe-2026-10-27",
+      "league": "AFC Champions League Elite",
+      "sport": "Football",
+      "startUtc": "2026-10-27T10:00:00Z",
+      "teamA": "Daejeon Hana Citizen",
+      "teamB": "Vissel Kobe"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/5akmlf1590070888.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/5jevk91653487832.png",
+      "id": "kyoto-sanga-newcastle-jets-2026-10-27",
+      "league": "AFC Champions League Elite",
+      "sport": "Football",
+      "startUtc": "2026-10-27T10:00:00Z",
+      "teamA": "Kyoto Sanga",
+      "teamB": "Newcastle Jets"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/d9evs91776534441.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/bwld2x1755751111.png",
+      "id": "shanghai-port-cong-an-ha-noi-2026-10-27",
+      "league": "AFC Champions League Elite",
+      "sport": "Football",
+      "startUtc": "2026-10-27T10:00:00Z",
+      "teamA": "Shanghai Port",
+      "teamB": "Công An Hà Nội"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/f9x28m1756835798.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/d46tgg1714571615.png",
+      "id": "agr-1970-istanbulspor-2026-10-27",
+      "league": "Turkish Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T10:00:00Z",
+      "teamA": "Ağrı 1970",
+      "teamB": "İstanbulspor"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/qb7l011791841954.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/mhha7m1614284714.png",
+      "id": "marafon-zaqatala-2026-10-27",
+      "league": "Azerbaijan Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T10:00:00Z",
+      "teamA": "Marafon",
+      "teamB": "Zaqatala"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/u7liuv1731823246.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/zt02cf1689793480.png",
+      "id": "simal-araz-naxcvan-2026-10-27",
+      "league": "Azerbaijan Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T10:00:00Z",
+      "teamA": "Şi̇mal",
+      "teamB": "Araz-Naxçıvan"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/qruhec1757913418.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/edmjvk1786901861.png",
+      "id": "khanh-hoa-aurora-saigon-united-2026-10-27",
+      "league": "Vietnam V.League 2",
+      "sport": "Football",
+      "startUtc": "2026-10-27T10:00:00Z",
+      "teamA": "Khánh Hòa",
+      "teamB": "Aurora Saigon United"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/t2viw71772120345.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/kxvimz1603289837.png",
+      "id": "sardor-tursunzoda-istaravshan-2026-10-27",
+      "league": "Tajikistan Vysshaya Liga",
+      "sport": "Football",
+      "startUtc": "2026-10-27T10:30:00Z",
+      "teamA": "Sardor Tursunzoda",
+      "teamB": "Istaravshan"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/50apl41756835604.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/54j6ik1579458093.png",
+      "id": "etimesgutspor-gaziantep-2026-10-27",
+      "league": "Turkish Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T10:30:00Z",
+      "teamA": "Etimesgutspor",
+      "teamB": "Gaziantep"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://www.thesportsdb.com/images/media/team/badge/p6avst1792771069.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/p55ns11791152942.png",
+      "id": "inegol-kafkasspor-kahramanmaras-istiklalspor-2026-10-27",
+      "league": "Turkish Cup",
+      "sport": "Football",
+      "startUtc": "2026-10-27T10:30:00Z",
+      "teamA": "İnegöl Kafkasspor",
+      "teamB": "Kahramanmaraş İstiklalspor"
+    },
+    {
       "channel": "Bein Sports 1",
       "channels": [
-        "Bein Sports 1"
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
@@ -136,7 +297,9 @@
     {
       "channel": "Bein Sports 1",
       "channels": [
-        "Bein Sports 1"
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
@@ -150,7 +313,9 @@
     {
       "channel": "Bein Sports 1",
       "channels": [
-        "Bein Sports 1"
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
@@ -178,9 +343,9 @@
       "channels": [
         "T Sports",
         "Gazi TV",
+        "Nagorik TV",
         "Gazi TV HD",
-        "STAR SPORTS 1 HD",
-        "PTV Sports HD"
+        "STAR SPORTS 1 HD"
       ],
       "flagA": "🇧🇩",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/1x0a681646775209.png",
@@ -194,7 +359,9 @@
     {
       "channel": "Bein Sports 1",
       "channels": [
-        "Bein Sports 1"
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
@@ -208,7 +375,9 @@
     {
       "channel": "Bein Sports 1",
       "channels": [
-        "Bein Sports 1"
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
@@ -222,7 +391,9 @@
     {
       "channel": "Bein Sports 1",
       "channels": [
-        "Bein Sports 1"
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
@@ -236,7 +407,9 @@
     {
       "channel": "Bein Sports 1",
       "channels": [
-        "Bein Sports 1"
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
@@ -250,7 +423,9 @@
     {
       "channel": "Bein Sports 1",
       "channels": [
-        "Bein Sports 1"
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
@@ -312,7 +487,9 @@
     {
       "channel": "Bein Sports 1",
       "channels": [
-        "Bein Sports 1"
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
@@ -326,7 +503,9 @@
     {
       "channel": "Bein Sports 1",
       "channels": [
-        "Bein Sports 1"
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
@@ -378,7 +557,9 @@
     {
       "channel": "Bein Sports 1",
       "channels": [
-        "Bein Sports 1"
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
@@ -390,12 +571,27 @@
       "teamB": "Paris Saint-Germain"
     },
     {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+      "id": "nice-stade-rennais-2026-10-30",
+      "league": "French Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-10-30T18:00:00Z",
+      "teamA": "Nice",
+      "teamB": "Stade Rennais"
+    },
+    {
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
         "Sony Ten 2 HD",
-        "Bein Sports 1",
-        "Sony Sports Ten 2"
+        "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
@@ -410,7 +606,8 @@
       "channel": "Bein Sports 1",
       "channels": [
         "Bein Sports 1",
-        "DAZN LaLiga"
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
@@ -424,7 +621,9 @@
     {
       "channel": "Bein Sports 1",
       "channels": [
-        "Bein Sports 1"
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
@@ -473,5 +672,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-10-27T08:28:36Z"
+  "updatedAt": "2026-10-27T10:32:16Z"
 }

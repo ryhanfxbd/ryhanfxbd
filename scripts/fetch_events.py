@@ -809,13 +809,14 @@ def _pass_a(ev, index):
 BROADCASTER_RULES = (
     # --- Cricket ---
     ({"Cricket"}, (), ("bangladesh",),
-     ("T Sports", "Gazi TV", "T Sports HD", "Gazi TV HD")),
+     ("T Sports", "Gazi TV", "Nagorik TV", "T Sports HD",
+      "Gazi TV HD")),
     ({"Cricket"}, ("indian premier league",), (),
      ("Star Sports 1 HD", "Star Sports 2 HD")),
     ({"Cricket"}, ("pakistan super league",), (),
      ("A Sports HD", "PTV Sports HD", "A Sports", "PTV Sports")),
     ({"Cricket"}, ("bangladesh premier league",), (),
-     ("T Sports", "Gazi TV")),
+     ("T Sports", "Gazi TV", "Nagorik TV")),
     ({"Cricket"}, (), ("pakistan",),
      ("PTV Sports HD", "PTV Sports")),
     ({"Cricket"}, ("asia cup",), (),
@@ -833,16 +834,19 @@ BROADCASTER_RULES = (
       "Sky Sports", "TNT Sport 1", "BEIN Sports 1")),
     ({"Football"}, ("uefa champions league",), (),
      ("Sony Ten Sports 1 HD", "Sony Ten 1 HD", "Ten Sports",
-      "BEIN Sports 1")),
+      "BEIN Sports 1", "beIN SPORTS XTRA")),
     ({"Football"}, ("la liga", "laliga"), (),
-     ("BEIN Sports 1", "BEIN SPORTS 2 HD")),
+     ("BEIN Sports 1", "BEIN SPORTS 2 HD", "Bein Sports",
+      "beIN SPORTS XTRA")),
     ({"Football"}, ("italian serie a",), (),
-     ("BEIN Sports 1", "BEIN SPORTS 2 HD")),
+     ("BEIN Sports 1", "BEIN SPORTS 2 HD", "Bein Sports",
+      "beIN SPORTS XTRA")),
     ({"Football"}, ("german bundesliga",), (),
      ("Sony Ten Sports 2 HD", "Sony Ten 2 HD", "Sony Sports Ten 2",
       "BEIN Sports 1")),
     ({"Football"}, ("french ligue 1",), (),
-     ("BEIN Sports 1", "BEIN SPORTS 2 HD")),
+     ("BEIN Sports 1", "BEIN SPORTS 2 HD", "Bein Sports",
+      "beIN SPORTS XTRA")),
     ({"Football"}, ("fa cup",), (),
      ("Sony Ten Sports 1 HD", "Sony Ten 1 HD")),
     ({"Football"}, (), ("bangladesh",),
@@ -905,8 +909,10 @@ def map_channels(ev, by_key, index, health=None, app_keys=None):
     stream the probe killed — a dead flagship (e.g. a Select
     channel whose only server 404s) must not headline an event
     while a working alternative sits in the chips. All-dead
-    channels are demoted, never dropped: the probe runs from a
-    foreign network, so its verdict is a hint, not a sentence."""
+    channels are then dropped when any alternative survives;
+    only when every candidate is all-dead is the list kept as
+    mapped (the probe runs from a foreign network, so its
+    verdict is a hint, not a sentence)."""
     a_hits = _pass_a(ev, index)
     b_hits = _pass_b(ev, by_key)
     channels = []
@@ -921,6 +927,18 @@ def map_channels(ev, by_key, index, health=None, app_keys=None):
                              or health.get(norm_key(c), True)) else 1
             return (corpus_only, all_dead)
         channels = sorted(channels, key=rank)  # stable: A/B order kept
+    if health:
+        # Drop channels the probe proved dead on every server
+        # when a not-proven-dead alternative remains — a chip
+        # that cannot play is worse than no chip. When every
+        # candidate is all-dead the list is kept as mapped: the
+        # probe runs from a foreign network, so its verdict is
+        # a hint, and stripping the card's channels entirely
+        # would hide the fixture's nominal carrier for nothing.
+        alive = [c for c in channels
+                 if health.get(norm_key(c), True)]
+        if alive:
+            channels = alive
     channels = channels[:MAX_CHANNELS]
     if a_hits:
         primary = "A"
