@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-27T22:25:43Z",
+  "updatedAt": "2026-10-27T23:19:47Z",
   "count": 11,
   "matches": [
     {
@@ -12,6 +12,14 @@
       "awayTeam": "SS Lazio"
     },
     {
+      "id": 558557,
+      "status": "FINISHED",
+      "competition": "Serie A",
+      "startTime": "2026-10-27T19:45:00Z",
+      "homeTeam": "Torino FC",
+      "awayTeam": "Como 1907"
+    },
+    {
       "id": 558555,
       "status": "FINISHED",
       "competition": "Serie A",
@@ -20,12 +28,12 @@
       "awayTeam": "Cagliari Calcio"
     },
     {
-      "id": 558557,
-      "status": "FINISHED",
+      "id": 558549,
+      "status": "TIMED",
       "competition": "Serie A",
-      "startTime": "2026-10-27T19:45:00Z",
-      "homeTeam": "Torino FC",
-      "awayTeam": "Como 1907"
+      "startTime": "2026-10-28T17:30:00Z",
+      "homeTeam": "AC Milan",
+      "awayTeam": "Bologna FC 1909"
     },
     {
       "id": 558550,
@@ -44,14 +52,6 @@
       "awayTeam": "Udinese Calcio"
     },
     {
-      "id": 558549,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-10-28T17:30:00Z",
-      "homeTeam": "AC Milan",
-      "awayTeam": "Bologna FC 1909"
-    },
-    {
       "id": 558552,
       "status": "TIMED",
       "competition": "Serie A",
@@ -68,6 +68,14 @@
       "awayTeam": "SSC Napoli"
     },
     {
+      "id": 555065,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-10-28T22:30:00Z",
+      "homeTeam": "Fluminense FC",
+      "awayTeam": "SC Internacional"
+    },
+    {
       "id": 555062,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
@@ -82,14 +90,6 @@
       "startTime": "2026-10-28T22:30:00Z",
       "homeTeam": "Santos FC",
       "awayTeam": "SE Palmeiras"
-    },
-    {
-      "id": 555065,
-      "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-10-28T22:30:00Z",
-      "homeTeam": "Fluminense FC",
-      "awayTeam": "SC Internacional"
     }
   ]
 }
