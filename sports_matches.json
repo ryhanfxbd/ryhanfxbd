@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-27T16:36:58Z",
+  "updatedAt": "2026-10-27T17:33:41Z",
   "count": 11,
   "matches": [
     {
@@ -28,6 +28,14 @@
       "awayTeam": "Como 1907"
     },
     {
+      "id": 558549,
+      "status": "TIMED",
+      "competition": "Serie A",
+      "startTime": "2026-10-28T17:30:00Z",
+      "homeTeam": "AC Milan",
+      "awayTeam": "Bologna FC 1909"
+    },
+    {
       "id": 558550,
       "status": "TIMED",
       "competition": "Serie A",
@@ -42,14 +50,6 @@
       "startTime": "2026-10-28T17:30:00Z",
       "homeTeam": "Parma Calcio 1913",
       "awayTeam": "Udinese Calcio"
-    },
-    {
-      "id": 558549,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-10-28T17:30:00Z",
-      "homeTeam": "AC Milan",
-      "awayTeam": "Bologna FC 1909"
     },
     {
       "id": 558552,
@@ -68,6 +68,14 @@
       "awayTeam": "SSC Napoli"
     },
     {
+      "id": 555065,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-10-28T22:30:00Z",
+      "homeTeam": "Fluminense FC",
+      "awayTeam": "SC Internacional"
+    },
+    {
       "id": 555062,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
@@ -82,14 +90,6 @@
       "startTime": "2026-10-28T22:30:00Z",
       "homeTeam": "Santos FC",
       "awayTeam": "SE Palmeiras"
-    },
-    {
-      "id": 555065,
-      "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-10-28T22:30:00Z",
-      "homeTeam": "Fluminense FC",
-      "awayTeam": "SC Internacional"
     }
   ]
 }
