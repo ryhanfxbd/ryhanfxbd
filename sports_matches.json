@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-28T22:26:50Z",
+  "updatedAt": "2026-10-28T23:23:46Z",
   "count": 14,
   "matches": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "id": 555068,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-10-28T22:30:00Z",
       "homeTeam": "Santos FC",
@@ -53,7 +53,7 @@
     },
     {
       "id": 555065,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-10-28T22:30:00Z",
       "homeTeam": "Fluminense FC",
@@ -61,7 +61,7 @@
     },
     {
       "id": 555062,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-10-28T22:30:00Z",
       "homeTeam": "RB Bragantino",
