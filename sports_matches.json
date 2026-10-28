@@ -1,11 +1,19 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-28T17:33:51Z",
+  "updatedAt": "2026-10-28T18:29:34Z",
   "count": 14,
   "matches": [
     {
+      "id": 558550,
+      "status": "IN_PLAY",
+      "competition": "Serie A",
+      "startTime": "2026-10-28T17:30:00Z",
+      "homeTeam": "Venezia FC",
+      "awayTeam": "FC Internazionale Milano"
+    },
+    {
       "id": 558553,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Serie A",
       "startTime": "2026-10-28T17:30:00Z",
       "homeTeam": "Parma Calcio 1913",
@@ -13,27 +21,11 @@
     },
     {
       "id": 558549,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Serie A",
       "startTime": "2026-10-28T17:30:00Z",
       "homeTeam": "AC Milan",
       "awayTeam": "Bologna FC 1909"
-    },
-    {
-      "id": 558550,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-10-28T17:30:00Z",
-      "homeTeam": "Venezia FC",
-      "awayTeam": "FC Internazionale Milano"
-    },
-    {
-      "id": 558552,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-10-28T19:45:00Z",
-      "homeTeam": "Genoa CFC",
-      "awayTeam": "Juventus FC"
     },
     {
       "id": 558554,
@@ -44,20 +36,12 @@
       "awayTeam": "SSC Napoli"
     },
     {
-      "id": 555068,
+      "id": 558552,
       "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-10-28T22:30:00Z",
-      "homeTeam": "Santos FC",
-      "awayTeam": "SE Palmeiras"
-    },
-    {
-      "id": 555065,
-      "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-10-28T22:30:00Z",
-      "homeTeam": "Fluminense FC",
-      "awayTeam": "SC Internacional"
+      "competition": "Serie A",
+      "startTime": "2026-10-28T19:45:00Z",
+      "homeTeam": "Genoa CFC",
+      "awayTeam": "Juventus FC"
     },
     {
       "id": 555062,
@@ -68,12 +52,20 @@
       "awayTeam": "Chapecoense AF"
     },
     {
-      "id": 555061,
+      "id": 555065,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-10-29T00:30:00Z",
-      "homeTeam": "EC Bahia",
-      "awayTeam": "São Paulo FC"
+      "startTime": "2026-10-28T22:30:00Z",
+      "homeTeam": "Fluminense FC",
+      "awayTeam": "SC Internacional"
+    },
+    {
+      "id": 555068,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-10-28T22:30:00Z",
+      "homeTeam": "Santos FC",
+      "awayTeam": "SE Palmeiras"
     },
     {
       "id": 555067,
@@ -82,6 +74,14 @@
       "startTime": "2026-10-29T00:30:00Z",
       "homeTeam": "Clube do Remo",
       "awayTeam": "Botafogo FR"
+    },
+    {
+      "id": 555061,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-10-29T00:30:00Z",
+      "homeTeam": "EC Bahia",
+      "awayTeam": "São Paulo FC"
     },
     {
       "id": 558558,
