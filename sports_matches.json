@@ -1,8 +1,16 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-28T14:41:12Z",
+  "updatedAt": "2026-10-28T15:38:37Z",
   "count": 14,
   "matches": [
+    {
+      "id": 558550,
+      "status": "TIMED",
+      "competition": "Serie A",
+      "startTime": "2026-10-28T17:30:00Z",
+      "homeTeam": "Venezia FC",
+      "awayTeam": "FC Internazionale Milano"
+    },
     {
       "id": 558553,
       "status": "TIMED",
@@ -18,14 +26,6 @@
       "startTime": "2026-10-28T17:30:00Z",
       "homeTeam": "AC Milan",
       "awayTeam": "Bologna FC 1909"
-    },
-    {
-      "id": 558550,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-10-28T17:30:00Z",
-      "homeTeam": "Venezia FC",
-      "awayTeam": "FC Internazionale Milano"
     },
     {
       "id": 558552,
@@ -44,12 +44,12 @@
       "awayTeam": "SSC Napoli"
     },
     {
-      "id": 555065,
+      "id": 555062,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-10-28T22:30:00Z",
-      "homeTeam": "Fluminense FC",
-      "awayTeam": "SC Internacional"
+      "homeTeam": "RB Bragantino",
+      "awayTeam": "Chapecoense AF"
     },
     {
       "id": 555068,
@@ -60,12 +60,12 @@
       "awayTeam": "SE Palmeiras"
     },
     {
-      "id": 555062,
+      "id": 555065,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-10-28T22:30:00Z",
-      "homeTeam": "RB Bragantino",
-      "awayTeam": "Chapecoense AF"
+      "homeTeam": "Fluminense FC",
+      "awayTeam": "SC Internacional"
     },
     {
       "id": 555067,
