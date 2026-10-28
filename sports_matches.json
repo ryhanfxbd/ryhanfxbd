@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-28T06:28:56Z",
+  "updatedAt": "2026-10-28T07:45:58Z",
   "count": 14,
   "matches": [
     {
@@ -28,20 +28,20 @@
       "awayTeam": "FC Internazionale Milano"
     },
     {
-      "id": 558554,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-10-28T19:45:00Z",
-      "homeTeam": "AC Monza",
-      "awayTeam": "SSC Napoli"
-    },
-    {
       "id": 558552,
       "status": "TIMED",
       "competition": "Serie A",
       "startTime": "2026-10-28T19:45:00Z",
       "homeTeam": "Genoa CFC",
       "awayTeam": "Juventus FC"
+    },
+    {
+      "id": 558554,
+      "status": "TIMED",
+      "competition": "Serie A",
+      "startTime": "2026-10-28T19:45:00Z",
+      "homeTeam": "AC Monza",
+      "awayTeam": "SSC Napoli"
     },
     {
       "id": 555065,
