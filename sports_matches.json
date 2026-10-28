@@ -1,8 +1,16 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-28T03:29:53Z",
+  "updatedAt": "2026-10-28T04:30:02Z",
   "count": 14,
   "matches": [
+    {
+      "id": 558550,
+      "status": "TIMED",
+      "competition": "Serie A",
+      "startTime": "2026-10-28T17:30:00Z",
+      "homeTeam": "Venezia FC",
+      "awayTeam": "FC Internazionale Milano"
+    },
     {
       "id": 558549,
       "status": "TIMED",
@@ -18,14 +26,6 @@
       "startTime": "2026-10-28T17:30:00Z",
       "homeTeam": "Parma Calcio 1913",
       "awayTeam": "Udinese Calcio"
-    },
-    {
-      "id": 558550,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-10-28T17:30:00Z",
-      "homeTeam": "Venezia FC",
-      "awayTeam": "FC Internazionale Milano"
     },
     {
       "id": 558554,
@@ -44,6 +44,14 @@
       "awayTeam": "Juventus FC"
     },
     {
+      "id": 555062,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-10-28T22:30:00Z",
+      "homeTeam": "RB Bragantino",
+      "awayTeam": "Chapecoense AF"
+    },
+    {
       "id": 555065,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
@@ -60,12 +68,12 @@
       "awayTeam": "SE Palmeiras"
     },
     {
-      "id": 555062,
+      "id": 555067,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-10-28T22:30:00Z",
-      "homeTeam": "RB Bragantino",
-      "awayTeam": "Chapecoense AF"
+      "startTime": "2026-10-29T00:30:00Z",
+      "homeTeam": "Clube do Remo",
+      "awayTeam": "Botafogo FR"
     },
     {
       "id": 555061,
@@ -74,14 +82,6 @@
       "startTime": "2026-10-29T00:30:00Z",
       "homeTeam": "EC Bahia",
       "awayTeam": "São Paulo FC"
-    },
-    {
-      "id": 555067,
-      "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-10-29T00:30:00Z",
-      "homeTeam": "Clube do Remo",
-      "awayTeam": "Botafogo FR"
     },
     {
       "id": 558558,
