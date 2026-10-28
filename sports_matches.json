@@ -1,31 +1,15 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-27T23:19:47Z",
-  "count": 11,
+  "updatedAt": "2026-10-28T00:25:42Z",
+  "count": 14,
   "matches": [
     {
-      "id": 558556,
-      "status": "FINISHED",
+      "id": 558553,
+      "status": "TIMED",
       "competition": "Serie A",
-      "startTime": "2026-10-27T17:30:00Z",
-      "homeTeam": "US Sassuolo Calcio",
-      "awayTeam": "SS Lazio"
-    },
-    {
-      "id": 558557,
-      "status": "FINISHED",
-      "competition": "Serie A",
-      "startTime": "2026-10-27T19:45:00Z",
-      "homeTeam": "Torino FC",
-      "awayTeam": "Como 1907"
-    },
-    {
-      "id": 558555,
-      "status": "FINISHED",
-      "competition": "Serie A",
-      "startTime": "2026-10-27T19:45:00Z",
-      "homeTeam": "AS Roma",
-      "awayTeam": "Cagliari Calcio"
+      "startTime": "2026-10-28T17:30:00Z",
+      "homeTeam": "Parma Calcio 1913",
+      "awayTeam": "Udinese Calcio"
     },
     {
       "id": 558549,
@@ -44,12 +28,12 @@
       "awayTeam": "FC Internazionale Milano"
     },
     {
-      "id": 558553,
+      "id": 558554,
       "status": "TIMED",
       "competition": "Serie A",
-      "startTime": "2026-10-28T17:30:00Z",
-      "homeTeam": "Parma Calcio 1913",
-      "awayTeam": "Udinese Calcio"
+      "startTime": "2026-10-28T19:45:00Z",
+      "homeTeam": "AC Monza",
+      "awayTeam": "SSC Napoli"
     },
     {
       "id": 558552,
@@ -60,20 +44,20 @@
       "awayTeam": "Juventus FC"
     },
     {
-      "id": 558554,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-10-28T19:45:00Z",
-      "homeTeam": "AC Monza",
-      "awayTeam": "SSC Napoli"
-    },
-    {
       "id": 555065,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-10-28T22:30:00Z",
       "homeTeam": "Fluminense FC",
       "awayTeam": "SC Internacional"
+    },
+    {
+      "id": 555068,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-10-28T22:30:00Z",
+      "homeTeam": "Santos FC",
+      "awayTeam": "SE Palmeiras"
     },
     {
       "id": 555062,
@@ -84,12 +68,52 @@
       "awayTeam": "Chapecoense AF"
     },
     {
-      "id": 555068,
+      "id": 555061,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-10-28T22:30:00Z",
-      "homeTeam": "Santos FC",
-      "awayTeam": "SE Palmeiras"
+      "startTime": "2026-10-29T00:30:00Z",
+      "homeTeam": "EC Bahia",
+      "awayTeam": "São Paulo FC"
+    },
+    {
+      "id": 555067,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-10-29T00:30:00Z",
+      "homeTeam": "Clube do Remo",
+      "awayTeam": "Botafogo FR"
+    },
+    {
+      "id": 558558,
+      "status": "TIMED",
+      "competition": "Serie A",
+      "startTime": "2026-10-29T17:30:00Z",
+      "homeTeam": "Frosinone Calcio",
+      "awayTeam": "US Lecce"
+    },
+    {
+      "id": 558551,
+      "status": "TIMED",
+      "competition": "Serie A",
+      "startTime": "2026-10-29T19:45:00Z",
+      "homeTeam": "ACF Fiorentina",
+      "awayTeam": "Atalanta BC"
+    },
+    {
+      "id": 555060,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-10-29T22:30:00Z",
+      "homeTeam": "CA Mineiro",
+      "awayTeam": "Cruzeiro EC"
+    },
+    {
+      "id": 555069,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-10-29T23:00:00Z",
+      "homeTeam": "CR Vasco da Gama",
+      "awayTeam": "CR Flamengo"
     }
   ]
 }
