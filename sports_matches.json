@@ -1,16 +1,8 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-28T19:35:17Z",
+  "updatedAt": "2026-10-28T20:28:07Z",
   "count": 14,
   "matches": [
-    {
-      "id": 558550,
-      "status": "FINISHED",
-      "competition": "Serie A",
-      "startTime": "2026-10-28T17:30:00Z",
-      "homeTeam": "Venezia FC",
-      "awayTeam": "FC Internazionale Milano"
-    },
     {
       "id": 558553,
       "status": "FINISHED",
@@ -28,28 +20,28 @@
       "awayTeam": "Bologna FC 1909"
     },
     {
-      "id": 558552,
-      "status": "TIMED",
+      "id": 558550,
+      "status": "FINISHED",
       "competition": "Serie A",
-      "startTime": "2026-10-28T19:45:00Z",
-      "homeTeam": "Genoa CFC",
-      "awayTeam": "Juventus FC"
+      "startTime": "2026-10-28T17:30:00Z",
+      "homeTeam": "Venezia FC",
+      "awayTeam": "FC Internazionale Milano"
     },
     {
       "id": 558554,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Serie A",
       "startTime": "2026-10-28T19:45:00Z",
       "homeTeam": "AC Monza",
       "awayTeam": "SSC Napoli"
     },
     {
-      "id": 555062,
-      "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-10-28T22:30:00Z",
-      "homeTeam": "RB Bragantino",
-      "awayTeam": "Chapecoense AF"
+      "id": 558552,
+      "status": "IN_PLAY",
+      "competition": "Serie A",
+      "startTime": "2026-10-28T19:45:00Z",
+      "homeTeam": "Genoa CFC",
+      "awayTeam": "Juventus FC"
     },
     {
       "id": 555065,
@@ -68,12 +60,12 @@
       "awayTeam": "SE Palmeiras"
     },
     {
-      "id": 555067,
+      "id": 555062,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-10-29T00:30:00Z",
-      "homeTeam": "Clube do Remo",
-      "awayTeam": "Botafogo FR"
+      "startTime": "2026-10-28T22:30:00Z",
+      "homeTeam": "RB Bragantino",
+      "awayTeam": "Chapecoense AF"
     },
     {
       "id": 555061,
@@ -82,6 +74,14 @@
       "startTime": "2026-10-29T00:30:00Z",
       "homeTeam": "EC Bahia",
       "awayTeam": "São Paulo FC"
+    },
+    {
+      "id": 555067,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-10-29T00:30:00Z",
+      "homeTeam": "Clube do Remo",
+      "awayTeam": "Botafogo FR"
     },
     {
       "id": 558558,
