@@ -1,16 +1,8 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-28T07:45:58Z",
+  "updatedAt": "2026-10-28T08:36:54Z",
   "count": 14,
   "matches": [
-    {
-      "id": 558553,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-10-28T17:30:00Z",
-      "homeTeam": "Parma Calcio 1913",
-      "awayTeam": "Udinese Calcio"
-    },
     {
       "id": 558549,
       "status": "TIMED",
@@ -18,6 +10,14 @@
       "startTime": "2026-10-28T17:30:00Z",
       "homeTeam": "AC Milan",
       "awayTeam": "Bologna FC 1909"
+    },
+    {
+      "id": 558553,
+      "status": "TIMED",
+      "competition": "Serie A",
+      "startTime": "2026-10-28T17:30:00Z",
+      "homeTeam": "Parma Calcio 1913",
+      "awayTeam": "Udinese Calcio"
     },
     {
       "id": 558550,
@@ -28,20 +28,20 @@
       "awayTeam": "FC Internazionale Milano"
     },
     {
-      "id": 558552,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-10-28T19:45:00Z",
-      "homeTeam": "Genoa CFC",
-      "awayTeam": "Juventus FC"
-    },
-    {
       "id": 558554,
       "status": "TIMED",
       "competition": "Serie A",
       "startTime": "2026-10-28T19:45:00Z",
       "homeTeam": "AC Monza",
       "awayTeam": "SSC Napoli"
+    },
+    {
+      "id": 558552,
+      "status": "TIMED",
+      "competition": "Serie A",
+      "startTime": "2026-10-28T19:45:00Z",
+      "homeTeam": "Genoa CFC",
+      "awayTeam": "Juventus FC"
     },
     {
       "id": 555065,
