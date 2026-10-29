@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-29T07:48:33Z",
+  "updatedAt": "2026-10-29T08:40:03Z",
   "count": 15,
   "matches": [
     {
@@ -84,20 +84,20 @@
       "awayTeam": "1. FSV Mainz 05"
     },
     {
-      "id": 561916,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-10-30T20:00:00Z",
-      "homeTeam": "Sheffield United FC",
-      "awayTeam": "Wrexham AFC"
-    },
-    {
       "id": 564737,
       "status": "TIMED",
       "competition": "Primera Division",
       "startTime": "2026-10-30T20:00:00Z",
       "homeTeam": "Villarreal CF",
       "awayTeam": "RCD Espanyol de Barcelona"
+    },
+    {
+      "id": 561916,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-10-30T20:00:00Z",
+      "homeTeam": "Sheffield United FC",
+      "awayTeam": "Wrexham AFC"
     },
     {
       "id": 559639,
