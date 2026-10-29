@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-29T21:27:26Z",
+  "updatedAt": "2026-10-29T22:28:06Z",
   "count": 15,
   "matches": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "id": 558551,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Serie A",
       "startTime": "2026-10-29T19:45:00Z",
       "homeTeam": "ACF Fiorentina",
