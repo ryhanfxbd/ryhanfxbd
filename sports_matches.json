@@ -1,16 +1,8 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-29T22:28:06Z",
+  "updatedAt": "2026-10-29T23:25:10Z",
   "count": 15,
   "matches": [
-    {
-      "id": 555061,
-      "status": "FINISHED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-10-29T00:30:00Z",
-      "homeTeam": "EC Bahia",
-      "awayTeam": "São Paulo FC"
-    },
     {
       "id": 555067,
       "status": "FINISHED",
@@ -18,6 +10,14 @@
       "startTime": "2026-10-29T00:30:00Z",
       "homeTeam": "Clube do Remo",
       "awayTeam": "Botafogo FR"
+    },
+    {
+      "id": 555061,
+      "status": "FINISHED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-10-29T00:30:00Z",
+      "homeTeam": "EC Bahia",
+      "awayTeam": "São Paulo FC"
     },
     {
       "id": 558558,
@@ -37,7 +37,7 @@
     },
     {
       "id": 555060,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-10-29T22:30:00Z",
       "homeTeam": "CA Mineiro",
@@ -45,7 +45,7 @@
     },
     {
       "id": 555069,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-10-29T23:00:00Z",
       "homeTeam": "CR Vasco da Gama",
@@ -60,20 +60,20 @@
       "awayTeam": "CA Paranaense"
     },
     {
-      "id": 559646,
-      "status": "TIMED",
-      "competition": "Ligue 1",
-      "startTime": "2026-10-30T18:00:00Z",
-      "homeTeam": "OGC Nice",
-      "awayTeam": "Stade Rennais FC 1901"
-    },
-    {
       "id": 559644,
       "status": "TIMED",
       "competition": "Ligue 1",
       "startTime": "2026-10-30T18:00:00Z",
       "homeTeam": "Le Havre AC",
       "awayTeam": "Paris Saint-Germain FC"
+    },
+    {
+      "id": 559646,
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "startTime": "2026-10-30T18:00:00Z",
+      "homeTeam": "OGC Nice",
+      "awayTeam": "Stade Rennais FC 1901"
     },
     {
       "id": 565846,
@@ -84,20 +84,20 @@
       "awayTeam": "1. FSV Mainz 05"
     },
     {
-      "id": 561916,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-10-30T20:00:00Z",
-      "homeTeam": "Sheffield United FC",
-      "awayTeam": "Wrexham AFC"
-    },
-    {
       "id": 564737,
       "status": "TIMED",
       "competition": "Primera Division",
       "startTime": "2026-10-30T20:00:00Z",
       "homeTeam": "Villarreal CF",
       "awayTeam": "RCD Espanyol de Barcelona"
+    },
+    {
+      "id": 561916,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-10-30T20:00:00Z",
+      "homeTeam": "Sheffield United FC",
+      "awayTeam": "Wrexham AFC"
     },
     {
       "id": 559639,
