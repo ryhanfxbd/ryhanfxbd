@@ -1,11 +1,11 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-29T01:45:47Z",
+  "updatedAt": "2026-10-29T02:35:58Z",
   "count": 15,
   "matches": [
     {
       "id": 555067,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-10-29T00:30:00Z",
       "homeTeam": "Clube do Remo",
@@ -84,20 +84,20 @@
       "awayTeam": "1. FSV Mainz 05"
     },
     {
-      "id": 564737,
-      "status": "TIMED",
-      "competition": "Primera Division",
-      "startTime": "2026-10-30T20:00:00Z",
-      "homeTeam": "Villarreal CF",
-      "awayTeam": "RCD Espanyol de Barcelona"
-    },
-    {
       "id": 561916,
       "status": "TIMED",
       "competition": "Championship",
       "startTime": "2026-10-30T20:00:00Z",
       "homeTeam": "Sheffield United FC",
       "awayTeam": "Wrexham AFC"
+    },
+    {
+      "id": 564737,
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "startTime": "2026-10-30T20:00:00Z",
+      "homeTeam": "Villarreal CF",
+      "awayTeam": "RCD Espanyol de Barcelona"
     },
     {
       "id": 559639,
