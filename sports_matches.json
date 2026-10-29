@@ -1,16 +1,8 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-29T06:31:19Z",
+  "updatedAt": "2026-10-29T07:48:33Z",
   "count": 15,
   "matches": [
-    {
-      "id": 555067,
-      "status": "FINISHED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-10-29T00:30:00Z",
-      "homeTeam": "Clube do Remo",
-      "awayTeam": "Botafogo FR"
-    },
     {
       "id": 555061,
       "status": "FINISHED",
@@ -18,6 +10,14 @@
       "startTime": "2026-10-29T00:30:00Z",
       "homeTeam": "EC Bahia",
       "awayTeam": "São Paulo FC"
+    },
+    {
+      "id": 555067,
+      "status": "FINISHED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-10-29T00:30:00Z",
+      "homeTeam": "Clube do Remo",
+      "awayTeam": "Botafogo FR"
     },
     {
       "id": 558558,
@@ -60,20 +60,20 @@
       "awayTeam": "CA Paranaense"
     },
     {
-      "id": 559644,
-      "status": "TIMED",
-      "competition": "Ligue 1",
-      "startTime": "2026-10-30T18:00:00Z",
-      "homeTeam": "Le Havre AC",
-      "awayTeam": "Paris Saint-Germain FC"
-    },
-    {
       "id": 559646,
       "status": "TIMED",
       "competition": "Ligue 1",
       "startTime": "2026-10-30T18:00:00Z",
       "homeTeam": "OGC Nice",
       "awayTeam": "Stade Rennais FC 1901"
+    },
+    {
+      "id": 559644,
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "startTime": "2026-10-30T18:00:00Z",
+      "homeTeam": "Le Havre AC",
+      "awayTeam": "Paris Saint-Germain FC"
     },
     {
       "id": 565846,
