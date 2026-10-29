@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-29T17:35:27Z",
+  "updatedAt": "2026-10-29T18:31:31Z",
   "count": 15,
   "matches": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "id": 558558,
-      "status": "TIMED",
+      "status": "PAUSED",
       "competition": "Serie A",
       "startTime": "2026-10-29T17:30:00Z",
       "homeTeam": "Frosinone Calcio",
