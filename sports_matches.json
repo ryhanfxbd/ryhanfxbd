@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-30T12:30:15Z",
+  "updatedAt": "2026-10-30T13:48:29Z",
   "count": 50,
   "matches": [
     {
@@ -36,20 +36,20 @@
       "awayTeam": "1. FSV Mainz 05"
     },
     {
-      "id": 561916,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-10-30T20:00:00Z",
-      "homeTeam": "Sheffield United FC",
-      "awayTeam": "Wrexham AFC"
-    },
-    {
       "id": 564737,
       "status": "TIMED",
       "competition": "Primera Division",
       "startTime": "2026-10-30T20:00:00Z",
       "homeTeam": "Villarreal CF",
       "awayTeam": "RCD Espanyol de Barcelona"
+    },
+    {
+      "id": 561916,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-10-30T20:00:00Z",
+      "homeTeam": "Sheffield United FC",
+      "awayTeam": "Wrexham AFC"
     },
     {
       "id": 559639,
@@ -164,14 +164,6 @@
       "awayTeam": "TSG 1899 Hoffenheim"
     },
     {
-      "id": 561906,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "West Ham United FC",
-      "awayTeam": "West Bromwich Albion FC"
-    },
-    {
       "id": 561912,
       "status": "TIMED",
       "competition": "Championship",
@@ -204,12 +196,12 @@
       "awayTeam": "Queens Park Rangers FC"
     },
     {
-      "id": 561911,
+      "id": 561906,
       "status": "TIMED",
       "competition": "Championship",
       "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "Middlesbrough FC",
-      "awayTeam": "Charlton Athletic FC"
+      "homeTeam": "West Ham United FC",
+      "awayTeam": "West Bromwich Albion FC"
     },
     {
       "id": 560623,
@@ -268,6 +260,14 @@
       "awayTeam": "Cardiff City FC"
     },
     {
+      "id": 561911,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-10-31T15:00:00Z",
+      "homeTeam": "Middlesbrough FC",
+      "awayTeam": "Charlton Athletic FC"
+    },
+    {
       "id": 564735,
       "status": "TIMED",
       "competition": "Primera Division",
@@ -308,20 +308,20 @@
       "awayTeam": "Borussia Dortmund"
     },
     {
-      "id": 560627,
-      "status": "TIMED",
-      "competition": "Premier League",
-      "startTime": "2026-10-31T17:30:00Z",
-      "homeTeam": "Tottenham Hotspur FC",
-      "awayTeam": "Crystal Palace FC"
-    },
-    {
       "id": 564736,
       "status": "TIMED",
       "competition": "Primera Division",
       "startTime": "2026-10-31T17:30:00Z",
       "homeTeam": "Real Betis Balompié",
       "awayTeam": "Málaga CF"
+    },
+    {
+      "id": 560627,
+      "status": "TIMED",
+      "competition": "Premier League",
+      "startTime": "2026-10-31T17:30:00Z",
+      "homeTeam": "Tottenham Hotspur FC",
+      "awayTeam": "Crystal Palace FC"
     },
     {
       "id": 558853,
