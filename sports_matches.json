@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-30T22:25:07Z",
+  "updatedAt": "2026-10-30T23:23:07Z",
   "count": 50,
   "matches": [
     {
@@ -69,11 +69,19 @@
     },
     {
       "id": 555063,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-10-30T23:00:00Z",
       "homeTeam": "SC Corinthians Paulista",
       "awayTeam": "Mirassol FC"
+    },
+    {
+      "id": 561908,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-10-31T12:30:00Z",
+      "homeTeam": "Stoke City FC",
+      "awayTeam": "Preston North End FC"
     },
     {
       "id": 560626,
@@ -90,14 +98,6 @@
       "startTime": "2026-10-31T12:30:00Z",
       "homeTeam": "Norwich City FC",
       "awayTeam": "Watford FC"
-    },
-    {
-      "id": 561908,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-10-31T12:30:00Z",
-      "homeTeam": "Stoke City FC",
-      "awayTeam": "Preston North End FC"
     },
     {
       "id": 561915,
@@ -124,14 +124,6 @@
       "awayTeam": "AC Monza"
     },
     {
-      "id": 565842,
-      "status": "TIMED",
-      "competition": "Bundesliga",
-      "startTime": "2026-10-31T14:30:00Z",
-      "homeTeam": "FC Augsburg",
-      "awayTeam": "SC Freiburg"
-    },
-    {
       "id": 565839,
       "status": "TIMED",
       "competition": "Bundesliga",
@@ -148,12 +140,12 @@
       "awayTeam": "VfB Stuttgart"
     },
     {
-      "id": 565843,
+      "id": 565842,
       "status": "TIMED",
       "competition": "Bundesliga",
       "startTime": "2026-10-31T14:30:00Z",
-      "homeTeam": "SV Werder Bremen",
-      "awayTeam": "TSG 1899 Hoffenheim"
+      "homeTeam": "FC Augsburg",
+      "awayTeam": "SC Freiburg"
     },
     {
       "id": 565840,
@@ -162,6 +154,30 @@
       "startTime": "2026-10-31T14:30:00Z",
       "homeTeam": "FC Schalke 04",
       "awayTeam": "RB Leipzig"
+    },
+    {
+      "id": 565843,
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "startTime": "2026-10-31T14:30:00Z",
+      "homeTeam": "SV Werder Bremen",
+      "awayTeam": "TSG 1899 Hoffenheim"
+    },
+    {
+      "id": 561912,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-10-31T15:00:00Z",
+      "homeTeam": "Burnley FC",
+      "awayTeam": "Portsmouth FC"
+    },
+    {
+      "id": 560624,
+      "status": "TIMED",
+      "competition": "Premier League",
+      "startTime": "2026-10-31T15:00:00Z",
+      "homeTeam": "AFC Bournemouth",
+      "awayTeam": "Leeds United FC"
     },
     {
       "id": 560630,
@@ -186,46 +202,6 @@
       "startTime": "2026-10-31T15:00:00Z",
       "homeTeam": "West Ham United FC",
       "awayTeam": "West Bromwich Albion FC"
-    },
-    {
-      "id": 561912,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "Burnley FC",
-      "awayTeam": "Portsmouth FC"
-    },
-    {
-      "id": 560624,
-      "status": "TIMED",
-      "competition": "Premier League",
-      "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "AFC Bournemouth",
-      "awayTeam": "Leeds United FC"
-    },
-    {
-      "id": 561909,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "Bolton Wanderers FC",
-      "awayTeam": "Bristol City FC"
-    },
-    {
-      "id": 561905,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "Wolverhampton Wanderers FC",
-      "awayTeam": "Cardiff City FC"
-    },
-    {
-      "id": 561911,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "Middlesbrough FC",
-      "awayTeam": "Charlton Athletic FC"
     },
     {
       "id": 560623,
@@ -266,6 +242,30 @@
       "startTime": "2026-10-31T15:00:00Z",
       "homeTeam": "Coventry City FC",
       "awayTeam": "Sunderland AFC"
+    },
+    {
+      "id": 561909,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-10-31T15:00:00Z",
+      "homeTeam": "Bolton Wanderers FC",
+      "awayTeam": "Bristol City FC"
+    },
+    {
+      "id": 561905,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-10-31T15:00:00Z",
+      "homeTeam": "Wolverhampton Wanderers FC",
+      "awayTeam": "Cardiff City FC"
+    },
+    {
+      "id": 561911,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-10-31T15:00:00Z",
+      "homeTeam": "Middlesbrough FC",
+      "awayTeam": "Charlton Athletic FC"
     },
     {
       "id": 564735,
@@ -364,14 +364,6 @@
       "awayTeam": "FC Internazionale Milano"
     },
     {
-      "id": 558851,
-      "status": "TIMED",
-      "competition": "Eredivisie",
-      "startTime": "2026-10-31T20:00:00Z",
-      "homeTeam": "AFC Ajax",
-      "awayTeam": "AZ"
-    },
-    {
       "id": 560628,
       "status": "TIMED",
       "competition": "Premier League",
@@ -380,12 +372,12 @@
       "awayTeam": "Fulham FC"
     },
     {
-      "id": 558850,
+      "id": 558851,
       "status": "TIMED",
       "competition": "Eredivisie",
       "startTime": "2026-10-31T20:00:00Z",
-      "homeTeam": "SC Cambuur-Leeuwarden",
-      "awayTeam": "Go Ahead Eagles"
+      "homeTeam": "AFC Ajax",
+      "awayTeam": "AZ"
     },
     {
       "id": 564732,
@@ -394,6 +386,14 @@
       "startTime": "2026-10-31T20:00:00Z",
       "homeTeam": "FC Barcelona",
       "awayTeam": "Deportivo Alavés"
+    },
+    {
+      "id": 558850,
+      "status": "TIMED",
+      "competition": "Eredivisie",
+      "startTime": "2026-10-31T20:00:00Z",
+      "homeTeam": "SC Cambuur-Leeuwarden",
+      "awayTeam": "Go Ahead Eagles"
     },
     {
       "id": 567338,
