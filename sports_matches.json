@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-30T19:36:35Z",
+  "updatedAt": "2026-10-30T20:25:46Z",
   "count": 50,
   "matches": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "id": 559646,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Ligue 1",
       "startTime": "2026-10-30T18:00:00Z",
       "homeTeam": "OGC Nice",
@@ -21,7 +21,7 @@
     },
     {
       "id": 559644,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Ligue 1",
       "startTime": "2026-10-30T18:00:00Z",
       "homeTeam": "Le Havre AC",
@@ -37,7 +37,7 @@
     },
     {
       "id": 564737,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primera Division",
       "startTime": "2026-10-30T20:00:00Z",
       "homeTeam": "Villarreal CF",
@@ -53,7 +53,7 @@
     },
     {
       "id": 559639,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Ligue 1",
       "startTime": "2026-10-30T20:05:00Z",
       "homeTeam": "Lille OSC",
@@ -61,7 +61,7 @@
     },
     {
       "id": 567344,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primeira Liga",
       "startTime": "2026-10-30T20:15:00Z",
       "homeTeam": "Casa Pia AC",
@@ -74,14 +74,6 @@
       "startTime": "2026-10-30T23:00:00Z",
       "homeTeam": "SC Corinthians Paulista",
       "awayTeam": "Mirassol FC"
-    },
-    {
-      "id": 561908,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-10-31T12:30:00Z",
-      "homeTeam": "Stoke City FC",
-      "awayTeam": "Preston North End FC"
     },
     {
       "id": 560626,
@@ -98,6 +90,14 @@
       "startTime": "2026-10-31T12:30:00Z",
       "homeTeam": "Norwich City FC",
       "awayTeam": "Watford FC"
+    },
+    {
+      "id": 561908,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-10-31T12:30:00Z",
+      "homeTeam": "Stoke City FC",
+      "awayTeam": "Preston North End FC"
     },
     {
       "id": 561915,
@@ -124,14 +124,6 @@
       "awayTeam": "AC Monza"
     },
     {
-      "id": 565847,
-      "status": "TIMED",
-      "competition": "Bundesliga",
-      "startTime": "2026-10-31T14:30:00Z",
-      "homeTeam": "Bayer 04 Leverkusen",
-      "awayTeam": "VfB Stuttgart"
-    },
-    {
       "id": 565842,
       "status": "TIMED",
       "competition": "Bundesliga",
@@ -148,12 +140,12 @@
       "awayTeam": "SC Paderborn 07"
     },
     {
-      "id": 565840,
+      "id": 565847,
       "status": "TIMED",
       "competition": "Bundesliga",
       "startTime": "2026-10-31T14:30:00Z",
-      "homeTeam": "FC Schalke 04",
-      "awayTeam": "RB Leipzig"
+      "homeTeam": "Bayer 04 Leverkusen",
+      "awayTeam": "VfB Stuttgart"
     },
     {
       "id": 565843,
@@ -164,12 +156,12 @@
       "awayTeam": "TSG 1899 Hoffenheim"
     },
     {
-      "id": 560624,
+      "id": 565840,
       "status": "TIMED",
-      "competition": "Premier League",
-      "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "AFC Bournemouth",
-      "awayTeam": "Leeds United FC"
+      "competition": "Bundesliga",
+      "startTime": "2026-10-31T14:30:00Z",
+      "homeTeam": "FC Schalke 04",
+      "awayTeam": "RB Leipzig"
     },
     {
       "id": 560630,
@@ -204,12 +196,12 @@
       "awayTeam": "Portsmouth FC"
     },
     {
-      "id": 560629,
+      "id": 560624,
       "status": "TIMED",
       "competition": "Premier League",
       "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "Hull City AFC",
-      "awayTeam": "Ipswich Town FC"
+      "homeTeam": "AFC Bournemouth",
+      "awayTeam": "Leeds United FC"
     },
     {
       "id": 561913,
@@ -266,6 +258,14 @@
       "startTime": "2026-10-31T15:00:00Z",
       "homeTeam": "Swansea City AFC",
       "awayTeam": "Blackburn Rovers FC"
+    },
+    {
+      "id": 560629,
+      "status": "TIMED",
+      "competition": "Premier League",
+      "startTime": "2026-10-31T15:00:00Z",
+      "homeTeam": "Hull City AFC",
+      "awayTeam": "Ipswich Town FC"
     },
     {
       "id": 564735,
