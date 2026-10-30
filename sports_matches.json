@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-30T21:24:48Z",
+  "updatedAt": "2026-10-30T22:25:07Z",
   "count": 50,
   "matches": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "id": 565846,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Bundesliga",
       "startTime": "2026-10-30T19:30:00Z",
       "homeTeam": "SV 07 Elversberg",
@@ -37,7 +37,7 @@
     },
     {
       "id": 564737,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Primera Division",
       "startTime": "2026-10-30T20:00:00Z",
       "homeTeam": "Villarreal CF",
@@ -53,7 +53,7 @@
     },
     {
       "id": 559639,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Ligue 1",
       "startTime": "2026-10-30T20:05:00Z",
       "homeTeam": "Lille OSC",
@@ -61,7 +61,7 @@
     },
     {
       "id": 567344,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Primeira Liga",
       "startTime": "2026-10-30T20:15:00Z",
       "homeTeam": "Casa Pia AC",
@@ -204,14 +204,6 @@
       "awayTeam": "Leeds United FC"
     },
     {
-      "id": 560625,
-      "status": "TIMED",
-      "competition": "Premier League",
-      "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "Coventry City FC",
-      "awayTeam": "Sunderland AFC"
-    },
-    {
       "id": 561909,
       "status": "TIMED",
       "competition": "Championship",
@@ -266,6 +258,14 @@
       "startTime": "2026-10-31T15:00:00Z",
       "homeTeam": "Millwall FC",
       "awayTeam": "Derby County FC"
+    },
+    {
+      "id": 560625,
+      "status": "TIMED",
+      "competition": "Premier League",
+      "startTime": "2026-10-31T15:00:00Z",
+      "homeTeam": "Coventry City FC",
+      "awayTeam": "Sunderland AFC"
     },
     {
       "id": 564735,
