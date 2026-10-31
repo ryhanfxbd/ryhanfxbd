@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-31T03:31:09Z",
+  "updatedAt": "2026-10-31T04:29:35Z",
   "count": 65,
   "matches": [
     {
@@ -20,20 +20,20 @@
       "awayTeam": "Birmingham City FC"
     },
     {
-      "id": 561910,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-10-31T12:30:00Z",
-      "homeTeam": "Norwich City FC",
-      "awayTeam": "Watford FC"
-    },
-    {
       "id": 561908,
       "status": "TIMED",
       "competition": "Championship",
       "startTime": "2026-10-31T12:30:00Z",
       "homeTeam": "Stoke City FC",
       "awayTeam": "Preston North End FC"
+    },
+    {
+      "id": 561910,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-10-31T12:30:00Z",
+      "homeTeam": "Norwich City FC",
+      "awayTeam": "Watford FC"
     },
     {
       "id": 564730,
@@ -68,6 +68,14 @@
       "awayTeam": "SC Paderborn 07"
     },
     {
+      "id": 565842,
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "startTime": "2026-10-31T14:30:00Z",
+      "homeTeam": "FC Augsburg",
+      "awayTeam": "SC Freiburg"
+    },
+    {
       "id": 565840,
       "status": "TIMED",
       "competition": "Bundesliga",
@@ -84,12 +92,12 @@
       "awayTeam": "VfB Stuttgart"
     },
     {
-      "id": 565842,
+      "id": 561913,
       "status": "TIMED",
-      "competition": "Bundesliga",
-      "startTime": "2026-10-31T14:30:00Z",
-      "homeTeam": "FC Augsburg",
-      "awayTeam": "SC Freiburg"
+      "competition": "Championship",
+      "startTime": "2026-10-31T15:00:00Z",
+      "homeTeam": "Millwall FC",
+      "awayTeam": "Derby County FC"
     },
     {
       "id": 560630,
@@ -138,14 +146,6 @@
       "startTime": "2026-10-31T15:00:00Z",
       "homeTeam": "AFC Bournemouth",
       "awayTeam": "Leeds United FC"
-    },
-    {
-      "id": 561913,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "Millwall FC",
-      "awayTeam": "Derby County FC"
     },
     {
       "id": 560625,
