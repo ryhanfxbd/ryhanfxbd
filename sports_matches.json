@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-31T05:27:28Z",
+  "updatedAt": "2026-10-31T06:30:39Z",
   "count": 65,
   "matches": [
     {
@@ -52,20 +52,20 @@
       "awayTeam": "AC Monza"
     },
     {
-      "id": 565839,
-      "status": "TIMED",
-      "competition": "Bundesliga",
-      "startTime": "2026-10-31T14:30:00Z",
-      "homeTeam": "Borussia Mönchengladbach",
-      "awayTeam": "SC Paderborn 07"
-    },
-    {
       "id": 565843,
       "status": "TIMED",
       "competition": "Bundesliga",
       "startTime": "2026-10-31T14:30:00Z",
       "homeTeam": "SV Werder Bremen",
       "awayTeam": "TSG 1899 Hoffenheim"
+    },
+    {
+      "id": 565839,
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "startTime": "2026-10-31T14:30:00Z",
+      "homeTeam": "Borussia Mönchengladbach",
+      "awayTeam": "SC Paderborn 07"
     },
     {
       "id": 565840,
@@ -90,14 +90,6 @@
       "startTime": "2026-10-31T14:30:00Z",
       "homeTeam": "FC Augsburg",
       "awayTeam": "SC Freiburg"
-    },
-    {
-      "id": 561911,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "Middlesbrough FC",
-      "awayTeam": "Charlton Athletic FC"
     },
     {
       "id": 561907,
@@ -148,12 +140,12 @@
       "awayTeam": "Cardiff City FC"
     },
     {
-      "id": 561906,
+      "id": 561911,
       "status": "TIMED",
       "competition": "Championship",
       "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "West Ham United FC",
-      "awayTeam": "West Bromwich Albion FC"
+      "homeTeam": "Middlesbrough FC",
+      "awayTeam": "Charlton Athletic FC"
     },
     {
       "id": 560623,
@@ -194,6 +186,14 @@
       "startTime": "2026-10-31T15:00:00Z",
       "homeTeam": "Southampton FC",
       "awayTeam": "Queens Park Rangers FC"
+    },
+    {
+      "id": 561906,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-10-31T15:00:00Z",
+      "homeTeam": "West Ham United FC",
+      "awayTeam": "West Bromwich Albion FC"
     },
     {
       "id": 564735,
@@ -444,20 +444,20 @@
       "awayTeam": "Angers SCO"
     },
     {
-      "id": 565844,
-      "status": "TIMED",
-      "competition": "Bundesliga",
-      "startTime": "2026-11-01T16:30:00Z",
-      "homeTeam": "Eintracht Frankfurt",
-      "awayTeam": "Hamburger SV"
-    },
-    {
       "id": 560631,
       "status": "TIMED",
       "competition": "Premier League",
       "startTime": "2026-11-01T16:30:00Z",
       "homeTeam": "Liverpool FC",
       "awayTeam": "Arsenal FC"
+    },
+    {
+      "id": 565844,
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "startTime": "2026-11-01T16:30:00Z",
+      "homeTeam": "Eintracht Frankfurt",
+      "awayTeam": "Hamburger SV"
     },
     {
       "id": 558540,
