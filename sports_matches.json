@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-31T02:34:57Z",
+  "updatedAt": "2026-10-31T03:31:09Z",
   "count": 65,
   "matches": [
     {
@@ -68,14 +68,6 @@
       "awayTeam": "SC Paderborn 07"
     },
     {
-      "id": 565842,
-      "status": "TIMED",
-      "competition": "Bundesliga",
-      "startTime": "2026-10-31T14:30:00Z",
-      "homeTeam": "FC Augsburg",
-      "awayTeam": "SC Freiburg"
-    },
-    {
       "id": 565840,
       "status": "TIMED",
       "competition": "Bundesliga",
@@ -90,6 +82,14 @@
       "startTime": "2026-10-31T14:30:00Z",
       "homeTeam": "Bayer 04 Leverkusen",
       "awayTeam": "VfB Stuttgart"
+    },
+    {
+      "id": 565842,
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "startTime": "2026-10-31T14:30:00Z",
+      "homeTeam": "FC Augsburg",
+      "awayTeam": "SC Freiburg"
     },
     {
       "id": 560630,
