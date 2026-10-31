@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-31T19:27:39Z",
+  "updatedAt": "2026-10-31T20:20:22Z",
   "count": 65,
   "matches": [
     {
@@ -68,14 +68,6 @@
       "awayTeam": "SC Paderborn 07"
     },
     {
-      "id": 565840,
-      "status": "FINISHED",
-      "competition": "Bundesliga",
-      "startTime": "2026-10-31T14:30:00Z",
-      "homeTeam": "FC Schalke 04",
-      "awayTeam": "RB Leipzig"
-    },
-    {
       "id": 565847,
       "status": "FINISHED",
       "competition": "Bundesliga",
@@ -92,12 +84,12 @@
       "awayTeam": "SC Freiburg"
     },
     {
-      "id": 561911,
+      "id": 565840,
       "status": "FINISHED",
-      "competition": "Championship",
-      "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "Middlesbrough FC",
-      "awayTeam": "Charlton Athletic FC"
+      "competition": "Bundesliga",
+      "startTime": "2026-10-31T14:30:00Z",
+      "homeTeam": "FC Schalke 04",
+      "awayTeam": "RB Leipzig"
     },
     {
       "id": 561907,
@@ -148,12 +140,12 @@
       "awayTeam": "Cardiff City FC"
     },
     {
-      "id": 561906,
+      "id": 561911,
       "status": "FINISHED",
       "competition": "Championship",
       "startTime": "2026-10-31T15:00:00Z",
-      "homeTeam": "West Ham United FC",
-      "awayTeam": "West Bromwich Albion FC"
+      "homeTeam": "Middlesbrough FC",
+      "awayTeam": "Charlton Athletic FC"
     },
     {
       "id": 560623,
@@ -196,6 +188,14 @@
       "awayTeam": "Queens Park Rangers FC"
     },
     {
+      "id": 561906,
+      "status": "FINISHED",
+      "competition": "Championship",
+      "startTime": "2026-10-31T15:00:00Z",
+      "homeTeam": "West Ham United FC",
+      "awayTeam": "West Bromwich Albion FC"
+    },
+    {
       "id": 564735,
       "status": "FINISHED",
       "competition": "Primera Division",
@@ -229,7 +229,7 @@
     },
     {
       "id": 565845,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Bundesliga",
       "startTime": "2026-10-31T17:30:00Z",
       "homeTeam": "FC Bayern München",
@@ -237,7 +237,7 @@
     },
     {
       "id": 564736,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Primera Division",
       "startTime": "2026-10-31T17:30:00Z",
       "homeTeam": "Real Betis Balompié",
@@ -245,7 +245,7 @@
     },
     {
       "id": 560627,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Premier League",
       "startTime": "2026-10-31T17:30:00Z",
       "homeTeam": "Tottenham Hotspur FC",
@@ -253,7 +253,7 @@
     },
     {
       "id": 558852,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Eredivisie",
       "startTime": "2026-10-31T17:45:00Z",
       "homeTeam": "SC Heerenveen",
@@ -261,7 +261,7 @@
     },
     {
       "id": 558853,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Eredivisie",
       "startTime": "2026-10-31T17:45:00Z",
       "homeTeam": "PSV",
@@ -277,7 +277,7 @@
     },
     {
       "id": 558548,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Serie A",
       "startTime": "2026-10-31T19:45:00Z",
       "homeTeam": "AC Milan",
@@ -285,7 +285,7 @@
     },
     {
       "id": 559643,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Ligue 1",
       "startTime": "2026-10-31T19:45:00Z",
       "homeTeam": "ES Troyes AC",
@@ -293,7 +293,7 @@
     },
     {
       "id": 560628,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Premier League",
       "startTime": "2026-10-31T20:00:00Z",
       "homeTeam": "Aston Villa FC",
@@ -301,7 +301,7 @@
     },
     {
       "id": 558850,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Eredivisie",
       "startTime": "2026-10-31T20:00:00Z",
       "homeTeam": "SC Cambuur-Leeuwarden",
@@ -309,7 +309,7 @@
     },
     {
       "id": 564732,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primera Division",
       "startTime": "2026-10-31T20:00:00Z",
       "homeTeam": "FC Barcelona",
@@ -317,7 +317,7 @@
     },
     {
       "id": 558851,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Eredivisie",
       "startTime": "2026-10-31T20:00:00Z",
       "homeTeam": "AFC Ajax",
@@ -380,20 +380,20 @@
       "awayTeam": "Cagliari Calcio"
     },
     {
-      "id": 558544,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-11-01T14:00:00Z",
-      "homeTeam": "Frosinone Calcio",
-      "awayTeam": "Torino FC"
-    },
-    {
       "id": 559647,
       "status": "TIMED",
       "competition": "Ligue 1",
       "startTime": "2026-11-01T14:00:00Z",
       "homeTeam": "RC Strasbourg Alsace",
       "awayTeam": "AJ Auxerre"
+    },
+    {
+      "id": 558544,
+      "status": "TIMED",
+      "competition": "Serie A",
+      "startTime": "2026-11-01T14:00:00Z",
+      "homeTeam": "Frosinone Calcio",
+      "awayTeam": "Torino FC"
     },
     {
       "id": 565841,
