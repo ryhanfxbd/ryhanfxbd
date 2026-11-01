@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-01T18:25:16Z",
+  "updatedAt": "2026-11-01T19:28:01Z",
   "count": 32,
   "matches": [
     {
@@ -100,14 +100,6 @@
       "awayTeam": "Sparta Rotterdam"
     },
     {
-      "id": 559640,
-      "status": "FINISHED",
-      "competition": "Ligue 1",
-      "startTime": "2026-11-01T16:15:00Z",
-      "homeTeam": "Olympique Lyonnais",
-      "awayTeam": "Angers SCO"
-    },
-    {
       "id": 559642,
       "status": "FINISHED",
       "competition": "Ligue 1",
@@ -116,8 +108,16 @@
       "awayTeam": "AS Monaco FC"
     },
     {
+      "id": 559640,
+      "status": "FINISHED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-01T16:15:00Z",
+      "homeTeam": "Olympique Lyonnais",
+      "awayTeam": "Angers SCO"
+    },
+    {
       "id": 560631,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Premier League",
       "startTime": "2026-11-01T16:30:00Z",
       "homeTeam": "Liverpool FC",
@@ -125,7 +125,7 @@
     },
     {
       "id": 565844,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Bundesliga",
       "startTime": "2026-11-01T16:30:00Z",
       "homeTeam": "Eintracht Frankfurt",
@@ -133,7 +133,7 @@
     },
     {
       "id": 558540,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Serie A",
       "startTime": "2026-11-01T17:00:00Z",
       "homeTeam": "US Lecce",
@@ -236,20 +236,20 @@
       "awayTeam": "Everton FC"
     },
     {
-      "id": 567346,
-      "status": "TIMED",
-      "competition": "Primeira Liga",
-      "startTime": "2026-11-02T20:15:00Z",
-      "homeTeam": "Gil Vicente FC",
-      "awayTeam": "Vitória SC"
-    },
-    {
       "id": 567342,
       "status": "TIMED",
       "competition": "Primeira Liga",
       "startTime": "2026-11-02T20:15:00Z",
       "homeTeam": "Sport Lisboa e Benfica",
       "awayTeam": "FC Alverca"
+    },
+    {
+      "id": 567346,
+      "status": "TIMED",
+      "competition": "Primeira Liga",
+      "startTime": "2026-11-02T20:15:00Z",
+      "homeTeam": "Gil Vicente FC",
+      "awayTeam": "Vitória SC"
     },
     {
       "id": 555072,
