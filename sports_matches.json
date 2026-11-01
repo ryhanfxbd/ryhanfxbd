@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-01T17:20:16Z",
+  "updatedAt": "2026-11-01T18:25:16Z",
   "count": 32,
   "matches": [
     {
@@ -44,6 +44,14 @@
       "awayTeam": "FC Twente '65"
     },
     {
+      "id": 558546,
+      "status": "FINISHED",
+      "competition": "Serie A",
+      "startTime": "2026-11-01T14:00:00Z",
+      "homeTeam": "SS Lazio",
+      "awayTeam": "Cagliari Calcio"
+    },
+    {
       "id": 559647,
       "status": "FINISHED",
       "competition": "Ligue 1",
@@ -60,14 +68,6 @@
       "awayTeam": "Torino FC"
     },
     {
-      "id": 558546,
-      "status": "FINISHED",
-      "competition": "Serie A",
-      "startTime": "2026-11-01T14:00:00Z",
-      "homeTeam": "SS Lazio",
-      "awayTeam": "Cagliari Calcio"
-    },
-    {
       "id": 565841,
       "status": "FINISHED",
       "competition": "Bundesliga",
@@ -77,7 +77,7 @@
     },
     {
       "id": 564734,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Primera Division",
       "startTime": "2026-11-01T15:15:00Z",
       "homeTeam": "Real Racing Club de Santander",
@@ -85,7 +85,7 @@
     },
     {
       "id": 567341,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Primeira Liga",
       "startTime": "2026-11-01T15:30:00Z",
       "homeTeam": "FC Arouca",
@@ -93,7 +93,7 @@
     },
     {
       "id": 558846,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Eredivisie",
       "startTime": "2026-11-01T15:45:00Z",
       "homeTeam": "FC Groningen",
@@ -101,7 +101,7 @@
     },
     {
       "id": 559640,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Ligue 1",
       "startTime": "2026-11-01T16:15:00Z",
       "homeTeam": "Olympique Lyonnais",
@@ -109,7 +109,7 @@
     },
     {
       "id": 559642,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Ligue 1",
       "startTime": "2026-11-01T16:15:00Z",
       "homeTeam": "Paris FC",
@@ -141,7 +141,7 @@
     },
     {
       "id": 564728,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primera Division",
       "startTime": "2026-11-01T17:30:00Z",
       "homeTeam": "Elche CF",
@@ -149,7 +149,7 @@
     },
     {
       "id": 567345,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primeira Liga",
       "startTime": "2026-11-01T18:00:00Z",
       "homeTeam": "Académico de Viseu FC",
@@ -157,19 +157,11 @@
     },
     {
       "id": 567340,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primeira Liga",
       "startTime": "2026-11-01T18:00:00Z",
       "homeTeam": "CS Marítimo",
       "awayTeam": "CD Santa Clara"
-    },
-    {
-      "id": 559645,
-      "status": "TIMED",
-      "competition": "Ligue 1",
-      "startTime": "2026-11-01T19:45:00Z",
-      "homeTeam": "Olympique de Marseille",
-      "awayTeam": "Toulouse FC"
     },
     {
       "id": 558547,
@@ -178,6 +170,14 @@
       "startTime": "2026-11-01T19:45:00Z",
       "homeTeam": "Juventus FC",
       "awayTeam": "SSC Napoli"
+    },
+    {
+      "id": 559645,
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-01T19:45:00Z",
+      "homeTeam": "Olympique de Marseille",
+      "awayTeam": "Toulouse FC"
     },
     {
       "id": 564729,
@@ -236,20 +236,20 @@
       "awayTeam": "Everton FC"
     },
     {
-      "id": 567342,
-      "status": "TIMED",
-      "competition": "Primeira Liga",
-      "startTime": "2026-11-02T20:15:00Z",
-      "homeTeam": "Sport Lisboa e Benfica",
-      "awayTeam": "FC Alverca"
-    },
-    {
       "id": 567346,
       "status": "TIMED",
       "competition": "Primeira Liga",
       "startTime": "2026-11-02T20:15:00Z",
       "homeTeam": "Gil Vicente FC",
       "awayTeam": "Vitória SC"
+    },
+    {
+      "id": 567342,
+      "status": "TIMED",
+      "competition": "Primeira Liga",
+      "startTime": "2026-11-02T20:15:00Z",
+      "homeTeam": "Sport Lisboa e Benfica",
+      "awayTeam": "FC Alverca"
     },
     {
       "id": 555072,
