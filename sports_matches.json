@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-01T05:33:13Z",
+  "updatedAt": "2026-11-01T06:35:37Z",
   "count": 32,
   "matches": [
     {
@@ -28,14 +28,6 @@
       "awayTeam": "Sevilla FC"
     },
     {
-      "id": 558848,
-      "status": "TIMED",
-      "competition": "Eredivisie",
-      "startTime": "2026-11-01T13:30:00Z",
-      "homeTeam": "Telstar 1963",
-      "awayTeam": "FC Utrecht"
-    },
-    {
       "id": 558847,
       "status": "TIMED",
       "competition": "Eredivisie",
@@ -44,12 +36,12 @@
       "awayTeam": "FC Twente '65"
     },
     {
-      "id": 558546,
+      "id": 558848,
       "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-11-01T14:00:00Z",
-      "homeTeam": "SS Lazio",
-      "awayTeam": "Cagliari Calcio"
+      "competition": "Eredivisie",
+      "startTime": "2026-11-01T13:30:00Z",
+      "homeTeam": "Telstar 1963",
+      "awayTeam": "FC Utrecht"
     },
     {
       "id": 559647,
@@ -66,6 +58,14 @@
       "startTime": "2026-11-01T14:00:00Z",
       "homeTeam": "Frosinone Calcio",
       "awayTeam": "Torino FC"
+    },
+    {
+      "id": 558546,
+      "status": "TIMED",
+      "competition": "Serie A",
+      "startTime": "2026-11-01T14:00:00Z",
+      "homeTeam": "SS Lazio",
+      "awayTeam": "Cagliari Calcio"
     },
     {
       "id": 565841,
@@ -116,20 +116,20 @@
       "awayTeam": "Angers SCO"
     },
     {
-      "id": 560631,
-      "status": "TIMED",
-      "competition": "Premier League",
-      "startTime": "2026-11-01T16:30:00Z",
-      "homeTeam": "Liverpool FC",
-      "awayTeam": "Arsenal FC"
-    },
-    {
       "id": 565844,
       "status": "TIMED",
       "competition": "Bundesliga",
       "startTime": "2026-11-01T16:30:00Z",
       "homeTeam": "Eintracht Frankfurt",
       "awayTeam": "Hamburger SV"
+    },
+    {
+      "id": 560631,
+      "status": "TIMED",
+      "competition": "Premier League",
+      "startTime": "2026-11-01T16:30:00Z",
+      "homeTeam": "Liverpool FC",
+      "awayTeam": "Arsenal FC"
     },
     {
       "id": 558540,
@@ -148,20 +148,20 @@
       "awayTeam": "Valencia CF"
     },
     {
-      "id": 567345,
-      "status": "TIMED",
-      "competition": "Primeira Liga",
-      "startTime": "2026-11-01T18:00:00Z",
-      "homeTeam": "Académico de Viseu FC",
-      "awayTeam": "Rio Ave FC"
-    },
-    {
       "id": 567340,
       "status": "TIMED",
       "competition": "Primeira Liga",
       "startTime": "2026-11-01T18:00:00Z",
       "homeTeam": "CS Marítimo",
       "awayTeam": "CD Santa Clara"
+    },
+    {
+      "id": 567345,
+      "status": "TIMED",
+      "competition": "Primeira Liga",
+      "startTime": "2026-11-01T18:00:00Z",
+      "homeTeam": "Académico de Viseu FC",
+      "awayTeam": "Rio Ave FC"
     },
     {
       "id": 558547,
@@ -220,20 +220,20 @@
       "awayTeam": "Stade Brestois 29"
     },
     {
-      "id": 564731,
-      "status": "TIMED",
-      "competition": "Primera Division",
-      "startTime": "2026-11-02T20:00:00Z",
-      "homeTeam": "RC Deportivo La Coruña",
-      "awayTeam": "CA Osasuna"
-    },
-    {
       "id": 560622,
       "status": "TIMED",
       "competition": "Premier League",
       "startTime": "2026-11-02T20:00:00Z",
       "homeTeam": "Newcastle United FC",
       "awayTeam": "Everton FC"
+    },
+    {
+      "id": 564731,
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "startTime": "2026-11-02T20:00:00Z",
+      "homeTeam": "RC Deportivo La Coruña",
+      "awayTeam": "CA Osasuna"
     },
     {
       "id": 567342,
