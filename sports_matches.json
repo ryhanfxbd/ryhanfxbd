@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-01T21:23:57Z",
+  "updatedAt": "2026-11-01T22:23:17Z",
   "count": 32,
   "matches": [
     {
@@ -165,7 +165,7 @@
     },
     {
       "id": 559645,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Ligue 1",
       "startTime": "2026-11-01T19:45:00Z",
       "homeTeam": "Olympique de Marseille",
@@ -173,7 +173,7 @@
     },
     {
       "id": 558547,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Serie A",
       "startTime": "2026-11-01T19:45:00Z",
       "homeTeam": "Juventus FC",
@@ -181,7 +181,7 @@
     },
     {
       "id": 564729,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Primera Division",
       "startTime": "2026-11-01T20:00:00Z",
       "homeTeam": "Athletic Club",
