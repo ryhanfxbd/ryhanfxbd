@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-01T07:45:29Z",
+  "updatedAt": "2026-11-01T08:35:26Z",
   "count": 32,
   "matches": [
     {
@@ -164,20 +164,20 @@
       "awayTeam": "CD Santa Clara"
     },
     {
-      "id": 558547,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-11-01T19:45:00Z",
-      "homeTeam": "Juventus FC",
-      "awayTeam": "SSC Napoli"
-    },
-    {
       "id": 559645,
       "status": "TIMED",
       "competition": "Ligue 1",
       "startTime": "2026-11-01T19:45:00Z",
       "homeTeam": "Olympique de Marseille",
       "awayTeam": "Toulouse FC"
+    },
+    {
+      "id": 558547,
+      "status": "TIMED",
+      "competition": "Serie A",
+      "startTime": "2026-11-01T19:45:00Z",
+      "homeTeam": "Juventus FC",
+      "awayTeam": "SSC Napoli"
     },
     {
       "id": 564729,
@@ -236,20 +236,20 @@
       "awayTeam": "Everton FC"
     },
     {
-      "id": 567346,
-      "status": "TIMED",
-      "competition": "Primeira Liga",
-      "startTime": "2026-11-02T20:15:00Z",
-      "homeTeam": "Gil Vicente FC",
-      "awayTeam": "Vitória SC"
-    },
-    {
       "id": 567342,
       "status": "TIMED",
       "competition": "Primeira Liga",
       "startTime": "2026-11-02T20:15:00Z",
       "homeTeam": "Sport Lisboa e Benfica",
       "awayTeam": "FC Alverca"
+    },
+    {
+      "id": 567346,
+      "status": "TIMED",
+      "competition": "Primeira Liga",
+      "startTime": "2026-11-02T20:15:00Z",
+      "homeTeam": "Gil Vicente FC",
+      "awayTeam": "Vitória SC"
     },
     {
       "id": 555072,
