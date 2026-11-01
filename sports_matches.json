@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-01T20:21:10Z",
+  "updatedAt": "2026-11-01T21:23:57Z",
   "count": 32,
   "matches": [
     {
@@ -44,6 +44,14 @@
       "awayTeam": "FC Utrecht"
     },
     {
+      "id": 559647,
+      "status": "FINISHED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-01T14:00:00Z",
+      "homeTeam": "RC Strasbourg Alsace",
+      "awayTeam": "AJ Auxerre"
+    },
+    {
       "id": 558544,
       "status": "FINISHED",
       "competition": "Serie A",
@@ -58,14 +66,6 @@
       "startTime": "2026-11-01T14:00:00Z",
       "homeTeam": "SS Lazio",
       "awayTeam": "Cagliari Calcio"
-    },
-    {
-      "id": 559647,
-      "status": "FINISHED",
-      "competition": "Ligue 1",
-      "startTime": "2026-11-01T14:00:00Z",
-      "homeTeam": "RC Strasbourg Alsace",
-      "awayTeam": "AJ Auxerre"
     },
     {
       "id": 565841,
@@ -164,20 +164,20 @@
       "awayTeam": "Rio Ave FC"
     },
     {
-      "id": 558547,
-      "status": "IN_PLAY",
-      "competition": "Serie A",
-      "startTime": "2026-11-01T19:45:00Z",
-      "homeTeam": "Juventus FC",
-      "awayTeam": "SSC Napoli"
-    },
-    {
       "id": 559645,
       "status": "IN_PLAY",
       "competition": "Ligue 1",
       "startTime": "2026-11-01T19:45:00Z",
       "homeTeam": "Olympique de Marseille",
       "awayTeam": "Toulouse FC"
+    },
+    {
+      "id": 558547,
+      "status": "IN_PLAY",
+      "competition": "Serie A",
+      "startTime": "2026-11-01T19:45:00Z",
+      "homeTeam": "Juventus FC",
+      "awayTeam": "SSC Napoli"
     },
     {
       "id": 564729,
@@ -189,7 +189,7 @@
     },
     {
       "id": 567339,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primeira Liga",
       "startTime": "2026-11-01T20:30:00Z",
       "homeTeam": "Sporting Clube de Braga",
@@ -236,20 +236,20 @@
       "awayTeam": "CA Osasuna"
     },
     {
-      "id": 567346,
-      "status": "TIMED",
-      "competition": "Primeira Liga",
-      "startTime": "2026-11-02T20:15:00Z",
-      "homeTeam": "Gil Vicente FC",
-      "awayTeam": "Vitória SC"
-    },
-    {
       "id": 567342,
       "status": "TIMED",
       "competition": "Primeira Liga",
       "startTime": "2026-11-02T20:15:00Z",
       "homeTeam": "Sport Lisboa e Benfica",
       "awayTeam": "FC Alverca"
+    },
+    {
+      "id": 567346,
+      "status": "TIMED",
+      "competition": "Primeira Liga",
+      "startTime": "2026-11-02T20:15:00Z",
+      "homeTeam": "Gil Vicente FC",
+      "awayTeam": "Vitória SC"
     },
     {
       "id": 555072,
