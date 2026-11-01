@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-01T00:30:09Z",
+  "updatedAt": "2026-11-01T01:50:15Z",
   "count": 32,
   "matches": [
     {
@@ -100,20 +100,20 @@
       "awayTeam": "Sparta Rotterdam"
     },
     {
-      "id": 559640,
-      "status": "TIMED",
-      "competition": "Ligue 1",
-      "startTime": "2026-11-01T16:15:00Z",
-      "homeTeam": "Olympique Lyonnais",
-      "awayTeam": "Angers SCO"
-    },
-    {
       "id": 559642,
       "status": "TIMED",
       "competition": "Ligue 1",
       "startTime": "2026-11-01T16:15:00Z",
       "homeTeam": "Paris FC",
       "awayTeam": "AS Monaco FC"
+    },
+    {
+      "id": 559640,
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-01T16:15:00Z",
+      "homeTeam": "Olympique Lyonnais",
+      "awayTeam": "Angers SCO"
     },
     {
       "id": 565844,
@@ -204,20 +204,20 @@
       "awayTeam": "ACF Fiorentina"
     },
     {
-      "id": 558545,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-11-02T19:45:00Z",
-      "homeTeam": "Atalanta BC",
-      "awayTeam": "Parma Calcio 1913"
-    },
-    {
       "id": 559641,
       "status": "TIMED",
       "competition": "Ligue 1",
       "startTime": "2026-11-02T19:45:00Z",
       "homeTeam": "FC Lorient",
       "awayTeam": "Stade Brestois 29"
+    },
+    {
+      "id": 558545,
+      "status": "TIMED",
+      "competition": "Serie A",
+      "startTime": "2026-11-02T19:45:00Z",
+      "homeTeam": "Atalanta BC",
+      "awayTeam": "Parma Calcio 1913"
     },
     {
       "id": 560622,
@@ -236,20 +236,20 @@
       "awayTeam": "CA Osasuna"
     },
     {
-      "id": 567346,
-      "status": "TIMED",
-      "competition": "Primeira Liga",
-      "startTime": "2026-11-02T20:15:00Z",
-      "homeTeam": "Gil Vicente FC",
-      "awayTeam": "Vitória SC"
-    },
-    {
       "id": 567342,
       "status": "TIMED",
       "competition": "Primeira Liga",
       "startTime": "2026-11-02T20:15:00Z",
       "homeTeam": "Sport Lisboa e Benfica",
       "awayTeam": "FC Alverca"
+    },
+    {
+      "id": 567346,
+      "status": "TIMED",
+      "competition": "Primeira Liga",
+      "startTime": "2026-11-02T20:15:00Z",
+      "homeTeam": "Gil Vicente FC",
+      "awayTeam": "Vitória SC"
     },
     {
       "id": 555072,
