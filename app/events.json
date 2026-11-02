@@ -13,83 +13,6 @@
       "teamB": "Instituto"
     },
     {
-      "channel": "WeatherSpy (India)",
-      "channels": [
-        "WeatherSpy (India)",
-        "Vision (India)",
-        "Update India",
-        "TLC (India)",
-        "Soochna India"
-      ],
-      "flagA": "🇧🇩",
-      "flagB": "🇮🇳",
-      "id": "bangladesh-india-2026-11-01",
-      "league": "Bangladesh vs India",
-      "sport": "Cricket",
-      "startUtc": "2026-11-01T01:40:00Z",
-      "teamA": "Bangladesh",
-      "teamB": "India"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "🇱🇰",
-      "flagB": "🇭🇰",
-      "id": "sri-lanka-hong-kong-2026-11-01",
-      "league": "Sri Lanka vs Hong Kong",
-      "sport": "Cricket",
-      "startUtc": "2026-11-01T02:35:00Z",
-      "teamA": "Sri Lanka",
-      "teamB": "Hong Kong"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "🇦🇪",
-      "flagB": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-      "id": "united-arab-emirates-scotland-2026-11-01",
-      "league": "United Arab Emirates vs Scotland",
-      "sport": "Cricket",
-      "startUtc": "2026-11-01T03:30:00Z",
-      "teamA": "United Arab Emirates",
-      "teamB": "Scotland"
-    },
-    {
-      "channel": "South Station",
-      "channels": [
-        "South Station",
-        "South Movies",
-        "Zee South Flix",
-        "Africa 24 Sport"
-      ],
-      "flagA": "🇿🇦",
-      "flagB": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "id": "south-africa-england-2026-11-01",
-      "league": "South Africa vs England",
-      "sport": "Cricket",
-      "startUtc": "2026-11-01T05:20:00Z",
-      "teamA": "South Africa",
-      "teamB": "England"
-    },
-    {
-      "channel": "Discover Pakistan",
-      "channels": [
-        "Discover Pakistan",
-        "Oman Sports TV",
-        "PTV Sports HD",
-        "PTV Sports",
-        "Ten Sports Pakistan"
-      ],
-      "flagA": "🇴🇲",
-      "flagB": "🇵🇰",
-      "id": "oman-pakistan-2026-11-01",
-      "league": "Oman vs Pakistan",
-      "sport": "Cricket",
-      "startUtc": "2026-11-01T06:15:00Z",
-      "teamA": "Oman",
-      "teamB": "Pakistan"
-    },
-    {
       "channel": "STAR SPORTS 1 HD",
       "channels": [
         "STAR SPORTS 1 HD"
@@ -102,32 +25,6 @@
       "startUtc": "2026-11-01T07:00:00Z",
       "teamA": "New Zealand",
       "teamB": "India"
-    },
-    {
-      "channel": "ABC Australia",
-      "channels": [
-        "ABC Australia"
-      ],
-      "flagA": "🇦🇺",
-      "flagB": "🇦🇫",
-      "id": "australia-afghanistan-2026-11-01",
-      "league": "Australia vs Afghanistan",
-      "sport": "Cricket",
-      "startUtc": "2026-11-01T07:10:00Z",
-      "teamA": "Australia",
-      "teamB": "Afghanistan"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "🇳🇦",
-      "flagB": "🇮🇪",
-      "id": "namibia-ireland-2026-11-01",
-      "league": "Namibia vs Ireland",
-      "sport": "Cricket",
-      "startUtc": "2026-11-01T08:00:00Z",
-      "teamA": "Namibia",
-      "teamB": "Ireland"
     },
     {
       "channel": "Bein Sports 1",
@@ -1253,5 +1150,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-02T12:59:52Z"
+  "updatedAt": "2026-11-02T18:56:10Z"
 }
