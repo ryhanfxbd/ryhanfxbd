@@ -16,10 +16,10 @@
       "channel": "WeatherSpy (India)",
       "channels": [
         "WeatherSpy (India)",
+        "Vision (India)",
         "Update India",
         "TLC (India)",
-        "Soochna India",
-        "RTV (Bangladesh)"
+        "Soochna India"
       ],
       "flagA": "🇧🇩",
       "flagB": "🇮🇳",
@@ -1253,5 +1253,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-02T07:09:46Z"
+  "updatedAt": "2026-11-02T12:59:52Z"
 }
