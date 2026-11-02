@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-02T02:39:41Z",
+  "updatedAt": "2026-11-02T03:41:41Z",
   "count": 27,
   "matches": [
     {
@@ -108,14 +108,6 @@
       "awayTeam": "Norwich City FC"
     },
     {
-      "id": 561918,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-03T19:45:00Z",
-      "homeTeam": "Portsmouth FC",
-      "awayTeam": "Swansea City AFC"
-    },
-    {
       "id": 561924,
       "status": "TIMED",
       "competition": "Championship",
@@ -140,20 +132,12 @@
       "awayTeam": "Stoke City FC"
     },
     {
-      "id": 575380,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-03T20:00:00Z",
-      "homeTeam": "FC Barcelona",
-      "awayTeam": "Aston Villa FC"
-    },
-    {
-      "id": 561923,
+      "id": 561918,
       "status": "TIMED",
       "competition": "Championship",
-      "startTime": "2026-11-03T20:00:00Z",
-      "homeTeam": "West Bromwich Albion FC",
-      "awayTeam": "Southampton FC"
+      "startTime": "2026-11-03T19:45:00Z",
+      "homeTeam": "Portsmouth FC",
+      "awayTeam": "Swansea City AFC"
     },
     {
       "id": 575382,
@@ -180,20 +164,20 @@
       "awayTeam": "Millwall FC"
     },
     {
-      "id": 575385,
+      "id": 575380,
       "status": "TIMED",
       "competition": "UEFA Champions League",
       "startTime": "2026-11-03T20:00:00Z",
-      "homeTeam": "LASK Linz",
-      "awayTeam": "ŠK Slovan Bratislava"
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Aston Villa FC"
     },
     {
-      "id": 575381,
+      "id": 561923,
       "status": "TIMED",
-      "competition": "UEFA Champions League",
+      "competition": "Championship",
       "startTime": "2026-11-03T20:00:00Z",
-      "homeTeam": "Club Atlético de Madrid",
-      "awayTeam": "FC Bayern München"
+      "homeTeam": "West Bromwich Albion FC",
+      "awayTeam": "Southampton FC"
     },
     {
       "id": 575383,
@@ -210,6 +194,22 @@
       "startTime": "2026-11-03T20:00:00Z",
       "homeTeam": "Feyenoord Rotterdam",
       "awayTeam": "FC Internazionale Milano"
+    },
+    {
+      "id": 575385,
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-03T20:00:00Z",
+      "homeTeam": "LASK Linz",
+      "awayTeam": "ŠK Slovan Bratislava"
+    },
+    {
+      "id": 575381,
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-03T20:00:00Z",
+      "homeTeam": "Club Atlético de Madrid",
+      "awayTeam": "FC Bayern München"
     },
     {
       "id": 555073,
