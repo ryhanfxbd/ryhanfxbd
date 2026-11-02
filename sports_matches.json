@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-02T00:30:54Z",
+  "updatedAt": "2026-11-02T01:51:23Z",
   "count": 27,
   "matches": [
     {
@@ -84,14 +84,6 @@
       "awayTeam": "VfB Stuttgart"
     },
     {
-      "id": 561918,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-03T19:45:00Z",
-      "homeTeam": "Portsmouth FC",
-      "awayTeam": "Swansea City AFC"
-    },
-    {
       "id": 561924,
       "status": "TIMED",
       "competition": "Championship",
@@ -114,6 +106,14 @@
       "startTime": "2026-11-03T19:45:00Z",
       "homeTeam": "Blackburn Rovers FC",
       "awayTeam": "Stoke City FC"
+    },
+    {
+      "id": 561918,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-11-03T19:45:00Z",
+      "homeTeam": "Portsmouth FC",
+      "awayTeam": "Swansea City AFC"
     },
     {
       "id": 561919,
@@ -140,14 +140,6 @@
       "awayTeam": "Norwich City FC"
     },
     {
-      "id": 575385,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-03T20:00:00Z",
-      "homeTeam": "LASK Linz",
-      "awayTeam": "ŠK Slovan Bratislava"
-    },
-    {
       "id": 575381,
       "status": "TIMED",
       "competition": "UEFA Champions League",
@@ -172,20 +164,12 @@
       "awayTeam": "FC Internazionale Milano"
     },
     {
-      "id": 575380,
+      "id": 575385,
       "status": "TIMED",
       "competition": "UEFA Champions League",
       "startTime": "2026-11-03T20:00:00Z",
-      "homeTeam": "FC Barcelona",
-      "awayTeam": "Aston Villa FC"
-    },
-    {
-      "id": 561923,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-03T20:00:00Z",
-      "homeTeam": "West Bromwich Albion FC",
-      "awayTeam": "Southampton FC"
+      "homeTeam": "LASK Linz",
+      "awayTeam": "ŠK Slovan Bratislava"
     },
     {
       "id": 575382,
@@ -210,6 +194,22 @@
       "startTime": "2026-11-03T20:00:00Z",
       "homeTeam": "Birmingham City FC",
       "awayTeam": "Millwall FC"
+    },
+    {
+      "id": 575380,
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-03T20:00:00Z",
+      "homeTeam": "FC Barcelona",
+      "awayTeam": "Aston Villa FC"
+    },
+    {
+      "id": 561923,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-11-03T20:00:00Z",
+      "homeTeam": "West Bromwich Albion FC",
+      "awayTeam": "Southampton FC"
     },
     {
       "id": 555073,
