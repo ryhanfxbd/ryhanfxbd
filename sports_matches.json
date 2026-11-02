@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-02T19:42:49Z",
+  "updatedAt": "2026-11-02T20:34:22Z",
   "count": 27,
   "matches": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "id": 559641,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Ligue 1",
       "startTime": "2026-11-02T19:45:00Z",
       "homeTeam": "FC Lorient",
@@ -21,7 +21,7 @@
     },
     {
       "id": 558545,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Serie A",
       "startTime": "2026-11-02T19:45:00Z",
       "homeTeam": "Atalanta BC",
@@ -29,7 +29,7 @@
     },
     {
       "id": 560622,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Premier League",
       "startTime": "2026-11-02T20:00:00Z",
       "homeTeam": "Newcastle United FC",
@@ -37,7 +37,7 @@
     },
     {
       "id": 564731,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primera Division",
       "startTime": "2026-11-02T20:00:00Z",
       "homeTeam": "RC Deportivo La Coruña",
@@ -45,7 +45,7 @@
     },
     {
       "id": 567342,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primeira Liga",
       "startTime": "2026-11-02T20:15:00Z",
       "homeTeam": "Sport Lisboa e Benfica",
@@ -53,7 +53,7 @@
     },
     {
       "id": 567346,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primeira Liga",
       "startTime": "2026-11-02T20:15:00Z",
       "homeTeam": "Gil Vicente FC",
@@ -84,14 +84,6 @@
       "awayTeam": "VfB Stuttgart"
     },
     {
-      "id": 561924,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-03T19:45:00Z",
-      "homeTeam": "Watford FC",
-      "awayTeam": "Lincoln City FC"
-    },
-    {
       "id": 561920,
       "status": "TIMED",
       "competition": "Championship",
@@ -116,12 +108,12 @@
       "awayTeam": "Swansea City AFC"
     },
     {
-      "id": 561919,
+      "id": 561924,
       "status": "TIMED",
       "competition": "Championship",
       "startTime": "2026-11-03T19:45:00Z",
-      "homeTeam": "Preston North End FC",
-      "awayTeam": "Sheffield United FC"
+      "homeTeam": "Watford FC",
+      "awayTeam": "Lincoln City FC"
     },
     {
       "id": 561928,
@@ -138,6 +130,14 @@
       "startTime": "2026-11-03T19:45:00Z",
       "homeTeam": "Derby County FC",
       "awayTeam": "Norwich City FC"
+    },
+    {
+      "id": 561919,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-11-03T19:45:00Z",
+      "homeTeam": "Preston North End FC",
+      "awayTeam": "Sheffield United FC"
     },
     {
       "id": 575383,
