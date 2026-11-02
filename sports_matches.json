@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-02T12:44:34Z",
+  "updatedAt": "2026-11-02T13:57:43Z",
   "count": 27,
   "matches": [
     {
@@ -84,14 +84,6 @@
       "awayTeam": "Sporting Clube de Portugal"
     },
     {
-      "id": 561921,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-03T19:45:00Z",
-      "homeTeam": "Derby County FC",
-      "awayTeam": "Norwich City FC"
-    },
-    {
       "id": 561919,
       "status": "TIMED",
       "competition": "Championship",
@@ -106,6 +98,14 @@
       "startTime": "2026-11-03T19:45:00Z",
       "homeTeam": "Charlton Athletic FC",
       "awayTeam": "Bolton Wanderers FC"
+    },
+    {
+      "id": 561921,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-11-03T19:45:00Z",
+      "homeTeam": "Derby County FC",
+      "awayTeam": "Norwich City FC"
     },
     {
       "id": 561922,
@@ -180,14 +180,6 @@
       "awayTeam": "Paris Saint-Germain FC"
     },
     {
-      "id": 575383,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-03T20:00:00Z",
-      "homeTeam": "Manchester United FC",
-      "awayTeam": "AS Roma"
-    },
-    {
       "id": 575379,
       "status": "TIMED",
       "competition": "UEFA Champions League",
@@ -210,6 +202,14 @@
       "startTime": "2026-11-03T20:00:00Z",
       "homeTeam": "Club Atlético de Madrid",
       "awayTeam": "FC Bayern München"
+    },
+    {
+      "id": 575383,
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-03T20:00:00Z",
+      "homeTeam": "Manchester United FC",
+      "awayTeam": "AS Roma"
     },
     {
       "id": 555073,
