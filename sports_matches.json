@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-03T20:33:48Z",
+  "updatedAt": "2026-11-03T21:30:06Z",
   "count": 34,
   "matches": [
     {
@@ -18,6 +18,14 @@
       "startTime": "2026-11-03T17:45:00Z",
       "homeTeam": "Galatasaray SK",
       "awayTeam": "VfB Stuttgart"
+    },
+    {
+      "id": 561928,
+      "status": "IN_PLAY",
+      "competition": "Championship",
+      "startTime": "2026-11-03T19:45:00Z",
+      "homeTeam": "Charlton Athletic FC",
+      "awayTeam": "Bolton Wanderers FC"
     },
     {
       "id": 561924,
@@ -50,14 +58,6 @@
       "startTime": "2026-11-03T19:45:00Z",
       "homeTeam": "Portsmouth FC",
       "awayTeam": "Swansea City AFC"
-    },
-    {
-      "id": 561928,
-      "status": "IN_PLAY",
-      "competition": "Championship",
-      "startTime": "2026-11-03T19:45:00Z",
-      "homeTeam": "Charlton Athletic FC",
-      "awayTeam": "Bolton Wanderers FC"
     },
     {
       "id": 561919,
