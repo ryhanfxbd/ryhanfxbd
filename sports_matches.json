@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-03T14:50:59Z",
+  "updatedAt": "2026-11-03T15:35:00Z",
   "count": 34,
   "matches": [
     {
@@ -36,6 +36,14 @@
       "awayTeam": "Norwich City FC"
     },
     {
+      "id": 561918,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-11-03T19:45:00Z",
+      "homeTeam": "Portsmouth FC",
+      "awayTeam": "Swansea City AFC"
+    },
+    {
       "id": 561928,
       "status": "TIMED",
       "competition": "Championship",
@@ -66,14 +74,6 @@
       "startTime": "2026-11-03T19:45:00Z",
       "homeTeam": "Blackburn Rovers FC",
       "awayTeam": "Stoke City FC"
-    },
-    {
-      "id": 561918,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-03T19:45:00Z",
-      "homeTeam": "Portsmouth FC",
-      "awayTeam": "Swansea City AFC"
     },
     {
       "id": 561923,
@@ -260,20 +260,20 @@
       "awayTeam": "Real Betis Balompié"
     },
     {
-      "id": 555075,
-      "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-04T22:30:00Z",
-      "homeTeam": "CR Flamengo",
-      "awayTeam": "Grêmio FBPA"
-    },
-    {
       "id": 555070,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-04T22:30:00Z",
       "homeTeam": "CA Paranaense",
       "awayTeam": "CR Vasco da Gama"
+    },
+    {
+      "id": 555075,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-04T22:30:00Z",
+      "homeTeam": "CR Flamengo",
+      "awayTeam": "Grêmio FBPA"
     }
   ]
 }
