@@ -1,24 +1,6 @@
 {
   "events": [
     {
-      "channel": "Oman Sports TV",
-      "channels": [
-        "Oman Sports TV",
-        "ESPN (Netherlands)",
-        "ESPN 4 (Netherlands)",
-        "ESPN 3 (Netherlands)",
-        "ESPN 2 (Netherlands)"
-      ],
-      "flagA": "🇴🇲",
-      "flagB": "🇳🇱",
-      "id": "oman-netherlands-2026-11-02",
-      "league": "Oman vs Netherlands",
-      "sport": "Cricket",
-      "startUtc": "2026-11-02T05:30:00Z",
-      "teamA": "Oman",
-      "teamB": "Netherlands"
-    },
-    {
       "channel": "Bein Sports 1",
       "channels": [
         "Bein Sports 1",
@@ -967,14 +949,26 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/rbkjba1707458543.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/vi4mu41695734959.png",
-      "id": "barracas-central-racing-club-2026-11-06",
-      "league": "Argentinian Primera Division",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/upsvvu1473538059.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/xuvtsv1473539308.png",
+      "id": "cruzeiro-bahia-2026-11-06",
+      "league": "Brazilian Serie A",
       "sport": "Football",
-      "startUtc": "2026-11-06T15:00:00Z",
-      "teamA": "Barracas Central",
-      "teamB": "Racing Club"
+      "startUtc": "2026-11-06T00:30:00Z",
+      "teamA": "Cruzeiro",
+      "teamB": "Bahia"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/3kgg5b1592144695.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/svqvqq1421957626.png",
+      "id": "hammarby-elfsborg-2026-11-06",
+      "league": "Swedish Allsvenskan",
+      "sport": "Football",
+      "startUtc": "2026-11-06T18:00:00Z",
+      "teamA": "Hammarby",
+      "teamB": "Elfsborg"
     },
     {
       "channel": "Sony Ten Sports 2 HD",
@@ -1059,28 +1053,16 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/eki4nd1580842605.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/332h0l1578824392.png",
-      "id": "independiente-deportivo-riestra-2026-11-06",
-      "league": "Argentinian Primera Division",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/tysrrx1473538156.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/stvvwp1473538082.png",
+      "id": "vitoria-fluminense-2026-11-06",
+      "league": "Brazilian Serie A",
       "sport": "Football",
-      "startUtc": "2026-11-06T22:00:00Z",
-      "teamA": "Independiente",
-      "teamB": "Deportivo Riestra"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/37wke41775741605.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/lbs14n1769317149.png",
-      "id": "san-lorenzo-platense-2026-11-06",
-      "league": "Argentinian Primera Division",
-      "sport": "Football",
-      "startUtc": "2026-11-06T22:00:00Z",
-      "teamA": "San Lorenzo",
-      "teamB": "Platense"
+      "startUtc": "2026-11-06T23:00:00Z",
+      "teamA": "Vitória",
+      "teamB": "Fluminense"
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-03T13:00:16Z"
+  "updatedAt": "2026-11-03T18:48:57Z"
 }
