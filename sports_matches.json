@@ -1,11 +1,11 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-04T15:43:11Z",
+  "updatedAt": "2026-11-04T16:42:41Z",
   "count": 18,
   "matches": [
     {
       "id": 555076,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-04T00:30:00Z",
       "homeTeam": "SC Internacional",
@@ -44,14 +44,6 @@
       "awayTeam": "Middlesbrough FC"
     },
     {
-      "id": 575390,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "PSV",
-      "awayTeam": "Club Brugge KV"
-    },
-    {
       "id": 575392,
       "status": "TIMED",
       "competition": "UEFA Champions League",
@@ -76,12 +68,12 @@
       "awayTeam": "Sabah FK"
     },
     {
-      "id": 575391,
+      "id": 575390,
       "status": "TIMED",
       "competition": "UEFA Champions League",
       "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "Borussia Dortmund",
-      "awayTeam": "Real Betis Balompié"
+      "homeTeam": "PSV",
+      "awayTeam": "Club Brugge KV"
     },
     {
       "id": 575393,
@@ -108,12 +100,12 @@
       "awayTeam": "Arsenal FC"
     },
     {
-      "id": 555070,
+      "id": 575391,
       "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-04T22:30:00Z",
-      "homeTeam": "CA Paranaense",
-      "awayTeam": "CR Vasco da Gama"
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-04T20:00:00Z",
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "Real Betis Balompié"
     },
     {
       "id": 555075,
@@ -124,12 +116,12 @@
       "awayTeam": "Grêmio FBPA"
     },
     {
-      "id": 555078,
+      "id": 555070,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-05T00:30:00Z",
-      "homeTeam": "São Paulo FC",
-      "awayTeam": "SC Corinthians Paulista"
+      "startTime": "2026-11-04T22:30:00Z",
+      "homeTeam": "CA Paranaense",
+      "awayTeam": "CR Vasco da Gama"
     },
     {
       "id": 555071,
@@ -138,6 +130,14 @@
       "startTime": "2026-11-05T00:30:00Z",
       "homeTeam": "Botafogo FR",
       "awayTeam": "CA Mineiro"
+    },
+    {
+      "id": 555078,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-05T00:30:00Z",
+      "homeTeam": "São Paulo FC",
+      "awayTeam": "SC Corinthians Paulista"
     },
     {
       "id": 555077,
