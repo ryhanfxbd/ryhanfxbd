@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-04T13:57:06Z",
+  "updatedAt": "2026-11-04T14:50:57Z",
   "count": 18,
   "matches": [
     {
@@ -28,6 +28,14 @@
       "awayTeam": "Liverpool FC"
     },
     {
+      "id": 561927,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-11-04T19:45:00Z",
+      "homeTeam": "Wrexham AFC",
+      "awayTeam": "Middlesbrough FC"
+    },
+    {
       "id": 561925,
       "status": "TIMED",
       "competition": "Championship",
@@ -36,12 +44,20 @@
       "awayTeam": "West Ham United FC"
     },
     {
-      "id": 561927,
+      "id": 575394,
       "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-04T19:45:00Z",
-      "homeTeam": "Wrexham AFC",
-      "awayTeam": "Middlesbrough FC"
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-04T20:00:00Z",
+      "homeTeam": "Viking FK",
+      "awayTeam": "Sabah FK"
+    },
+    {
+      "id": 575390,
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-04T20:00:00Z",
+      "homeTeam": "PSV",
+      "awayTeam": "Club Brugge KV"
     },
     {
       "id": 575392,
@@ -60,20 +76,12 @@
       "awayTeam": "Manchester City FC"
     },
     {
-      "id": 575394,
+      "id": 575389,
       "status": "TIMED",
       "competition": "UEFA Champions League",
       "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "Viking FK",
-      "awayTeam": "Sabah FK"
-    },
-    {
-      "id": 575390,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "PSV",
-      "awayTeam": "Club Brugge KV"
+      "homeTeam": "SK Slavia Praha",
+      "awayTeam": "Arsenal FC"
     },
     {
       "id": 575391,
@@ -98,14 +106,6 @@
       "startTime": "2026-11-04T20:00:00Z",
       "homeTeam": "Bristol City FC",
       "awayTeam": "Wolverhampton Wanderers FC"
-    },
-    {
-      "id": 575389,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "SK Slavia Praha",
-      "awayTeam": "Arsenal FC"
     },
     {
       "id": 555070,
