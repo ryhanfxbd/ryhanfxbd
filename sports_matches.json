@@ -1,11 +1,11 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-04T00:31:06Z",
+  "updatedAt": "2026-11-04T01:48:40Z",
   "count": 18,
   "matches": [
     {
       "id": 555076,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-04T00:30:00Z",
       "homeTeam": "SC Internacional",
@@ -44,14 +44,6 @@
       "awayTeam": "Middlesbrough FC"
     },
     {
-      "id": 575390,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "PSV",
-      "awayTeam": "Club Brugge KV"
-    },
-    {
       "id": 575392,
       "status": "TIMED",
       "competition": "UEFA Champions League",
@@ -74,6 +66,14 @@
       "startTime": "2026-11-04T20:00:00Z",
       "homeTeam": "Viking FK",
       "awayTeam": "Sabah FK"
+    },
+    {
+      "id": 575390,
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-04T20:00:00Z",
+      "homeTeam": "PSV",
+      "awayTeam": "Club Brugge KV"
     },
     {
       "id": 575391,
