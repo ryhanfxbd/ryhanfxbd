@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-04T03:37:37Z",
+  "updatedAt": "2026-11-04T04:42:13Z",
   "count": 18,
   "matches": [
     {
@@ -28,14 +28,6 @@
       "awayTeam": "Liverpool FC"
     },
     {
-      "id": 561927,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-04T19:45:00Z",
-      "homeTeam": "Wrexham AFC",
-      "awayTeam": "Middlesbrough FC"
-    },
-    {
       "id": 561925,
       "status": "TIMED",
       "competition": "Championship",
@@ -44,12 +36,12 @@
       "awayTeam": "West Ham United FC"
     },
     {
-      "id": 575390,
+      "id": 561927,
       "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "PSV",
-      "awayTeam": "Club Brugge KV"
+      "competition": "Championship",
+      "startTime": "2026-11-04T19:45:00Z",
+      "homeTeam": "Wrexham AFC",
+      "awayTeam": "Middlesbrough FC"
     },
     {
       "id": 575392,
@@ -74,6 +66,14 @@
       "startTime": "2026-11-04T20:00:00Z",
       "homeTeam": "Viking FK",
       "awayTeam": "Sabah FK"
+    },
+    {
+      "id": 575390,
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-04T20:00:00Z",
+      "homeTeam": "PSV",
+      "awayTeam": "Club Brugge KV"
     },
     {
       "id": 575391,
