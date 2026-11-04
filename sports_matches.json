@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-04T01:48:40Z",
+  "updatedAt": "2026-11-04T02:37:18Z",
   "count": 18,
   "matches": [
     {
@@ -76,14 +76,6 @@
       "awayTeam": "Club Brugge KV"
     },
     {
-      "id": 575391,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "Borussia Dortmund",
-      "awayTeam": "Real Betis Balompié"
-    },
-    {
       "id": 575393,
       "status": "TIMED",
       "competition": "UEFA Champions League",
@@ -106,6 +98,14 @@
       "startTime": "2026-11-04T20:00:00Z",
       "homeTeam": "SK Slavia Praha",
       "awayTeam": "Arsenal FC"
+    },
+    {
+      "id": 575391,
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-04T20:00:00Z",
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "Real Betis Balompié"
     },
     {
       "id": 555070,
