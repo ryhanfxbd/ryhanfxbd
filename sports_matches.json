@@ -1,11 +1,11 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-04T02:37:18Z",
+  "updatedAt": "2026-11-04T03:37:37Z",
   "count": 18,
   "matches": [
     {
       "id": 555076,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-04T00:30:00Z",
       "homeTeam": "SC Internacional",
@@ -28,6 +28,14 @@
       "awayTeam": "Liverpool FC"
     },
     {
+      "id": 561927,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-11-04T19:45:00Z",
+      "homeTeam": "Wrexham AFC",
+      "awayTeam": "Middlesbrough FC"
+    },
+    {
       "id": 561925,
       "status": "TIMED",
       "competition": "Championship",
@@ -36,12 +44,12 @@
       "awayTeam": "West Ham United FC"
     },
     {
-      "id": 561927,
+      "id": 575390,
       "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-04T19:45:00Z",
-      "homeTeam": "Wrexham AFC",
-      "awayTeam": "Middlesbrough FC"
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-04T20:00:00Z",
+      "homeTeam": "PSV",
+      "awayTeam": "Club Brugge KV"
     },
     {
       "id": 575392,
@@ -68,12 +76,12 @@
       "awayTeam": "Sabah FK"
     },
     {
-      "id": 575390,
+      "id": 575391,
       "status": "TIMED",
       "competition": "UEFA Champions League",
       "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "PSV",
-      "awayTeam": "Club Brugge KV"
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "Real Betis Balompié"
     },
     {
       "id": 575393,
@@ -98,14 +106,6 @@
       "startTime": "2026-11-04T20:00:00Z",
       "homeTeam": "SK Slavia Praha",
       "awayTeam": "Arsenal FC"
-    },
-    {
-      "id": 575391,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "Borussia Dortmund",
-      "awayTeam": "Real Betis Balompié"
     },
     {
       "id": 555070,
