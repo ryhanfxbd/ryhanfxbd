@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-04T19:45:49Z",
+  "updatedAt": "2026-11-04T20:39:35Z",
   "count": 18,
   "matches": [
     {
@@ -28,24 +28,24 @@
       "awayTeam": "Real Madrid CF"
     },
     {
-      "id": 561927,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-04T19:45:00Z",
-      "homeTeam": "Wrexham AFC",
-      "awayTeam": "Middlesbrough FC"
-    },
-    {
       "id": 561925,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Championship",
       "startTime": "2026-11-04T19:45:00Z",
       "homeTeam": "Cardiff City FC",
       "awayTeam": "West Ham United FC"
     },
     {
+      "id": 561927,
+      "status": "IN_PLAY",
+      "competition": "Championship",
+      "startTime": "2026-11-04T19:45:00Z",
+      "homeTeam": "Wrexham AFC",
+      "awayTeam": "Middlesbrough FC"
+    },
+    {
       "id": 575393,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "UEFA Champions League",
       "startTime": "2026-11-04T20:00:00Z",
       "homeTeam": "Racing Club de Lens",
@@ -53,7 +53,7 @@
     },
     {
       "id": 561926,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Championship",
       "startTime": "2026-11-04T20:00:00Z",
       "homeTeam": "Bristol City FC",
@@ -61,7 +61,7 @@
     },
     {
       "id": 575389,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "UEFA Champions League",
       "startTime": "2026-11-04T20:00:00Z",
       "homeTeam": "SK Slavia Praha",
@@ -69,31 +69,15 @@
     },
     {
       "id": 575391,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "UEFA Champions League",
       "startTime": "2026-11-04T20:00:00Z",
       "homeTeam": "Borussia Dortmund",
       "awayTeam": "Real Betis Balompié"
     },
     {
-      "id": 575394,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "Viking FK",
-      "awayTeam": "Sabah FK"
-    },
-    {
-      "id": 575390,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "PSV",
-      "awayTeam": "Club Brugge KV"
-    },
-    {
       "id": 575392,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "UEFA Champions League",
       "startTime": "2026-11-04T20:00:00Z",
       "homeTeam": "FC Porto",
@@ -101,11 +85,27 @@
     },
     {
       "id": 575388,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "UEFA Champions League",
       "startTime": "2026-11-04T20:00:00Z",
       "homeTeam": "RB Leipzig",
       "awayTeam": "Manchester City FC"
+    },
+    {
+      "id": 575394,
+      "status": "IN_PLAY",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-04T20:00:00Z",
+      "homeTeam": "Viking FK",
+      "awayTeam": "Sabah FK"
+    },
+    {
+      "id": 575390,
+      "status": "IN_PLAY",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-04T20:00:00Z",
+      "homeTeam": "PSV",
+      "awayTeam": "Club Brugge KV"
     },
     {
       "id": 555075,
@@ -124,20 +124,20 @@
       "awayTeam": "CR Vasco da Gama"
     },
     {
-      "id": 555078,
-      "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-05T00:30:00Z",
-      "homeTeam": "São Paulo FC",
-      "awayTeam": "SC Corinthians Paulista"
-    },
-    {
       "id": 555071,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-05T00:30:00Z",
       "homeTeam": "Botafogo FR",
       "awayTeam": "CA Mineiro"
+    },
+    {
+      "id": 555078,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-05T00:30:00Z",
+      "homeTeam": "São Paulo FC",
+      "awayTeam": "SC Corinthians Paulista"
     },
     {
       "id": 555077,
