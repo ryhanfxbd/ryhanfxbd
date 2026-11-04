@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-04T11:47:01Z",
+  "updatedAt": "2026-11-04T12:42:37Z",
   "count": 18,
   "matches": [
     {
@@ -28,6 +28,14 @@
       "awayTeam": "Liverpool FC"
     },
     {
+      "id": 561925,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-11-04T19:45:00Z",
+      "homeTeam": "Cardiff City FC",
+      "awayTeam": "West Ham United FC"
+    },
+    {
       "id": 561927,
       "status": "TIMED",
       "competition": "Championship",
@@ -36,12 +44,12 @@
       "awayTeam": "Middlesbrough FC"
     },
     {
-      "id": 561925,
+      "id": 575392,
       "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-04T19:45:00Z",
-      "homeTeam": "Cardiff City FC",
-      "awayTeam": "West Ham United FC"
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-04T20:00:00Z",
+      "homeTeam": "FC Porto",
+      "awayTeam": "SSC Napoli"
     },
     {
       "id": 575388,
@@ -66,14 +74,6 @@
       "startTime": "2026-11-04T20:00:00Z",
       "homeTeam": "PSV",
       "awayTeam": "Club Brugge KV"
-    },
-    {
-      "id": 575392,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "FC Porto",
-      "awayTeam": "SSC Napoli"
     },
     {
       "id": 575393,
