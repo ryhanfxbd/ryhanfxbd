@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-04T08:07:49Z",
+  "updatedAt": "2026-11-04T10:56:19Z",
   "count": 18,
   "matches": [
     {
@@ -12,20 +12,20 @@
       "awayTeam": "Coritiba FBC"
     },
     {
-      "id": 575387,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T17:45:00Z",
-      "homeTeam": "Fenerbahçe SK",
-      "awayTeam": "Liverpool FC"
-    },
-    {
       "id": 575386,
       "status": "TIMED",
       "competition": "UEFA Champions League",
       "startTime": "2026-11-04T17:45:00Z",
       "homeTeam": "PAE AEK",
       "awayTeam": "Real Madrid CF"
+    },
+    {
+      "id": 575387,
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-04T17:45:00Z",
+      "homeTeam": "Fenerbahçe SK",
+      "awayTeam": "Liverpool FC"
     },
     {
       "id": 561927,
@@ -44,36 +44,12 @@
       "awayTeam": "West Ham United FC"
     },
     {
-      "id": 575389,
+      "id": 575388,
       "status": "TIMED",
       "competition": "UEFA Champions League",
       "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "SK Slavia Praha",
-      "awayTeam": "Arsenal FC"
-    },
-    {
-      "id": 575391,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "Borussia Dortmund",
-      "awayTeam": "Real Betis Balompié"
-    },
-    {
-      "id": 575393,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "Racing Club de Lens",
-      "awayTeam": "Como 1907"
-    },
-    {
-      "id": 561926,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "Bristol City FC",
-      "awayTeam": "Wolverhampton Wanderers FC"
+      "homeTeam": "RB Leipzig",
+      "awayTeam": "Manchester City FC"
     },
     {
       "id": 575394,
@@ -100,20 +76,36 @@
       "awayTeam": "SSC Napoli"
     },
     {
-      "id": 575388,
+      "id": 575393,
       "status": "TIMED",
       "competition": "UEFA Champions League",
       "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "RB Leipzig",
-      "awayTeam": "Manchester City FC"
+      "homeTeam": "Racing Club de Lens",
+      "awayTeam": "Como 1907"
     },
     {
-      "id": 555070,
+      "id": 561926,
       "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-04T22:30:00Z",
-      "homeTeam": "CA Paranaense",
-      "awayTeam": "CR Vasco da Gama"
+      "competition": "Championship",
+      "startTime": "2026-11-04T20:00:00Z",
+      "homeTeam": "Bristol City FC",
+      "awayTeam": "Wolverhampton Wanderers FC"
+    },
+    {
+      "id": 575389,
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-04T20:00:00Z",
+      "homeTeam": "SK Slavia Praha",
+      "awayTeam": "Arsenal FC"
+    },
+    {
+      "id": 575391,
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-04T20:00:00Z",
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "Real Betis Balompié"
     },
     {
       "id": 555075,
@@ -122,6 +114,14 @@
       "startTime": "2026-11-04T22:30:00Z",
       "homeTeam": "CR Flamengo",
       "awayTeam": "Grêmio FBPA"
+    },
+    {
+      "id": 555070,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-04T22:30:00Z",
+      "homeTeam": "CA Paranaense",
+      "awayTeam": "CR Vasco da Gama"
     },
     {
       "id": 555078,
