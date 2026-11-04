@@ -660,18 +660,6 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/sxpupx1473538135.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/vvuvps1473538042.png",
-      "id": "sao-paulo-corinthians-2026-11-05",
-      "league": "Brazilian Serie A",
-      "sport": "Football",
-      "startUtc": "2026-11-05T00:30:00Z",
-      "teamA": "São Paulo",
-      "teamB": "Corinthians"
-    },
-    {
-      "channel": "",
-      "channels": [],
       "flagA": "",
       "flagB": "",
       "id": "sao-paulo-corinthians-paulista-2026-11-05",
@@ -680,6 +668,18 @@
       "startUtc": "2026-11-05T00:30:00Z",
       "teamA": "São Paulo",
       "teamB": "Corinthians Paulista"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/nqrjqb1517767667.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/03dmi31645539717.png",
+      "id": "aldosivi-river-plate-2026-11-05",
+      "league": "Argentinian Primera Division",
+      "sport": "Football",
+      "startUtc": "2026-11-05T18:00:00Z",
+      "teamA": "Aldosivi",
+      "teamB": "River Plate"
     },
     {
       "channel": "",
@@ -1177,5 +1177,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-04T07:05:59Z"
+  "updatedAt": "2026-11-04T12:58:23Z"
 }
