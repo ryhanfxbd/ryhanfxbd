@@ -1,11 +1,11 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-04T14:50:57Z",
+  "updatedAt": "2026-11-04T15:43:11Z",
   "count": 18,
   "matches": [
     {
       "id": 555076,
-      "status": "FINISHED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-04T00:30:00Z",
       "homeTeam": "SC Internacional",
@@ -28,14 +28,6 @@
       "awayTeam": "Liverpool FC"
     },
     {
-      "id": 561927,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-04T19:45:00Z",
-      "homeTeam": "Wrexham AFC",
-      "awayTeam": "Middlesbrough FC"
-    },
-    {
       "id": 561925,
       "status": "TIMED",
       "competition": "Championship",
@@ -44,12 +36,12 @@
       "awayTeam": "West Ham United FC"
     },
     {
-      "id": 575394,
+      "id": 561927,
       "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "Viking FK",
-      "awayTeam": "Sabah FK"
+      "competition": "Championship",
+      "startTime": "2026-11-04T19:45:00Z",
+      "homeTeam": "Wrexham AFC",
+      "awayTeam": "Middlesbrough FC"
     },
     {
       "id": 575390,
@@ -76,12 +68,12 @@
       "awayTeam": "Manchester City FC"
     },
     {
-      "id": 575389,
+      "id": 575394,
       "status": "TIMED",
       "competition": "UEFA Champions League",
       "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "SK Slavia Praha",
-      "awayTeam": "Arsenal FC"
+      "homeTeam": "Viking FK",
+      "awayTeam": "Sabah FK"
     },
     {
       "id": 575391,
@@ -106,6 +98,14 @@
       "startTime": "2026-11-04T20:00:00Z",
       "homeTeam": "Bristol City FC",
       "awayTeam": "Wolverhampton Wanderers FC"
+    },
+    {
+      "id": 575389,
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-04T20:00:00Z",
+      "homeTeam": "SK Slavia Praha",
+      "awayTeam": "Arsenal FC"
     },
     {
       "id": 555070,
