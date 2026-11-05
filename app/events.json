@@ -3,195 +3,6 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/m5i2q21775755577.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/uqfjuo1769234850.png",
-      "id": "atletico-tucuman-argentinos-juniors-2026-11-03",
-      "league": "Argentinian Primera Division",
-      "sport": "Football",
-      "startUtc": "2026-11-03T00:15:00Z",
-      "teamA": "Atlético Tucumán",
-      "teamB": "Argentinos Juniors"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/qgzi2b1769406125.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/c2ea011775756104.png",
-      "id": "independiente-rivadavia-banfield-2026-11-03",
-      "league": "Argentinian Primera Division",
-      "sport": "Football",
-      "startUtc": "2026-11-03T00:15:00Z",
-      "teamA": "Independiente Rivadavia",
-      "teamB": "Banfield"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
-      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
-      "id": "galatasaray-vfb-stuttgart-2026-11-03",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-03T17:45:00Z",
-      "teamA": "Galatasaray",
-      "teamB": "VfB Stuttgart"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
-      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
-      "id": "shakhtar-donetsk-sporting-cp-2026-11-03",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-03T17:45:00Z",
-      "teamA": "Shakhtar Donetsk",
-      "teamB": "Sporting CP"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-      "id": "atletico-madrid-bayern-munich-2026-11-03",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-03T20:00:00Z",
-      "teamA": "Atlético Madrid",
-      "teamB": "Bayern Munich"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-      "id": "barcelona-aston-villa-2026-11-03",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-03T20:00:00Z",
-      "teamA": "Barcelona",
-      "teamB": "Aston Villa"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
-      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-      "id": "bodo-glimt-lille-2026-11-03",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-03T20:00:00Z",
-      "teamA": "Bodo/Glimt",
-      "teamB": "Lille"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
-      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-      "id": "feyenoord-rotterdam-internazionale-2026-11-03",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-03T20:00:00Z",
-      "teamA": "Feyenoord Rotterdam",
-      "teamB": "Internazionale"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
-      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
-      "id": "lask-linz-slovan-bratislava-2026-11-03",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-03T20:00:00Z",
-      "teamA": "LASK Linz",
-      "teamB": "Slovan Bratislava"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-      "id": "manchester-united-as-roma-2026-11-03",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-03T20:00:00Z",
-      "teamA": "Manchester United",
-      "teamB": "AS Roma"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-      "id": "villarreal-paris-saint-germain-2026-11-03",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-03T20:00:00Z",
-      "teamA": "Villarreal",
-      "teamB": "Paris Saint-Germain"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/wy0e1i1765900601.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/pw8uo11765900737.png",
-      "id": "chapecoense-mirassol-2026-11-03",
-      "league": "Brazilian Serie A",
-      "sport": "Football",
-      "startUtc": "2026-11-03T22:30:00Z",
-      "teamA": "Chapecoense",
-      "teamB": "Mirassol"
-    },
-    {
-      "channel": "",
-      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/yprvxx1473538097.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ywwsyu1473538050.png",
       "id": "internacional-coritiba-2026-11-04",
@@ -1174,8 +985,428 @@
       "startUtc": "2026-11-07T20:30:00Z",
       "teamA": "Boca Juniors",
       "teamB": "Defensa y Justicia"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/jup59w1578825794.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/23aftf1580842633.png",
+      "id": "instituto-newell-s-old-boys-2026-11-08",
+      "league": "Argentinian Primera Division",
+      "sport": "Football",
+      "startUtc": "2026-11-08T01:00:00Z",
+      "teamA": "Instituto",
+      "teamB": "Newell's Old Boys"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+      "id": "napoli-lazio-2026-11-08",
+      "league": "Italian Serie A",
+      "sport": "Football",
+      "startUtc": "2026-11-08T11:30:00Z",
+      "teamA": "Napoli",
+      "teamB": "Lazio"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+      "id": "elche-real-betis-2026-11-08",
+      "league": "Spanish LALIGA",
+      "sport": "Football",
+      "startUtc": "2026-11-08T13:00:00Z",
+      "teamA": "Elche",
+      "teamB": "Real Betis"
+    },
+    {
+      "channel": "Star Sports Select 1",
+      "channels": [
+        "Star Sports Select 1",
+        "TNT Sport 1",
+        "Bein Sports 1"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+      "id": "brighton-hove-albion-brentford-2026-11-08",
+      "league": "English Premier League",
+      "sport": "Football",
+      "startUtc": "2026-11-08T14:00:00Z",
+      "teamA": "Brighton & Hove Albion",
+      "teamB": "Brentford"
+    },
+    {
+      "channel": "Star Sports Select 1",
+      "channels": [
+        "Star Sports Select 1",
+        "TNT Sport 1",
+        "Bein Sports 1"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+      "id": "crystal-palace-liverpool-2026-11-08",
+      "league": "English Premier League",
+      "sport": "Football",
+      "startUtc": "2026-11-08T14:00:00Z",
+      "teamA": "Crystal Palace",
+      "teamB": "Liverpool"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+      "id": "genoa-ac-milan-2026-11-08",
+      "league": "Italian Serie A",
+      "sport": "Football",
+      "startUtc": "2026-11-08T14:00:00Z",
+      "teamA": "Genoa",
+      "teamB": "AC Milan"
+    },
+    {
+      "channel": "Star Sports Select 1",
+      "channels": [
+        "Star Sports Select 1",
+        "TNT Sport 1",
+        "Bein Sports 1"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+      "id": "ipswich-town-afc-bournemouth-2026-11-08",
+      "league": "English Premier League",
+      "sport": "Football",
+      "startUtc": "2026-11-08T14:00:00Z",
+      "teamA": "Ipswich Town",
+      "teamB": "AFC Bournemouth"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+      "id": "monza-atalanta-2026-11-08",
+      "league": "Italian Serie A",
+      "sport": "Football",
+      "startUtc": "2026-11-08T14:00:00Z",
+      "teamA": "Monza",
+      "teamB": "Atalanta"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+      "id": "stade-rennais-lille-2026-11-08",
+      "league": "French Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-11-08T14:00:00Z",
+      "teamA": "Stade Rennais",
+      "teamB": "Lille"
+    },
+    {
+      "channel": "Star Sports Select 1",
+      "channels": [
+        "Star Sports Select 1",
+        "TNT Sport 1",
+        "Bein Sports 1"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+      "id": "sunderland-chelsea-2026-11-08",
+      "league": "English Premier League",
+      "sport": "Football",
+      "startUtc": "2026-11-08T14:00:00Z",
+      "teamA": "Sunderland",
+      "teamB": "Chelsea"
+    },
+    {
+      "channel": "Sony Ten Sports 2 HD",
+      "channels": [
+        "Sony Ten Sports 2 HD",
+        "Sony Ten 2 HD",
+        "Bein Sports 1"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+      "id": "fc-cologne-bayer-leverkusen-2026-11-08",
+      "league": "German Bundesliga",
+      "sport": "Football",
+      "startUtc": "2026-11-08T14:30:00Z",
+      "teamA": "FC Cologne",
+      "teamB": "Bayer Leverkusen"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+      "id": "real-sociedad-rayo-vallecano-2026-11-08",
+      "league": "Spanish LALIGA",
+      "sport": "Football",
+      "startUtc": "2026-11-08T15:15:00Z",
+      "teamA": "Real Sociedad",
+      "teamB": "Rayo Vallecano"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/nwr81l1639779730.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ruwqxv1430239112.png",
+      "id": "brommapojkarna-mjallby-2026-11-08",
+      "league": "Swedish Allsvenskan",
+      "sport": "Football",
+      "startUtc": "2026-11-08T15:30:00Z",
+      "teamA": "Brommapojkarna",
+      "teamB": "Mjällby"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+      "id": "angers-nice-2026-11-08",
+      "league": "French Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-11-08T16:15:00Z",
+      "teamA": "Angers",
+      "teamB": "Nice"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+      "id": "brest-lyon-2026-11-08",
+      "league": "French Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-11-08T16:15:00Z",
+      "teamA": "Brest",
+      "teamB": "Lyon"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
+      "id": "le-havre-ac-lorient-2026-11-08",
+      "league": "French Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-11-08T16:15:00Z",
+      "teamA": "Le Havre AC",
+      "teamB": "Lorient"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+      "id": "le-mans-as-monaco-2026-11-08",
+      "league": "French Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-11-08T16:15:00Z",
+      "teamA": "Le Mans",
+      "teamB": "AS Monaco"
+    },
+    {
+      "channel": "Star Sports Select 1",
+      "channels": [
+        "Star Sports Select 1",
+        "TNT Sport 1",
+        "Bein Sports 1"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+      "id": "manchester-united-aston-villa-2026-11-08",
+      "league": "English Premier League",
+      "sport": "Football",
+      "startUtc": "2026-11-08T16:30:00Z",
+      "teamA": "Manchester United",
+      "teamB": "Aston Villa"
+    },
+    {
+      "channel": "Sony Ten Sports 2 HD",
+      "channels": [
+        "Sony Ten Sports 2 HD",
+        "Sony Ten 2 HD",
+        "Bein Sports 1"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+      "id": "sc-freiburg-1-fc-union-berlin-2026-11-08",
+      "league": "German Bundesliga",
+      "sport": "Football",
+      "startUtc": "2026-11-08T16:30:00Z",
+      "teamA": "SC Freiburg",
+      "teamB": "1. FC Union Berlin"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+      "id": "internazionale-como-2026-11-08",
+      "league": "Italian Serie A",
+      "sport": "Football",
+      "startUtc": "2026-11-08T17:00:00Z",
+      "teamA": "Internazionale",
+      "teamB": "Como"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+      "id": "celta-vigo-levante-2026-11-08",
+      "league": "Spanish LALIGA",
+      "sport": "Football",
+      "startUtc": "2026-11-08T17:30:00Z",
+      "teamA": "Celta Vigo",
+      "teamB": "Levante"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+      "id": "villarreal-getafe-2026-11-08",
+      "league": "Spanish LALIGA",
+      "sport": "Football",
+      "startUtc": "2026-11-08T17:30:00Z",
+      "teamA": "Villarreal",
+      "teamB": "Getafe"
+    },
+    {
+      "channel": "Sony Ten Sports 2 HD",
+      "channels": [
+        "Sony Ten Sports 2 HD",
+        "Sony Ten 2 HD",
+        "Bein Sports 1"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
+      "id": "tsg-hoffenheim-schalke-04-2026-11-08",
+      "league": "German Bundesliga",
+      "sport": "Football",
+      "startUtc": "2026-11-08T18:30:00Z",
+      "teamA": "TSG Hoffenheim",
+      "teamB": "Schalke 04"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+      "id": "fiorentina-juventus-2026-11-08",
+      "league": "Italian Serie A",
+      "sport": "Football",
+      "startUtc": "2026-11-08T19:45:00Z",
+      "teamA": "Fiorentina",
+      "teamB": "Juventus"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+      "id": "lens-marseille-2026-11-08",
+      "league": "French Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-11-08T19:45:00Z",
+      "teamA": "Lens",
+      "teamB": "Marseille"
+    },
+    {
+      "channel": "Bein Sports 1",
+      "channels": [
+        "Bein Sports 1",
+        "beIN SPORTS",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+      "id": "atletico-madrid-barcelona-2026-11-08",
+      "league": "Spanish LALIGA",
+      "sport": "Football",
+      "startUtc": "2026-11-08T20:00:00Z",
+      "teamA": "Atlético Madrid",
+      "teamB": "Barcelona"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/d62xkc1576101576.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ddty0w1769146364.png",
+      "id": "central-cordoba-de-santiago-del-estero-lanus-2026-11-08",
+      "league": "Argentinian Primera Division",
+      "sport": "Football",
+      "startUtc": "2026-11-08T22:30:00Z",
+      "teamA": "Central Córdoba de Santiago del Estero",
+      "teamB": "Lanús"
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-04T19:02:27Z"
+  "updatedAt": "2026-11-05T00:50:57Z"
 }
