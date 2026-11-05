@@ -1,11 +1,11 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-05T03:42:25Z",
+  "updatedAt": "2026-11-05T04:46:17Z",
   "count": 13,
   "matches": [
     {
       "id": 555078,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-05T00:30:00Z",
       "homeTeam": "São Paulo FC",
@@ -13,7 +13,7 @@
     },
     {
       "id": 555071,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-05T00:30:00Z",
       "homeTeam": "Botafogo FR",
@@ -68,20 +68,20 @@
       "awayTeam": "RC Strasbourg Alsace"
     },
     {
-      "id": 561932,
-      "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-06T20:00:00Z",
-      "homeTeam": "Derby County FC",
-      "awayTeam": "Bolton Wanderers FC"
-    },
-    {
       "id": 564740,
       "status": "TIMED",
       "competition": "Primera Division",
       "startTime": "2026-11-06T20:00:00Z",
       "homeTeam": "Sevilla FC",
       "awayTeam": "Deportivo Alavés"
+    },
+    {
+      "id": 561932,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-11-06T20:00:00Z",
+      "homeTeam": "Derby County FC",
+      "awayTeam": "Bolton Wanderers FC"
     },
     {
       "id": 560634,
