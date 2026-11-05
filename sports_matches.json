@@ -1,143 +1,23 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-04T23:31:55Z",
-  "count": 18,
+  "updatedAt": "2026-11-05T00:37:25Z",
+  "count": 13,
   "matches": [
     {
-      "id": 555076,
-      "status": "FINISHED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-04T00:30:00Z",
-      "homeTeam": "SC Internacional",
-      "awayTeam": "Coritiba FBC"
-    },
-    {
-      "id": 575386,
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T17:45:00Z",
-      "homeTeam": "PAE AEK",
-      "awayTeam": "Real Madrid CF"
-    },
-    {
-      "id": 575387,
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T17:45:00Z",
-      "homeTeam": "Fenerbahçe SK",
-      "awayTeam": "Liverpool FC"
-    },
-    {
-      "id": 561925,
-      "status": "FINISHED",
-      "competition": "Championship",
-      "startTime": "2026-11-04T19:45:00Z",
-      "homeTeam": "Cardiff City FC",
-      "awayTeam": "West Ham United FC"
-    },
-    {
-      "id": 561927,
-      "status": "FINISHED",
-      "competition": "Championship",
-      "startTime": "2026-11-04T19:45:00Z",
-      "homeTeam": "Wrexham AFC",
-      "awayTeam": "Middlesbrough FC"
-    },
-    {
-      "id": 575390,
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "PSV",
-      "awayTeam": "Club Brugge KV"
-    },
-    {
-      "id": 575392,
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "FC Porto",
-      "awayTeam": "SSC Napoli"
-    },
-    {
-      "id": 575388,
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "RB Leipzig",
-      "awayTeam": "Manchester City FC"
-    },
-    {
-      "id": 575394,
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "Viking FK",
-      "awayTeam": "Sabah FK"
-    },
-    {
-      "id": 575391,
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "Borussia Dortmund",
-      "awayTeam": "Real Betis Balompié"
-    },
-    {
-      "id": 575393,
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "Racing Club de Lens",
-      "awayTeam": "Como 1907"
-    },
-    {
-      "id": 561926,
-      "status": "FINISHED",
-      "competition": "Championship",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "Bristol City FC",
-      "awayTeam": "Wolverhampton Wanderers FC"
-    },
-    {
-      "id": 575389,
-      "status": "FINISHED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-04T20:00:00Z",
-      "homeTeam": "SK Slavia Praha",
-      "awayTeam": "Arsenal FC"
-    },
-    {
-      "id": 555070,
-      "status": "IN_PLAY",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-04T22:30:00Z",
-      "homeTeam": "CA Paranaense",
-      "awayTeam": "CR Vasco da Gama"
-    },
-    {
-      "id": 555075,
-      "status": "IN_PLAY",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-04T22:30:00Z",
-      "homeTeam": "CR Flamengo",
-      "awayTeam": "Grêmio FBPA"
-    },
-    {
-      "id": 555078,
-      "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-05T00:30:00Z",
-      "homeTeam": "São Paulo FC",
-      "awayTeam": "SC Corinthians Paulista"
-    },
-    {
       "id": 555071,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-05T00:30:00Z",
       "homeTeam": "Botafogo FR",
       "awayTeam": "CA Mineiro"
+    },
+    {
+      "id": 555078,
+      "status": "IN_PLAY",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-05T00:30:00Z",
+      "homeTeam": "São Paulo FC",
+      "awayTeam": "SC Corinthians Paulista"
     },
     {
       "id": 555077,
@@ -146,6 +26,86 @@
       "startTime": "2026-11-05T22:30:00Z",
       "homeTeam": "SE Palmeiras",
       "awayTeam": "Clube do Remo"
+    },
+    {
+      "id": 555074,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-06T00:30:00Z",
+      "homeTeam": "Cruzeiro EC",
+      "awayTeam": "EC Bahia"
+    },
+    {
+      "id": 558845,
+      "status": "TIMED",
+      "competition": "Eredivisie",
+      "startTime": "2026-11-06T19:00:00Z",
+      "homeTeam": "Willem II Tilburg",
+      "awayTeam": "PEC Zwolle"
+    },
+    {
+      "id": 565852,
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "startTime": "2026-11-06T19:30:00Z",
+      "homeTeam": "Hamburger SV",
+      "awayTeam": "Borussia Mönchengladbach"
+    },
+    {
+      "id": 559638,
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-06T19:45:00Z",
+      "homeTeam": "Toulouse FC",
+      "awayTeam": "RC Strasbourg Alsace"
+    },
+    {
+      "id": 558537,
+      "status": "TIMED",
+      "competition": "Serie A",
+      "startTime": "2026-11-06T19:45:00Z",
+      "homeTeam": "Venezia FC",
+      "awayTeam": "Udinese Calcio"
+    },
+    {
+      "id": 560634,
+      "status": "TIMED",
+      "competition": "Premier League",
+      "startTime": "2026-11-06T20:00:00Z",
+      "homeTeam": "Everton FC",
+      "awayTeam": "Coventry City FC"
+    },
+    {
+      "id": 561932,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-11-06T20:00:00Z",
+      "homeTeam": "Derby County FC",
+      "awayTeam": "Bolton Wanderers FC"
+    },
+    {
+      "id": 564740,
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "startTime": "2026-11-06T20:00:00Z",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Deportivo Alavés"
+    },
+    {
+      "id": 567353,
+      "status": "TIMED",
+      "competition": "Primeira Liga",
+      "startTime": "2026-11-06T20:45:00Z",
+      "homeTeam": "FC Famalicão",
+      "awayTeam": "FC Arouca"
+    },
+    {
+      "id": 555079,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-06T23:00:00Z",
+      "homeTeam": "EC Vitória",
+      "awayTeam": "Fluminense FC"
     }
   ]
 }
