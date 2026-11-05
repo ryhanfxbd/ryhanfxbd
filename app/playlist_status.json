@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-05T07:05:48Z",
+  "updatedAt": "2026-11-05T13:00:35Z",
   "generator": "BDlivetv Auto Update",
   "sources": {
     "app/Aynaott.m3u": {
       "total": 138,
-      "ok": 77,
+      "ok": 74,
       "restricted": 13,
       "dead": [
         {
@@ -33,18 +33,23 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "Bangla TV",
+          "url": "https://tvsen6.aynaott.com/39ee93nUbCCmm5LsyD4t/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "Sangeet Bangla",
           "url": "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8",
           "reason": "HTTP 404"
         },
         {
-          "name": "Republic TV Bharat",
-          "url": "https://tvsen6.aynaott.com/faGd3tuq/index.m3u8",
+          "name": "DW News",
+          "url": "https://tvsen6.aynaott.com/Qq3s5WR2/index.m3u8",
           "reason": "HTTP 404"
         },
         {
-          "name": "Bharat Samachar",
-          "url": "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8",
+          "name": "Fox News",
+          "url": "https://tvsen6.aynaott.com/foxnews/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -55,11 +60,6 @@
         {
           "name": "News 1 India",
           "url": "https://tvsen6.aynaott.com/TaVfw58T/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "CBS TV",
-          "url": "https://tvsen3.aynaott.com/34fJSjZP/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -117,7 +117,7 @@
         {
           "name": "Green TV HD",
           "url": "https://tvsen6.aynascope.net/cLuA3hJR/index.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tvsen6.aynascope.net'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tvsen6.aynascope.net'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "BTV World",
@@ -152,6 +152,16 @@
         {
           "name": "TV9 Bharatvarsh",
           "url": "https://tvsen3.aynaott.com/v9NqPxRd/index.m3u8",
+          "reason": "timeout after 10s (could not verify)"
+        },
+        {
+          "name": "Sadhna Prime News",
+          "url": "https://tvsen3.aynaott.com/P2hjvFHV/index.m3u8",
+          "reason": "timeout after 10s (could not verify)"
+        },
+        {
+          "name": "CBS TV",
+          "url": "https://tvsen3.aynaott.com/34fJSjZP/index.m3u8",
           "reason": "timeout after 10s (could not verify)"
         },
         {
@@ -245,6 +255,11 @@
           "reason": "timeout after 10s (could not verify)"
         },
         {
+          "name": "Goldmines Movies",
+          "url": "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
+          "reason": "timeout after 10s (could not verify)"
+        },
+        {
           "name": "And TV",
           "url": "https://tvsen6.aynaott.com/AndTV/index.m3u8",
           "reason": "timeout after 10s (could not verify)"
@@ -253,7 +268,7 @@
     },
     "app/BDIXI_IPTV.m3u": {
       "total": 645,
-      "ok": 25,
+      "ok": 27,
       "restricted": 23,
       "dead": [
         {
@@ -492,6 +507,11 @@
           "reason": "HTTP 400"
         },
         {
+          "name": "Pratidin Time",
+          "url": "https://rtmp.smartstream.video/pratidintime/pratidintime/playlist.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "Premium Marathi",
           "url": "https://d1fi19tywmn14b.cloudfront.net/yuppindmov/ngrp:ymarpre.stream_all/playlist.m3u8",
           "reason": "HTTP 404"
@@ -542,8 +562,18 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "Pratidin Time",
+          "url": "https://rtmp.smartstream.video/pratidintime/pratidintime/playlist.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "ABP Ananda",
           "url": "https://abp-i.akamaihd.net/hls/live/765530/abpananda/masterhls_1564.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
+          "name": "R Plus News",
+          "url": "https://cdn.smartstream.video/smartstream-us/rplus/rplus/playlist.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -614,11 +644,6 @@
         {
           "name": "92 News",
           "url": "http://92news.vdn.dstreamone.net/92newshd/92hd_160p/playlist.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Dunya News",
-          "url": "http://imob.dunyanews.tv/live/_definst_/dunyalive_1/chunklist_w1239250459.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -742,6 +767,11 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "Velicham",
+          "url": "https://rtmp.smartstream.video/velichamtv/velichamtv/playlist.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "Malaimurasu",
           "url": "https://wowzaprod170-i.akamaihd.net/hls/live/630629/b6055932/playlist.m3u8",
           "reason": "HTTP 400"
@@ -862,11 +892,6 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Dunya News",
-          "url": "http://imob.dunyanews.tv/live/_definst_/dunyalive_1/chunklist_w1239250459.m3u8?checkedby:iptvcat.com",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "Khyber News TV",
           "url": "https://dcunilive38-lh.akamaihd.net/i/dclive_1@692677/index_150_av-p.m3u8?checkedby:iptvcat.com",
           "reason": "HTTP 404"
@@ -961,17 +986,17 @@
         {
           "name": "Star G0ld HD",
           "url": "http://216.144.250.174/Star_G0ld_HD/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Sony MaX2",
           "url": "http://216.144.250.174/Sony_MaX_HD_02/playlist.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Sony MaX HD",
           "url": "http://216.144.250.174/Sony_MaX_HD/playlist.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "BollyWood Hd",
@@ -1231,7 +1256,7 @@
         {
           "name": "GCTV Goa",
           "url": "https://5a9fe19ea6821.streamlock.net:443/gctv/ngrp:livestream_all/playlist.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for '5a9fe19ea6821.streamlock.net'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for '5a9fe19ea6821.streamlock.net'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Hiru TV",
@@ -1379,14 +1404,9 @@
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
         },
         {
-          "name": "Pratidin Time",
-          "url": "https://rtmp.smartstream.video/pratidintime/pratidintime/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
           "name": "Prudent Media",
           "url": "https://5a9fe19ea6821.streamlock.net/prudentmedia/livestream3/chunklist_w2110152999.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for '5a9fe19ea6821.streamlock.net'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for '5a9fe19ea6821.streamlock.net'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Public Music",
@@ -1516,12 +1536,7 @@
         {
           "name": "Jonack TV",
           "url": "http://cdn.smartstream.video/smartstream-us/jonakk/jonakk/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Pratidin Time",
-          "url": "https://rtmp.smartstream.video/pratidintime/pratidintime/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "connection error: [Errno 111] Connection refused (could not verify)"
         },
         {
           "name": "Bangla Time",
@@ -1537,11 +1552,6 @@
           "name": "News Time Bangla",
           "url": "http://streamidvo.multitvsolution.in/NewsTimeBangla-c/playlist.m3u8",
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
-        },
-        {
-          "name": "R Plus News",
-          "url": "https://cdn.smartstream.video/smartstream-us/rplus/rplus/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
         },
         {
           "name": "R Plus Gold",
@@ -1566,7 +1576,7 @@
         {
           "name": "Channel Win",
           "url": "http://cdn.smartstream.video/smartstream-us/channelwinlive/channelwinlive/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "connection error: [Errno 111] Connection refused (could not verify)"
         },
         {
           "name": "Peace TV Bangla",
@@ -1721,7 +1731,7 @@
         {
           "name": "Sony Max 2",
           "url": "http://216.144.250.174/Sony_MaX_HD_02/playlist.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Star Gold",
@@ -1761,7 +1771,7 @@
         {
           "name": "Zee Classic",
           "url": "http://216.144.250.174/Zee_ClassIc_HD/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "B4U Music",
@@ -2241,7 +2251,7 @@
         {
           "name": "TRT World",
           "url": "https://api.trtworld.com/livestream/v1/WcM3Oa2LHD9iUjWDSRUI335NkMWVTUV351H56dqC/master.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "DD Sports",
@@ -2431,7 +2441,7 @@
         {
           "name": "Zee Classic",
           "url": "http://216.144.250.174/Zee_ClassIc_HD/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "ZEE BOLLYWOOD",
@@ -2456,7 +2466,7 @@
         {
           "name": "Star Gold",
           "url": "http://216.144.250.174/Star_G0ld_HD/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Star Jalsha Movies",
@@ -2476,12 +2486,12 @@
         {
           "name": "Sony Max 2",
           "url": "http://216.144.250.174/Sony_MaX_HD_02/playlist.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Sony Mix",
           "url": "http://216.144.250.174/Sony_Mix_HD/track-v1a1/mono.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Zee Bangla",
@@ -2521,7 +2531,7 @@
         {
           "name": "STAR VIJAY",
           "url": "http://216.144.250.174/Star_VIjay_HD/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Raj TV",
@@ -2551,11 +2561,6 @@
         {
           "name": "Vasanth TV",
           "url": "http://vasanth.live.cdn.bitgravity.com/vasanth/secure/live/feed03?e=0&h=a9be0836bc39f96d0a9a958a659dfc1d&bgsecuredir=1",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Velicham",
-          "url": "https://rtmp.smartstream.video/velichamtv/velichamtv/playlist.m3u8",
           "reason": "connection error: timed out (could not verify)"
         },
         {
@@ -2671,7 +2676,7 @@
         {
           "name": "MH1 Music",
           "url": "http://rtmp.smartstream.video:1935/mhonemusic/mhonemusic/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Punjabi Zindabad",
@@ -2681,7 +2686,7 @@
         {
           "name": "MH1 Prim",
           "url": "http://rtmp.smartstream.video:1935/mhonenews/mhonenews/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "FastWay",
@@ -2926,7 +2931,7 @@
         {
           "name": "Sony Mix",
           "url": "http://216.144.250.174/Sony_Mix_HD/playlist.m3u8?checkedby:iptvcat.com",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "TV ONE",
@@ -2996,57 +3001,57 @@
         {
           "name": "Channel 24",
           "url": "https://edge01.iptv.digijadoo.net/live/channel_24/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Jamuna TV HD 2",
           "url": "https://edge01.iptv.digijadoo.net/live/jamuna_tv/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Maasranga TV",
           "url": "https://edge01.iptv.digijadoo.net/live/maasranga/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Gazi TV",
           "url": "https://edge01.iptv.digijadoo.net/live/gazi_tv/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "ETV",
           "url": "https://edge01.iptv.digijadoo.net/live/ekushey_tv/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "NTV",
           "url": "https://edge01.iptv.digijadoo.net/live/ntv/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Deepto TV",
           "url": "https://edge01.iptv.digijadoo.net/live/deepto_tv/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Desh TV",
           "url": "https://edge01.iptv.digijadoo.net/live/desh_tv/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Duronto TV",
           "url": "https://edge01.iptv.digijadoo.net/live/duronto_tv/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Nagorik TV",
           "url": "https://edge01.iptv.digijadoo.net/live/nagorik_tv/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Star Jalsha Movie",
           "url": "https://edge01.iptv.digijadoo.net/live/jalsha_movies/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Nick Bangla",
@@ -3056,12 +3061,12 @@
         {
           "name": "Nick Sonic Bangla",
           "url": "https://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Nick JR.",
           "url": "https://edge01.iptv.digijadoo.net/live/nick_jr/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "CBS News",
@@ -3071,32 +3076,32 @@
         {
           "name": "Jamuna TV HD",
           "url": "https://edge01.iptv.digijadoo.net/live/jamuna_tv/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "IN: SONY TV HD (VPN)",
           "url": "http://216.144.250.174/Sony_TV_HD_02/playlist.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "IN: SONY SAB HD (VPN)",
           "url": "http://216.144.250.174/S0ny_Sab_HD/playlist.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "IN: SONY MAX HD (VPN)",
           "url": "http://216.144.250.174/Sony_MaX_HD/playlist.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "UK: SONY MAX 2 (VPN)",
           "url": "http://216.144.250.174/Sony_MaX_HD_02/playlist.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "IN: SONY MIX (VPN)",
           "url": "http://216.144.250.174/Sony_Mix_HD/playlist.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "IN: SONY SAB",
@@ -3136,7 +3141,7 @@
         {
           "name": "UK: SONY TV",
           "url": "http://216.144.250.174/Sony_TV_HD_02/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "IN: SONY SAB",
@@ -3236,7 +3241,7 @@
         {
           "name": "National Geographic",
           "url": "https://edge01.iptv.digijadoo.net/live/nat_geo_in/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Disney Channel india",
@@ -3247,22 +3252,12 @@
     },
     "app/BDLiveTV all2.m3u": {
       "total": 1272,
-      "ok": 1038,
+      "ok": 1048,
       "restricted": 111,
       "dead": [
         {
-          "name": "Bijoy TV",
-          "url": "https://drk6xq0vhn.gpcdn.net/live/bijoy_tv_abr/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "BTV National",
           "url": "https://homair-tv-production.up.railway.app/api/play/BTV%20HD.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Rajdhani TV",
-          "url": "http://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3306,16 +3301,6 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Zee Action",
-          "url": "https://stream.ottplus.live/live/zee_action_abr/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Zee Bollywood",
-          "url": "https://stream.ottplus.live/live/zee_bollywood_abr/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "&TV",
           "url": "https://drk6xq0vhn.gpcdn.net/live/and_tv_hd_abr/index.m3u8",
           "reason": "HTTP 404"
@@ -3341,13 +3326,8 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Zee TV",
-          "url": "https://drk6xq0vhn.gpcdn.net/live/zee_tv_hd_abr/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "CBS TV",
-          "url": "https://tvsen3.aynaott.com/34fJSjZP/index.m3u8",
+          "name": "Fox News",
+          "url": "https://tvsen6.aynaott.com/foxnews/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3378,11 +3358,6 @@
         {
           "name": "AmarUjala",
           "url": "https://amarujala.ottlive.co.in/amarujala/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Anmol TV",
-          "url": "https://drk6xq0vhn.gpcdn.net/live/zee_anmol_abr/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3441,11 +3416,6 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Rajdhani TV",
-          "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "T Sports",
           "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
           "reason": "HTTP 404"
@@ -3456,23 +3426,23 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Bahrain Sports 2",
-          "url": "https://tvsen6.aynaott.com/BahrainSports2/index.m3u8",
+          "name": "Bangla TV",
+          "url": "https://iptvlive.ahmed-bd-org.workers.dev/bangla-tv-2/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
+          "name": "Bangla TV",
+          "url": "https://tvsen6.aynaott.com/39ee93nUbCCmm5LsyD4t/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
+          "name": "Bangla TV",
+          "url": "https://tvsen6.aynaott.com/39ee93nUbCCmm5LsyD4t/tracks-v1a1/mono.ts.m3u8",
           "reason": "HTTP 404"
         },
         {
           "name": "BBC Earth",
           "url": "https://stream.ottplus.live/live/bbc_earth_hd_abr/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Bijoy TV",
-          "url": "https://stream.ottplus.live/live/bijoy_tv_abr/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Bijoy TV",
-          "url": "https://stream.ottplus.live/live/bijoy_tv_abr/live/bijoy_tv_720/chunks.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3486,28 +3456,18 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "Dangal",
+          "url": "https://streams.tangotv.in/DANGAL/ORIGIN/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
+          "name": "Dangal",
+          "url": "https://tvsen3.aynaott.com/qPNg4LJK/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "HBO",
           "url": "https://homair-tv-production.up.railway.app/api/play/HBO.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Rajdhani TV",
-          "url": "https://drk6xq0vhn.gpcdn.net/live/rajdhani_tv/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Sony Entertainment TV",
-          "url": "https://drk6xq0vhn.gpcdn.net/live/sony_ent_sd_abr/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Sony Entertainment TV",
-          "url": "https://stream.ottplus.live/live/sony_ent_sd_abr/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Sony Max",
-          "url": "https://drk6xq0vhn.gpcdn.net/live/sony_max_sd_abr/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3516,18 +3476,8 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Zee Bangla",
-          "url": "https://drk6xq0vhn.gpcdn.net/live/zee_bangla_720/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "Zee Bangla Sonar",
           "url": "https://stream.ottplus.live/live/zee_bangla_cinema_abr/live/zee_bangla_cinema_720/chunks.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Zee Bollywood",
-          "url": "https://drk6xq0vhn.gpcdn.net/live/zee_bollywood_abr/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3541,18 +3491,13 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Zee TV",
-          "url": "http://41.205.93.154/ZEE-TV/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Zee TV",
-          "url": "https://stream.ottplus.live/live/zee_tv_hd_abr/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "Desh TV",
           "url": "https://homair-tv-production.up.railway.app/api/play/Desh%20TV.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
+          "name": "Independent TV",
+          "url": "https://tvsen6.aynaott.com/Wef2Vj67njeYGDqQNFB9/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3580,12 +3525,17 @@
         {
           "name": "Spondon",
           "url": "https://nktv.smartstream.video/smartstream-us/spondon/spondon/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'nktv.smartstream.video'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "AMC",
           "url": "http://23.239.31.26:8989/amc/index.m3u8",
           "reason": "connection error: timed out (could not verify)"
+        },
+        {
+          "name": "CBS TV",
+          "url": "https://tvsen3.aynaott.com/34fJSjZP/index.m3u8",
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "MTV2",
@@ -3698,14 +3648,9 @@
           "reason": "connection error: timed out (could not verify)"
         },
         {
-          "name": "Pravasi Channel",
-          "url": "https://m6gdavepdn93-hls-live.5centscdn.com/pravasi/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016) (could not verify)"
-        },
-        {
           "name": "Shekinah TV",
           "url": "https://livetv.timeiptv.in/ShekinahNewsIndia/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Sonic",
@@ -3760,7 +3705,7 @@
         {
           "name": "Ekhon TV",
           "url": "https://tplay.live/out/bangladesh/ekhontv.index.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "ETV Cinema",
@@ -3815,7 +3760,7 @@
         {
           "name": "Suriyan TV",
           "url": "https://stream.sscloud7.com/live/suriyantv/index.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.sscloud7.com'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.sscloud7.com'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Zee 24 Ghanta",
@@ -3830,12 +3775,12 @@
         {
           "name": "Boishakhi TV",
           "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Boishakhi TV",
           "url": "https://iptvlive.ahmed-bd-org.workers.dev/boishakhi-tv-2/index.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Channel S UK",
@@ -3858,9 +3803,19 @@
           "reason": "connection error: [Errno 111] Connection refused (could not verify)"
         },
         {
+          "name": "Goldmines Movies",
+          "url": "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
+          "reason": "timeout after 10s (could not verify)"
+        },
+        {
           "name": "Madani TV",
           "url": "https://madnitv.vdn.dstreamone.net/madnitvbangla/madnibanglaabr/playlist.m3u8",
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
+        },
+        {
+          "name": "RTV",
+          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8",
+          "reason": "HTTP 500 (server error, could not verify)"
         },
         {
           "name": "Star Sports Select 1",
@@ -3871,8 +3826,8 @@
     },
     "app/BDlivetv.m3u": {
       "total": 285,
-      "ok": 202,
-      "restricted": 21,
+      "ok": 204,
+      "restricted": 22,
       "dead": [
         {
           "name": "Channel 24 HD",
@@ -3885,24 +3840,19 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Bijoy TV",
-          "url": "https://stream.ottplus.live/live/bijoy_tv_abr/live/bijoy_tv_720/chunks.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "Deepto TV",
           "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Rajdhani TV",
-          "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
           "reason": "HTTP 404"
         },
         {
           "name": "EN | HBO Movies",
           "url": "http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8",
           "reason": "HTTP 404"
+        },
+        {
+          "name": "Star Jalsha HD",
+          "url": "http://cdn98.com/play/live.php?mac=00%3A1A%3A79%3A99%3A54%3A11&stream=225805&extension=ts&play_token=o1cczsG9wV",
+          "reason": "HTTP 458"
         },
         {
           "name": "Colors Bangla Cinema",
@@ -3980,11 +3930,6 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Rajdhani TV",
-          "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "T Sports HD",
           "url": "http://103.158.133.53:8080/viralclub/index.m3u8",
           "reason": "HTTP 404"
@@ -4029,21 +3974,16 @@
         {
           "name": "Ten Cricket",
           "url": "https://stream.ottplus.bd/live/ten_cricket_hd_abr/live/ten_cricket_hd_720/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Channel 1 News",
           "url": "https://stream.ottplus.bd/live/channel_1_hd_abr/index.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Star News",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/starnewsbd.stream/playlist.m3u8",
-          "reason": "timeout after 10s (could not verify)"
-        },
-        {
-          "name": "Ayna TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8",
           "reason": "timeout after 10s (could not verify)"
         },
         {
@@ -4059,17 +3999,17 @@
         {
           "name": "Sony Sab",
           "url": "https://stream.ottplus.bd/live/sub_hd_abr/index.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Zee Bangla HD",
           "url": "https://stream.ottplus.bd/live/zee_bangla_abr/live/zee_bangla_720/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Sony Max",
           "url": "https://stream.ottplus.bd/live/sony_max_sd_abr/live/sony_max_sd_720/chunks.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "BBC World",
@@ -4079,7 +4019,7 @@
         {
           "name": "And Pictures HD",
           "url": "https://stream.ottplus.bd/live/and_picture_hd_abr/live/and_picture_hd_720/l_601121_209412000_52353.ts?nimblesessionid=123758089",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "NTV",
@@ -4149,7 +4089,7 @@
         {
           "name": "Star Jalsha",
           "url": "http://103.151.61.12/Star_Jalsha/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "connection error: [Errno 111] Connection refused (could not verify)"
         },
         {
           "name": "Colors Bangla",
@@ -4159,7 +4099,7 @@
         {
           "name": "Zee Bangla",
           "url": "https://stream.ottplus.bd/live/zee_bangla_abr/index.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Zee Bangla",
@@ -4685,9 +4625,15 @@
     },
     "app/Cartoon.m3u": {
       "total": 23,
-      "ok": 19,
+      "ok": 18,
       "restricted": 1,
-      "dead": [],
+      "dead": [
+        {
+          "name": "Sony YaY!",
+          "url": "https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8",
+          "reason": "HTTP 404"
+        }
+      ],
       "unknown": [
         {
           "name": "Disney Channel",
@@ -4708,17 +4654,12 @@
     },
     "app/LiveTV_Favorites_1.m3u": {
       "total": 171,
-      "ok": 113,
+      "ok": 114,
       "restricted": 13,
       "dead": [
         {
           "name": "Sony Aath",
           "url": "https://cloudplay-sonyliv.pages.dev/aath.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Rajdhani TV",
-          "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -4771,7 +4712,7 @@
         {
           "name": "Ekhon TV",
           "url": "https://tplay.live/out/bangladesh/ekhontv.index.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Zee Bangla Cinema",
@@ -4791,7 +4732,7 @@
         {
           "name": "Boishakhi TV",
           "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "BTV News",
@@ -4861,7 +4802,7 @@
         {
           "name": "Spondon",
           "url": "https://nktv.smartstream.video/smartstream-us/spondon/spondon/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'nktv.smartstream.video'. (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Star Gold",
@@ -5773,17 +5714,12 @@
     },
     "app/channels.m3u": {
       "total": 45,
-      "ok": 25,
+      "ok": 26,
       "restricted": 5,
       "dead": [
         {
           "name": "ATN Music (360p)",
           "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Rajdhani TV SD (1080p)",
-          "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -5801,7 +5737,7 @@
         {
           "name": "Boishakhi TV",
           "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "DBC News (480p)",
@@ -5811,7 +5747,7 @@
         {
           "name": "Ekhon TV (1080p)",
           "url": "https://tplay.live/out/bangladesh/ekhontv.index.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Gazi TV (1080p)",
@@ -5880,7 +5816,7 @@
     },
     "app/iptv_bd.m3u": {
       "total": 145,
-      "ok": 30,
+      "ok": 31,
       "restricted": 10,
       "dead": [
         {
@@ -6371,14 +6307,9 @@
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
         },
         {
-          "name": "Channel 9",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8",
-          "reason": "timeout after 10s (could not verify)"
-        },
-        {
           "name": "Boishakhi TV",
           "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
-          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016) (could not verify)"
+          "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
           "name": "Discovery Channel Bengali",
