@@ -45,21 +45,6 @@
       "teamB": "Sri Lanka"
     },
     {
-      "channel": "Oman Sports TV",
-      "channels": [
-        "Oman Sports TV",
-        "Oman Sports TV (1080p) [Not 24/7]"
-      ],
-      "flagA": "🇦🇪",
-      "flagB": "🇴🇲",
-      "id": "united-arab-emirates-oman-2026-11-04",
-      "league": "United Arab Emirates vs Oman",
-      "sport": "Cricket",
-      "startUtc": "2026-11-04T05:30:00Z",
-      "teamA": "United Arab Emirates",
-      "teamB": "Oman"
-    },
-    {
       "channel": "Sony Ten Sports 1 HD",
       "channels": [
         "Sony Ten Sports 1 HD",
@@ -305,6 +290,258 @@
     {
       "channel": "",
       "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/y9h9v01674457975.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/z9yans1674457735.png",
+      "id": "express-blacks-power-2026-11-05",
+      "league": "Ugandan Premier League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T16:00:00Z",
+      "teamA": "Express",
+      "teamB": "Blacks Power"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/i6s10n1720157496.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/qbyvf91727194024.png",
+      "id": "teungueth-ouakam-2026-11-05",
+      "league": "Senegal Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-11-05T16:30:00Z",
+      "teamA": "Teungueth",
+      "teamB": "Ouakam"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/pnuobi1626642061.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ga80451640283309.png",
+      "id": "volga-ulyanovsk-chertanovo-moscow-2026-11-05",
+      "league": "Russia Cup",
+      "sport": "Football",
+      "startUtc": "2026-11-05T16:30:00Z",
+      "teamA": "Volga Ulyanovsk",
+      "teamB": "Chertanovo Moscow"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/4yw8a61674458369.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/t1cp2f1732240509.png",
+      "id": "vipers-lugazi-2026-11-05",
+      "league": "Ugandan Premier League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:00:00Z",
+      "teamA": "Vipers",
+      "teamB": "Lugazi"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/wvspur1448806617.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/wk17od1688115265.png",
+      "id": "ac-milan-ferencvaros-2026-11-05",
+      "league": "UEFA Europa League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "AC Milan",
+      "teamB": "Ferencváros"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/vxuuts1473535487.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/skbiwo1785775946.png",
+      "id": "agf-aarhus-braga-2026-11-05",
+      "league": "UEFA Conference League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "AGF Aarhus",
+      "teamB": "Braga"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/auindn1771129464.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/nc2cua1781541639.png",
+      "id": "anderlecht-red-bull-salzburg-2026-11-05",
+      "league": "UEFA Europa League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "Anderlecht",
+      "teamB": "Red Bull Salzburg"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/qix5ku1780561327.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/sz5y1m1579285078.png",
+      "id": "atalanta-kairat-almaty-2026-11-05",
+      "league": "UEFA Conference League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "Atalanta",
+      "teamB": "Kairat Almaty"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/osgmbz1781157114.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/tbxkcc1789008725.png",
+      "id": "crvena-zvezda-inter-club-d-escaldes-2026-11-05",
+      "league": "UEFA Conference League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "Crvena Zvezda",
+      "teamB": "Inter Club d'Escaldes"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/ia6i3m1656014992.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/9hwvb21621593919.png",
+      "id": "crystal-palace-hoffenheim-2026-11-05",
+      "league": "UEFA Europa League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "Crystal Palace",
+      "teamB": "Hoffenheim"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/rdwwg71792340273.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/zg9tii1755495289.png",
+      "id": "fc-midtjylland-ajax-2026-11-05",
+      "league": "UEFA Conference League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "FC Midtjylland",
+      "teamB": "Ajax"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/qmrrop1717396470.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/48e27o1750703124.png",
+      "id": "kups-gent-2026-11-05",
+      "league": "UEFA Conference League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "KuPS",
+      "teamB": "Gent"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/9krgx71781149189.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ucze1y1601404699.png",
+      "id": "levski-sofia-jagiellonia-biaystok-2026-11-05",
+      "league": "UEFA Europa League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "Levski Sofia",
+      "teamB": "Jagiellonia Białystok"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/txpuvv1448823342.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/at8i2h1679265942.png",
+      "id": "lillestrm-viktoria-plzen-2026-11-05",
+      "league": "UEFA Europa League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "Lillestrøm",
+      "teamB": "Viktoria Plzeň"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/w1d87s1594393899.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/23mvtk1579955412.png",
+      "id": "lincoln-red-imps-hajduk-split-2026-11-05",
+      "league": "UEFA Conference League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "Lincoln Red Imps",
+      "teamB": "Hajduk Split"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/ruwqxv1430239112.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/wj4g311579090126.png",
+      "id": "mjallby-borac-banja-luka-2026-11-05",
+      "league": "UEFA Conference League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "Mjällby",
+      "teamB": "Borac Banja Luka"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/t5qjle1701019868.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/nmd7vt1779579017.png",
+      "id": "nec-nijmegen-omonia-nicosia-2026-11-05",
+      "league": "UEFA Europa League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "NEC Nijmegen",
+      "teamB": "Omonia Nicosia"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/vptvpr1473502986.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/blk9771656932845.png",
+      "id": "real-sociedad-lyon-2026-11-05",
+      "league": "UEFA Europa League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "Real Sociedad",
+      "teamB": "Lyon"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/j00qct1718287150.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/y08nak1534071116.png",
+      "id": "sparta-prague-bournemouth-2026-11-05",
+      "league": "UEFA Europa League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "Sparta Prague",
+      "teamB": "Bournemouth"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/sovjgl1699462359.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/twqvyt1447597939.png",
+      "id": "thun-heart-of-midlothian-2026-11-05",
+      "league": "UEFA Conference League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "Thun",
+      "teamB": "Heart of Midlothian"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/96s34o1776827629.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/urwtup1473453288.png",
+      "id": "trabzonspor-freiburg-2026-11-05",
+      "league": "UEFA Conference League",
+      "sport": "Football",
+      "startUtc": "2026-11-05T17:45:00Z",
+      "teamA": "Trabzonspor",
+      "teamB": "Freiburg"
+    },
+    {
+      "channel": "",
+      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/nqrjqb1517767667.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/03dmi31645539717.png",
       "id": "aldosivi-river-plate-2026-11-05",
@@ -313,6 +550,30 @@
       "startUtc": "2026-11-05T18:00:00Z",
       "teamA": "Aldosivi",
       "teamB": "River Plate"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/u4i9c91755367271.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/b9e1cr1589312301.png",
+      "id": "isca-asec-mimosas-2026-11-05",
+      "league": "Ivory Coast Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-11-05T18:00:00Z",
+      "teamA": "ISCA",
+      "teamB": "ASEC Mimosas"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/1rijst1707410501.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/nmljz41785556539.png",
+      "id": "omonia-29m-polemidion-2026-11-05",
+      "league": "Cypriot Cup",
+      "sport": "Football",
+      "startUtc": "2026-11-05T18:00:00Z",
+      "teamA": "Omonia 29M",
+      "teamB": "Polemidion"
     },
     {
       "channel": "",
@@ -1326,5 +1587,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-05T13:02:04Z"
+  "updatedAt": "2026-11-05T18:53:06Z"
 }
