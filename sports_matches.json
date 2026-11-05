@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-05T06:54:14Z",
+  "updatedAt": "2026-11-05T08:09:56Z",
   "count": 13,
   "matches": [
     {
@@ -76,20 +76,20 @@
       "awayTeam": "Coventry City FC"
     },
     {
-      "id": 564740,
-      "status": "TIMED",
-      "competition": "Primera Division",
-      "startTime": "2026-11-06T20:00:00Z",
-      "homeTeam": "Sevilla FC",
-      "awayTeam": "Deportivo Alavés"
-    },
-    {
       "id": 561932,
       "status": "TIMED",
       "competition": "Championship",
       "startTime": "2026-11-06T20:00:00Z",
       "homeTeam": "Derby County FC",
       "awayTeam": "Bolton Wanderers FC"
+    },
+    {
+      "id": 564740,
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "startTime": "2026-11-06T20:00:00Z",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Deportivo Alavés"
     },
     {
       "id": 567353,
