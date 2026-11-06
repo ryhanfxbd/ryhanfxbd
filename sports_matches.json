@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-06T20:34:55Z",
+  "updatedAt": "2026-11-06T21:28:28Z",
   "count": 46,
   "matches": [
     {
@@ -13,7 +13,7 @@
     },
     {
       "id": 558845,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Eredivisie",
       "startTime": "2026-11-06T19:00:00Z",
       "homeTeam": "Willem II Tilburg",
@@ -69,7 +69,7 @@
     },
     {
       "id": 567353,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primeira Liga",
       "startTime": "2026-11-06T20:45:00Z",
       "homeTeam": "FC Famalicão",
