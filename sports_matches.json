@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-06T19:42:10Z",
+  "updatedAt": "2026-11-06T20:34:55Z",
   "count": 46,
   "matches": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "id": 558537,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Serie A",
       "startTime": "2026-11-06T19:45:00Z",
       "homeTeam": "Venezia FC",
@@ -37,7 +37,7 @@
     },
     {
       "id": 559638,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Ligue 1",
       "startTime": "2026-11-06T19:45:00Z",
       "homeTeam": "Toulouse FC",
@@ -45,7 +45,7 @@
     },
     {
       "id": 560634,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Premier League",
       "startTime": "2026-11-06T20:00:00Z",
       "homeTeam": "Everton FC",
@@ -53,7 +53,7 @@
     },
     {
       "id": 564740,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primera Division",
       "startTime": "2026-11-06T20:00:00Z",
       "homeTeam": "Sevilla FC",
@@ -61,7 +61,7 @@
     },
     {
       "id": 561932,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Championship",
       "startTime": "2026-11-06T20:00:00Z",
       "homeTeam": "Derby County FC",
@@ -140,14 +140,6 @@
       "awayTeam": "US Lecce"
     },
     {
-      "id": 565848,
-      "status": "TIMED",
-      "competition": "Bundesliga",
-      "startTime": "2026-11-07T14:30:00Z",
-      "homeTeam": "RB Leipzig",
-      "awayTeam": "FC Augsburg"
-    },
-    {
       "id": 565850,
       "status": "TIMED",
       "competition": "Bundesliga",
@@ -156,12 +148,12 @@
       "awayTeam": "SV 07 Elversberg"
     },
     {
-      "id": 565853,
+      "id": 565848,
       "status": "TIMED",
       "competition": "Bundesliga",
       "startTime": "2026-11-07T14:30:00Z",
-      "homeTeam": "SC Paderborn 07",
-      "awayTeam": "Eintracht Frankfurt"
+      "homeTeam": "RB Leipzig",
+      "awayTeam": "FC Augsburg"
     },
     {
       "id": 565851,
@@ -172,12 +164,12 @@
       "awayTeam": "FC Bayern München"
     },
     {
-      "id": 561937,
+      "id": 565853,
       "status": "TIMED",
-      "competition": "Championship",
-      "startTime": "2026-11-07T15:00:00Z",
-      "homeTeam": "Preston North End FC",
-      "awayTeam": "Southampton FC"
+      "competition": "Bundesliga",
+      "startTime": "2026-11-07T14:30:00Z",
+      "homeTeam": "SC Paderborn 07",
+      "awayTeam": "Eintracht Frankfurt"
     },
     {
       "id": 561929,
@@ -202,6 +194,14 @@
       "startTime": "2026-11-07T15:00:00Z",
       "homeTeam": "Charlton Athletic FC",
       "awayTeam": "Sheffield United FC"
+    },
+    {
+      "id": 561937,
+      "status": "TIMED",
+      "competition": "Championship",
+      "startTime": "2026-11-07T15:00:00Z",
+      "homeTeam": "Preston North End FC",
+      "awayTeam": "Southampton FC"
     },
     {
       "id": 560633,
@@ -284,20 +284,20 @@
       "awayTeam": "Bologna FC 1909"
     },
     {
-      "id": 560641,
-      "status": "TIMED",
-      "competition": "Premier League",
-      "startTime": "2026-11-07T17:30:00Z",
-      "homeTeam": "Nottingham Forest FC",
-      "awayTeam": "Manchester City FC"
-    },
-    {
       "id": 564739,
       "status": "TIMED",
       "competition": "Primera Division",
       "startTime": "2026-11-07T17:30:00Z",
       "homeTeam": "CA Osasuna",
       "awayTeam": "Athletic Club"
+    },
+    {
+      "id": 560641,
+      "status": "TIMED",
+      "competition": "Premier League",
+      "startTime": "2026-11-07T17:30:00Z",
+      "homeTeam": "Nottingham Forest FC",
+      "awayTeam": "Manchester City FC"
     },
     {
       "id": 565849,
@@ -316,20 +316,20 @@
       "awayTeam": "Sparta Rotterdam"
     },
     {
-      "id": 559637,
-      "status": "TIMED",
-      "competition": "Ligue 1",
-      "startTime": "2026-11-07T18:00:00Z",
-      "homeTeam": "AJ Auxerre",
-      "awayTeam": "Paris FC"
-    },
-    {
       "id": 567347,
       "status": "TIMED",
       "competition": "Primeira Liga",
       "startTime": "2026-11-07T18:00:00Z",
       "homeTeam": "FC Alverca",
       "awayTeam": "Casa Pia AC"
+    },
+    {
+      "id": 559637,
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-07T18:00:00Z",
+      "homeTeam": "AJ Auxerre",
+      "awayTeam": "Paris FC"
     },
     {
       "id": 558531,
