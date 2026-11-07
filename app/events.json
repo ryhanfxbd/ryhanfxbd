@@ -16,7 +16,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
@@ -282,7 +281,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
@@ -310,7 +308,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
@@ -338,7 +335,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
@@ -354,7 +350,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
@@ -634,7 +629,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
@@ -1050,7 +1044,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
@@ -1285,7 +1278,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
@@ -1373,7 +1365,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
@@ -1610,5 +1601,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-07T12:45:22Z"
+  "updatedAt": "2026-11-07T18:40:12Z"
 }
