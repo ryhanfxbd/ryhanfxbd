@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-08T19:29:55Z",
+  "updatedAt": "2026-11-08T20:24:20Z",
   "count": 35,
   "matches": [
     {
@@ -44,6 +44,14 @@
       "awayTeam": "AFC Ajax"
     },
     {
+      "id": 560638,
+      "status": "FINISHED",
+      "competition": "Premier League",
+      "startTime": "2026-11-08T14:00:00Z",
+      "homeTeam": "Brighton & Hove Albion FC",
+      "awayTeam": "Brentford FC"
+    },
+    {
       "id": 560636,
       "status": "FINISHED",
       "competition": "Premier League",
@@ -68,22 +76,6 @@
       "awayTeam": "AC Milan"
     },
     {
-      "id": 560638,
-      "status": "FINISHED",
-      "competition": "Premier League",
-      "startTime": "2026-11-08T14:00:00Z",
-      "homeTeam": "Brighton & Hove Albion FC",
-      "awayTeam": "Brentford FC"
-    },
-    {
-      "id": 560635,
-      "status": "FINISHED",
-      "competition": "Premier League",
-      "startTime": "2026-11-08T14:00:00Z",
-      "homeTeam": "Crystal Palace FC",
-      "awayTeam": "Liverpool FC"
-    },
-    {
       "id": 560637,
       "status": "FINISHED",
       "competition": "Premier League",
@@ -98,6 +90,14 @@
       "startTime": "2026-11-08T14:00:00Z",
       "homeTeam": "AC Monza",
       "awayTeam": "Atalanta BC"
+    },
+    {
+      "id": 560635,
+      "status": "FINISHED",
+      "competition": "Premier League",
+      "startTime": "2026-11-08T14:00:00Z",
+      "homeTeam": "Crystal Palace FC",
+      "awayTeam": "Liverpool FC"
     },
     {
       "id": 565855,
@@ -164,20 +164,20 @@
       "awayTeam": "FC Lorient"
     },
     {
-      "id": 559634,
-      "status": "FINISHED",
-      "competition": "Ligue 1",
-      "startTime": "2026-11-08T16:15:00Z",
-      "homeTeam": "Angers SCO",
-      "awayTeam": "OGC Nice"
-    },
-    {
       "id": 559632,
       "status": "FINISHED",
       "competition": "Ligue 1",
       "startTime": "2026-11-08T16:15:00Z",
       "homeTeam": "Stade Brestois 29",
       "awayTeam": "Olympique Lyonnais"
+    },
+    {
+      "id": 559634,
+      "status": "FINISHED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-08T16:15:00Z",
+      "homeTeam": "Angers SCO",
+      "awayTeam": "OGC Nice"
     },
     {
       "id": 565854,
@@ -213,7 +213,7 @@
     },
     {
       "id": 564742,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Primera Division",
       "startTime": "2026-11-08T17:30:00Z",
       "homeTeam": "RC Celta de Vigo",
@@ -221,7 +221,7 @@
     },
     {
       "id": 567349,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Primeira Liga",
       "startTime": "2026-11-08T18:00:00Z",
       "homeTeam": "Vitória SC",
@@ -244,24 +244,24 @@
       "awayTeam": "NEC"
     },
     {
-      "id": 559630,
-      "status": "TIMED",
-      "competition": "Ligue 1",
-      "startTime": "2026-11-08T19:45:00Z",
-      "homeTeam": "Racing Club de Lens",
-      "awayTeam": "Olympique de Marseille"
-    },
-    {
       "id": 558529,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Serie A",
       "startTime": "2026-11-08T19:45:00Z",
       "homeTeam": "ACF Fiorentina",
       "awayTeam": "Juventus FC"
     },
     {
+      "id": 559630,
+      "status": "IN_PLAY",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-08T19:45:00Z",
+      "homeTeam": "Racing Club de Lens",
+      "awayTeam": "Olympique de Marseille"
+    },
+    {
       "id": 564746,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primera Division",
       "startTime": "2026-11-08T20:00:00Z",
       "homeTeam": "Club Atlético de Madrid",
