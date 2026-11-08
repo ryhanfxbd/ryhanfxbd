@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-08T01:52:06Z",
+  "updatedAt": "2026-11-08T02:39:29Z",
   "count": 35,
   "matches": [
     {
@@ -44,14 +44,6 @@
       "awayTeam": "AFC Ajax"
     },
     {
-      "id": 559636,
-      "status": "TIMED",
-      "competition": "Ligue 1",
-      "startTime": "2026-11-08T14:00:00Z",
-      "homeTeam": "Stade Rennais FC 1901",
-      "awayTeam": "Lille OSC"
-    },
-    {
       "id": 558536,
       "status": "TIMED",
       "competition": "Serie A",
@@ -74,6 +66,14 @@
       "startTime": "2026-11-08T14:00:00Z",
       "homeTeam": "Sunderland AFC",
       "awayTeam": "Chelsea FC"
+    },
+    {
+      "id": 559636,
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-08T14:00:00Z",
+      "homeTeam": "Stade Rennais FC 1901",
+      "awayTeam": "Lille OSC"
     },
     {
       "id": 560637,
@@ -244,20 +244,20 @@
       "awayTeam": "NEC"
     },
     {
-      "id": 559630,
-      "status": "TIMED",
-      "competition": "Ligue 1",
-      "startTime": "2026-11-08T19:45:00Z",
-      "homeTeam": "Racing Club de Lens",
-      "awayTeam": "Olympique de Marseille"
-    },
-    {
       "id": 558529,
       "status": "TIMED",
       "competition": "Serie A",
       "startTime": "2026-11-08T19:45:00Z",
       "homeTeam": "ACF Fiorentina",
       "awayTeam": "Juventus FC"
+    },
+    {
+      "id": 559630,
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-08T19:45:00Z",
+      "homeTeam": "Racing Club de Lens",
+      "awayTeam": "Olympique de Marseille"
     },
     {
       "id": 564746,
