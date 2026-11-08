@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-08T14:28:53Z",
+  "updatedAt": "2026-11-08T15:23:43Z",
   "count": 35,
   "matches": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "id": 564738,
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "competition": "Primera Division",
       "startTime": "2026-11-08T13:00:00Z",
       "homeTeam": "Elche CF",
@@ -76,14 +76,6 @@
       "awayTeam": "Brentford FC"
     },
     {
-      "id": 560635,
-      "status": "IN_PLAY",
-      "competition": "Premier League",
-      "startTime": "2026-11-08T14:00:00Z",
-      "homeTeam": "Crystal Palace FC",
-      "awayTeam": "Liverpool FC"
-    },
-    {
       "id": 560637,
       "status": "IN_PLAY",
       "competition": "Premier League",
@@ -100,8 +92,16 @@
       "awayTeam": "Atalanta BC"
     },
     {
+      "id": 560635,
+      "status": "IN_PLAY",
+      "competition": "Premier League",
+      "startTime": "2026-11-08T14:00:00Z",
+      "homeTeam": "Crystal Palace FC",
+      "awayTeam": "Liverpool FC"
+    },
+    {
       "id": 565855,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Bundesliga",
       "startTime": "2026-11-08T14:30:00Z",
       "homeTeam": "1. FC Köln",
@@ -109,7 +109,7 @@
     },
     {
       "id": 564743,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primera Division",
       "startTime": "2026-11-08T15:15:00Z",
       "homeTeam": "Real Sociedad de Fútbol",
