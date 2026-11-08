@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-08T06:39:58Z",
+  "updatedAt": "2026-11-08T07:48:58Z",
   "count": 35,
   "matches": [
     {
@@ -44,14 +44,6 @@
       "awayTeam": "AFC Ajax"
     },
     {
-      "id": 558538,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-11-08T14:00:00Z",
-      "homeTeam": "AC Monza",
-      "awayTeam": "Atalanta BC"
-    },
-    {
       "id": 560635,
       "status": "TIMED",
       "competition": "Premier League",
@@ -68,12 +60,12 @@
       "awayTeam": "AFC Bournemouth"
     },
     {
-      "id": 560638,
+      "id": 558538,
       "status": "TIMED",
-      "competition": "Premier League",
+      "competition": "Serie A",
       "startTime": "2026-11-08T14:00:00Z",
-      "homeTeam": "Brighton & Hove Albion FC",
-      "awayTeam": "Brentford FC"
+      "homeTeam": "AC Monza",
+      "awayTeam": "Atalanta BC"
     },
     {
       "id": 560636,
@@ -98,6 +90,14 @@
       "startTime": "2026-11-08T14:00:00Z",
       "homeTeam": "Genoa CFC",
       "awayTeam": "AC Milan"
+    },
+    {
+      "id": 560638,
+      "status": "TIMED",
+      "competition": "Premier League",
+      "startTime": "2026-11-08T14:00:00Z",
+      "homeTeam": "Brighton & Hove Albion FC",
+      "awayTeam": "Brentford FC"
     },
     {
       "id": 565855,
