@@ -3,121 +3,6 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/rbkjba1707458543.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/vi4mu41695734959.png",
-      "id": "barracas-central-racing-club-2026-11-06",
-      "league": "Argentinian Primera Division",
-      "sport": "Football",
-      "startUtc": "2026-11-06T18:00:00Z",
-      "teamA": "Barracas Central",
-      "teamB": "Racing Club"
-    },
-    {
-      "channel": "Sony Ten Sports 2 HD",
-      "channels": [
-        "Sony Ten Sports 2 HD",
-        "Bein Sports 1"
-      ],
-      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
-      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
-      "id": "hamburg-sv-borussia-monchengladbach-2026-11-06",
-      "league": "German Bundesliga",
-      "sport": "Football",
-      "startUtc": "2026-11-06T19:30:00Z",
-      "teamA": "Hamburg SV",
-      "teamB": "Borussia Mönchengladbach"
-    },
-    {
-      "channel": "Bein Sports 1",
-      "channels": [
-        "Bein Sports 1",
-        "beIN SPORTS",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
-      "id": "toulouse-strasbourg-2026-11-06",
-      "league": "French Ligue 1",
-      "sport": "Football",
-      "startUtc": "2026-11-06T19:45:00Z",
-      "teamA": "Toulouse",
-      "teamB": "Strasbourg"
-    },
-    {
-      "channel": "Bein Sports 1",
-      "channels": [
-        "Bein Sports 1",
-        "beIN SPORTS",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-      "id": "venezia-udinese-2026-11-06",
-      "league": "Italian Serie A",
-      "sport": "Football",
-      "startUtc": "2026-11-06T19:45:00Z",
-      "teamA": "Venezia",
-      "teamB": "Udinese"
-    },
-    {
-      "channel": "Star Sports Select 1",
-      "channels": [
-        "Star Sports Select 1",
-        "TNT Sport 1",
-        "Bein Sports 1"
-      ],
-      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-      "id": "everton-coventry-city-2026-11-06",
-      "league": "English Premier League",
-      "sport": "Football",
-      "startUtc": "2026-11-06T20:00:00Z",
-      "teamA": "Everton",
-      "teamB": "Coventry City"
-    },
-    {
-      "channel": "Bein Sports 1",
-      "channels": [
-        "Bein Sports 1",
-        "beIN SPORTS",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-      "id": "sevilla-alaves-2026-11-06",
-      "league": "Spanish LALIGA",
-      "sport": "Football",
-      "startUtc": "2026-11-06T20:00:00Z",
-      "teamA": "Sevilla",
-      "teamB": "Alavés"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/eki4nd1580842605.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/332h0l1578824392.png",
-      "id": "independiente-deportivo-riestra-2026-11-06",
-      "league": "Argentinian Primera Division",
-      "sport": "Football",
-      "startUtc": "2026-11-06T22:15:00Z",
-      "teamA": "Independiente",
-      "teamB": "Deportivo Riestra"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/37wke41775741605.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/lbs14n1769317149.png",
-      "id": "san-lorenzo-platense-2026-11-06",
-      "league": "Argentinian Primera Division",
-      "sport": "Football",
-      "startUtc": "2026-11-06T22:15:00Z",
-      "teamA": "San Lorenzo",
-      "teamB": "Platense"
-    },
-    {
-      "channel": "",
-      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/c2ea011775756104.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/m5i2q21775755577.png",
       "id": "banfield-atletico-tucuman-2026-11-07",
@@ -281,6 +166,7 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
+        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
@@ -308,6 +194,7 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
+        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
@@ -335,6 +222,7 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
+        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
@@ -350,6 +238,7 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
+        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
@@ -629,6 +518,7 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
+        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
@@ -1044,6 +934,7 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
+        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
@@ -1278,6 +1169,7 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
+        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
@@ -1365,6 +1257,7 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
+        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
@@ -1598,8 +1491,44 @@
       "startUtc": "2026-11-10T19:45:00Z",
       "teamA": "Salisbury",
       "teamB": "Braintree Town"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "🇩🇿",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/0jke8x1553368727.png",
+      "id": "algeria-togo-2026-11-11",
+      "league": "African Cup of Nations Qualifying",
+      "sport": "Football",
+      "startUtc": "2026-11-11T17:00:00Z",
+      "teamA": "Algeria",
+      "teamB": "Togo"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/bm2gzt1553208021.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/mo5t971553350704.png",
+      "id": "angola-south-sudan-2026-11-11",
+      "league": "African Cup of Nations Qualifying",
+      "sport": "Football",
+      "startUtc": "2026-11-11T17:00:00Z",
+      "teamA": "Angola",
+      "teamB": "South Sudan"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/an12u91593279487.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/zhqnbk1553348771.png",
+      "id": "benin-central-african-republic-2026-11-11",
+      "league": "African Cup of Nations Qualifying",
+      "sport": "Football",
+      "startUtc": "2026-11-11T17:00:00Z",
+      "teamA": "Benin",
+      "teamB": "Central African Republic"
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-07T18:40:12Z"
+  "updatedAt": "2026-11-08T00:43:06Z"
 }
