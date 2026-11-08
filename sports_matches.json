@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-08T07:48:58Z",
+  "updatedAt": "2026-11-08T08:38:31Z",
   "count": 35,
   "matches": [
     {
@@ -44,14 +44,6 @@
       "awayTeam": "AFC Ajax"
     },
     {
-      "id": 560635,
-      "status": "TIMED",
-      "competition": "Premier League",
-      "startTime": "2026-11-08T14:00:00Z",
-      "homeTeam": "Crystal Palace FC",
-      "awayTeam": "Liverpool FC"
-    },
-    {
       "id": 560637,
       "status": "TIMED",
       "competition": "Premier League",
@@ -66,6 +58,14 @@
       "startTime": "2026-11-08T14:00:00Z",
       "homeTeam": "AC Monza",
       "awayTeam": "Atalanta BC"
+    },
+    {
+      "id": 560635,
+      "status": "TIMED",
+      "competition": "Premier League",
+      "startTime": "2026-11-08T14:00:00Z",
+      "homeTeam": "Crystal Palace FC",
+      "awayTeam": "Liverpool FC"
     },
     {
       "id": 560636,
@@ -148,14 +148,6 @@
       "awayTeam": "FC Groningen"
     },
     {
-      "id": 559632,
-      "status": "TIMED",
-      "competition": "Ligue 1",
-      "startTime": "2026-11-08T16:15:00Z",
-      "homeTeam": "Stade Brestois 29",
-      "awayTeam": "Olympique Lyonnais"
-    },
-    {
       "id": 559634,
       "status": "TIMED",
       "competition": "Ligue 1",
@@ -164,12 +156,12 @@
       "awayTeam": "OGC Nice"
     },
     {
-      "id": 559633,
+      "id": 559632,
       "status": "TIMED",
       "competition": "Ligue 1",
       "startTime": "2026-11-08T16:15:00Z",
-      "homeTeam": "Le Havre AC",
-      "awayTeam": "FC Lorient"
+      "homeTeam": "Stade Brestois 29",
+      "awayTeam": "Olympique Lyonnais"
     },
     {
       "id": 559631,
@@ -178,6 +170,14 @@
       "startTime": "2026-11-08T16:15:00Z",
       "homeTeam": "Le Mans FC",
       "awayTeam": "AS Monaco FC"
+    },
+    {
+      "id": 559633,
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-08T16:15:00Z",
+      "homeTeam": "Le Havre AC",
+      "awayTeam": "FC Lorient"
     },
     {
       "id": 560639,
@@ -244,20 +244,20 @@
       "awayTeam": "NEC"
     },
     {
-      "id": 558529,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-11-08T19:45:00Z",
-      "homeTeam": "ACF Fiorentina",
-      "awayTeam": "Juventus FC"
-    },
-    {
       "id": 559630,
       "status": "TIMED",
       "competition": "Ligue 1",
       "startTime": "2026-11-08T19:45:00Z",
       "homeTeam": "Racing Club de Lens",
       "awayTeam": "Olympique de Marseille"
+    },
+    {
+      "id": 558529,
+      "status": "TIMED",
+      "competition": "Serie A",
+      "startTime": "2026-11-08T19:45:00Z",
+      "homeTeam": "ACF Fiorentina",
+      "awayTeam": "Juventus FC"
     },
     {
       "id": 564746,
