@@ -476,6 +476,138 @@
     {
       "channel": "",
       "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/vwqych1683738019.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/l4sbk91624632459.png",
+      "id": "veles-moscow-kamaz-naberezhnye-chelny-2026-11-09",
+      "league": "Russian First League",
+      "sport": "Football",
+      "startUtc": "2026-11-09T16:30:00Z",
+      "teamA": "Veles Moscow",
+      "teamB": "KAMAZ Naberezhnye Chelny"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/emvu201513885986.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/b97dj21664188696.png",
+      "id": "hapoel-kfar-saba-maccabi-bnei-reineh-2026-11-09",
+      "league": "Israeli Liga Leumit",
+      "sport": "Football",
+      "startUtc": "2026-11-09T17:00:00Z",
+      "teamA": "Hapoel Kfar Saba",
+      "teamB": "Maccabi Bnei Reineh"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/8lsfra1751280876.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ad7pk61781825935.png",
+      "id": "ironi-modi-in-hapoel-akko-2026-11-09",
+      "league": "Israeli Liga Leumit",
+      "sport": "Football",
+      "startUtc": "2026-11-09T17:00:00Z",
+      "teamA": "Ironi Modi'in",
+      "teamB": "Hapoel Akko"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/lauev01578921035.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/1bnnu81703173169.png",
+      "id": "javor-matis-ivanjica-tsc-backa-topola-2026-11-09",
+      "league": "Serbian Prva Liga",
+      "sport": "Football",
+      "startUtc": "2026-11-09T17:00:00Z",
+      "teamA": "Javor-Matis Ivanjica",
+      "teamB": "TSC Bačka Topola"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/4g7dis1617289263.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/e8v3011664188566.png",
+      "id": "kafr-qasim-hapoel-afula-2026-11-09",
+      "league": "Israeli Liga Leumit",
+      "sport": "Football",
+      "startUtc": "2026-11-09T17:00:00Z",
+      "teamA": "Kafr Qasim",
+      "teamB": "Hapoel Afula"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/u2qj9m1630021108.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/roo8uy1685636644.png",
+      "id": "koln-women-rb-leipzig-women-2026-11-09",
+      "league": "Germany Women Bundesliga",
+      "sport": "Football",
+      "startUtc": "2026-11-09T17:00:00Z",
+      "teamA": "Köln Women",
+      "teamB": "RB Leipzig Women"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/n50qxy1719566251.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/hqgbe91753204520.png",
+      "id": "atletico-madrid-femenino-badalona-women-2026-11-09",
+      "league": "Spanish Liga F",
+      "sport": "Football",
+      "startUtc": "2026-11-09T18:00:00Z",
+      "teamA": "Atlético Madrid Femenino",
+      "teamB": "Badalona Women"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/1volx41719994247.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/cfkqt61770049560.png",
+      "id": "botosani-otelul-galati-2026-11-09",
+      "league": "Romanian Liga I",
+      "sport": "Football",
+      "startUtc": "2026-11-09T18:00:00Z",
+      "teamA": "Botoșani",
+      "teamB": "Oțelul Galați"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/d42gnh1581257444.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/x9axpr1624623878.png",
+      "id": "hvidovre-aarhus-fremad-2026-11-09",
+      "league": "Danish 1st Division",
+      "sport": "Football",
+      "startUtc": "2026-11-09T18:00:00Z",
+      "teamA": "Hvidovre",
+      "teamB": "Aarhus Fremad"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/wzrjhc1690695847.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/e8c63s1764643725.png",
+      "id": "kristiansund-valerenga-2026-11-09",
+      "league": "Norwegian Eliteserien",
+      "sport": "Football",
+      "startUtc": "2026-11-09T18:00:00Z",
+      "teamA": "Kristiansund",
+      "teamB": "Vålerenga"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/bbp7n61679266263.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/drhsv91579961166.png",
+      "id": "mushuc-runa-delfin-2026-11-09",
+      "league": "Ecuadorian Serie A",
+      "sport": "Football",
+      "startUtc": "2026-11-09T18:00:00Z",
+      "teamA": "Mushuc Runa",
+      "teamB": "Delfín"
+    },
+    {
+      "channel": "",
+      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/zzarls1576161686.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/petg3h1778087075.png",
       "id": "atletico-junior-cucuta-deportivo-2026-11-10",
@@ -597,5 +729,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-09T13:04:39Z"
+  "updatedAt": "2026-11-09T18:56:00Z"
 }
