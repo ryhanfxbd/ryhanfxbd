@@ -106,38 +106,38 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "🇩🇿",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/0jke8x1553368727.png",
-      "id": "algeria-togo-2026-11-11",
-      "league": "African Cup of Nations Qualifying",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/sxyg0m1782965565.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/wfe9zl1767932691.png",
+      "id": "barycz-suow-miedz-legnica-ii-2026-11-11",
+      "league": "Polish III liga Group III",
       "sport": "Football",
-      "startUtc": "2026-11-11T17:00:00Z",
-      "teamA": "Algeria",
-      "teamB": "Togo"
+      "startUtc": "2026-11-11T14:00:00Z",
+      "teamA": "Barycz Sułów",
+      "teamB": "Miedź Legnica II"
     },
     {
       "channel": "",
       "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/bm2gzt1553208021.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/mo5t971553350704.png",
-      "id": "angola-south-sudan-2026-11-11",
-      "league": "African Cup of Nations Qualifying",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/4f60su1639481382.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/vgil6t1642851119.png",
+      "id": "alcoyano-elche-ilicitano-2026-11-11",
+      "league": "Spanish Segunda Federación Group 3",
       "sport": "Football",
-      "startUtc": "2026-11-11T17:00:00Z",
-      "teamA": "Angola",
-      "teamB": "South Sudan"
+      "startUtc": "2026-11-11T18:30:00Z",
+      "teamA": "Alcoyano",
+      "teamB": "Elche Ilicitano"
     },
     {
       "channel": "",
       "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/an12u91593279487.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/zhqnbk1553348771.png",
-      "id": "benin-central-african-republic-2026-11-11",
-      "league": "African Cup of Nations Qualifying",
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/xp2z9j1740846583.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/wywuwv1464886832.png",
+      "id": "londrina-nautico-2026-11-11",
+      "league": "Brazilian Serie B",
       "sport": "Football",
-      "startUtc": "2026-11-11T17:00:00Z",
-      "teamA": "Benin",
-      "teamB": "Central African Republic"
+      "startUtc": "2026-11-11T22:00:00Z",
+      "teamA": "Londrina",
+      "teamB": "Náutico"
     },
     {
       "channel": "",
@@ -239,5 +239,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-10T00:45:08Z"
+  "updatedAt": "2026-11-10T07:04:48Z"
 }
