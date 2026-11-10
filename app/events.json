@@ -142,6 +142,18 @@
     {
       "channel": "",
       "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/8gcur81705941637.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/g3slx61589798705.png",
+      "id": "armenia-cyprus-2026-11-12",
+      "league": "UEFA Nations League",
+      "sport": "Football",
+      "startUtc": "2026-11-12T17:00:00Z",
+      "teamA": "Armenia",
+      "teamB": "Cyprus"
+    },
+    {
+      "channel": "",
+      "channels": [],
       "flagA": "🇹🇷",
       "flagB": "🇧🇪",
       "id": "turkey-belgium-2026-11-12",
@@ -154,26 +166,14 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/wbss4d1644929547.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/fhrc6i1560791704.png",
-      "id": "ponte-preta-operario-ferroviario-2026-11-12",
-      "league": "Brazilian Serie B",
+      "flagA": "🇮🇹",
+      "flagB": "🇫🇷",
+      "id": "italy-france-2026-11-12",
+      "league": "UEFA Nations League",
       "sport": "Football",
-      "startUtc": "2026-11-12T22:00:00Z",
-      "teamA": "Ponte Preta",
-      "teamB": "Operário Ferroviário"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/0kt1ah1688106304.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/myl7c31677056352.png",
-      "id": "sao-bernardo-athletic-club-mg-2026-11-12",
-      "league": "Brazilian Serie B",
-      "sport": "Football",
-      "startUtc": "2026-11-12T23:00:00Z",
-      "teamA": "São Bernardo",
-      "teamB": "Athletic Club-MG"
+      "startUtc": "2026-11-12T19:45:00Z",
+      "teamA": "Italy",
+      "teamB": "France"
     },
     {
       "channel": "STAR SPORTS 1 HD",
@@ -239,5 +239,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-10T13:01:33Z"
+  "updatedAt": "2026-11-10T18:47:37Z"
 }
