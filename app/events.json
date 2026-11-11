@@ -3,59 +3,6 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/efldut1715066310.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/q1w56m1615832197.png",
-      "id": "alianza-de-valledupar-llaneros-2026-11-09",
-      "league": "Colombia Categoría Primera A",
-      "sport": "Football",
-      "startUtc": "2026-11-09T01:15:00Z",
-      "teamA": "Alianza de Valledupar",
-      "teamB": "Llaneros"
-    },
-    {
-      "channel": "PTV Sports HD",
-      "channels": [
-        "PTV Sports HD",
-        "PTV Sports",
-        "STAR SPORTS 1 HD",
-        "T Sports"
-      ],
-      "flagA": "🇵🇰",
-      "flagB": "🇱🇰",
-      "id": "pakistan-sri-lanka-2026-11-09",
-      "league": "ICC World Test Championship",
-      "sport": "Cricket",
-      "startUtc": "2026-11-09T04:30:00Z",
-      "teamA": "Pakistan",
-      "teamB": "Sri Lanka"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/ifxpmk1615900731.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/g0kite1735403323.png",
-      "id": "iberia-1999-gagra-2026-11-09",
-      "league": "Georgian Erovnuli Liga",
-      "sport": "Football",
-      "startUtc": "2026-11-09T16:00:00Z",
-      "teamA": "Iberia 1999",
-      "teamB": "Gagra"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/wzrjhc1690695847.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/e8c63s1764643725.png",
-      "id": "kristiansund-valerenga-2026-11-09",
-      "league": "Norwegian Eliteserien",
-      "sport": "Football",
-      "startUtc": "2026-11-09T18:00:00Z",
-      "teamA": "Kristiansund",
-      "teamB": "Vålerenga"
-    },
-    {
-      "channel": "",
-      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/zzarls1576161686.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/petg3h1778087075.png",
       "id": "atletico-junior-cucuta-deportivo-2026-11-10",
@@ -236,8 +183,44 @@
       "startUtc": "2026-11-13T19:45:00Z",
       "teamA": "Slovakia",
       "teamB": "Faroe Islands"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/emqz5c1782687922.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/crm3u81583080177.png",
+      "id": "neftchi-fergana-bunyodkor-2026-11-14",
+      "league": "Uzbekistan Super League",
+      "sport": "Football",
+      "startUtc": "2026-11-14T13:00:00Z",
+      "teamA": "Neftchi Fergana",
+      "teamB": "Bunyodkor"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/pw8uo11765900737.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/x5lixs1743742872.png",
+      "id": "mirassol-atletico-mineiro-2026-11-14",
+      "league": "Brazilian Serie A",
+      "sport": "Football",
+      "startUtc": "2026-11-14T21:30:00Z",
+      "teamA": "Mirassol",
+      "teamB": "Atlético Mineiro"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/wy0e1i1765900601.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ynqlxo1630521109.png",
+      "id": "chapecoense-vasco-da-gama-2026-11-14",
+      "league": "Brazilian Serie A",
+      "sport": "Football",
+      "startUtc": "2026-11-14T23:30:00Z",
+      "teamA": "Chapecoense",
+      "teamB": "Vasco da Gama"
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-10T18:47:37Z"
+  "updatedAt": "2026-11-11T00:46:38Z"
 }
