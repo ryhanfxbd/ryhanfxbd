@@ -1,20 +1,6 @@
 {
   "events": [
     {
-      "channel": "ABC Australia",
-      "channels": [
-        "ABC Australia"
-      ],
-      "flagA": "🇦🇺",
-      "flagB": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "id": "australia-england-2026-11-12",
-      "league": "Australia vs England",
-      "sport": "Cricket",
-      "startUtc": "2026-11-12T03:30:00Z",
-      "teamA": "Australia",
-      "teamB": "England"
-    },
-    {
       "channel": "",
       "channels": [],
       "flagA": "🇹🇷",
@@ -302,5 +288,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-13T13:03:40Z"
+  "updatedAt": "2026-11-13T18:52:39Z"
 }
