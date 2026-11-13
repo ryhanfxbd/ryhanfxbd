@@ -1,6 +1,20 @@
 {
   "events": [
     {
+      "channel": "ABC Australia",
+      "channels": [
+        "ABC Australia"
+      ],
+      "flagA": "🇦🇺",
+      "flagB": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "id": "australia-england-2026-11-12",
+      "league": "Australia vs England",
+      "sport": "Cricket",
+      "startUtc": "2026-11-12T03:30:00Z",
+      "teamA": "Australia",
+      "teamB": "England"
+    },
+    {
       "channel": "",
       "channels": [],
       "flagA": "🇹🇷",
@@ -65,6 +79,18 @@
     {
       "channel": "",
       "channels": [],
+      "flagA": "🇦🇫",
+      "flagB": "🇿🇼",
+      "id": "afghanistan-zimbabwe-2026-11-13",
+      "league": "Afghanistan vs Zimbabwe",
+      "sport": "Cricket",
+      "startUtc": "2026-11-13T05:30:00Z",
+      "teamA": "Afghanistan",
+      "teamB": "Zimbabwe"
+    },
+    {
+      "channel": "",
+      "channels": [],
       "flagA": "🇳🇱",
       "flagB": "🇬🇷",
       "id": "netherlands-greece-2026-11-13",
@@ -121,6 +147,30 @@
       "startUtc": "2026-11-14T21:30:00Z",
       "teamA": "Mirassol",
       "teamB": "Atlético Mineiro"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "mirassol-ca-mineiro-2026-11-14",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-14T21:30:00Z",
+      "teamA": "Mirassol",
+      "teamB": "CA Mineiro"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "chapecoense-cr-vasco-da-gama-2026-11-14",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-14T23:30:00Z",
+      "teamA": "Chapecoense",
+      "teamB": "CR Vasco da Gama"
     },
     {
       "channel": "",
@@ -252,5 +302,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-13T00:55:00Z"
+  "updatedAt": "2026-11-13T07:06:48Z"
 }
