@@ -1,6 +1,23 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-12T23:29:50Z",
-  "count": 0,
-  "matches": []
+  "updatedAt": "2026-11-13T00:39:17Z",
+  "count": 2,
+  "matches": [
+    {
+      "id": 555085,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-14T21:30:00Z",
+      "homeTeam": "Mirassol FC",
+      "awayTeam": "CA Mineiro"
+    },
+    {
+      "id": 554942,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-14T23:30:00Z",
+      "homeTeam": "Chapecoense AF",
+      "awayTeam": "CR Vasco da Gama"
+    }
+  ]
 }
