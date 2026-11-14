@@ -1,42 +1,6 @@
 {
   "events": [
     {
-      "channel": "",
-      "channels": [],
-      "flagA": "🇹🇷",
-      "flagB": "🇧🇪",
-      "id": "turkey-belgium-2026-11-12",
-      "league": "UEFA Nations League",
-      "sport": "Football",
-      "startUtc": "2026-11-12T17:00:00Z",
-      "teamA": "Turkey",
-      "teamB": "Belgium"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/wbss4d1644929547.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/fhrc6i1560791704.png",
-      "id": "ponte-preta-operario-ferroviario-2026-11-12",
-      "league": "Brazilian Serie B",
-      "sport": "Football",
-      "startUtc": "2026-11-12T22:00:00Z",
-      "teamA": "Ponte Preta",
-      "teamB": "Operário Ferroviário"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/0kt1ah1688106304.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/myl7c31677056352.png",
-      "id": "sao-bernardo-athletic-club-mg-2026-11-12",
-      "league": "Brazilian Serie B",
-      "sport": "Football",
-      "startUtc": "2026-11-12T23:00:00Z",
-      "teamA": "São Bernardo",
-      "teamB": "Athletic Club-MG"
-    },
-    {
       "channel": "STAR SPORTS 1 HD",
       "channels": [
         "STAR SPORTS 1 HD"
@@ -285,8 +249,62 @@
       "startUtc": "2026-11-16T17:00:00Z",
       "teamA": "Estonia",
       "teamB": "Bulgaria"
+    },
+    {
+      "channel": "Gazi TV",
+      "channels": [
+        "Gazi TV",
+        "T Sports",
+        "T Sports 2",
+        "Nagorik TV",
+        "Gazi TV HD"
+      ],
+      "flagA": "🇵🇰",
+      "flagB": "🇧🇩",
+      "id": "pakistan-bangladesh-2026-11-17",
+      "league": "ICC World Test Championship",
+      "sport": "Cricket",
+      "startUtc": "2026-11-17T04:30:00Z",
+      "teamA": "Pakistan",
+      "teamB": "Bangladesh"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "🇩🇰",
+      "flagB": "🇳🇴",
+      "id": "denmark-norway-2026-11-17",
+      "league": "UEFA Nations League",
+      "sport": "Football",
+      "startUtc": "2026-11-17T19:45:00Z",
+      "teamA": "Denmark",
+      "teamB": "Norway"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "🇺🇦",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/bhwotj1654205067.png",
+      "id": "ukraine-georgia-2026-11-17",
+      "league": "UEFA Nations League",
+      "sport": "Football",
+      "startUtc": "2026-11-17T19:45:00Z",
+      "teamA": "Ukraine",
+      "teamB": "Georgia"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+      "flagB": "🇵🇹",
+      "id": "wales-portugal-2026-11-17",
+      "league": "UEFA Nations League",
+      "sport": "Football",
+      "startUtc": "2026-11-17T19:45:00Z",
+      "teamA": "Wales",
+      "teamB": "Portugal"
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-13T18:52:39Z"
+  "updatedAt": "2026-11-14T00:47:46Z"
 }
