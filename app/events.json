@@ -181,7 +181,7 @@
         "T Sports",
         "T Sports 2",
         "Nagorik TV",
-        "Gazi TV HD"
+        "T Sports HD"
       ],
       "flagA": "🇿🇦",
       "flagB": "🇧🇩",
@@ -271,7 +271,7 @@
         "T Sports",
         "T Sports 2",
         "Nagorik TV",
-        "Gazi TV HD"
+        "T Sports HD"
       ],
       "flagA": "🇵🇰",
       "flagB": "🇧🇩",
@@ -320,5 +320,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-14T12:44:45Z"
+  "updatedAt": "2026-11-14T14:50:58Z"
 }
