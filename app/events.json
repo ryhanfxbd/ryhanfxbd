@@ -87,6 +87,21 @@
       "teamB": "Bunyodkor"
     },
     {
+      "channel": "T Sports",
+      "channels": [
+        "T Sports",
+        "T Sports 2"
+      ],
+      "flagA": "🇧🇩",
+      "flagB": "🇵🇰",
+      "id": "bangladesh-pakistan-2026-11-14",
+      "league": "SAFF Championship",
+      "sport": "Football",
+      "startUtc": "2026-11-14T14:30:00Z",
+      "teamA": "Bangladesh",
+      "teamB": "Pakistan"
+    },
+    {
       "channel": "",
       "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/pw8uo11765900737.png",

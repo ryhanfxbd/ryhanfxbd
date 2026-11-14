@@ -43,6 +43,17 @@
       "flagB": "🇿🇼",
       "startUtc": "2026-11-01T14:30:00Z",
       "channel": "A Sports HD"
+    },
+    {
+      "channel": "T Sports",
+      "flagA": "🇧🇩",
+      "flagB": "🇵🇰",
+      "id": "bangladesh-pakistan-2026-11-14",
+      "league": "SAFF Championship",
+      "sport": "Football",
+      "startUtc": "2026-11-14T14:30:00Z",
+      "teamA": "Bangladesh",
+      "teamB": "Pakistan"
     }
   ]
 }
