@@ -89,8 +89,7 @@
     {
       "channel": "T Sports",
       "channels": [
-        "T Sports",
-        "T Sports 2"
+        "T Sports"
       ],
       "flagA": "🇧🇩",
       "flagB": "🇵🇰",
@@ -321,5 +320,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-14T06:55:36Z"
+  "updatedAt": "2026-11-14T12:44:45Z"
 }
