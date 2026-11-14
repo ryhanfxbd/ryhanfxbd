@@ -1,11 +1,11 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-14T21:25:42Z",
+  "updatedAt": "2026-11-14T22:24:31Z",
   "count": 2,
   "matches": [
     {
       "id": 555085,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-14T21:30:00Z",
       "homeTeam": "Mirassol FC",
