@@ -41,30 +41,6 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "mirassol-ca-mineiro-2026-11-14",
-      "league": "Campeonato Brasileiro Série A",
-      "sport": "Football",
-      "startUtc": "2026-11-14T21:30:00Z",
-      "teamA": "Mirassol",
-      "teamB": "CA Mineiro"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "chapecoense-cr-vasco-da-gama-2026-11-14",
-      "league": "Campeonato Brasileiro Série A",
-      "sport": "Football",
-      "startUtc": "2026-11-14T23:30:00Z",
-      "teamA": "Chapecoense",
-      "teamB": "CR Vasco da Gama"
-    },
-    {
-      "channel": "",
-      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/wy0e1i1765900601.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ynqlxo1630521109.png",
       "id": "chapecoense-vasco-da-gama-2026-11-14",
@@ -89,12 +65,14 @@
       "teamB": "India"
     },
     {
-      "channel": "",
-      "channels": [],
+      "channel": "ABC Australia",
+      "channels": [
+        "ABC Australia"
+      ],
       "flagA": "🇦🇺",
       "flagB": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "australia-england-2026-11-15",
-      "league": "One Day International Series",
+      "league": "Australia vs England",
       "sport": "Cricket",
       "startUtc": "2026-11-15T03:30:00Z",
       "teamA": "Australia",
@@ -310,5 +288,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-15T00:47:08Z"
+  "updatedAt": "2026-11-15T07:02:20Z"
 }
