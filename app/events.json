@@ -1,80 +1,6 @@
 {
   "events": [
     {
-      "channel": "STAR SPORTS 1 HD",
-      "channels": [
-        "STAR SPORTS 1 HD"
-      ],
-      "flagA": "🇳🇿",
-      "flagB": "🇮🇳",
-      "id": "new-zealand-india-2026-11-13",
-      "league": "One Day International Series",
-      "sport": "Cricket",
-      "startUtc": "2026-11-13T02:00:00Z",
-      "teamA": "New Zealand",
-      "teamB": "India"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "flagB": "🇦🇺",
-      "id": "england-australia-2026-11-13",
-      "league": "One Day International Series",
-      "sport": "Cricket",
-      "startUtc": "2026-11-13T03:30:00Z",
-      "teamA": "England",
-      "teamB": "Australia"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "🇦🇫",
-      "flagB": "🇿🇼",
-      "id": "afghanistan-zimbabwe-2026-11-13",
-      "league": "Afghanistan vs Zimbabwe",
-      "sport": "Cricket",
-      "startUtc": "2026-11-13T05:30:00Z",
-      "teamA": "Afghanistan",
-      "teamB": "Zimbabwe"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "🇳🇱",
-      "flagB": "🇬🇷",
-      "id": "netherlands-greece-2026-11-13",
-      "league": "UEFA Nations League",
-      "sport": "Football",
-      "startUtc": "2026-11-13T19:45:00Z",
-      "teamA": "Netherlands",
-      "teamB": "Greece"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "🇷🇸",
-      "flagB": "🇩🇪",
-      "id": "serbia-germany-2026-11-13",
-      "league": "UEFA Nations League",
-      "sport": "Football",
-      "startUtc": "2026-11-13T19:45:00Z",
-      "teamA": "Serbia",
-      "teamB": "Germany"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/njbw8n1717365638.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/pjs0io1552936544.png",
-      "id": "slovakia-faroe-islands-2026-11-13",
-      "league": "UEFA Nations League",
-      "sport": "Football",
-      "startUtc": "2026-11-13T19:45:00Z",
-      "teamA": "Slovakia",
-      "teamB": "Faroe Islands"
-    },
-    {
       "channel": "",
       "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/emqz5c1782687922.png",
@@ -317,8 +243,72 @@
       "startUtc": "2026-11-17T19:45:00Z",
       "teamA": "Wales",
       "teamB": "Portugal"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "🇦🇺",
+      "flagB": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "id": "australia-england-2026-11-18",
+      "league": "One Day International Series",
+      "sport": "Cricket",
+      "startUtc": "2026-11-18T03:30:00Z",
+      "teamA": "Australia",
+      "teamB": "England"
+    },
+    {
+      "channel": "STAR SPORTS 1 HD",
+      "channels": [
+        "STAR SPORTS 1 HD",
+        "T Sports",
+        "PTV Sports HD"
+      ],
+      "flagA": "🇳🇿",
+      "flagB": "🇮🇳",
+      "id": "new-zealand-india-2026-11-18",
+      "league": "ICC World Test Championship",
+      "sport": "Cricket",
+      "startUtc": "2026-11-18T22:00:00Z",
+      "teamA": "New Zealand",
+      "teamB": "India"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/ywwsyu1473538050.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/j8xk9g1679447486.png",
+      "id": "coritiba-santos-2026-11-18",
+      "league": "Brazilian Serie A",
+      "sport": "Football",
+      "startUtc": "2026-11-18T22:30:00Z",
+      "teamA": "Coritiba",
+      "teamB": "Santos"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/upsvvu1473538059.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/vsqwqp1473538105.png",
+      "id": "cruzeiro-palmeiras-2026-11-18",
+      "league": "Brazilian Serie A",
+      "sport": "Football",
+      "startUtc": "2026-11-18T23:30:00Z",
+      "teamA": "Cruzeiro",
+      "teamB": "Palmeiras"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/syptwx1473538074.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/irzu1u1554237406.png",
+      "id": "flamengo-athletico-paranaense-2026-11-18",
+      "league": "Brazilian Serie A",
+      "sport": "Football",
+      "startUtc": "2026-11-18T23:30:00Z",
+      "teamA": "Flamengo",
+      "teamB": "Athletico Paranaense"
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-14T18:43:51Z"
+  "updatedAt": "2026-11-15T00:47:08Z"
 }
