@@ -15,14 +15,12 @@
       "teamB": "India"
     },
     {
-      "channel": "ABC Australia",
-      "channels": [
-        "ABC Australia"
-      ],
+      "channel": "",
+      "channels": [],
       "flagA": "🇦🇺",
       "flagB": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "australia-england-2026-11-15",
-      "league": "Australia vs England",
+      "league": "One Day International Series",
       "sport": "Cricket",
       "startUtc": "2026-11-15T03:30:00Z",
       "teamA": "Australia",
@@ -109,6 +107,30 @@
     {
       "channel": "",
       "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/zhqnbk1553348771.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/an12u91593279487.png",
+      "id": "central-african-republic-benin-2026-11-16",
+      "league": "African Cup of Nations Qualifying",
+      "sport": "Football",
+      "startUtc": "2026-11-16T16:00:00Z",
+      "teamA": "Central African Republic",
+      "teamB": "Benin"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/ryolcd1598647196.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/tzuwnp1742102469.png",
+      "id": "eritrea-guinea-2026-11-16",
+      "league": "African Cup of Nations Qualifying",
+      "sport": "Football",
+      "startUtc": "2026-11-16T16:00:00Z",
+      "teamA": "Eritrea",
+      "teamB": "Guinea"
+    },
+    {
+      "channel": "",
+      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/n43zxi1730303815.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/0bee7p1552858893.png",
       "id": "estonia-bulgaria-2026-11-16",
@@ -117,6 +139,102 @@
       "startUtc": "2026-11-16T17:00:00Z",
       "teamA": "Estonia",
       "teamB": "Bulgaria"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/9t48ii1602253021.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/pfk4ua1742982322.png",
+      "id": "greece-u21-iceland-u21-2026-11-16",
+      "league": "UEFA European Under-21 Championship",
+      "sport": "Football",
+      "startUtc": "2026-11-16T17:00:00Z",
+      "teamA": "Greece U21",
+      "teamB": "Iceland U21"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/xc6kuy1742982312.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/nsakoo1713725395.png",
+      "id": "iceland-luxembourg-2026-11-16",
+      "league": "UEFA Nations League",
+      "sport": "Football",
+      "startUtc": "2026-11-16T17:00:00Z",
+      "teamA": "Iceland",
+      "teamB": "Luxembourg"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/ukapsd1689197167.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/4o0nlh1591970494.png",
+      "id": "lithuania-liechtenstein-2026-11-16",
+      "league": "UEFA Nations League",
+      "sport": "Football",
+      "startUtc": "2026-11-16T17:00:00Z",
+      "teamA": "Lithuania",
+      "teamB": "Liechtenstein"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/2ndz151746198228.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/iqpa811630021059.png",
+      "id": "stuttgart-women-bayer-leverkusen-women-2026-11-16",
+      "league": "Germany Women Bundesliga",
+      "sport": "Football",
+      "startUtc": "2026-11-16T17:00:00Z",
+      "teamA": "Stuttgart Women",
+      "teamB": "Bayer Leverkusen Women"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/67anl71672949948.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/rpryqt1455463105.png",
+      "id": "italy-u21-belgium-u21-2026-11-16",
+      "league": "International Friendlies",
+      "sport": "Football",
+      "startUtc": "2026-11-16T17:15:00Z",
+      "teamA": "Italy U21",
+      "teamB": "Belgium U21"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/l5qspn1552847356.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/kr6lkz1552856315.png",
+      "id": "andorra-azerbaijan-2026-11-16",
+      "league": "International Friendlies",
+      "sport": "Football",
+      "startUtc": "2026-11-16T18:00:00Z",
+      "teamA": "Andorra",
+      "teamB": "Azerbaijan"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/xvzflc1766767024.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ank5xo1626208135.png",
+      "id": "leones-de-rosario-sportivo-barracas-2026-11-16",
+      "league": "Argentinian Primera C",
+      "sport": "Football",
+      "startUtc": "2026-11-16T18:00:00Z",
+      "teamA": "Leones de Rosario",
+      "teamB": "Sportivo Barracas"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/ea4ez01580040095.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/rc0rvv1706347088.png",
+      "id": "universidad-tecnica-de-cajamarca-los-chankas-2026-11-16",
+      "league": "Peruvian Primera Division",
+      "sport": "Football",
+      "startUtc": "2026-11-16T18:00:00Z",
+      "teamA": "Universidad Técnica de Cajamarca",
+      "teamB": "Los Chankas"
     },
     {
       "channel": "Gazi TV",
@@ -274,5 +392,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-16T14:55:01Z"
+  "updatedAt": "2026-11-16T18:58:18Z"
 }
