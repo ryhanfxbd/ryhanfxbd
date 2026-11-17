@@ -55,6 +55,23 @@
       "teamB": "Bangladesh"
     },
     {
+      "channel": "Discover Pakistan",
+      "channels": [
+        "Discover Pakistan",
+        "PTV Sports HD",
+        "PTV Sports",
+        "Ten Sports Pakistan"
+      ],
+      "flagA": "🇵🇰",
+      "flagB": "🇱🇰",
+      "id": "pakistan-sri-lanka-2026-11-17",
+      "league": "Pakistan vs Sri Lanka",
+      "sport": "Cricket",
+      "startUtc": "2026-11-17T05:00:00Z",
+      "teamA": "Pakistan",
+      "teamB": "Sri Lanka"
+    },
+    {
       "channel": "",
       "channels": [],
       "flagA": "🇩🇰",
@@ -133,6 +150,42 @@
     {
       "channel": "",
       "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "coritiba-fbc-santos-2026-11-18",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-18T22:30:00Z",
+      "teamA": "Coritiba FBC",
+      "teamB": "Santos"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "clube-do-remo-chapecoense-2026-11-18",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-18T23:00:00Z",
+      "teamA": "Clube do Remo",
+      "teamB": "Chapecoense"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "cr-flamengo-ca-paranaense-2026-11-18",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-18T23:30:00Z",
+      "teamA": "CR Flamengo",
+      "teamB": "CA Paranaense"
+    },
+    {
+      "channel": "",
+      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/upsvvu1473538059.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/vsqwqp1473538105.png",
       "id": "cruzeiro-palmeiras-2026-11-18",
@@ -140,6 +193,18 @@
       "sport": "Football",
       "startUtc": "2026-11-18T23:30:00Z",
       "teamA": "Cruzeiro",
+      "teamB": "Palmeiras"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "cruzeiro-ec-palmeiras-2026-11-18",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-18T23:30:00Z",
+      "teamA": "Cruzeiro EC",
       "teamB": "Palmeiras"
     },
     {
@@ -276,5 +341,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-17T00:52:53Z"
+  "updatedAt": "2026-11-17T07:09:58Z"
 }
