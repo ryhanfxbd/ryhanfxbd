@@ -12,37 +12,37 @@
       "teamB": "Afghanistan"
     },
     {
+      "channel": "A Sports HD",
+      "flagA": "🇦🇫",
+      "flagB": "🇿🇼",
       "id": "afghanistan-zimbabwe-2026-10-27",
-      "sport": "Cricket",
       "league": "Twenty20 International Series",
-      "teamA": "Afghanistan",
-      "teamB": "Zimbabwe",
-      "flagA": "🇦🇫",
-      "flagB": "🇿🇼",
+      "sport": "Cricket",
       "startUtc": "2026-10-27T14:30:00Z",
-      "channel": "A Sports HD"
+      "teamA": "Afghanistan",
+      "teamB": "Zimbabwe"
     },
     {
+      "channel": "A Sports HD",
+      "flagA": "🇦🇫",
+      "flagB": "🇿🇼",
       "id": "afghanistan-zimbabwe-2026-10-29",
-      "sport": "Cricket",
       "league": "Twenty20 International Series",
-      "teamA": "Afghanistan",
-      "teamB": "Zimbabwe",
-      "flagA": "🇦🇫",
-      "flagB": "🇿🇼",
+      "sport": "Cricket",
       "startUtc": "2026-10-29T14:30:00Z",
-      "channel": "A Sports HD"
+      "teamA": "Afghanistan",
+      "teamB": "Zimbabwe"
     },
     {
-      "id": "afghanistan-zimbabwe-2026-11-01",
-      "sport": "Cricket",
-      "league": "Twenty20 International Series",
-      "teamA": "Afghanistan",
-      "teamB": "Zimbabwe",
+      "channel": "A Sports HD",
       "flagA": "🇦🇫",
       "flagB": "🇿🇼",
+      "id": "afghanistan-zimbabwe-2026-11-01",
+      "league": "Twenty20 International Series",
+      "sport": "Cricket",
       "startUtc": "2026-11-01T14:30:00Z",
-      "channel": "A Sports HD"
+      "teamA": "Afghanistan",
+      "teamB": "Zimbabwe"
     },
     {
       "channel": "T Sports",
@@ -53,6 +53,17 @@
       "sport": "Football",
       "startUtc": "2026-11-14T14:30:00Z",
       "teamA": "Bangladesh",
+      "teamB": "Pakistan"
+    },
+    {
+      "channel": "T Sports",
+      "flagA": "🇮🇳",
+      "flagB": "🇵🇰",
+      "id": "india-pakistan-2026-11-17",
+      "league": "SAFF Championship",
+      "sport": "Football",
+      "startUtc": "2026-11-17T14:00:00Z",
+      "teamA": "India",
       "teamB": "Pakistan"
     }
   ]
