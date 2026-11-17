@@ -1,6 +1,39 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-16T23:31:54Z",
-  "count": 0,
-  "matches": []
+  "updatedAt": "2026-11-17T00:38:52Z",
+  "count": 4,
+  "matches": [
+    {
+      "id": 555081,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-18T22:30:00Z",
+      "homeTeam": "Coritiba FBC",
+      "awayTeam": "Santos FC"
+    },
+    {
+      "id": 555086,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-18T23:00:00Z",
+      "homeTeam": "Clube do Remo",
+      "awayTeam": "Chapecoense AF"
+    },
+    {
+      "id": 555083,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-18T23:30:00Z",
+      "homeTeam": "CR Flamengo",
+      "awayTeam": "CA Paranaense"
+    },
+    {
+      "id": 555082,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-18T23:30:00Z",
+      "homeTeam": "Cruzeiro EC",
+      "awayTeam": "SE Palmeiras"
+    }
+  ]
 }
