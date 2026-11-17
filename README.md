@@ -37,6 +37,16 @@
 
 ---
 
+### 📥 Download BD LIVE TV App
+
+**BD LIVE TV** is a free live TV app for Android mobile and Android TV — watch live sports (cricket & football), Bangladeshi news, movies and entertainment channels, with an auto-updated Sports Events page.
+
+<p align="center">
+  <a href="https://bdlivetv.ryhanfxbd.workers.dev"><b>⬇️ Download BD LIVE TV — Official App (Free)</b></a>
+</p>
+
+---
+
 ### 🛠️ Tech Stack
 
 <p align="center">
