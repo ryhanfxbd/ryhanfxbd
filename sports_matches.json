@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-17T18:44:44Z",
+  "updatedAt": "2026-11-17T19:54:15Z",
   "count": 4,
   "matches": [
     {
@@ -20,20 +20,20 @@
       "awayTeam": "Chapecoense AF"
     },
     {
-      "id": 555083,
-      "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-18T23:30:00Z",
-      "homeTeam": "CR Flamengo",
-      "awayTeam": "CA Paranaense"
-    },
-    {
       "id": 555082,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-18T23:30:00Z",
       "homeTeam": "Cruzeiro EC",
       "awayTeam": "SE Palmeiras"
+    },
+    {
+      "id": 555083,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-18T23:30:00Z",
+      "homeTeam": "CR Flamengo",
+      "awayTeam": "CA Paranaense"
     }
   ]
 }
