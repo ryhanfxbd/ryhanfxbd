@@ -1,11 +1,11 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-18T22:40:47Z",
+  "updatedAt": "2026-11-18T23:39:27Z",
   "count": 8,
   "matches": [
     {
       "id": 555081,
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-18T22:30:00Z",
       "homeTeam": "Coritiba FBC",
@@ -13,7 +13,7 @@
     },
     {
       "id": 555086,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-18T23:00:00Z",
       "homeTeam": "Clube do Remo",
@@ -21,7 +21,7 @@
     },
     {
       "id": 555083,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-18T23:30:00Z",
       "homeTeam": "CR Flamengo",
@@ -29,7 +29,7 @@
     },
     {
       "id": 555082,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-18T23:30:00Z",
       "homeTeam": "Cruzeiro EC",
