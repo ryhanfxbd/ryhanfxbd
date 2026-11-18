@@ -19,23 +19,6 @@
       "teamB": "Bangladesh"
     },
     {
-      "channel": "Discover Pakistan",
-      "channels": [
-        "Discover Pakistan",
-        "PTV Sports HD",
-        "PTV Sports",
-        "Ten Sports Pakistan"
-      ],
-      "flagA": "🇵🇰",
-      "flagB": "🇱🇰",
-      "id": "pakistan-sri-lanka-2026-11-17",
-      "league": "Pakistan vs Sri Lanka",
-      "sport": "Cricket",
-      "startUtc": "2026-11-17T05:00:00Z",
-      "teamA": "Pakistan",
-      "teamB": "Sri Lanka"
-    },
-    {
       "channel": "T Sports",
       "channels": [
         "T Sports"
@@ -845,5 +828,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-18T07:09:55Z"
+  "updatedAt": "2026-11-18T13:09:19Z"
 }
