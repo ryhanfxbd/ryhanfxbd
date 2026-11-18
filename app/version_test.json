@@ -1,0 +1,7 @@
+{
+  "versionCode": 41,
+  "versionName": "3.29-test1",
+  "apkUrl": "https://github.com/ryhanfxbd/ryhanfxbd/releases/download/v3.29-test1/BDlivetv.apk",
+  "message": "TEST build (admin only): skeleton loading state + faster cached channel list.",
+  "force": false
+}
