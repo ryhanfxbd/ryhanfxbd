@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-18T06:55:02Z",
+  "updatedAt": "2026-11-18T08:08:11Z",
   "count": 8,
   "matches": [
     {
@@ -36,20 +36,20 @@
       "awayTeam": "SE Palmeiras"
     },
     {
-      "id": 555080,
-      "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-19T00:30:00Z",
-      "homeTeam": "SC Corinthians Paulista",
-      "awayTeam": "Botafogo FR"
-    },
-    {
       "id": 555084,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-19T00:30:00Z",
       "homeTeam": "Grêmio FBPA",
       "awayTeam": "EC Bahia"
+    },
+    {
+      "id": 555080,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-19T00:30:00Z",
+      "homeTeam": "SC Corinthians Paulista",
+      "awayTeam": "Botafogo FR"
     },
     {
       "id": 555089,
