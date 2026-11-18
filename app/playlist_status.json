@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-18T00:58:53Z",
+  "updatedAt": "2026-11-18T07:08:32Z",
   "generator": "BDlivetv Auto Update",
   "sources": {
     "app/Aynaott.m3u": {
       "total": 138,
-      "ok": 70,
+      "ok": 76,
       "restricted": 13,
       "dead": [
         {
@@ -33,28 +33,8 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "ABC News",
-          "url": "https://tvsen6.aynaott.com/ABCxzdsdNews/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Republic TV Bharat",
-          "url": "https://tvsen6.aynaott.com/faGd3tuq/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Bharat Samachar",
-          "url": "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "ANB News",
           "url": "https://tvsen6.aynaott.com/H5aeGVSjindex.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "News 1 India",
-          "url": "https://tvsen6.aynaott.com/TaVfw58T/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -70,16 +50,6 @@
         {
           "name": "B4U Hitz",
           "url": "https://tvsen6.aynaott.com/B4UHitz/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Goldmines Bollywood",
-          "url": "https://tvsen6.aynaott.com/55xNrLdf/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Goldmines Movies",
-          "url": "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
           "reason": "HTTP 404"
         }
       ],
@@ -227,7 +197,7 @@
         {
           "name": "Movie Bangla",
           "url": "https://tvsen7.aynascope.net/moviebangla/index.m3u8",
-          "reason": "connection error: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018) (could not verify)"
+          "reason": "connection error: timed out (could not verify)"
         },
         {
           "name": "Republic Bangla",
@@ -340,6 +310,11 @@
           "name": "Bhakti Sagar",
           "url": "http://linear02hun-lh.akamaihd.net/i/bhaktisagar_1@665239/master.m3u8",
           "reason": "HTTP 400"
+        },
+        {
+          "name": "Bollywood Now",
+          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
+          "reason": "HTTP 301"
         },
         {
           "name": "Boogle Bollywood",
@@ -587,6 +562,11 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "Serveur TV",
+          "url": "https://a.jsrdn.com/broadcast/060753d37e/+0000/high/c.m3u8",
+          "reason": "HTTP 301"
+        },
+        {
           "name": "Geo Super sports",
           "url": "https://jk3lz82elw79-hls-live.5centscdn.com/GeoNews/0ce3266d4eb71ad50f7a90aee6d21dcd.sdp/playlist.m3u8",
           "reason": "HTTP 404"
@@ -597,6 +577,11 @@
           "reason": "HTTP 400"
         },
         {
+          "name": "Bollywood Now",
+          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
+          "reason": "HTTP 301"
+        },
+        {
           "name": "Rai Movie 1",
           "url": "http://b2everyrai-lh.akamaihd.net/i/raimovie_1@67348/index_1800_av-p.m3u8?sd=10&rebase=on",
           "reason": "HTTP 400"
@@ -605,6 +590,11 @@
           "name": "Rai 4",
           "url": "http://b2everyrai-lh.akamaihd.net/i/rai4_1@181951/index_1800_av-p.m3u8",
           "reason": "HTTP 400"
+        },
+        {
+          "name": "Bollywood HD",
+          "url": "https://a.jsrdn.com/broadcast/j4jhsgg89/c.m3u8",
+          "reason": "HTTP 301"
         },
         {
           "name": "92 News",
@@ -687,6 +677,21 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "Monarch TV",
+          "url": "https://a.jsrdn.com/broadcast/0c9a09c94c/+0000/c.m3u8",
+          "reason": "HTTP 301"
+        },
+        {
+          "name": "People TV",
+          "url": "https://a.jsrdn.com/broadcast/b5d2k0x/playlist720p.m3u8",
+          "reason": "HTTP 301"
+        },
+        {
+          "name": "Bollywood TV",
+          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
+          "reason": "HTTP 301"
+        },
+        {
           "name": "ABP News",
           "url": "https://abp-i.akamaihd.net/hls/live/765529/abphindi/masterhls_1564.m3u8",
           "reason": "HTTP 404"
@@ -700,6 +705,11 @@
           "name": "DD News",
           "url": "http://nicls1-lh.akamaihd.net/i/ddnews_1@409133/master.m3u8",
           "reason": "HTTP 404"
+        },
+        {
+          "name": "Bollywood Now",
+          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
+          "reason": "HTTP 301"
         },
         {
           "name": "Marutam TV",
@@ -785,6 +795,11 @@
           "name": "Life Punjabi",
           "url": "http://live.agmediachandigarh.com/lifepunjabi/e27b5c8d89b83882ca3b018eeed14888.sdp/mono.m3u8",
           "reason": "HTTP 404"
+        },
+        {
+          "name": "BritAsia TV",
+          "url": "https://a.jsrdn.com/broadcast/22693_4rGhgrBU/-0800/hi/c.m3u8",
+          "reason": "HTTP 301"
         },
         {
           "name": "Hulchul TV",
@@ -1132,11 +1147,6 @@
           "name": "Bollywood Classic",
           "url": "http://telekomtv-ro.akamaized.net/shls/LIVE$BollywoodClassic/6.m3u8/Level(1677721)?start=LIVE&end=END",
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
-        },
-        {
-          "name": "Bollywood Now",
-          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
         },
         {
           "name": "Classics Marathi",
@@ -1564,11 +1574,6 @@
           "reason": "HTTP 504 (server error, could not verify)"
         },
         {
-          "name": "Serveur TV",
-          "url": "https://a.jsrdn.com/broadcast/060753d37e/+0000/high/c.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
-        },
-        {
           "name": "Popular Scince",
           "url": "https://a.jsrdn.com/broadcast/447912f76b/+0000/high/c.m3u8",
           "reason": "HTTP 504 (server error, could not verify)"
@@ -1669,11 +1674,6 @@
           "reason": "connection error: timed out (could not verify)"
         },
         {
-          "name": "Bollywood Now",
-          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
-        },
-        {
           "name": "Bollywood Classic",
           "url": "http://telekomtv-ro.akamaized.net/shls/LIVE$BollywoodClassic/6.m3u8/Level(1677721)?start=LIVE&end=END",
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
@@ -1712,11 +1712,6 @@
           "name": "Star Gold",
           "url": "https://itpolly.iptv.digijadoo.net/live/star_gold/chunks.m3u8",
           "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Bollywood HD",
-          "url": "https://a.jsrdn.com/broadcast/j4jhsgg89/c.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
         },
         {
           "name": "B4U Movies",
@@ -2086,7 +2081,7 @@
         {
           "name": "Subrang TV (USA)",
           "url": "http://cdn61.liveonlineservices.com/hls/subrang.m3u8?fluxustv.m3u8",
-          "reason": "timeout after 10s (could not verify)"
+          "reason": "HTTP 523 (server error, could not verify)"
         },
         {
           "name": "Nat geo wild HD",
@@ -2279,16 +2274,6 @@
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
         },
         {
-          "name": "Monarch TV",
-          "url": "https://a.jsrdn.com/broadcast/0c9a09c94c/+0000/c.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
-        },
-        {
-          "name": "People TV",
-          "url": "https://a.jsrdn.com/broadcast/b5d2k0x/playlist720p.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
-        },
-        {
           "name": "TMZ",
           "url": "https://dai2.xumo.com/xumocdn/p=roku/amagi_hls_data_xumo1234A-tmz/CDN/1280x720_5000000/index.m3u8",
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
@@ -2434,11 +2419,6 @@
           "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
-          "name": "Bollywood TV",
-          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
-        },
-        {
           "name": "ZEE BOLLYWOOD",
           "url": "https://itpolly.iptv.digijadoo.net/live/zee_classic/chunks.m3u8",
           "reason": "connection error: timed out (could not verify)"
@@ -2517,11 +2497,6 @@
           "name": "BollyWood Hd",
           "url": "http://telekomtv-ro.akamaized.net/shls/LIVE$BollywoodHD/247.m3u8/Level(3670016)?start=LIVE&end=END",
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
-        },
-        {
-          "name": "Bollywood Now",
-          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
         },
         {
           "name": "Zoom",
@@ -2687,11 +2662,6 @@
           "name": "Punjabi Zindabad",
           "url": "http://stream.pztv.online/pztv/tracks-v1a1/mono.m3u8",
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
-        },
-        {
-          "name": "BritAsia TV",
-          "url": "https://a.jsrdn.com/broadcast/22693_4rGhgrBU/-0800/hi/c.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
         },
         {
           "name": "MH1 Prim",
@@ -3262,7 +3232,7 @@
     },
     "app/BDLiveTV all2.m3u": {
       "total": 1272,
-      "ok": 923,
+      "ok": 947,
       "restricted": 95,
       "dead": [
         {
@@ -3456,11 +3426,6 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Discovery Turbo",
-          "url": "https://tvsen3.aynaott.com/9tYGMmMS/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "Documentary+ 2",
           "url": "https://a38d899367d24b1197db60dedfa80262.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-FREELIVESPORTS/mt/freelivesports/887/hls/master/playlist.m3u8",
           "reason": "HTTP 404"
@@ -3531,6 +3496,11 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "Aryan TV National",
+          "url": "https://mumt04.tangotv.in/m18aqlK4ARYANTVNATIONAL/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "Asom Live 24",
           "url": "https://mumt06.tangotv.in/qYyB8fXVASHOMLIVE/index.m3u8",
           "reason": "HTTP 404"
@@ -3556,13 +3526,13 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "KTV Bangla",
-          "url": "https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8",
+          "name": "NH BollyGold",
+          "url": "https://0dc330e6408b4c3b9ac31fd37b121368.mediatailor.ap-south-1.amazonaws.com/v1/master/d367f9b863a7a04827f71ecab4cbeeb11f78a827/nh-bollygold-airtel/playlist.m3u8",
           "reason": "HTTP 404"
         },
         {
-          "name": "NH BollyGold",
-          "url": "https://0dc330e6408b4c3b9ac31fd37b121368.mediatailor.ap-south-1.amazonaws.com/v1/master/d367f9b863a7a04827f71ecab4cbeeb11f78a827/nh-bollygold-airtel/playlist.m3u8",
+          "name": "Rupashi Bangla TV",
+          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3636,18 +3606,8 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "B4U Kadak",
-          "url": "https://tvsen3.aynaott.com/X9E6bxg3/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "B4U Movies",
           "url": "https://drk6xq0vhn.gpcdn.net/live/b4u_movies_abr/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "B4U Movies",
-          "url": "https://streams.tangotv.in/B4UMOVIES/ORIGIN/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3706,6 +3666,11 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "Dangal",
+          "url": "https://tvsen3.aynaott.com/qPNg4LJK/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "Discovery",
           "url": "https://drk6xq0vhn.gpcdn.net/live/discovery_sd_abr/index.m3u8",
           "reason": "HTTP 404"
@@ -3723,11 +3688,6 @@
         {
           "name": "Ekhon TV",
           "url": "https://stream.ottplus.live/live/ekhon_tv_abr/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Goldmines Movies",
-          "url": "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3866,11 +3826,6 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Independent TV",
-          "url": "https://tvsen6.aynaott.com/Wef2Vj67njeYGDqQNFB9/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "Nick",
           "url": "https://homair-tv-production.up.railway.app/api/play/NICK.m3u8",
           "reason": "HTTP 404"
@@ -3887,11 +3842,6 @@
         }
       ],
       "unknown": [
-        {
-          "name": "Ananda TV",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/anandatv.stream/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
         {
           "name": "Bangla TV",
           "url": "http://116.204.149.16/banglatv/index.m3u8",
@@ -3910,7 +3860,7 @@
         {
           "name": "Channel 16",
           "url": "https://iptvlive.ahmed-bd-org.workers.dev/channel-16-1/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Duronto TV",
@@ -3966,6 +3916,11 @@
           "name": "Raj TV",
           "url": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RAJTV/master_1.m3u8",
           "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
+        },
+        {
+          "name": "Sony WAH",
+          "url": "http://live.balajibroadband.com:3500/live/1393.m3u8",
+          "reason": "HTTP 502 (server error, could not verify)"
         },
         {
           "name": "Sooriyan TV",
@@ -4026,11 +3981,6 @@
           "name": "Tom and Jerry",
           "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8",
           "reason": "connection error: [Errno 111] Connection refused (could not verify)"
-        },
-        {
-          "name": "Makkah Live",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/makkah.stream/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
         },
         {
           "name": "PK Sports",
@@ -4145,11 +4095,6 @@
         {
           "name": "Nick Jr (India)",
           "url": "http://103.185.24.134:3001/NICK-JR/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Rupashi Bangla TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
           "reason": "connection error: timed out (could not verify)"
         },
         {
@@ -4303,11 +4248,6 @@
           "reason": "connection error: timed out (could not verify)"
         },
         {
-          "name": "Ananda TV",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/anandatv.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
           "name": "ATN Bangla",
           "url": "http://tvsen5.aynascope.net/atnbangla/index.m3u8",
           "reason": "connection error: timed out (could not verify)"
@@ -4316,26 +4256,6 @@
           "name": "BTV National",
           "url": "https://btv.hridoytv-channel.workers.dev/btv.m3u8",
           "reason": "HTTP 502 (server error, could not verify)"
-        },
-        {
-          "name": "Channel 1",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Channel 1",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Channel S",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channels.stream/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Channel S",
-          "url": "https://iptvlive.ahmed-bd-org.workers.dev/channel-s-1/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
         },
         {
           "name": "Colors",
@@ -4363,44 +4283,14 @@
           "reason": "connection error: [Errno 111] Connection refused (could not verify)"
         },
         {
-          "name": "Desh TV",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshtv.stream/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Ekhon TV",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/globaltv.stream/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Ekushey TV",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ekusheytv-8-org.stream/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "G TV",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "G TV",
-          "url": "https://iptvlive.ahmed-bd-org.workers.dev/g-tv-1/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
           "name": "Global TV",
           "url": "http://116.204.149.16/globaltv/tracks-v1a1/mono.m3u8",
           "reason": "connection error: timed out (could not verify)"
         },
         {
-          "name": "Global TV",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
           "name": "Green TV",
           "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/greentv.stream/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Maasranga TV",
@@ -4438,21 +4328,6 @@
           "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
-          "name": "Medina Live",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/madina.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Movie Bangla",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/moviebanglalink2.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Movie Bangla",
-          "url": "https://iptvlive.ahmed-bd-org.workers.dev/movie-bangla-1/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
           "name": "Movies Now",
           "url": "http://103.135.253.32:8080/MOVIES-NOW/index.m3u8",
           "reason": "connection error: [Errno 111] Connection refused (could not verify)"
@@ -4460,16 +4335,6 @@
         {
           "name": "My TV",
           "url": "http://116.204.149.16/mytv/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "My TV",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "My TV",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/tracks-v1a1/mono.m3u8",
           "reason": "connection error: timed out (could not verify)"
         },
         {
@@ -4484,23 +4349,13 @@
         },
         {
           "name": "RTV",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "RTV",
           "url": "http://tvsen5.aynascope.net/RtvHD/index.m3u8",
           "reason": "connection error: timed out (could not verify)"
         },
         {
-          "name": "SA TV",
-          "url": "http://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/satvoff5666.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "SA TV",
-          "url": "https://iptvlive.ahmed-bd-org.workers.dev/sa-tv-1/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "name": "Shemaroo Bollywood",
+          "url": "https://amg00864-shemarooenterta-shemabollywood-ono-nlwbw.amagi.tv/playlist/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
+          "reason": "HTTP 500 (server error, could not verify)"
         },
         {
           "name": "Somoy TV",
@@ -4531,17 +4386,12 @@
           "name": "Zee Bangla Sonar",
           "url": "http://103.135.253.32:8080/ZEE-BANGLA-CINEMA/index.m3u8",
           "reason": "connection error: [Errno 111] Connection refused (could not verify)"
-        },
-        {
-          "name": "G TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
         }
       ]
     },
     "app/BDlivetv.m3u": {
       "total": 285,
-      "ok": 156,
+      "ok": 171,
       "restricted": 22,
       "dead": [
         {
@@ -4565,11 +4415,6 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Channel 24 HD",
-          "url": "http://premiumtvs.space/live/YqXTywueEV/damp2purchase/391.ts",
-          "reason": "not a stream (web page)"
-        },
-        {
           "name": "Mohona TV",
           "url": "https://sm-iptv.sm-monirul-islam-rs.workers.dev/aynaott/mohona_tv/index.m3u8",
           "reason": "HTTP 404"
@@ -4587,6 +4432,11 @@
         {
           "name": "Movie Bangla",
           "url": "https://stream.ottplus.live/live/movie_bangla_abr/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
+          "name": "Ruposhi Bangla",
+          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -4730,6 +4580,11 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "Ruposhi Bangla",
+          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "",
           "url": "https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/1531202.m3u8",
           "reason": "HTTP 404"
@@ -4767,6 +4622,11 @@
           "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1018) (could not verify)"
         },
         {
+          "name": "Willow HD",
+          "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
+          "reason": "timeout after 10s (could not verify)"
+        },
+        {
           "name": "RTV",
           "url": "http://tvsen5.aynascope.net/RtvHD/index.m3u8",
           "reason": "connection error: timed out (could not verify)"
@@ -4782,11 +4642,6 @@
           "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1018) (could not verify)"
         },
         {
-          "name": "Akhon TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/globaltv.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
           "name": "Global TV",
           "url": "http://116.204.149.16/globaltv/tracks-v1a1/mono.m3u8",
           "reason": "connection error: timed out (could not verify)"
@@ -4794,27 +4649,12 @@
         {
           "name": "Green TV",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/greentv.stream/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Star News",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/starnewsbd.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Channel 16",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "MUSIC BANGLA",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/musicbangla2025.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Ruposhi Bangla",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "ME TV",
@@ -4822,28 +4662,8 @@
           "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
-          "name": "Ayna TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Islamic TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/islamictvbd.stream/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Peace TV Bangla",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/peacetvban.stream/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
           "name": "Saudi Quran",
           "url": "http://bigenterprise.live:8080/live/00612533/17905940/1172576.ts",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Saudi Sunnah HD",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/madina.stream/playlist.m3u8",
           "reason": "connection error: timed out (could not verify)"
         },
         {
@@ -4927,29 +4747,9 @@
           "reason": "connection error: timed out (could not verify)"
         },
         {
-          "name": "G TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Ananda TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/anandatv.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
           "name": "Mohona TV",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Movie Bangla",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/moviebanglalink2.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "MyTV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "ME TV",
@@ -4962,39 +4762,14 @@
           "reason": "connection error: timed out (could not verify)"
         },
         {
-          "name": "Makkah TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/makkah.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Desh Bangla TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshbanglatv.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Music Bangla 2025",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/musicbangla2025.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Movie Bangla",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/moviebanglalink2.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
           "name": "Citizen TV",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/citizentv.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Ruposhi Bangla",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "EP TV",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/eptv.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Jalsha Movies HD",
@@ -5649,7 +5424,7 @@
     },
     "app/LiveTV_Favorites_1.m3u": {
       "total": 171,
-      "ok": 88,
+      "ok": 94,
       "restricted": 13,
       "dead": [
         {
@@ -5730,18 +5505,8 @@
           "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018) (could not verify)"
         },
         {
-          "name": "Global TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
           "name": "Bangla TV",
           "url": "http://116.204.149.16/banglatv/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Movie Bangla",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/moviebanglalink2.stream/tracks-v1a1/mono.m3u8",
           "reason": "connection error: timed out (could not verify)"
         },
         {
@@ -5775,24 +5540,14 @@
           "reason": "connection error: [Errno 111] Connection refused (could not verify)"
         },
         {
-          "name": "Islamic TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/islamictvbd.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
           "name": "Zee Bangla Sonar",
           "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/master2.m3u8",
           "reason": "connection error: [Errno -5] No address associated with hostname (could not verify)"
         },
         {
-          "name": "RTV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
           "name": "BTV News",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/btvbd-office-sg.stream/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Tom & Jerry TV",
@@ -5807,7 +5562,7 @@
         {
           "name": "Channel-16",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Tom & Jarry",
@@ -5820,9 +5575,9 @@
           "reason": "connection error: [Errno 111] Connection refused (could not verify)"
         },
         {
-          "name": "Desh TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshtv.stream/tracks-v1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "name": "Willow HD",
+          "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Hindi Movies",
@@ -5840,14 +5595,9 @@
           "reason": "connection error: [Errno 111] Connection refused (could not verify)"
         },
         {
-          "name": "Asian TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/asian-test-sample-ok-d.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
           "name": "Mohona TV",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Aakaash Aath",
@@ -5993,11 +5743,6 @@
           "name": "Batul the Great",
           "url": "https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8",
           "reason": "connection error: [Errno 111] Connection refused (could not verify)"
-        },
-        {
-          "name": "Ananda TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/anandatv.stream/tracks-v1a1/mono.m3u8",
-          "reason": "connection error: timed out (could not verify)"
         },
         {
           "name": "Ion TV",
@@ -6853,6 +6598,11 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "Rupashi Bangla TV (720p)",
+          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "T Sports (1080p)",
           "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
           "reason": "HTTP 404"
@@ -6922,11 +6672,6 @@
         {
           "name": "RTV (Bangladesh) (720p)",
           "url": "http://tvsen5.aynascope.net/RtvHD/index.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Rupashi Bangla TV (720p)",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
           "reason": "connection error: timed out (could not verify)"
         },
         {
@@ -7116,7 +6861,7 @@
     },
     "app/iptv_bd.m3u": {
       "total": 145,
-      "ok": 22,
+      "ok": 31,
       "restricted": 10,
       "dead": [
         {
@@ -7609,57 +7354,12 @@
         {
           "name": "Green Tv",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/greentv.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "RTV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Global TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/satvoff5666.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Asian TV",
           "url": "https://mtlivestream.com/hls/asian/ytlive/index.m3u8",
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
-        },
-        {
-          "name": "Channel 9",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Gazi TV HD",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "My TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "ATN Bangla",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Makkah Live Quran TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/makkahtv.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Madina Live Tv Sunnah TV",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/madina.stream/playlist.m3u8",
-          "reason": "connection error: timed out (could not verify)"
         },
         {
           "name": "Discovery Channel Bengali",

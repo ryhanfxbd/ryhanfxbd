@@ -86,108 +86,14 @@
       "teamB": "Portugal"
     },
     {
-      "channel": "",
-      "channels": [],
-      "flagA": "🇦🇷",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/bss90a1637840151.png",
-      "id": "argentina-costa-rica-2026-11-17",
-      "league": "International Friendlies",
-      "sport": "Football",
-      "startUtc": "2026-11-17T23:00:00Z",
-      "teamA": "Argentina",
-      "teamB": "Costa Rica"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "🇨🇱",
-      "flagB": "🇨🇴",
-      "id": "chile-colombia-2026-11-17",
-      "league": "International Friendlies",
-      "sport": "Football",
-      "startUtc": "2026-11-17T23:00:00Z",
-      "teamA": "Chile",
-      "teamB": "Colombia"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/smg4f41704297909.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/l53nr11734114727.png",
-      "id": "olimpo-kimberley-2026-11-17",
-      "league": "Argentina Torneo Federal A",
-      "sport": "Football",
-      "startUtc": "2026-11-17T23:15:00Z",
-      "teamA": "Olimpo",
-      "teamB": "Kimberley"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/efl4o41576157720.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/nuh9kd1778085916.png",
-      "id": "atletico-nacional-once-caldas-2026-11-17",
-      "league": "Copa Colombia",
-      "sport": "Football",
-      "startUtc": "2026-11-17T23:30:00Z",
-      "teamA": "Atlético Nacional",
-      "teamB": "Once Caldas"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "🇪🇨",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/4q6qfm1736571383.png",
-      "id": "ecuador-bolivia-2026-11-17",
-      "league": "International Friendlies",
-      "sport": "Football",
-      "startUtc": "2026-11-17T23:30:00Z",
-      "teamA": "Ecuador",
-      "teamB": "Bolivia"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "🇺🇾",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/tnvu6e1774758597.png",
-      "id": "uruguay-dominican-republic-2026-11-17",
-      "league": "International Friendlies",
-      "sport": "Football",
-      "startUtc": "2026-11-17T23:30:00Z",
-      "teamA": "Uruguay",
-      "teamB": "Dominican Republic"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/cj10ax1600962180.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ok8hqd1728750207.png",
-      "id": "french-guiana-st-vincent-and-the-grenadines-2026-11-18",
-      "league": "CONCACAF Nations League",
-      "sport": "Football",
-      "startUtc": "2026-11-18T00:00:00Z",
-      "teamA": "French Guiana",
-      "teamB": "St Vincent and the Grenadines"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "🇺🇸",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/gml8wx1598135302.png",
-      "id": "usa-haiti-2026-11-18",
-      "league": "CONCACAF Nations League",
-      "sport": "Football",
-      "startUtc": "2026-11-18T00:00:00Z",
-      "teamA": "USA",
-      "teamB": "Haiti"
-    },
-    {
-      "channel": "",
-      "channels": [],
+      "channel": "ABC Australia",
+      "channels": [
+        "ABC Australia"
+      ],
       "flagA": "🇦🇺",
       "flagB": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "australia-england-2026-11-18",
-      "league": "One Day International Series",
+      "league": "Australia vs England",
       "sport": "Cricket",
       "startUtc": "2026-11-18T03:30:00Z",
       "teamA": "Australia",
@@ -308,6 +214,18 @@
     {
       "channel": "",
       "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "corinthians-paulista-botafogo-fr-2026-11-19",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-19T00:30:00Z",
+      "teamA": "Corinthians Paulista",
+      "teamB": "Botafogo FR"
+    },
+    {
+      "channel": "",
+      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/uvpwyt1473538089.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/xuvtsv1473539308.png",
       "id": "gremio-bahia-2026-11-19",
@@ -316,6 +234,42 @@
       "startUtc": "2026-11-19T00:30:00Z",
       "teamA": "Grêmio",
       "teamB": "Bahia"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "gremio-fbpa-ec-bahia-2026-11-19",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-19T00:30:00Z",
+      "teamA": "Grêmio FBPA",
+      "teamB": "EC Bahia"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "cr-vasco-da-gama-internacional-2026-11-19",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-19T22:30:00Z",
+      "teamA": "CR Vasco da Gama",
+      "teamB": "Internacional"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "ec-vitoria-bragantino-2026-11-19",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-19T22:30:00Z",
+      "teamA": "EC Vitória",
+      "teamB": "Bragantino"
     },
     {
       "channel": "",
@@ -891,5 +845,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-18T01:00:17Z"
+  "updatedAt": "2026-11-18T07:09:55Z"
 }
