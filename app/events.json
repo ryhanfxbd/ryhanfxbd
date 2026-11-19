@@ -1,14 +1,12 @@
 {
   "events": [
     {
-      "channel": "ABC Australia",
-      "channels": [
-        "ABC Australia"
-      ],
+      "channel": "",
+      "channels": [],
       "flagA": "🇦🇺",
       "flagB": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "australia-england-2026-11-18",
-      "league": "Australia vs England",
+      "league": "One Day International Series",
       "sport": "Cricket",
       "startUtc": "2026-11-18T03:30:00Z",
       "teamA": "Australia",
@@ -113,6 +111,132 @@
       "startUtc": "2026-11-19T00:30:00Z",
       "teamA": "Grêmio FBPA",
       "teamB": "EC Bahia"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/gyyiic1754241657.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/88vcd41695448814.png",
+      "id": "mb-rouissat-cr-belouizdad-2026-11-19",
+      "league": "Algerian Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-11-19T16:45:00Z",
+      "teamA": "MB Rouissat",
+      "teamB": "CR Belouizdad"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/xxr6gc1776382874.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/hl8efx1729785429.png",
+      "id": "mc-alger-olympique-akbou-2026-11-19",
+      "league": "Algerian Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-11-19T16:45:00Z",
+      "teamA": "MC Alger",
+      "teamB": "Olympique Akbou"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/peiysk1653119478.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/t6box11685784271.png",
+      "id": "kif-orebro-dff-women-rosengard-women-2026-11-19",
+      "league": "Sweden Damallsvenskan",
+      "sport": "Football",
+      "startUtc": "2026-11-19T17:00:00Z",
+      "teamA": "KIF Örebro DFF Women",
+      "teamB": "Rosengård Women"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/tem2e61754547063.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/3phbnp1752291610.png",
+      "id": "sveikata-hegelmann-b-2026-11-19",
+      "league": "Lithuanian I Lyga",
+      "sport": "Football",
+      "startUtc": "2026-11-19T17:00:00Z",
+      "teamA": "Sveikata",
+      "teamB": "Hegelmann B"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/5cq6xm1714521289.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/uh36te1759424535.png",
+      "id": "ac-douane-kaedi-2026-11-19",
+      "league": "Mauritania Premier League",
+      "sport": "Football",
+      "startUtc": "2026-11-19T17:30:00Z",
+      "teamA": "AC Douane",
+      "teamB": "Kaédi"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/lttz761781996257.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/o7u7qi1630021067.png",
+      "id": "austria-wien-women-bayern-munich-women-2026-11-19",
+      "league": "UEFA Womens Champions League",
+      "sport": "Football",
+      "startUtc": "2026-11-19T17:45:00Z",
+      "teamA": "Austria Wien Women",
+      "teamB": "Bayern Munich Women"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/z8s5ow1629235128.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/cbu6qr1782014187.png",
+      "id": "paris-fc-women-kge-women-2026-11-19",
+      "league": "UEFA Womens Champions League",
+      "sport": "Football",
+      "startUtc": "2026-11-19T17:45:00Z",
+      "teamA": "Paris FC Women",
+      "teamB": "Køge Women"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/aq1xqm1780641007.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/yh8x5u1624623902.png",
+      "id": "fredericia-hillerd-2026-11-19",
+      "league": "Danish 1st Division",
+      "sport": "Football",
+      "startUtc": "2026-11-19T18:00:00Z",
+      "teamA": "Fredericia",
+      "teamB": "Hillerød"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/h3w0w71581543584.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/8tf8my1776275531.png",
+      "id": "js-kabylie-usm-alger-2026-11-19",
+      "league": "Algerian Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-11-19T19:00:00Z",
+      "teamA": "JS Kabylie",
+      "teamB": "USM Alger"
+    },
+    {
+      "channel": "WeatherSpy (India)",
+      "channels": [
+        "WeatherSpy (India)",
+        "Vision (India)",
+        "Update India",
+        "Soochna India",
+        "RT India"
+      ],
+      "flagA": "🇳🇿",
+      "flagB": "🇮🇳",
+      "id": "new-zealand-india-2026-11-19",
+      "league": "New Zealand vs India",
+      "sport": "Cricket",
+      "startUtc": "2026-11-19T22:00:00Z",
+      "teamA": "New Zealand",
+      "teamB": "India"
     },
     {
       "channel": "",
@@ -1052,5 +1176,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-19T13:08:30Z"
+  "updatedAt": "2026-11-19T19:05:25Z"
 }
