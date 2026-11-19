@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-19T21:39:18Z",
+  "updatedAt": "2026-11-19T22:38:33Z",
   "count": 8,
   "matches": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "id": 555089,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-19T22:30:00Z",
       "homeTeam": "EC Vitória",
@@ -29,7 +29,7 @@
     },
     {
       "id": 555088,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-19T22:30:00Z",
       "homeTeam": "CR Vasco da Gama",
