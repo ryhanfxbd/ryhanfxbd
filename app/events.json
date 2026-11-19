@@ -45,42 +45,6 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "coritiba-fbc-santos-2026-11-18",
-      "league": "Campeonato Brasileiro Série A",
-      "sport": "Football",
-      "startUtc": "2026-11-18T22:30:00Z",
-      "teamA": "Coritiba FBC",
-      "teamB": "Santos"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "clube-do-remo-chapecoense-2026-11-18",
-      "league": "Campeonato Brasileiro Série A",
-      "sport": "Football",
-      "startUtc": "2026-11-18T23:00:00Z",
-      "teamA": "Clube do Remo",
-      "teamB": "Chapecoense"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "cr-flamengo-ca-paranaense-2026-11-18",
-      "league": "Campeonato Brasileiro Série A",
-      "sport": "Football",
-      "startUtc": "2026-11-18T23:30:00Z",
-      "teamA": "CR Flamengo",
-      "teamB": "CA Paranaense"
-    },
-    {
-      "channel": "",
-      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/upsvvu1473538059.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/vsqwqp1473538105.png",
       "id": "cruzeiro-palmeiras-2026-11-18",
@@ -88,18 +52,6 @@
       "sport": "Football",
       "startUtc": "2026-11-18T23:30:00Z",
       "teamA": "Cruzeiro",
-      "teamB": "Palmeiras"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "cruzeiro-ec-palmeiras-2026-11-18",
-      "league": "Campeonato Brasileiro Série A",
-      "sport": "Football",
-      "startUtc": "2026-11-18T23:30:00Z",
-      "teamA": "Cruzeiro EC",
       "teamB": "Palmeiras"
     },
     {
@@ -223,6 +175,18 @@
       "teamB": "Bodø/Glimt"
     },
     {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "bayern-munich-1-fc-koln-2026-11-20",
+      "league": "Bundesliga",
+      "sport": "Football",
+      "startUtc": "2026-11-20T19:30:00Z",
+      "teamA": "Bayern Munich",
+      "teamB": "1. FC Köln"
+    },
+    {
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
@@ -237,6 +201,18 @@
       "startUtc": "2026-11-20T19:30:00Z",
       "teamA": "Bayern Munich",
       "teamB": "FC Cologne"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "es-troyes-ac-le-havre-ac-2026-11-20",
+      "league": "Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-11-20T19:45:00Z",
+      "teamA": "ES Troyes AC",
+      "teamB": "Le Havre AC"
     },
     {
       "channel": "Bein Sports 1",
@@ -1076,5 +1052,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-19T01:01:31Z"
+  "updatedAt": "2026-11-19T07:09:49Z"
 }
