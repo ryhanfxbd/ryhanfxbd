@@ -1,55 +1,23 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-18T23:39:27Z",
+  "updatedAt": "2026-11-19T00:47:46Z",
   "count": 8,
   "matches": [
     {
-      "id": 555081,
-      "status": "PAUSED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-18T22:30:00Z",
-      "homeTeam": "Coritiba FBC",
-      "awayTeam": "Santos FC"
-    },
-    {
-      "id": 555086,
-      "status": "IN_PLAY",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-18T23:00:00Z",
-      "homeTeam": "Clube do Remo",
-      "awayTeam": "Chapecoense AF"
-    },
-    {
-      "id": 555083,
-      "status": "IN_PLAY",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-18T23:30:00Z",
-      "homeTeam": "CR Flamengo",
-      "awayTeam": "CA Paranaense"
-    },
-    {
-      "id": 555082,
-      "status": "IN_PLAY",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-18T23:30:00Z",
-      "homeTeam": "Cruzeiro EC",
-      "awayTeam": "SE Palmeiras"
-    },
-    {
-      "id": 555084,
-      "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-19T00:30:00Z",
-      "homeTeam": "Grêmio FBPA",
-      "awayTeam": "EC Bahia"
-    },
-    {
       "id": 555080,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-19T00:30:00Z",
       "homeTeam": "SC Corinthians Paulista",
       "awayTeam": "Botafogo FR"
+    },
+    {
+      "id": 555084,
+      "status": "IN_PLAY",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-19T00:30:00Z",
+      "homeTeam": "Grêmio FBPA",
+      "awayTeam": "EC Bahia"
     },
     {
       "id": 555089,
@@ -66,6 +34,38 @@
       "startTime": "2026-11-19T22:30:00Z",
       "homeTeam": "CR Vasco da Gama",
       "awayTeam": "SC Internacional"
+    },
+    {
+      "id": 555087,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-20T00:30:00Z",
+      "homeTeam": "São Paulo FC",
+      "awayTeam": "Fluminense FC"
+    },
+    {
+      "id": 565859,
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "startTime": "2026-11-20T19:30:00Z",
+      "homeTeam": "FC Bayern München",
+      "awayTeam": "1. FC Köln"
+    },
+    {
+      "id": 559622,
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-20T19:45:00Z",
+      "homeTeam": "ES Troyes AC",
+      "awayTeam": "Le Havre AC"
+    },
+    {
+      "id": 564748,
+      "status": "TIMED",
+      "competition": "Primera Division",
+      "startTime": "2026-11-20T20:00:00Z",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "RCD Espanyol de Barcelona"
     }
   ]
 }
