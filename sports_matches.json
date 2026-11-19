@@ -1,16 +1,8 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-19T14:10:54Z",
+  "updatedAt": "2026-11-19T15:46:00Z",
   "count": 8,
   "matches": [
-    {
-      "id": 555080,
-      "status": "FINISHED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-19T00:30:00Z",
-      "homeTeam": "SC Corinthians Paulista",
-      "awayTeam": "Botafogo FR"
-    },
     {
       "id": 555084,
       "status": "FINISHED",
@@ -20,12 +12,12 @@
       "awayTeam": "EC Bahia"
     },
     {
-      "id": 555089,
-      "status": "TIMED",
+      "id": 555080,
+      "status": "FINISHED",
       "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-19T22:30:00Z",
-      "homeTeam": "EC Vitória",
-      "awayTeam": "RB Bragantino"
+      "startTime": "2026-11-19T00:30:00Z",
+      "homeTeam": "SC Corinthians Paulista",
+      "awayTeam": "Botafogo FR"
     },
     {
       "id": 555088,
@@ -34,6 +26,14 @@
       "startTime": "2026-11-19T22:30:00Z",
       "homeTeam": "CR Vasco da Gama",
       "awayTeam": "SC Internacional"
+    },
+    {
+      "id": 555089,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-19T22:30:00Z",
+      "homeTeam": "EC Vitória",
+      "awayTeam": "RB Bragantino"
     },
     {
       "id": 555087,
