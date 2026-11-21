@@ -120,12 +120,14 @@
       "teamB": "Audax Italiano"
     },
     {
-      "channel": "",
-      "channels": [],
+      "channel": "ABC Australia",
+      "channels": [
+        "ABC Australia"
+      ],
       "flagA": "🇦🇺",
       "flagB": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "australia-england-2026-11-21",
-      "league": "Twenty20 International Series",
+      "league": "Australia vs England",
       "sport": "Cricket",
       "startUtc": "2026-11-21T08:15:00Z",
       "teamA": "Australia",
@@ -1821,5 +1823,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-21T04:55:32Z"
+  "updatedAt": "2026-11-21T14:09:36Z"
 }
