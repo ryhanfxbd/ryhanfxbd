@@ -1,11 +1,11 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-23T10:02:59Z",
+  "updatedAt": "2026-11-23T22:20:27Z",
   "count": 24,
   "matches": [
     {
       "id": 558519,
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": "Serie A",
       "startTime": "2026-11-23T19:45:00Z",
       "homeTeam": "AC Monza",
@@ -13,7 +13,7 @@
     },
     {
       "id": 564757,
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": "Primera Division",
       "startTime": "2026-11-23T20:00:00Z",
       "homeTeam": "Levante UD",
@@ -21,7 +21,7 @@
     },
     {
       "id": 560649,
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": "Premier League",
       "startTime": "2026-11-23T20:00:00Z",
       "homeTeam": "Brentford FC",
@@ -100,6 +100,14 @@
       "awayTeam": "Swansea City AFC"
     },
     {
+      "id": 561955,
+      "status": "SCHEDULED",
+      "competition": "Championship",
+      "startTime": "2026-11-24T19:45:00Z",
+      "homeTeam": "Portsmouth FC",
+      "awayTeam": "West Ham United FC"
+    },
+    {
       "id": 561953,
       "status": "SCHEDULED",
       "competition": "Championship",
@@ -116,12 +124,12 @@
       "awayTeam": "Wrexham AFC"
     },
     {
-      "id": 561955,
-      "status": "SCHEDULED",
-      "competition": "Championship",
-      "startTime": "2026-11-24T19:45:00Z",
-      "homeTeam": "Portsmouth FC",
-      "awayTeam": "West Ham United FC"
+      "id": 575399,
+      "status": "TIMED",
+      "competition": "UEFA Champions League",
+      "startTime": "2026-11-24T20:00:00Z",
+      "homeTeam": "Arsenal FC",
+      "awayTeam": "Borussia Dortmund"
     },
     {
       "id": 575401,
@@ -146,14 +154,6 @@
       "startTime": "2026-11-24T20:00:00Z",
       "homeTeam": "Como 1907",
       "awayTeam": "PAE AEK"
-    },
-    {
-      "id": 575399,
-      "status": "TIMED",
-      "competition": "UEFA Champions League",
-      "startTime": "2026-11-24T20:00:00Z",
-      "homeTeam": "Arsenal FC",
-      "awayTeam": "Borussia Dortmund"
     },
     {
       "id": 575400,
