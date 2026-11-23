@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-23T01:17:09Z",
+  "updatedAt": "2026-11-23T10:02:59Z",
   "count": 24,
   "matches": [
     {
@@ -100,14 +100,6 @@
       "awayTeam": "Swansea City AFC"
     },
     {
-      "id": 561955,
-      "status": "SCHEDULED",
-      "competition": "Championship",
-      "startTime": "2026-11-24T19:45:00Z",
-      "homeTeam": "Portsmouth FC",
-      "awayTeam": "West Ham United FC"
-    },
-    {
       "id": 561953,
       "status": "SCHEDULED",
       "competition": "Championship",
@@ -122,6 +114,14 @@
       "startTime": "2026-11-24T19:45:00Z",
       "homeTeam": "Bristol City FC",
       "awayTeam": "Wrexham AFC"
+    },
+    {
+      "id": 561955,
+      "status": "SCHEDULED",
+      "competition": "Championship",
+      "startTime": "2026-11-24T19:45:00Z",
+      "homeTeam": "Portsmouth FC",
+      "awayTeam": "West Ham United FC"
     },
     {
       "id": 575401,
