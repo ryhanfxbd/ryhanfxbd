@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-23T04:47:02Z",
+  "updatedAt": "2026-11-23T17:01:54Z",
   "generator": "BDlivetv Auto Update",
   "sources": {
     "app/Aynaott.m3u": {
       "total": 138,
-      "ok": 74,
+      "ok": 76,
       "restricted": 13,
       "dead": [
         {
@@ -35,16 +35,6 @@
         {
           "name": "Sangeet Bangla",
           "url": "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Republic TV Bharat",
-          "url": "https://tvsen6.aynaott.com/faGd3tuq/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Bharat Samachar",
-          "url": "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -322,6 +312,11 @@
           "reason": "HTTP 400"
         },
         {
+          "name": "Bollywood Now",
+          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
+          "reason": "HTTP 301"
+        },
+        {
           "name": "Boogle Bollywood",
           "url": "http://live.agmediachandigarh.com/booglebollywood/774e3ea9f3fa9bcdac47f445b83b6653.sdp/index.m3u8",
           "reason": "HTTP 404"
@@ -567,6 +562,11 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "Serveur TV",
+          "url": "https://a.jsrdn.com/broadcast/060753d37e/+0000/high/c.m3u8",
+          "reason": "HTTP 301"
+        },
+        {
           "name": "Geo Super sports",
           "url": "https://jk3lz82elw79-hls-live.5centscdn.com/GeoNews/0ce3266d4eb71ad50f7a90aee6d21dcd.sdp/playlist.m3u8",
           "reason": "HTTP 404"
@@ -575,6 +575,11 @@
           "name": "DW",
           "url": "http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_1_av-b.m3u8?sd=10&rebase=on",
           "reason": "HTTP 400"
+        },
+        {
+          "name": "Bollywood Now",
+          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
+          "reason": "HTTP 301"
         },
         {
           "name": "Rai Movie 1",
@@ -667,13 +672,8 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Monarch TV",
-          "url": "https://a.jsrdn.com/broadcast/0c9a09c94c/+0000/c.m3u8",
-          "reason": "HTTP 301"
-        },
-        {
-          "name": "People TV",
-          "url": "https://a.jsrdn.com/broadcast/b5d2k0x/playlist720p.m3u8",
+          "name": "Bollywood TV",
+          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
           "reason": "HTTP 301"
         },
         {
@@ -690,6 +690,11 @@
           "name": "DD News",
           "url": "http://nicls1-lh.akamaihd.net/i/ddnews_1@409133/master.m3u8",
           "reason": "HTTP 404"
+        },
+        {
+          "name": "Bollywood Now",
+          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
+          "reason": "HTTP 301"
         },
         {
           "name": "Marutam TV",
@@ -775,6 +780,11 @@
           "name": "Life Punjabi",
           "url": "http://live.agmediachandigarh.com/lifepunjabi/e27b5c8d89b83882ca3b018eeed14888.sdp/mono.m3u8",
           "reason": "HTTP 404"
+        },
+        {
+          "name": "BritAsia TV",
+          "url": "https://a.jsrdn.com/broadcast/22693_4rGhgrBU/-0800/hi/c.m3u8",
+          "reason": "HTTP 301"
         },
         {
           "name": "Hulchul TV",
@@ -1124,11 +1134,6 @@
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
         },
         {
-          "name": "Bollywood Now",
-          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
-        },
-        {
           "name": "D Sport",
           "url": "http://jiocgehub.jio.ril.com/Dsports_HD/Dsports_HD.m3u8",
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
@@ -1376,7 +1381,7 @@
         {
           "name": "Subrang TV",
           "url": "http://cdn61.liveonlineservices.com/hls/subrang.m3u8",
-          "reason": "HTTP 523 (server error, could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Super TV",
@@ -1496,7 +1501,7 @@
         {
           "name": "Subrang TV",
           "url": "http://cdn61.liveonlineservices.com/hls/subrang.m3u8",
-          "reason": "HTTP 523 (server error, could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Channel Win",
@@ -1521,11 +1526,6 @@
         {
           "name": "Fasion TV",
           "url": "https://a.jsrdn.com/broadcast/ftv2_2/-0800/c.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
-        },
-        {
-          "name": "Serveur TV",
-          "url": "https://a.jsrdn.com/broadcast/060753d37e/+0000/high/c.m3u8",
           "reason": "HTTP 504 (server error, could not verify)"
         },
         {
@@ -1627,11 +1627,6 @@
           "name": "Hum News",
           "url": "http://95.211.211.168/live/humnews0189/playlist.m3u8",
           "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Bollywood Now",
-          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
         },
         {
           "name": "Bollywood Classic",
@@ -2239,6 +2234,16 @@
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
         },
         {
+          "name": "Monarch TV",
+          "url": "https://a.jsrdn.com/broadcast/0c9a09c94c/+0000/c.m3u8",
+          "reason": "HTTP 504 (server error, could not verify)"
+        },
+        {
+          "name": "People TV",
+          "url": "https://a.jsrdn.com/broadcast/b5d2k0x/playlist720p.m3u8",
+          "reason": "HTTP 504 (server error, could not verify)"
+        },
+        {
           "name": "TMZ",
           "url": "https://dai2.xumo.com/xumocdn/p=roku/amagi_hls_data_xumo1234A-tmz/CDN/1280x720_5000000/index.m3u8",
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
@@ -2384,11 +2389,6 @@
           "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '216.144.250.174'. (_ssl.c:1018) (could not verify)"
         },
         {
-          "name": "Bollywood TV",
-          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
-        },
-        {
           "name": "ZEE BOLLYWOOD",
           "url": "https://itpolly.iptv.digijadoo.net/live/zee_classic/chunks.m3u8",
           "reason": "connection error: timed out (could not verify)"
@@ -2467,11 +2467,6 @@
           "name": "BollyWood Hd",
           "url": "http://telekomtv-ro.akamaized.net/shls/LIVE$BollywoodHD/247.m3u8/Level(3670016)?start=LIVE&end=END",
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
-        },
-        {
-          "name": "Bollywood Now",
-          "url": "https://a.jsrdn.com/broadcast/d4dba2e3/+0000/hi/c.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
         },
         {
           "name": "Zoom",
@@ -2634,11 +2629,6 @@
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
         },
         {
-          "name": "BritAsia TV",
-          "url": "https://a.jsrdn.com/broadcast/22693_4rGhgrBU/-0800/hi/c.m3u8",
-          "reason": "HTTP 504 (server error, could not verify)"
-        },
-        {
           "name": "MH1 Prim",
           "url": "http://rtmp.smartstream.video:1935/mhonenews/mhonenews/playlist.m3u8",
           "reason": "timeout after 10s (could not verify)"
@@ -2736,7 +2726,7 @@
         {
           "name": "Eye 95 America (US)",
           "url": "http://cdn20.liveonlineservices.com/hls/eye95tv.m3u8?checkedby:iptvcat.com",
-          "reason": "timeout after 10s (could not verify)"
+          "reason": "HTTP 523 (server error, could not verify)"
         },
         {
           "name": "FILMAZIA",
@@ -3207,7 +3197,7 @@
     },
     "app/BDLiveTV all2.m3u": {
       "total": 1272,
-      "ok": 939,
+      "ok": 944,
       "restricted": 96,
       "dead": [
         {
@@ -3326,18 +3316,8 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Steelbird Music",
-          "url": "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "&TV",
           "url": "https://drk6xq0vhn.gpcdn.net/live/and_tv_hd_abr/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "C Malayalam TV",
-          "url": "https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3416,6 +3396,11 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "Rakuten TV Family Movies UK",
+          "url": "https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "Amazing Discoveries TV",
           "url": "https://uni01rtmp.tulix.tv/amazingdtv/amazingdtv/playlist.m3u8",
           "reason": "HTTP 404"
@@ -3471,18 +3456,8 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "EMAN TV",
-          "url": "https://avr.host247.net/live/emantv/playlist.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "Islamic TV",
           "url": "https://drk6xq0vhn.gpcdn.net/live/islamic_tv/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Zainabia Channel",
-          "url": "https://zainabia.livebox.co.in/ZainabiaChannelhls/channel.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3528,6 +3503,11 @@
         {
           "name": "Jaya Plus",
           "url": "https://mumbai-edge.smartplaytv.in/JayaPLus/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
+          "name": "Madani Channel Bangla",
+          "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3616,8 +3596,8 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Bangla TV",
-          "url": "https://cdn.ghuddi.live/Bangla_TV/Bangla_TV_BD/playlist.m3u8",
+          "name": "Bahrain Sports 2",
+          "url": "https://tvsen6.aynaott.com/BahrainSports2/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3668,11 +3648,6 @@
         {
           "name": "Colors Cineplex [UK]",
           "url": "https://homair-tv-production.up.railway.app/api/play/COLORS%20CINEPLEX%20HD.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Dangal",
-          "url": "https://tvsen3.aynaott.com/qPNg4LJK/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3731,23 +3706,8 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Love Nature",
-          "url": "http://27.124.71.27/Love_Nature/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Manoranjan TV",
-          "url": "https://tvsen6.aynaott.com/vhu6qz5Nsd/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "MBC Bollywood",
           "url": "http://93.184.10.248/MBCBollywood/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "MNTV (Tamil)",
-          "url": "https://www.khuwemultimedia.com/hls/mntv/mntv.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3806,11 +3766,6 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "SRK",
-          "url": "https://srktv.net/srktvhls/cdnlive_srktv.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "Zee Bangla",
           "url": "https://drk6xq0vhn.gpcdn.net/live/zee_bangla_720/index.m3u8",
           "reason": "HTTP 404"
@@ -3843,6 +3798,11 @@
         {
           "name": "Desh TV",
           "url": "https://homair-tv-production.up.railway.app/api/play/Desh%20TV.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
+          "name": "Independent TV",
+          "url": "https://tvsen6.aynaott.com/Wef2Vj67njeYGDqQNFB9/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3910,12 +3870,22 @@
         {
           "name": "Jalsha Bangla BD",
           "url": "https://dish.porosh.com.bd/hls/jalshabangla.m3u8",
-          "reason": "HTTP 523 (server error, could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Sun Bangla",
           "url": "http://103.135.253.32:8080/SUN-BANGLA/index.m3u8",
           "reason": "connection error: [Errno 111] Connection refused (could not verify)"
+        },
+        {
+          "name": "B4U Kadak",
+          "url": "https://amg00877-b4unew-amg00877c4-xiaomi-in-5473.playouts.now.amagi.tv/playlist.m3u8",
+          "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
+        },
+        {
+          "name": "B4U Movies",
+          "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
+          "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
         },
         {
           "name": "South Movies",
@@ -3941,11 +3911,6 @@
           "name": "Spondon",
           "url": "https://nktv.smartstream.video/smartstream-us/spondon/spondon/playlist.m3u8",
           "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'nktv.smartstream.video'. (_ssl.c:1018) (could not verify)"
-        },
-        {
-          "name": "Suriyan TV",
-          "url": "https://hlslive.olidigital.in/suriyantv/suriyantv/index.m3u8",
-          "reason": "HTTP 503 (server error, could not verify)"
         },
         {
           "name": "BSTV",
@@ -4401,7 +4366,7 @@
     },
     "app/BDlivetv.m3u": {
       "total": 285,
-      "ok": 172,
+      "ok": 175,
       "restricted": 22,
       "dead": [
         {
@@ -4425,11 +4390,6 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Channel 24 HD",
-          "url": "http://premiumtvs.space/live/YqXTywueEV/damp2purchase/391.ts",
-          "reason": "not a stream (web page)"
-        },
-        {
           "name": "Mohona TV",
           "url": "https://sm-iptv.sm-monirul-islam-rs.workers.dev/aynaott/mohona_tv/index.m3u8",
           "reason": "HTTP 404"
@@ -4442,11 +4402,6 @@
         {
           "name": "Deepto TV",
           "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Bangla TV",
-          "url": "https://cdn.ghuddi.live/Bangla_TV/Bangla_TV_BD/playlist.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -4482,11 +4437,6 @@
         {
           "name": "Discovery Bangla 2",
           "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=573",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "Love Natural",
-          "url": "http://27.124.71.27/Love_Nature/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -4647,11 +4597,6 @@
           "reason": "timeout after 10s (could not verify)"
         },
         {
-          "name": "Channel 16",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8",
-          "reason": "timeout after 10s (could not verify)"
-        },
-        {
           "name": "Ruposhi Bangla",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
           "reason": "timeout after 10s (could not verify)"
@@ -4720,6 +4665,11 @@
           "name": "BBC World",
           "url": "http://bigenterprise.live:8080/live/00612533/17905940/999753.ts",
           "reason": "connection error: timed out (could not verify)"
+        },
+        {
+          "name": "B4U Movies",
+          "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
+          "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
         },
         {
           "name": "Music Mastii",
@@ -5429,7 +5379,7 @@
     },
     "app/LiveTV_Favorites_1.m3u": {
       "total": 171,
-      "ok": 94,
+      "ok": 93,
       "restricted": 13,
       "dead": [
         {
@@ -5478,6 +5428,11 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "BTV News",
+          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/btvbd-office-sg.stream/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "Music India",
           "url": "https://cdn-2.pishow.tv/live/226/master.m3u8",
           "reason": "HTTP 404"
@@ -5508,6 +5463,11 @@
           "name": "Ekhon TV",
           "url": "https://tplay.live/out/bangladesh/ekhontv.index.m3u8",
           "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018) (could not verify)"
+        },
+        {
+          "name": "Global TV",
+          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/tracks-v1a1/mono.m3u8",
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Bangla TV",
@@ -5550,11 +5510,6 @@
           "reason": "connection error: [Errno -5] No address associated with hostname (could not verify)"
         },
         {
-          "name": "BTV News",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/btvbd-office-sg.stream/index.m3u8",
-          "reason": "timeout after 10s (could not verify)"
-        },
-        {
           "name": "Tom & Jerry TV",
           "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8",
           "reason": "connection error: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (could not verify)"
@@ -5565,11 +5520,6 @@
           "reason": "connection error: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (could not verify)"
         },
         {
-          "name": "Channel-16",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8",
-          "reason": "timeout after 10s (could not verify)"
-        },
-        {
           "name": "Tom & Jarry",
           "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
           "reason": "connection error: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (could not verify)"
@@ -5578,6 +5528,11 @@
           "name": "Music Mastii",
           "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8",
           "reason": "connection error: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1018) (could not verify)"
+        },
+        {
+          "name": "B4U Movies",
+          "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8",
+          "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
         },
         {
           "name": "Hindi Movies",
@@ -6589,7 +6544,7 @@
     },
     "app/channels.m3u": {
       "total": 45,
-      "ok": 20,
+      "ok": 19,
       "restricted": 5,
       "dead": [
         {
@@ -6605,6 +6560,11 @@
         {
           "name": "Green TV (1080p)",
           "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
+          "name": "Madani Channel Bangla (1080p)",
+          "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -6965,11 +6925,6 @@
           "reason": "not a stream (web page)"
         },
         {
-          "name": "Bangla TV",
-          "url": "https://cdn.ghuddi.live/Bangla_TV/Bangla_TV_BD/playlist.m3u8#EXTINF:-1 tvg-id=\"160\" tvg-name=\"SA TV\" tvg-logo=\"https://otapp.store/uploads/tv_image/sm/sa-tv.png\" group-title=\"BD Channel-(বাংলা চ্যানেল)\",SA TV",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "Bijoy TV",
           "url": "https://ftp.assadikb.workers.dev/stream.m3u8?id=/bijoytv",
           "reason": "not a stream (web page)"
@@ -7023,6 +6978,11 @@
           "name": "Islamic TV",
           "url": "https://ftp.assadikb.workers.dev/stream.m3u8?id=/islamic_tv",
           "reason": "not a stream (web page)"
+        },
+        {
+          "name": "Madani Channel HD",
+          "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8",
+          "reason": "HTTP 404"
         },
         {
           "name": "Sangeet Bhojpuri",
@@ -7739,9 +7699,630 @@
     "app/jio_tv.m3u": {
       "total": 1269,
       "ok": 0,
-      "restricted": 1269,
+      "restricted": 1145,
       "dead": [],
-      "unknown": []
+      "unknown": [
+        {
+          "name": "B4U Bhojpuri",
+          "url": "https://hey-lookme.shop/live.php?id=1296",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "India TV",
+          "url": "https://hey-lookme.shop/live.php?id=235",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Republic Bharat",
+          "url": "https://hey-lookme.shop/live.php?id=1403",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Shemaroo Umang",
+          "url": "https://hey-lookme.shop/live.php?id=2078",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Green Gold TV",
+          "url": "https://hey-lookme.shop/live.php?id=3467",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Sidharth Gold",
+          "url": "https://hey-lookme.shop/live.php?id=1957",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "News 18 India",
+          "url": "https://hey-lookme.shop/live.php?id=231",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Sun Gemini HD",
+          "url": "https://hey-lookme.shop/live.php?id=897",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Travelxp HD",
+          "url": "https://hey-lookme.shop/live.php?id=164",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Zee TV HD",
+          "url": "https://hey-lookme.shop/live.php?id=167",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "CNN",
+          "url": "https://hey-lookme.shop/live.php?id=193",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "DD News",
+          "url": "https://hey-lookme.shop/live.php?id=203",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "PM e Vidya 08",
+          "url": "https://hey-lookme.shop/live.php?id=409",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Zee Cinemalu",
+          "url": "https://hey-lookme.shop/live.php?id=413",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Zee Anmol Cinema",
+          "url": "https://hey-lookme.shop/live.php?id=415",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Jalsha Movies HD",
+          "url": "https://hey-lookme.shop/live.php?id=457",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Asianet Movies HD",
+          "url": "https://hey-lookme.shop/live.php?id=459",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "MNX",
+          "url": "https://hey-lookme.shop/live.php?id=462",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "And TV HD",
+          "url": "https://hey-lookme.shop/live.php?id=472",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "News Nation",
+          "url": "https://hey-lookme.shop/live.php?id=499",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Good News Today",
+          "url": "https://hey-lookme.shop/live.php?id=502",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "IBC24",
+          "url": "https://hey-lookme.shop/live.php?id=503",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Sony Ten 3 Hindi",
+          "url": "https://hey-lookme.shop/live.php?id=524",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "News18 MP Chhattisgarh",
+          "url": "https://hey-lookme.shop/live.php?id=529",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "DD Rajasthan (Jaipur)",
+          "url": "https://hey-lookme.shop/live.php?id=538",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Kushi TV",
+          "url": "https://hey-lookme.shop/live.php?id=558",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "D Tamil",
+          "url": "https://hey-lookme.shop/live.php?id=569",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "DD bharati",
+          "url": "https://hey-lookme.shop/live.php?id=580",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "ETV Andhra pradesh",
+          "url": "https://hey-lookme.shop/live.php?id=614",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "MBC",
+          "url": "https://hey-lookme.shop/live.php?id=631",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Sakshi tv",
+          "url": "https://hey-lookme.shop/live.php?id=632",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Raj News Kannada",
+          "url": "https://hey-lookme.shop/live.php?id=651",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Zee Punjab Haryana HP",
+          "url": "https://hey-lookme.shop/live.php?id=654",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "News18 Punjab Haryana Himachal",
+          "url": "https://hey-lookme.shop/live.php?id=655",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Zee Business",
+          "url": "https://hey-lookme.shop/live.php?id=657",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Assam Talks",
+          "url": "https://hey-lookme.shop/live.php?id=675",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "DD Sahayadri",
+          "url": "https://hey-lookme.shop/live.php?id=695",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Maa Movies HD",
+          "url": "https://hey-lookme.shop/live.php?id=760",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "V6 News",
+          "url": "https://hey-lookme.shop/live.php?id=769",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Cartoon Network Tamil",
+          "url": "https://hey-lookme.shop/live.php?id=817",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Hare krsna",
+          "url": "https://hey-lookme.shop/live.php?id=879",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Sai TV",
+          "url": "https://hey-lookme.shop/live.php?id=937",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "R Plus",
+          "url": "https://hey-lookme.shop/live.php?id=950",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Hindu Dharmam",
+          "url": "https://hey-lookme.shop/live.php?id=955",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "TV 5 Kannada",
+          "url": "https://hey-lookme.shop/live.php?id=956",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "INH 24x7",
+          "url": "https://hey-lookme.shop/live.php?id=957",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "TEST2 HD",
+          "url": "https://hey-lookme.shop/live.php?id=979",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Swayam Prabha 06",
+          "url": "https://hey-lookme.shop/live.php?id=987",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Swayam Prabha 09",
+          "url": "https://hey-lookme.shop/live.php?id=988",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Swayam Prabha 11",
+          "url": "https://hey-lookme.shop/live.php?id=990",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Swayam Prabha 15",
+          "url": "https://hey-lookme.shop/live.php?id=995",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Swayam Prabha 17",
+          "url": "https://hey-lookme.shop/live.php?id=996",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "TEST3 HD",
+          "url": "https://hey-lookme.shop/live.php?id=1059",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "TEST5 HD",
+          "url": "https://hey-lookme.shop/live.php?id=1061",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Vande Gujarat 9",
+          "url": "https://hey-lookme.shop/live.php?id=1087",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "PTC Punjabi",
+          "url": "https://hey-lookme.shop/live.php?id=1171",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "PTC Chak De",
+          "url": "https://hey-lookme.shop/live.php?id=1172",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Fateh TV",
+          "url": "https://hey-lookme.shop/live.php?id=1174",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Brit Asia",
+          "url": "https://hey-lookme.shop/live.php?id=1192",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Hare Krsna Music",
+          "url": "https://hey-lookme.shop/live.php?id=1193",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Dagdusheth Ganpati - Pune",
+          "url": "https://hey-lookme.shop/live.php?id=1223",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Nimbark TV",
+          "url": "https://hey-lookme.shop/live.php?id=1224",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Aastha Telugu",
+          "url": "https://hey-lookme.shop/live.php?id=1254",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "ABP Sanjha",
+          "url": "https://hey-lookme.shop/live.php?id=1291",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Zee Cafe HD",
+          "url": "https://hey-lookme.shop/live.php?id=1319",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "National Geographic HD",
+          "url": "https://hey-lookme.shop/live.php?id=1335",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "ALI TV",
+          "url": "https://hey-lookme.shop/live.php?id=1355",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Big Magic",
+          "url": "https://hey-lookme.shop/live.php?id=1359",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Colors SD",
+          "url": "https://hey-lookme.shop/live.php?id=1368",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Disney Channel",
+          "url": "https://hey-lookme.shop/live.php?id=1373",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Disney Junior",
+          "url": "https://hey-lookme.shop/live.php?id=1374",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "NHK World Japan",
+          "url": "https://hey-lookme.shop/live.php?id=1405",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Nandighosha",
+          "url": "https://hey-lookme.shop/live.php?id=1427",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Sristi TV",
+          "url": "https://hey-lookme.shop/live.php?id=1561",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Atmadarshan TV",
+          "url": "https://hey-lookme.shop/live.php?id=1568",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Tara TV",
+          "url": "https://hey-lookme.shop/live.php?id=1612",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "News State MPCG",
+          "url": "https://hey-lookme.shop/live.php?id=1635",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "ANN News",
+          "url": "https://hey-lookme.shop/live.php?id=1699",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Purnima TV",
+          "url": "https://hey-lookme.shop/live.php?id=1740",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Sony Ten 4 Telugu",
+          "url": "https://hey-lookme.shop/live.php?id=1775",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "VR Live",
+          "url": "https://hey-lookme.shop/live.php?id=1790",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Mangalmay Live",
+          "url": "https://hey-lookme.shop/live.php?id=1794",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Shri Amarnathji Shrine Board",
+          "url": "https://hey-lookme.shop/live.php?id=1795",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Z10 TV",
+          "url": "https://hey-lookme.shop/live.php?id=1847",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "SVBC",
+          "url": "https://hey-lookme.shop/live.php?id=1850",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "News11 Bharat",
+          "url": "https://hey-lookme.shop/live.php?id=1853",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "STV Haryana News",
+          "url": "https://hey-lookme.shop/live.php?id=1854",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "NL TV",
+          "url": "https://hey-lookme.shop/live.php?id=1855",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Kripa TV",
+          "url": "https://hey-lookme.shop/live.php?id=1885",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Zee Bangla HD",
+          "url": "https://hey-lookme.shop/live.php?id=1977",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "News 21",
+          "url": "https://hey-lookme.shop/live.php?id=2008",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "News India TV",
+          "url": "https://hey-lookme.shop/live.php?id=2014",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Asom Live 24",
+          "url": "https://hey-lookme.shop/live.php?id=2022",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Gurukul",
+          "url": "https://hey-lookme.shop/live.php?id=2192",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Sikh Ratnavali",
+          "url": "https://hey-lookme.shop/live.php?id=2754",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Jothi TV",
+          "url": "https://hey-lookme.shop/live.php?id=2768",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "India Daily 24x7",
+          "url": "https://hey-lookme.shop/live.php?id=2772",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Aaj Ki Khabar",
+          "url": "https://hey-lookme.shop/live.php?id=2773",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Grace TV",
+          "url": "https://hey-lookme.shop/live.php?id=2775",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Lancs TV HD",
+          "url": "https://hey-lookme.shop/live.php?id=3011",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Kalyan TV",
+          "url": "https://hey-lookme.shop/live.php?id=3037",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Shemaroo Bollywood",
+          "url": "https://hey-lookme.shop/live.php?id=3075",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Patnagar Network News",
+          "url": "https://hey-lookme.shop/live.php?id=3197",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Namma Bangalore",
+          "url": "https://hey-lookme.shop/live.php?id=3237",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Weight Loss Yoga",
+          "url": "https://hey-lookme.shop/live.php?id=3248",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Guided Meditation",
+          "url": "https://hey-lookme.shop/live.php?id=3249",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Star Kiran",
+          "url": "https://hey-lookme.shop/live.php?id=3267",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "OM TV",
+          "url": "https://hey-lookme.shop/live.php?id=3279",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Soochna India",
+          "url": "https://hey-lookme.shop/live.php?id=3280",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Mahua Play",
+          "url": "https://hey-lookme.shop/live.php?id=3281",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Gj Desi News",
+          "url": "https://hey-lookme.shop/live.php?id=3312",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Yahoo Finance",
+          "url": "https://hey-lookme.shop/live.php?id=3346",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Newz Room Gujarat",
+          "url": "https://hey-lookme.shop/live.php?id=3365",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Godlywood Studios",
+          "url": "https://hey-lookme.shop/live.php?id=3366",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Mega9TV",
+          "url": "https://hey-lookme.shop/live.php?id=3367",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "News TV India",
+          "url": "https://hey-lookme.shop/live.php?id=3368",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "INTRAVEL",
+          "url": "https://hey-lookme.shop/live.php?id=3392",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Cartoon Network HD+ Hindi",
+          "url": "https://hey-lookme.shop/live.php?id=3436",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Guarantee News",
+          "url": "https://hey-lookme.shop/live.php?id=3464",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "NSC9 News",
+          "url": "https://hey-lookme.shop/live.php?id=3469",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "GTC Punjabi",
+          "url": "https://hey-lookme.shop/live.php?id=3470",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Stingray Greatest Hits",
+          "url": "https://hey-lookme.shop/live.php?id=3479",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Kadak",
+          "url": "https://hey-lookme.shop/live.php?id=3502",
+          "reason": "HTTP 508 (server error, could not verify)"
+        },
+        {
+          "name": "Sony YAY",
+          "url": "https://hey-lookme.shop/live.php?id=3507",
+          "reason": "HTTP 508 (server error, could not verify)"
+        }
+      ]
     },
     "app/live_sports.m3u": {
       "total": 9,
