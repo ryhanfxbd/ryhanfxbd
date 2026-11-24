@@ -43,18 +43,6 @@
       "teamB": "IFK Göteborg"
     },
     {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "monza-acf-fiorentina-2026-11-23",
-      "league": "Serie A",
-      "sport": "Football",
-      "startUtc": "2026-11-23T19:45:00Z",
-      "teamA": "Monza",
-      "teamB": "ACF Fiorentina"
-    },
-    {
       "channel": "Bein Sports 1",
       "channels": [
         "Bein Sports 1",
@@ -105,30 +93,6 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "levante-ud-elche-2026-11-23",
-      "league": "Primera Division",
-      "sport": "Football",
-      "startUtc": "2026-11-23T20:00:00Z",
-      "teamA": "Levante UD",
-      "teamB": "Elche"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "internacional-ec-vitoria-2026-11-23",
-      "league": "Campeonato Brasileiro Série A",
-      "sport": "Football",
-      "startUtc": "2026-11-23T22:30:00Z",
-      "teamA": "Internacional",
-      "teamB": "EC Vitória"
-    },
-    {
-      "channel": "",
-      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/yprvxx1473538097.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/tysrrx1473538156.png",
       "id": "internacional-vitoria-2026-11-23",
@@ -148,18 +112,6 @@
       "sport": "Football",
       "startUtc": "2026-11-23T23:00:00Z",
       "teamA": "Botafogo",
-      "teamB": "São Paulo"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "botafogo-fr-sao-paulo-2026-11-23",
-      "league": "Campeonato Brasileiro Série A",
-      "sport": "Football",
-      "startUtc": "2026-11-23T23:00:00Z",
-      "teamA": "Botafogo FR",
       "teamB": "São Paulo"
     },
     {
@@ -187,16 +139,54 @@
       "teamB": "Grêmio FBPA"
     },
     {
-      "channel": "",
-      "channels": [],
+      "channel": "WeatherSpy (India)",
+      "channels": [
+        "WeatherSpy (India)",
+        "Vision (India)",
+        "Update India",
+        "Soochna India",
+        "RT India"
+      ],
+      "flagA": "https://g.cricapi.com/iapi/2206-637976248888288069.webp?w=48",
+      "flagB": "🇦🇪",
+      "id": "india-a-united-arab-emirates-2026-11-24",
+      "league": "India A vs United Arab Emirates",
+      "sport": "Cricket",
+      "startUtc": "2026-11-24T06:00:00Z",
+      "teamA": "India A",
+      "teamB": "United Arab Emirates"
+    },
+    {
+      "channel": "ABC Australia",
+      "channels": [
+        "ABC Australia"
+      ],
       "flagA": "🇦🇺",
       "flagB": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "australia-england-2026-11-24",
-      "league": "Twenty20 International Series",
+      "league": "Australia vs England",
       "sport": "Cricket",
       "startUtc": "2026-11-24T08:15:00Z",
       "teamA": "Australia",
       "teamB": "England"
+    },
+    {
+      "channel": "Nepal one",
+      "channels": [
+        "Nepal one",
+        "Nepal 1",
+        "Discover Pakistan",
+        "Zoom (India) Nepal",
+        "YRF Music Nepal"
+      ],
+      "flagA": "https://g.cricapi.com/iapi/67-637877074931980375.webp?w=48",
+      "flagB": "🇳🇵",
+      "id": "pakistan-a-nepal-2026-11-24",
+      "league": "Pakistan A vs Nepal",
+      "sport": "Cricket",
+      "startUtc": "2026-11-24T10:00:00Z",
+      "teamA": "Pakistan A",
+      "teamB": "Nepal"
     },
     {
       "channel": "",
@@ -646,6 +636,23 @@
         "Bein Sports 1",
         "beIN SPORTS XTRA"
       ],
+      "flagA": "",
+      "flagB": "",
+      "id": "sk-slavia-praha-villarreal-2026-11-25",
+      "league": "UEFA Champions League",
+      "sport": "Football",
+      "startUtc": "2026-11-25T17:45:00Z",
+      "teamA": "SK Slavia Praha",
+      "teamB": "Villarreal"
+    },
+    {
+      "channel": "Sony Ten Sports 1 HD",
+      "channels": [
+        "Sony Ten Sports 1 HD",
+        "Sony Ten 1 HD",
+        "Bein Sports 1",
+        "beIN SPORTS XTRA"
+      ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
       "id": "sabah-fk-barcelona-2026-11-25",
@@ -671,6 +678,42 @@
       "startUtc": "2026-11-25T17:45:00Z",
       "teamA": "Slavia Prague",
       "teamB": "Villarreal"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "bolton-wanderers-west-bromwich-albion-2026-11-25",
+      "league": "Championship",
+      "sport": "Football",
+      "startUtc": "2026-11-25T19:45:00Z",
+      "teamA": "Bolton Wanderers",
+      "teamB": "West Bromwich Albion"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "burnley-birmingham-city-2026-11-25",
+      "league": "Championship",
+      "sport": "Football",
+      "startUtc": "2026-11-25T19:45:00Z",
+      "teamA": "Burnley",
+      "teamB": "Birmingham City"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "watford-blackburn-rovers-2026-11-25",
+      "league": "Championship",
+      "sport": "Football",
+      "startUtc": "2026-11-25T19:45:00Z",
+      "teamA": "Watford",
+      "teamB": "Blackburn Rovers"
     },
     {
       "channel": "Sony Ten Sports 1 HD",
@@ -714,6 +757,40 @@
         "Bein Sports 1",
         "beIN SPORTS XTRA"
       ],
+      "flagA": "",
+      "flagB": "",
+      "id": "club-brugge-kv-liverpool-2026-11-25",
+      "league": "UEFA Champions League",
+      "sport": "Football",
+      "startUtc": "2026-11-25T20:00:00Z",
+      "teamA": "Club Brugge KV",
+      "teamB": "Liverpool"
+    },
+    {
+      "channel": "Sony Ten Sports 1 HD",
+      "channels": [
+        "Sony Ten Sports 1 HD",
+        "Sony Ten 1 HD",
+        "Bein Sports 1",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "",
+      "flagB": "",
+      "id": "fk-shakhtar-donetsk-fenerbahce-sk-2026-11-25",
+      "league": "UEFA Champions League",
+      "sport": "Football",
+      "startUtc": "2026-11-25T20:00:00Z",
+      "teamA": "FK Shakhtar Donetsk",
+      "teamB": "Fenerbahçe SK"
+    },
+    {
+      "channel": "Sony Ten Sports 1 HD",
+      "channels": [
+        "Sony Ten Sports 1 HD",
+        "Sony Ten 1 HD",
+        "Bein Sports 1",
+        "beIN SPORTS XTRA"
+      ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
       "id": "internazionale-vfb-stuttgart-2026-11-25",
@@ -738,6 +815,23 @@
       "sport": "Football",
       "startUtc": "2026-11-25T20:00:00Z",
       "teamA": "Lille",
+      "teamB": "Bayern Munich"
+    },
+    {
+      "channel": "Sony Ten Sports 1 HD",
+      "channels": [
+        "Sony Ten Sports 1 HD",
+        "Sony Ten 1 HD",
+        "Bein Sports 1",
+        "beIN SPORTS XTRA"
+      ],
+      "flagA": "",
+      "flagB": "",
+      "id": "lille-osc-bayern-munich-2026-11-25",
+      "league": "UEFA Champions League",
+      "sport": "Football",
+      "startUtc": "2026-11-25T20:00:00Z",
+      "teamA": "Lille OSC",
       "teamB": "Bayern Munich"
     },
     {
@@ -794,6 +888,18 @@
     {
       "channel": "",
       "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "stoke-city-millwall-2026-11-25",
+      "league": "Championship",
+      "sport": "Football",
+      "startUtc": "2026-11-25T20:00:00Z",
+      "teamA": "Stoke City",
+      "teamB": "Millwall"
+    },
+    {
+      "channel": "",
+      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/x5lixs1743742872.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/vvuvps1473538042.png",
       "id": "atletico-mineiro-corinthians-2026-11-25",
@@ -802,6 +908,18 @@
       "startUtc": "2026-11-25T23:00:00Z",
       "teamA": "Atlético Mineiro",
       "teamB": "Corinthians"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "ca-mineiro-corinthians-paulista-2026-11-25",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-25T23:00:00Z",
+      "teamA": "CA Mineiro",
+      "teamB": "Corinthians Paulista"
     },
     {
       "channel": "",
@@ -1009,5 +1127,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-24T03:53:52Z"
+  "updatedAt": "2026-11-24T16:59:32Z"
 }
