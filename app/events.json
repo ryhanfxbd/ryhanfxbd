@@ -13,18 +13,6 @@
       "teamB": "Grêmio"
     },
     {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "santos-gremio-fbpa-2026-11-24",
-      "league": "Campeonato Brasileiro Série A",
-      "sport": "Football",
-      "startUtc": "2026-11-24T00:00:00Z",
-      "teamA": "Santos",
-      "teamB": "Grêmio FBPA"
-    },
-    {
       "channel": "WeatherSpy (India)",
       "channels": [
         "WeatherSpy (India)",
@@ -123,23 +111,6 @@
         "Bein Sports 1",
         "beIN SPORTS XTRA"
       ],
-      "flagA": "",
-      "flagB": "",
-      "id": "fk-bod-glimt-lask-linz-2026-11-24",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-24T17:45:00Z",
-      "teamA": "FK Bodø/Glimt",
-      "teamB": "LASK Linz"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
       "id": "galatasaray-aston-villa-2026-11-24",
@@ -148,107 +119,6 @@
       "startUtc": "2026-11-24T17:45:00Z",
       "teamA": "Galatasaray",
       "teamB": "Aston Villa"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "",
-      "flagB": "",
-      "id": "galatasaray-sk-aston-villa-2026-11-24",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-24T17:45:00Z",
-      "teamA": "Galatasaray SK",
-      "teamB": "Aston Villa"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "bristol-city-wrexham-afc-2026-11-24",
-      "league": "Championship",
-      "sport": "Football",
-      "startUtc": "2026-11-24T19:45:00Z",
-      "teamA": "Bristol City",
-      "teamB": "Wrexham AFC"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "cardiff-city-preston-north-end-2026-11-24",
-      "league": "Championship",
-      "sport": "Football",
-      "startUtc": "2026-11-24T19:45:00Z",
-      "teamA": "Cardiff City",
-      "teamB": "Preston North End"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "charlton-athletic-lincoln-city-2026-11-24",
-      "league": "Championship",
-      "sport": "Football",
-      "startUtc": "2026-11-24T19:45:00Z",
-      "teamA": "Charlton Athletic",
-      "teamB": "Lincoln City"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "middlesbrough-swansea-city-afc-2026-11-24",
-      "league": "Championship",
-      "sport": "Football",
-      "startUtc": "2026-11-24T19:45:00Z",
-      "teamA": "Middlesbrough",
-      "teamB": "Swansea City AFC"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "norwich-city-queens-park-rangers-2026-11-24",
-      "league": "Championship",
-      "sport": "Football",
-      "startUtc": "2026-11-24T19:45:00Z",
-      "teamA": "Norwich City",
-      "teamB": "Queens Park Rangers"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "portsmouth-west-ham-united-2026-11-24",
-      "league": "Championship",
-      "sport": "Football",
-      "startUtc": "2026-11-24T19:45:00Z",
-      "teamA": "Portsmouth",
-      "teamB": "West Ham United"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "sheffield-united-southampton-2026-11-24",
-      "league": "Championship",
-      "sport": "Football",
-      "startUtc": "2026-11-24T19:45:00Z",
-      "teamA": "Sheffield United",
-      "teamB": "Southampton"
     },
     {
       "channel": "Sony Ten Sports 1 HD",
@@ -292,23 +162,6 @@
         "Bein Sports 1",
         "beIN SPORTS XTRA"
       ],
-      "flagA": "",
-      "flagB": "",
-      "id": "como-pae-aek-2026-11-24",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-24T20:00:00Z",
-      "teamA": "Como",
-      "teamB": "PAE AEK"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
       "id": "feyenoord-rotterdam-fc-porto-2026-11-24",
@@ -317,40 +170,6 @@
       "startUtc": "2026-11-24T20:00:00Z",
       "teamA": "Feyenoord Rotterdam",
       "teamB": "FC Porto"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "",
-      "flagB": "",
-      "id": "feyenoord-rotterdam-porto-2026-11-24",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-24T20:00:00Z",
-      "teamA": "Feyenoord Rotterdam",
-      "teamB": "Porto"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "",
-      "flagB": "",
-      "id": "leipzig-racing-club-de-lens-2026-11-24",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-24T20:00:00Z",
-      "teamA": "Leipzig",
-      "teamB": "Racing Club de Lens"
     },
     {
       "channel": "Sony Ten Sports 1 HD",
@@ -394,23 +213,6 @@
         "Bein Sports 1",
         "beIN SPORTS XTRA"
       ],
-      "flagA": "",
-      "flagB": "",
-      "id": "real-madrid-psv-2026-11-24",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-24T20:00:00Z",
-      "teamA": "Real Madrid",
-      "teamB": "PSV"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
       "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
       "id": "real-madrid-psv-eindhoven-2026-11-24",
@@ -436,35 +238,6 @@
       "startUtc": "2026-11-24T20:00:00Z",
       "teamA": "Slovan Bratislava",
       "teamB": "Real Betis"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "wolverhampton-wanderers-derby-county-2026-11-24",
-      "league": "Championship",
-      "sport": "Football",
-      "startUtc": "2026-11-24T20:00:00Z",
-      "teamA": "Wolverhampton Wanderers",
-      "teamB": "Derby County"
-    },
-    {
-      "channel": "Sony Ten Sports 1 HD",
-      "channels": [
-        "Sony Ten Sports 1 HD",
-        "Sony Ten 1 HD",
-        "Bein Sports 1",
-        "beIN SPORTS XTRA"
-      ],
-      "flagA": "",
-      "flagB": "",
-      "id": "sk-slovan-bratislava-real-betis-balompie-2026-11-24",
-      "league": "UEFA Champions League",
-      "sport": "Football",
-      "startUtc": "2026-11-24T20:00:00Z",
-      "teamA": "ŠK Slovan Bratislava",
-      "teamB": "Real Betis Balompié"
     },
     {
       "channel": "",
@@ -858,6 +631,18 @@
       "startUtc": "2026-11-26T22:00:00Z",
       "teamA": "New Zealand",
       "teamB": "India"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "sao-paulo-clube-do-remo-2026-11-26",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-26T23:00:00Z",
+      "teamA": "São Paulo",
+      "teamB": "Clube do Remo"
     },
     {
       "channel": "",
@@ -1393,5 +1178,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-25T02:00:02Z"
+  "updatedAt": "2026-11-25T16:45:53Z"
 }
