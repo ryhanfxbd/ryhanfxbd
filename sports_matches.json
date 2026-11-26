@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-26T03:21:04Z",
+  "updatedAt": "2026-11-26T13:24:22Z",
   "count": 11,
   "matches": [
     {
@@ -52,20 +52,20 @@
       "awayTeam": "Chelsea FC"
     },
     {
-      "id": 561968,
-      "status": "SCHEDULED",
-      "competition": "Championship",
-      "startTime": "2026-11-27T20:00:00Z",
-      "homeTeam": "Southampton FC",
-      "awayTeam": "Middlesbrough FC"
-    },
-    {
       "id": 564765,
       "status": "TIMED",
       "competition": "Primera Division",
       "startTime": "2026-11-27T20:00:00Z",
       "homeTeam": "Levante UD",
       "awayTeam": "Real Racing Club de Santander"
+    },
+    {
+      "id": 561968,
+      "status": "SCHEDULED",
+      "competition": "Championship",
+      "startTime": "2026-11-27T20:00:00Z",
+      "homeTeam": "Southampton FC",
+      "awayTeam": "Middlesbrough FC"
     },
     {
       "id": 567361,
