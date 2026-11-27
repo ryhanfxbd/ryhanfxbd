@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-26T16:13:00Z",
+  "updatedAt": "2026-11-27T01:30:05Z",
   "generator": "BDlivetv Auto Update",
   "sources": {
     "app/Aynaott.m3u": {
       "total": 138,
-      "ok": 55,
+      "ok": 56,
       "restricted": 13,
       "dead": [
         {
@@ -75,11 +75,6 @@
         {
           "name": "ANB News",
           "url": "https://tvsen6.aynaott.com/H5aeGVSjindex.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "News 1 India",
-          "url": "https://tvsen6.aynaott.com/TaVfw58T/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -363,7 +358,7 @@
     },
     "app/BDIXI_IPTV.m3u": {
       "total": 645,
-      "ok": 29,
+      "ok": 28,
       "restricted": 30,
       "dead": [
         {
@@ -937,6 +932,11 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "92 News",
+          "url": "http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8?checkedby:iptvcat.com",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "AVT KHYBER",
           "url": "https://dcunilive38-lh.akamaihd.net/i/dclive_1@692670/index_150_av-p.m3u8?checkedby:iptvcat.com",
           "reason": "HTTP 404"
@@ -964,6 +964,16 @@
         {
           "name": "Ragam TV",
           "url": "http://account11.livebox.co.in/ntvhls/ntv.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
+          "name": "IN: SONY TV HD",
+          "url": "http://channels.ooguy.com:80/auth?channel=SonyTvHdIndia&type=index.m3u8&authorization=RnJFZUFjQ2VTcw==",
+          "reason": "HTTP 404"
+        },
+        {
+          "name": "UK: SONY TV HD",
+          "url": "http://channels.ooguy.com:80/auth?channel=SonyTvHdUk&type=index.m3u8&authorization=RnJFZUFjQ2VTcw==",
           "reason": "HTTP 404"
         }
       ],
@@ -1491,7 +1501,7 @@
         {
           "name": "Subrang TV",
           "url": "http://cdn61.liveonlineservices.com/hls/subrang.m3u8",
-          "reason": "HTTP 523 (server error, could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Super TV",
@@ -1611,7 +1621,7 @@
         {
           "name": "Subrang TV",
           "url": "http://cdn61.liveonlineservices.com/hls/subrang.m3u8",
-          "reason": "HTTP 523 (server error, could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Channel Win",
@@ -2821,7 +2831,7 @@
         {
           "name": "Eye 95 America (US)",
           "url": "http://cdn20.liveonlineservices.com/hls/eye95tv.m3u8?checkedby:iptvcat.com",
-          "reason": "HTTP 523 (server error, could not verify)"
+          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "FILMAZIA",
@@ -3214,16 +3224,6 @@
           "reason": "connection error: timed out (could not verify)"
         },
         {
-          "name": "IN: SONY TV HD",
-          "url": "http://channels.ooguy.com:80/auth?channel=SonyTvHdIndia&type=index.m3u8&authorization=RnJFZUFjQ2VTcw==",
-          "reason": "HTTP 502 (server error, could not verify)"
-        },
-        {
-          "name": "UK: SONY TV HD",
-          "url": "http://channels.ooguy.com:80/auth?channel=SonyTvHdUk&type=index.m3u8&authorization=RnJFZUFjQ2VTcw==",
-          "reason": "HTTP 502 (server error, could not verify)"
-        },
-        {
           "name": "IN: SONY AATH",
           "url": "http://137.59.155.253:8088/hls/Zee_Cinema.m3u8",
           "reason": "connection error: [Errno 111] Connection refused (could not verify)"
@@ -3302,7 +3302,7 @@
     },
     "app/BDLiveTV all2.m3u": {
       "total": 1272,
-      "ok": 901,
+      "ok": 902,
       "restricted": 97,
       "dead": [
         {
@@ -3463,6 +3463,11 @@
         {
           "name": "8XM",
           "url": "https://cdn4.mjunoon.tv:8087/streamtest/131M/chunks.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
+          "name": "Falak TV",
+          "url": "https://falak.rst.ae/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3646,11 +3651,6 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "ZB Cartoon",
-          "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "Islam TV",
           "url": "https://tvsen1.aynaott.com/bB3A5dyq/index.m3u8",
           "reason": "HTTP 404"
@@ -3676,11 +3676,6 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "All Time Movies",
-          "url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "AmarUjala",
           "url": "https://amarujala.ottlive.co.in/amarujala/index.m3u8",
           "reason": "HTTP 404"
@@ -3701,11 +3696,6 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Aryan TV National",
-          "url": "https://mumt04.tangotv.in/m18aqlK4ARYANTVNATIONAL/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
           "name": "Asom Live 24",
           "url": "https://mumt06.tangotv.in/qYyB8fXVASHOMLIVE/index.m3u8",
           "reason": "HTTP 404"
@@ -3723,11 +3713,6 @@
         {
           "name": "ETV Telugu",
           "url": "https://mumbai-edge.smartplaytv.in/ETVHD/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "HSTV",
-          "url": "https://live.castmaxcloud.com/live/hstv.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -3861,6 +3846,11 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "Bahrain Sports 2",
+          "url": "https://tvsen6.aynaott.com/BahrainSports2/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "BBC Earth",
           "url": "https://stream.ottplus.live/live/bbc_earth_hd_abr/index.m3u8",
           "reason": "HTTP 404"
@@ -3918,6 +3908,11 @@
         {
           "name": "Colors Cineplex [UK]",
           "url": "https://homair-tv-production.up.railway.app/api/play/COLORS%20CINEPLEX%20HD.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
+          "name": "Dangal",
+          "url": "https://tvsen3.aynaott.com/qPNg4LJK/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -4003,6 +3998,11 @@
         {
           "name": "Love Nature",
           "url": "http://27.124.71.27/Love_Nature/index.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
+          "name": "Manoranjan TV",
+          "url": "https://tvsen6.aynaott.com/vhu6qz5Nsd/index.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -4161,11 +4161,6 @@
           "name": "Jonmobhumi TV",
           "url": "https://jtvs.ncare.live/Gznr84Woj7UEye3OPVeWq2ForboWAgdV/jonmobhumitv.stream/tracks-v1a1/mono.m3u8",
           "reason": "timeout after 10s (could not verify)"
-        },
-        {
-          "name": "Matribhumi TV",
-          "url": "http://live.playmax.live/matribhumi/index.m3u8",
-          "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
         },
         {
           "name": "News 21",
@@ -4681,7 +4676,7 @@
     },
     "app/BDlivetv.m3u": {
       "total": 285,
-      "ok": 167,
+      "ok": 170,
       "restricted": 22,
       "dead": [
         {
@@ -4740,11 +4735,6 @@
           "reason": "HTTP 404"
         },
         {
-          "name": "Star Jalsha HD",
-          "url": "http://cdn98.com/play/live.php?mac=00%3A1A%3A79%3A99%3A54%3A11&stream=225805&extension=ts&play_token=o1cczsG9wV",
-          "reason": "HTTP 458"
-        },
-        {
           "name": "Colors Bangla Cinema",
           "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=1657",
           "reason": "HTTP 404"
@@ -4773,6 +4763,11 @@
           "name": "Dhoom Music",
           "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=3006",
           "reason": "HTTP 404"
+        },
+        {
+          "name": "Travel XP Bangla",
+          "url": "http://premiumtvs.space/live/YqXTywueEV/damp2purchase/20622.ts",
+          "reason": "not a stream (web page)"
         },
         {
           "name": "Al Jazeera HD",
@@ -4847,16 +4842,6 @@
         {
           "name": "T Sports HD",
           "url": "http://103.158.133.53:8080/viralclub/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "ZB Cartun TV",
-          "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "ZB Cartoon TV",
-          "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
           "reason": "HTTP 404"
         },
         {
@@ -4954,11 +4939,6 @@
         {
           "name": "Ayna TV",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8",
-          "reason": "timeout after 10s (could not verify)"
-        },
-        {
-          "name": "Peace TV Bangla",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/peacetvban.stream/index.m3u8",
           "reason": "timeout after 10s (could not verify)"
         },
         {
@@ -5665,7 +5645,7 @@
     },
     "app/Cartoon.m3u": {
       "total": 23,
-      "ok": 9,
+      "ok": 10,
       "restricted": 1,
       "dead": [
         {
@@ -5681,11 +5661,6 @@
         {
           "name": "Pogo",
           "url": "https://stream.ottplus.live/live/pogo_sd_abr/index.m3u8",
-          "reason": "HTTP 404"
-        },
-        {
-          "name": "ZB CARTOON",
-          "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
           "reason": "HTTP 404"
         }
       ],
@@ -6909,7 +6884,7 @@
     },
     "app/channels.m3u": {
       "total": 45,
-      "ok": 16,
+      "ok": 17,
       "restricted": 5,
       "dead": [
         {
@@ -6978,11 +6953,6 @@
           "name": "Maasranga TV (720p)",
           "url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8",
           "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Matribhumi TV (720p)",
-          "url": "http://live.playmax.live/matribhumi/index.m3u8",
-          "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
         },
         {
           "name": "National Geographic (India) (576p) [Geo-blocked]",
@@ -7290,6 +7260,11 @@
           "reason": "not a stream (web page)"
         },
         {
+          "name": "Ekhon TV",
+          "url": "https://book4u.top/worker/index.php?path=api/0456773b8a/playlist.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "Ananda TV",
           "url": "https://ftp.assadikb.workers.dev/stream.m3u8?id=/anandatv",
           "reason": "not a stream (web page)"
@@ -7343,6 +7318,11 @@
           "name": "BBC News",
           "url": "https://madanitv.assadikb.workers.dev/live.php?id=1431&e=.m3u8",
           "reason": "not a stream (web page)"
+        },
+        {
+          "name": "CNN",
+          "url": "https://book4u.top/worker/index.php?path=api/7b04dbc2ff/playlist.m3u8",
+          "reason": "HTTP 404"
         },
         {
           "name": "Islamic TV",
@@ -7410,6 +7390,11 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "TLC Hindi",
+          "url": "https://book4u.top/worker/index.php?path=api/8ea645b228/playlist.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "Travelxp HD Hindi",
           "url": "https://madanitv.assadikb.workers.dev/live.php?id=562&e=.m3u8",
           "reason": "not a stream (web page)"
@@ -7425,6 +7410,11 @@
           "reason": "HTTP 404"
         },
         {
+          "name": "Animal Planet HD World",
+          "url": "https://book4u.top/worker/index.php?path=api/ac7673685c/playlist.m3u8",
+          "reason": "HTTP 404"
+        },
+        {
           "name": "Discovery",
           "url": "https://fifa.assadikb.workers.dev/?id=discovery_sd",
           "reason": "HTTP 404"
@@ -7432,6 +7422,11 @@
         {
           "name": "History TV18 HD Hindi",
           "url": "https://madanitv.assadikb.workers.dev/live.php?id=578&e=.m3u8",
+          "reason": "not a stream (web page)"
+        },
+        {
+          "name": "Star Plus",
+          "url": "https://babu.khelalive.top/vids/iptv.php?action=m3u8&id=a0fo#EXTINF:-1 tvg-id=\"123\" tvg-name=\"Sony SAB\" tvg-logo=\"https://otapp.store/uploads/tv_image/sm/sony-sab-hd.png\" group-title=\"Popular Channel-(জনপ্রিয় চ্যানেল)\",Sony SAB",
           "reason": "not a stream (web page)"
         },
         {
@@ -7687,11 +7682,6 @@
           "reason": "timeout after 10s (could not verify)"
         },
         {
-          "name": "Ekhon TV",
-          "url": "https://book4u.top/worker/index.php?path=api/0456773b8a/playlist.m3u8",
-          "reason": "timeout after 10s (could not verify)"
-        },
-        {
           "name": "Asian TV",
           "url": "https://mtlivestream.com/hls/asian/ytlive/index.m3u8",
           "reason": "connection error: [Errno -2] Name or service not known (could not verify)"
@@ -7702,29 +7692,9 @@
           "reason": "connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018) (could not verify)"
         },
         {
-          "name": "CNN",
-          "url": "https://book4u.top/worker/index.php?path=api/7b04dbc2ff/playlist.m3u8",
-          "reason": "timeout after 10s (could not verify)"
-        },
-        {
-          "name": "TLC Hindi",
-          "url": "https://book4u.top/worker/index.php?path=api/8ea645b228/playlist.m3u8",
-          "reason": "timeout after 10s (could not verify)"
-        },
-        {
           "name": "Discovery Channel Bengali",
           "url": "http://103.165.93.31:8095/discovery/tracks-v1a1/mono.m3u8",
           "reason": "connection error: timed out (could not verify)"
-        },
-        {
-          "name": "Animal Planet HD World",
-          "url": "https://book4u.top/worker/index.php?path=api/ac7673685c/playlist.m3u8",
-          "reason": "HTTP 404 then TimeoutError: The read operation timed out (could not verify)"
-        },
-        {
-          "name": "Star Plus",
-          "url": "https://babu.khelalive.top/vids/iptv.php?action=m3u8&id=a0fo#EXTINF:-1 tvg-id=\"123\" tvg-name=\"Sony SAB\" tvg-logo=\"https://otapp.store/uploads/tv_image/sm/sony-sab-hd.png\" group-title=\"Popular Channel-(জনপ্রিয় চ্যানেল)\",Sony SAB",
-          "reason": "timeout after 10s (could not verify)"
         },
         {
           "name": "Star Jalsha HD",
