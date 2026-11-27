@@ -1,11 +1,11 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-27T14:32:31Z",
+  "updatedAt": "2026-11-27T23:05:58Z",
   "count": 49,
   "matches": [
     {
       "id": 558820,
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": "Eredivisie",
       "startTime": "2026-11-27T19:00:00Z",
       "homeTeam": "FC Groningen",
@@ -13,55 +13,55 @@
     },
     {
       "id": 565869,
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": "Bundesliga",
       "startTime": "2026-11-27T19:30:00Z",
       "homeTeam": "SV Werder Bremen",
       "awayTeam": "Borussia Mönchengladbach"
     },
     {
-      "id": 558515,
-      "status": "TIMED",
-      "competition": "Serie A",
-      "startTime": "2026-11-27T19:45:00Z",
-      "homeTeam": "Venezia FC",
-      "awayTeam": "Bologna FC 1909"
-    },
-    {
       "id": 559616,
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": "Ligue 1",
       "startTime": "2026-11-27T19:45:00Z",
       "homeTeam": "Stade Brestois 29",
       "awayTeam": "Paris FC"
     },
     {
-      "id": 560658,
-      "status": "TIMED",
-      "competition": "Premier League",
-      "startTime": "2026-11-27T20:00:00Z",
-      "homeTeam": "Nottingham Forest FC",
-      "awayTeam": "Chelsea FC"
-    },
-    {
-      "id": 564765,
-      "status": "TIMED",
-      "competition": "Primera Division",
-      "startTime": "2026-11-27T20:00:00Z",
-      "homeTeam": "Levante UD",
-      "awayTeam": "Real Racing Club de Santander"
+      "id": 558515,
+      "status": "FINISHED",
+      "competition": "Serie A",
+      "startTime": "2026-11-27T19:45:00Z",
+      "homeTeam": "Venezia FC",
+      "awayTeam": "Bologna FC 1909"
     },
     {
       "id": 561968,
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "competition": "Championship",
       "startTime": "2026-11-27T20:00:00Z",
       "homeTeam": "Southampton FC",
       "awayTeam": "Middlesbrough FC"
     },
     {
+      "id": 564765,
+      "status": "FINISHED",
+      "competition": "Primera Division",
+      "startTime": "2026-11-27T20:00:00Z",
+      "homeTeam": "Levante UD",
+      "awayTeam": "Real Racing Club de Santander"
+    },
+    {
+      "id": 560658,
+      "status": "FINISHED",
+      "competition": "Premier League",
+      "startTime": "2026-11-27T20:00:00Z",
+      "homeTeam": "Nottingham Forest FC",
+      "awayTeam": "Chelsea FC"
+    },
+    {
       "id": 567361,
-      "status": "TIMED",
+      "status": "FINISHED",
       "competition": "Primeira Liga",
       "startTime": "2026-11-27T20:15:00Z",
       "homeTeam": "CS Marítimo",
@@ -84,6 +84,14 @@
       "awayTeam": null
     },
     {
+      "id": 561972,
+      "status": "SCHEDULED",
+      "competition": "Championship",
+      "startTime": "2026-11-28T12:30:00Z",
+      "homeTeam": "Lincoln City FC",
+      "awayTeam": "Wolverhampton Wanderers FC"
+    },
+    {
       "id": 561973,
       "status": "SCHEDULED",
       "competition": "Championship",
@@ -98,14 +106,6 @@
       "startTime": "2026-11-28T12:30:00Z",
       "homeTeam": "Blackburn Rovers FC",
       "awayTeam": "Charlton Athletic FC"
-    },
-    {
-      "id": 561972,
-      "status": "SCHEDULED",
-      "competition": "Championship",
-      "startTime": "2026-11-28T12:30:00Z",
-      "homeTeam": "Lincoln City FC",
-      "awayTeam": "Wolverhampton Wanderers FC"
     },
     {
       "id": 564760,
@@ -124,22 +124,6 @@
       "awayTeam": "Parma Calcio 1913"
     },
     {
-      "id": 565874,
-      "status": "TIMED",
-      "competition": "Bundesliga",
-      "startTime": "2026-11-28T14:30:00Z",
-      "homeTeam": "Hamburger SV",
-      "awayTeam": "FC Bayern München"
-    },
-    {
-      "id": 565867,
-      "status": "TIMED",
-      "competition": "Bundesliga",
-      "startTime": "2026-11-28T14:30:00Z",
-      "homeTeam": "1. FSV Mainz 05",
-      "awayTeam": "1. FC Union Berlin"
-    },
-    {
       "id": 565866,
       "status": "TIMED",
       "competition": "Bundesliga",
@@ -156,52 +140,20 @@
       "awayTeam": "FC Schalke 04"
     },
     {
-      "id": 561965,
-      "status": "SCHEDULED",
-      "competition": "Championship",
-      "startTime": "2026-11-28T15:00:00Z",
-      "homeTeam": "Wrexham AFC",
-      "awayTeam": "Portsmouth FC"
-    },
-    {
-      "id": 561975,
-      "status": "SCHEDULED",
-      "competition": "Championship",
-      "startTime": "2026-11-28T15:00:00Z",
-      "homeTeam": "West Bromwich Albion FC",
-      "awayTeam": "Bristol City FC"
-    },
-    {
-      "id": 561971,
-      "status": "SCHEDULED",
-      "competition": "Championship",
-      "startTime": "2026-11-28T15:00:00Z",
-      "homeTeam": "Derby County FC",
-      "awayTeam": "Watford FC"
-    },
-    {
-      "id": 561967,
-      "status": "SCHEDULED",
-      "competition": "Championship",
-      "startTime": "2026-11-28T15:00:00Z",
-      "homeTeam": "Millwall FC",
-      "awayTeam": "Burnley FC"
-    },
-    {
-      "id": 560655,
+      "id": 565874,
       "status": "TIMED",
-      "competition": "Premier League",
-      "startTime": "2026-11-28T15:00:00Z",
-      "homeTeam": "Manchester United FC",
-      "awayTeam": "Brentford FC"
+      "competition": "Bundesliga",
+      "startTime": "2026-11-28T14:30:00Z",
+      "homeTeam": "Hamburger SV",
+      "awayTeam": "FC Bayern München"
     },
     {
-      "id": 561970,
-      "status": "SCHEDULED",
-      "competition": "Championship",
-      "startTime": "2026-11-28T15:00:00Z",
-      "homeTeam": "Birmingham City FC",
-      "awayTeam": "Bolton Wanderers FC"
+      "id": 565867,
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "startTime": "2026-11-28T14:30:00Z",
+      "homeTeam": "1. FSV Mainz 05",
+      "awayTeam": "1. FC Union Berlin"
     },
     {
       "id": 561966,
@@ -228,12 +180,68 @@
       "awayTeam": "Stoke City FC"
     },
     {
+      "id": 560655,
+      "status": "TIMED",
+      "competition": "Premier League",
+      "startTime": "2026-11-28T15:00:00Z",
+      "homeTeam": "Manchester United FC",
+      "awayTeam": "Brentford FC"
+    },
+    {
+      "id": 561970,
+      "status": "SCHEDULED",
+      "competition": "Championship",
+      "startTime": "2026-11-28T15:00:00Z",
+      "homeTeam": "Birmingham City FC",
+      "awayTeam": "Bolton Wanderers FC"
+    },
+    {
+      "id": 561971,
+      "status": "SCHEDULED",
+      "competition": "Championship",
+      "startTime": "2026-11-28T15:00:00Z",
+      "homeTeam": "Derby County FC",
+      "awayTeam": "Watford FC"
+    },
+    {
+      "id": 561967,
+      "status": "SCHEDULED",
+      "competition": "Championship",
+      "startTime": "2026-11-28T15:00:00Z",
+      "homeTeam": "Millwall FC",
+      "awayTeam": "Burnley FC"
+    },
+    {
+      "id": 561965,
+      "status": "SCHEDULED",
+      "competition": "Championship",
+      "startTime": "2026-11-28T15:00:00Z",
+      "homeTeam": "Wrexham AFC",
+      "awayTeam": "Portsmouth FC"
+    },
+    {
+      "id": 561975,
+      "status": "SCHEDULED",
+      "competition": "Championship",
+      "startTime": "2026-11-28T15:00:00Z",
+      "homeTeam": "West Bromwich Albion FC",
+      "awayTeam": "Bristol City FC"
+    },
+    {
       "id": 564767,
       "status": "TIMED",
       "competition": "Primera Division",
       "startTime": "2026-11-28T15:15:00Z",
       "homeTeam": "Málaga CF",
       "awayTeam": "Athletic Club"
+    },
+    {
+      "id": 558825,
+      "status": "TIMED",
+      "competition": "Eredivisie",
+      "startTime": "2026-11-28T15:30:00Z",
+      "homeTeam": "SBV Excelsior",
+      "awayTeam": "Telstar 1963"
     },
     {
       "id": 567357,
@@ -252,14 +260,6 @@
       "awayTeam": "Rio Ave FC"
     },
     {
-      "id": 558825,
-      "status": "TIMED",
-      "competition": "Eredivisie",
-      "startTime": "2026-11-28T15:30:00Z",
-      "homeTeam": "SBV Excelsior",
-      "awayTeam": "Telstar 1963"
-    },
-    {
       "id": 559612,
       "status": "TIMED",
       "competition": "Ligue 1",
@@ -276,12 +276,12 @@
       "awayTeam": "SS Lazio"
     },
     {
-      "id": 560653,
+      "id": 564759,
       "status": "TIMED",
-      "competition": "Premier League",
+      "competition": "Primera Division",
       "startTime": "2026-11-28T17:30:00Z",
-      "homeTeam": "Ipswich Town FC",
-      "awayTeam": "Aston Villa FC"
+      "homeTeam": "Elche CF",
+      "awayTeam": "Club Atlético de Madrid"
     },
     {
       "id": 565870,
@@ -292,12 +292,12 @@
       "awayTeam": "Eintracht Frankfurt"
     },
     {
-      "id": 564759,
+      "id": 560653,
       "status": "TIMED",
-      "competition": "Primera Division",
+      "competition": "Premier League",
       "startTime": "2026-11-28T17:30:00Z",
-      "homeTeam": "Elche CF",
-      "awayTeam": "Club Atlético de Madrid"
+      "homeTeam": "Ipswich Town FC",
+      "awayTeam": "Aston Villa FC"
     },
     {
       "id": 558826,
@@ -316,30 +316,6 @@
       "awayTeam": "FC Alverca"
     },
     {
-      "id": 559614,
-      "status": "TIMED",
-      "competition": "Ligue 1",
-      "startTime": "2026-11-28T19:45:00Z",
-      "homeTeam": "Paris Saint-Germain FC",
-      "awayTeam": "FC Lorient"
-    },
-    {
-      "id": 559617,
-      "status": "TIMED",
-      "competition": "Ligue 1",
-      "startTime": "2026-11-28T19:45:00Z",
-      "homeTeam": "Le Mans FC",
-      "awayTeam": "Lille OSC"
-    },
-    {
-      "id": 559613,
-      "status": "TIMED",
-      "competition": "Ligue 1",
-      "startTime": "2026-11-28T19:45:00Z",
-      "homeTeam": "Le Havre AC",
-      "awayTeam": "RC Strasbourg Alsace"
-    },
-    {
       "id": 559620,
       "status": "TIMED",
       "competition": "Ligue 1",
@@ -356,12 +332,36 @@
       "awayTeam": "Genoa CFC"
     },
     {
-      "id": 576807,
-      "status": "SCHEDULED",
-      "competition": "Copa Libertadores",
+      "id": 559613,
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-28T19:45:00Z",
+      "homeTeam": "Le Havre AC",
+      "awayTeam": "RC Strasbourg Alsace"
+    },
+    {
+      "id": 559617,
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-28T19:45:00Z",
+      "homeTeam": "Le Mans FC",
+      "awayTeam": "Lille OSC"
+    },
+    {
+      "id": 559614,
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-28T19:45:00Z",
+      "homeTeam": "Paris Saint-Germain FC",
+      "awayTeam": "FC Lorient"
+    },
+    {
+      "id": 558819,
+      "status": "TIMED",
+      "competition": "Eredivisie",
       "startTime": "2026-11-28T20:00:00Z",
-      "homeTeam": "SE Palmeiras",
-      "awayTeam": "Estudiantes de La Plata"
+      "homeTeam": "SC Cambuur-Leeuwarden",
+      "awayTeam": "Sparta Rotterdam"
     },
     {
       "id": 564762,
@@ -372,12 +372,12 @@
       "awayTeam": "Deportivo Alavés"
     },
     {
-      "id": 558819,
-      "status": "TIMED",
-      "competition": "Eredivisie",
+      "id": 576807,
+      "status": "SCHEDULED",
+      "competition": "Copa Libertadores",
       "startTime": "2026-11-28T20:00:00Z",
-      "homeTeam": "SC Cambuur-Leeuwarden",
-      "awayTeam": "Sparta Rotterdam"
+      "homeTeam": "SE Palmeiras",
+      "awayTeam": "Estudiantes de La Plata"
     },
     {
       "id": 567356,
