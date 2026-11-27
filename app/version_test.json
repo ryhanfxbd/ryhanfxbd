@@ -1,7 +1,1 @@
-{
-  "versionCode": 42,
-  "versionName": "3.29-test2",
-  "apkUrl": "https://github.com/ryhanfxbd/ryhanfxbd/releases/download/v3.29-test2/BDlivetv.apk",
-  "message": "TEST build (admin only): skeleton loading now fills the whole screen.",
-  "force": false
-}
+{"apkUrl":"https://github.com/ryhanfxbd/ryhanfxbd/releases/download/v3.29-test3/BDlivetv.apk","force":false,"message":"TEST build (admin only): Low Data mode fix — buffering now counts as weak net, repeated buffering switches it on, and the player shows the active quality (e.g. 'Low data mode · 480p').","versionCode":43,"versionName":"3.29-test3"}
