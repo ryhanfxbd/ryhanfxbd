@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-28T05:42:16Z",
+  "updatedAt": "2026-11-28T14:49:55Z",
   "count": 74,
   "matches": [
     {
@@ -37,7 +37,7 @@
     },
     {
       "id": 564760,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Primera Division",
       "startTime": "2026-11-28T13:00:00Z",
       "homeTeam": "Real Betis Balompié",
@@ -45,7 +45,7 @@
     },
     {
       "id": 558513,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Serie A",
       "startTime": "2026-11-28T14:00:00Z",
       "homeTeam": "Frosinone Calcio",
@@ -53,7 +53,7 @@
     },
     {
       "id": 565866,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Bundesliga",
       "startTime": "2026-11-28T14:30:00Z",
       "homeTeam": "1. FC Köln",
@@ -61,7 +61,7 @@
     },
     {
       "id": 565868,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Bundesliga",
       "startTime": "2026-11-28T14:30:00Z",
       "homeTeam": "SC Paderborn 07",
@@ -69,7 +69,7 @@
     },
     {
       "id": 565867,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Bundesliga",
       "startTime": "2026-11-28T14:30:00Z",
       "homeTeam": "1. FSV Mainz 05",
@@ -77,19 +77,11 @@
     },
     {
       "id": 565874,
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "competition": "Bundesliga",
       "startTime": "2026-11-28T14:30:00Z",
       "homeTeam": "Hamburger SV",
       "awayTeam": "FC Bayern München"
-    },
-    {
-      "id": 561975,
-      "status": "SCHEDULED",
-      "competition": "Championship",
-      "startTime": "2026-11-28T15:00:00Z",
-      "homeTeam": "West Bromwich Albion FC",
-      "awayTeam": "Bristol City FC"
     },
     {
       "id": 561971,
@@ -116,6 +108,30 @@
       "awayTeam": "Coventry City FC"
     },
     {
+      "id": 561975,
+      "status": "SCHEDULED",
+      "competition": "Championship",
+      "startTime": "2026-11-28T15:00:00Z",
+      "homeTeam": "West Bromwich Albion FC",
+      "awayTeam": "Bristol City FC"
+    },
+    {
+      "id": 561965,
+      "status": "SCHEDULED",
+      "competition": "Championship",
+      "startTime": "2026-11-28T15:00:00Z",
+      "homeTeam": "Wrexham AFC",
+      "awayTeam": "Portsmouth FC"
+    },
+    {
+      "id": 561967,
+      "status": "SCHEDULED",
+      "competition": "Championship",
+      "startTime": "2026-11-28T15:00:00Z",
+      "homeTeam": "Millwall FC",
+      "awayTeam": "Burnley FC"
+    },
+    {
       "id": 561974,
       "status": "SCHEDULED",
       "competition": "Championship",
@@ -140,28 +156,20 @@
       "awayTeam": "Brentford FC"
     },
     {
-      "id": 561965,
-      "status": "SCHEDULED",
-      "competition": "Championship",
-      "startTime": "2026-11-28T15:00:00Z",
-      "homeTeam": "Wrexham AFC",
-      "awayTeam": "Portsmouth FC"
-    },
-    {
-      "id": 561967,
-      "status": "SCHEDULED",
-      "competition": "Championship",
-      "startTime": "2026-11-28T15:00:00Z",
-      "homeTeam": "Millwall FC",
-      "awayTeam": "Burnley FC"
-    },
-    {
       "id": 564767,
       "status": "TIMED",
       "competition": "Primera Division",
       "startTime": "2026-11-28T15:15:00Z",
       "homeTeam": "Málaga CF",
       "awayTeam": "Athletic Club"
+    },
+    {
+      "id": 567357,
+      "status": "TIMED",
+      "competition": "Primeira Liga",
+      "startTime": "2026-11-28T15:30:00Z",
+      "homeTeam": "Moreirense FC",
+      "awayTeam": "CD Santa Clara"
     },
     {
       "id": 558825,
@@ -178,14 +186,6 @@
       "startTime": "2026-11-28T15:30:00Z",
       "homeTeam": "FC Arouca",
       "awayTeam": "Rio Ave FC"
-    },
-    {
-      "id": 567357,
-      "status": "TIMED",
-      "competition": "Primeira Liga",
-      "startTime": "2026-11-28T15:30:00Z",
-      "homeTeam": "Moreirense FC",
-      "awayTeam": "CD Santa Clara"
     },
     {
       "id": 559612,
@@ -212,20 +212,20 @@
       "awayTeam": "Club Atlético de Madrid"
     },
     {
-      "id": 565870,
-      "status": "TIMED",
-      "competition": "Bundesliga",
-      "startTime": "2026-11-28T17:30:00Z",
-      "homeTeam": "VfB Stuttgart",
-      "awayTeam": "Eintracht Frankfurt"
-    },
-    {
       "id": 560653,
       "status": "TIMED",
       "competition": "Premier League",
       "startTime": "2026-11-28T17:30:00Z",
       "homeTeam": "Ipswich Town FC",
       "awayTeam": "Aston Villa FC"
+    },
+    {
+      "id": 565870,
+      "status": "TIMED",
+      "competition": "Bundesliga",
+      "startTime": "2026-11-28T17:30:00Z",
+      "homeTeam": "VfB Stuttgart",
+      "awayTeam": "Eintracht Frankfurt"
     },
     {
       "id": 558826,
@@ -244,6 +244,14 @@
       "awayTeam": "FC Alverca"
     },
     {
+      "id": 559613,
+      "status": "TIMED",
+      "competition": "Ligue 1",
+      "startTime": "2026-11-28T19:45:00Z",
+      "homeTeam": "Le Havre AC",
+      "awayTeam": "RC Strasbourg Alsace"
+    },
+    {
       "id": 558518,
       "status": "TIMED",
       "competition": "Serie A",
@@ -260,12 +268,12 @@
       "awayTeam": "ES Troyes AC"
     },
     {
-      "id": 559613,
+      "id": 559617,
       "status": "TIMED",
       "competition": "Ligue 1",
       "startTime": "2026-11-28T19:45:00Z",
-      "homeTeam": "Le Havre AC",
-      "awayTeam": "RC Strasbourg Alsace"
+      "homeTeam": "Le Mans FC",
+      "awayTeam": "Lille OSC"
     },
     {
       "id": 559614,
@@ -276,14 +284,6 @@
       "awayTeam": "FC Lorient"
     },
     {
-      "id": 559617,
-      "status": "TIMED",
-      "competition": "Ligue 1",
-      "startTime": "2026-11-28T19:45:00Z",
-      "homeTeam": "Le Mans FC",
-      "awayTeam": "Lille OSC"
-    },
-    {
       "id": 558819,
       "status": "TIMED",
       "competition": "Eredivisie",
@@ -292,20 +292,20 @@
       "awayTeam": "Sparta Rotterdam"
     },
     {
-      "id": 576807,
-      "status": "SCHEDULED",
-      "competition": "Copa Libertadores",
-      "startTime": "2026-11-28T20:00:00Z",
-      "homeTeam": "SE Palmeiras",
-      "awayTeam": "Estudiantes de La Plata"
-    },
-    {
       "id": 564762,
       "status": "TIMED",
       "competition": "Primera Division",
       "startTime": "2026-11-28T20:00:00Z",
       "homeTeam": "Real Madrid CF",
       "awayTeam": "Deportivo Alavés"
+    },
+    {
+      "id": 576807,
+      "status": "SCHEDULED",
+      "competition": "Copa Libertadores",
+      "startTime": "2026-11-28T20:00:00Z",
+      "homeTeam": "SE Palmeiras",
+      "awayTeam": "Estudiantes de La Plata"
     },
     {
       "id": 567356,
@@ -412,20 +412,20 @@
       "awayTeam": "Newcastle United FC"
     },
     {
-      "id": 560660,
-      "status": "TIMED",
-      "competition": "Premier League",
-      "startTime": "2026-11-29T14:05:00Z",
-      "homeTeam": "Sunderland AFC",
-      "awayTeam": "Tottenham Hotspur FC"
-    },
-    {
       "id": 560657,
       "status": "TIMED",
       "competition": "Premier League",
       "startTime": "2026-11-29T14:05:00Z",
       "homeTeam": "Fulham FC",
       "awayTeam": "AFC Bournemouth"
+    },
+    {
+      "id": 560660,
+      "status": "TIMED",
+      "competition": "Premier League",
+      "startTime": "2026-11-29T14:05:00Z",
+      "homeTeam": "Sunderland AFC",
+      "awayTeam": "Tottenham Hotspur FC"
     },
     {
       "id": 565873,
@@ -564,20 +564,20 @@
       "awayTeam": "Sporting Clube de Portugal"
     },
     {
-      "id": 555103,
-      "status": "TIMED",
-      "competition": "Campeonato Brasileiro Série A",
-      "startTime": "2026-11-29T21:30:00Z",
-      "homeTeam": "SC Corinthians Paulista",
-      "awayTeam": "Grêmio FBPA"
-    },
-    {
       "id": 555106,
       "status": "TIMED",
       "competition": "Campeonato Brasileiro Série A",
       "startTime": "2026-11-29T21:30:00Z",
       "homeTeam": "SC Internacional",
       "awayTeam": "RB Bragantino"
+    },
+    {
+      "id": 555103,
+      "status": "TIMED",
+      "competition": "Campeonato Brasileiro Série A",
+      "startTime": "2026-11-29T21:30:00Z",
+      "homeTeam": "SC Corinthians Paulista",
+      "awayTeam": "Grêmio FBPA"
     },
     {
       "id": 555107,
