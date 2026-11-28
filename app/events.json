@@ -51,30 +51,6 @@
       "teamB": "Dila Gori"
     },
     {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "groningen-willem-ii-tilburg-2026-11-27",
-      "league": "Eredivisie",
-      "sport": "Football",
-      "startUtc": "2026-11-27T19:00:00Z",
-      "teamA": "Groningen",
-      "teamB": "Willem II Tilburg"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "sv-werder-bremen-borussia-monchengladbach-2026-11-27",
-      "league": "Bundesliga",
-      "sport": "Football",
-      "startUtc": "2026-11-27T19:30:00Z",
-      "teamA": "SV Werder Bremen",
-      "teamB": "Borussia Mönchengladbach"
-    },
-    {
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
@@ -104,18 +80,6 @@
       "startUtc": "2026-11-27T19:45:00Z",
       "teamA": "Brest",
       "teamB": "Paris FC"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "stade-brestois-29-paris-2026-11-27",
-      "league": "Ligue 1",
-      "sport": "Football",
-      "startUtc": "2026-11-27T19:45:00Z",
-      "teamA": "Stade Brestois 29",
-      "teamB": "Paris"
     },
     {
       "channel": "Bein Sports 1",
@@ -150,18 +114,6 @@
       "teamB": "Racing Santander"
     },
     {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "levante-ud-real-racing-club-de-santander-2026-11-27",
-      "league": "Primera Division",
-      "sport": "Football",
-      "startUtc": "2026-11-27T20:00:00Z",
-      "teamA": "Levante UD",
-      "teamB": "Real Racing Club de Santander"
-    },
-    {
       "channel": "Star Sports Select 1",
       "channels": [
         "Star Sports Select 1",
@@ -180,30 +132,6 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "southampton-middlesbrough-2026-11-27",
-      "league": "Championship",
-      "sport": "Football",
-      "startUtc": "2026-11-27T20:00:00Z",
-      "teamA": "Southampton",
-      "teamB": "Middlesbrough"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "cs-maritimo-cd-nacional-2026-11-27",
-      "league": "Primeira Liga",
-      "sport": "Football",
-      "startUtc": "2026-11-27T20:15:00Z",
-      "teamA": "CS Marítimo",
-      "teamB": "CD Nacional"
-    },
-    {
-      "channel": "",
-      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/stvvwp1473538082.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/upsvvu1473538059.png",
       "id": "fluminense-cruzeiro-2026-11-27",
@@ -212,18 +140,6 @@
       "startUtc": "2026-11-27T23:00:00Z",
       "teamA": "Fluminense",
       "teamB": "Cruzeiro"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "",
-      "flagB": "",
-      "id": "fluminense-cruzeiro-ec-2026-11-27",
-      "league": "Campeonato Brasileiro Série A",
-      "sport": "Football",
-      "startUtc": "2026-11-27T23:00:00Z",
-      "teamA": "Fluminense",
-      "teamB": "Cruzeiro EC"
     },
     {
       "channel": "",
@@ -988,6 +904,30 @@
       "teamB": "Sharjah Warriorz"
     },
     {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "ado-den-haag-utrecht-2026-11-29",
+      "league": "Eredivisie",
+      "sport": "Football",
+      "startUtc": "2026-11-29T11:15:00Z",
+      "teamA": "ADO Den Haag",
+      "teamB": "Utrecht"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "udinese-acf-fiorentina-2026-11-29",
+      "league": "Serie A",
+      "sport": "Football",
+      "startUtc": "2026-11-29T11:30:00Z",
+      "teamA": "Udinese",
+      "teamB": "ACF Fiorentina"
+    },
+    {
       "channel": "Bein Sports 1",
       "channels": [
         "Bein Sports 1",
@@ -1020,6 +960,30 @@
       "teamB": "Liverpool"
     },
     {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "swansea-city-afc-cardiff-city-2026-11-29",
+      "league": "Championship",
+      "sport": "Football",
+      "startUtc": "2026-11-29T12:00:00Z",
+      "teamA": "Swansea City AFC",
+      "teamB": "Cardiff City"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "valencia-ca-osasuna-2026-11-29",
+      "league": "Primera Division",
+      "sport": "Football",
+      "startUtc": "2026-11-29T13:00:00Z",
+      "teamA": "Valencia",
+      "teamB": "CA Osasuna"
+    },
+    {
       "channel": "Bein Sports 1",
       "channels": [
         "Bein Sports 1",
@@ -1034,6 +998,30 @@
       "startUtc": "2026-11-29T13:00:00Z",
       "teamA": "Valencia",
       "teamB": "Osasuna"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "feyenoord-rotterdam-ajax-2026-11-29",
+      "league": "Eredivisie",
+      "sport": "Football",
+      "startUtc": "2026-11-29T13:30:00Z",
+      "teamA": "Feyenoord Rotterdam",
+      "teamB": "Ajax"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "fortuna-sittard-heerenveen-2026-11-29",
+      "league": "Eredivisie",
+      "sport": "Football",
+      "startUtc": "2026-11-29T13:30:00Z",
+      "teamA": "Fortuna Sittard",
+      "teamB": "Heerenveen"
     },
     {
       "channel": "Bein Sports 1",
@@ -1100,6 +1088,18 @@
       "teamB": "Hull City"
     },
     {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "crystal-palace-hull-city-afc-2026-11-29",
+      "league": "Premier League",
+      "sport": "Football",
+      "startUtc": "2026-11-29T14:05:00Z",
+      "teamA": "Crystal Palace",
+      "teamB": "Hull City AFC"
+    },
+    {
       "channel": "Star Sports Select 1",
       "channels": [
         "Star Sports Select 1",
@@ -1114,6 +1114,18 @@
       "startUtc": "2026-11-29T14:05:00Z",
       "teamA": "Fulham",
       "teamB": "AFC Bournemouth"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "fulham-bournemouth-2026-11-29",
+      "league": "Premier League",
+      "sport": "Football",
+      "startUtc": "2026-11-29T14:05:00Z",
+      "teamA": "Fulham",
+      "teamB": "Bournemouth"
     },
     {
       "channel": "Star Sports Select 1",
@@ -1134,6 +1146,18 @@
     {
       "channel": "",
       "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "sunderland-afc-tottenham-hotspur-2026-11-29",
+      "league": "Premier League",
+      "sport": "Football",
+      "startUtc": "2026-11-29T14:05:00Z",
+      "teamA": "Sunderland AFC",
+      "teamB": "Tottenham Hotspur"
+    },
+    {
+      "channel": "",
+      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/uqmlhc1721480710.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/y9hem51721480707.png",
       "id": "desert-vipers-gulf-giants-2026-11-29",
@@ -1142,6 +1166,18 @@
       "startUtc": "2026-11-29T14:30:00Z",
       "teamA": "Desert Vipers",
       "teamB": "Gulf Giants"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "freiburg-leipzig-2026-11-29",
+      "league": "Bundesliga",
+      "sport": "Football",
+      "startUtc": "2026-11-29T14:30:00Z",
+      "teamA": "Freiburg",
+      "teamB": "Leipzig"
     },
     {
       "channel": "Sony Ten Sports 2 HD",
@@ -1175,6 +1211,30 @@
       "teamB": "Barcelona"
     },
     {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "rc-deportivo-la-coruna-barcelona-2026-11-29",
+      "league": "Primera Division",
+      "sport": "Football",
+      "startUtc": "2026-11-29T15:15:00Z",
+      "teamA": "RC Deportivo La Coruña",
+      "teamB": "Barcelona"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "pec-zwolle-az-2026-11-29",
+      "league": "Eredivisie",
+      "sport": "Football",
+      "startUtc": "2026-11-29T15:45:00Z",
+      "teamA": "PEC Zwolle",
+      "teamB": "AZ"
+    },
+    {
       "channel": "Bein Sports 1",
       "channels": [
         "Bein Sports 1",
@@ -1205,6 +1265,18 @@
       "startUtc": "2026-11-29T16:30:00Z",
       "teamA": "Arsenal",
       "teamB": "Manchester City"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "tsg-hoffenheim-augsburg-2026-11-29",
+      "league": "Bundesliga",
+      "sport": "Football",
+      "startUtc": "2026-11-29T16:30:00Z",
+      "teamA": "TSG Hoffenheim",
+      "teamB": "Augsburg"
     },
     {
       "channel": "Sony Ten Sports 2 HD",
@@ -1254,6 +1326,42 @@
       "teamB": "Villarreal"
     },
     {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "rc-celta-de-vigo-villarreal-2026-11-29",
+      "league": "Primera Division",
+      "sport": "Football",
+      "startUtc": "2026-11-29T17:30:00Z",
+      "teamA": "RC Celta de Vigo",
+      "teamB": "Villarreal"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "gil-vicente-gd-estoril-praia-2026-11-29",
+      "league": "Primeira Liga",
+      "sport": "Football",
+      "startUtc": "2026-11-29T18:00:00Z",
+      "teamA": "Gil Vicente",
+      "teamB": "GD Estoril Praia"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "borussia-dortmund-bayer-04-leverkusen-2026-11-29",
+      "league": "Bundesliga",
+      "sport": "Football",
+      "startUtc": "2026-11-29T18:30:00Z",
+      "teamA": "Borussia Dortmund",
+      "teamB": "Bayer 04 Leverkusen"
+    },
+    {
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
@@ -1267,6 +1375,42 @@
       "startUtc": "2026-11-29T18:30:00Z",
       "teamA": "Borussia Dortmund",
       "teamB": "Bayer Leverkusen"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "coritiba-fbc-cr-flamengo-2026-11-29",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-29T19:00:00Z",
+      "teamA": "Coritiba FBC",
+      "teamB": "CR Flamengo"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "ec-vitoria-santos-2026-11-29",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-29T19:00:00Z",
+      "teamA": "EC Vitória",
+      "teamB": "Santos"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "nec-twente-65-2026-11-29",
+      "league": "Eredivisie",
+      "sport": "Football",
+      "startUtc": "2026-11-29T19:00:00Z",
+      "teamA": "NEC",
+      "teamB": "Twente '65"
     },
     {
       "channel": "Bein Sports 1",
@@ -1301,6 +1445,18 @@
       "teamB": "AS Monaco"
     },
     {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "lyon-monaco-2026-11-29",
+      "league": "Ligue 1",
+      "sport": "Football",
+      "startUtc": "2026-11-29T19:45:00Z",
+      "teamA": "Lyon",
+      "teamB": "Monaco"
+    },
+    {
       "channel": "Bein Sports 1",
       "channels": [
         "Bein Sports 1",
@@ -1319,6 +1475,18 @@
     {
       "channel": "",
       "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "porto-sporting-cp-2026-11-29",
+      "league": "Primeira Liga",
+      "sport": "Football",
+      "startUtc": "2026-11-29T20:30:00Z",
+      "teamA": "Porto",
+      "teamB": "Sporting CP"
+    },
+    {
+      "channel": "",
+      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/vvuvps1473538042.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/uvpwyt1473538089.png",
       "id": "corinthians-gremio-2026-11-29",
@@ -1331,6 +1499,42 @@
     {
       "channel": "",
       "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "corinthians-paulista-gremio-fbpa-2026-11-29",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-29T21:30:00Z",
+      "teamA": "Corinthians Paulista",
+      "teamB": "Grêmio FBPA"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "internacional-bragantino-2026-11-29",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-29T21:30:00Z",
+      "teamA": "Internacional",
+      "teamB": "Bragantino"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "mirassol-ca-paranaense-2026-11-29",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-29T21:30:00Z",
+      "teamA": "Mirassol",
+      "teamB": "CA Paranaense"
+    },
+    {
+      "channel": "",
+      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/x5lixs1743742872.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/ynqlxo1630521109.png",
       "id": "atletico-mineiro-vasco-da-gama-2026-11-29",
@@ -1339,6 +1543,18 @@
       "startUtc": "2026-11-29T22:30:00Z",
       "teamA": "Atlético Mineiro",
       "teamB": "Vasco da Gama"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "",
+      "flagB": "",
+      "id": "ca-mineiro-cr-vasco-da-gama-2026-11-29",
+      "league": "Campeonato Brasileiro Série A",
+      "sport": "Football",
+      "startUtc": "2026-11-29T22:30:00Z",
+      "teamA": "CA Mineiro",
+      "teamB": "CR Vasco da Gama"
     },
     {
       "channel": "",
@@ -1372,7 +1588,7 @@
       "id": "sioni-merani-martvili-2026-11-30",
       "league": "Georgian Erovnuli Liga 2",
       "sport": "Football",
-      "startUtc": "2026-11-30T17:00:00Z",
+      "startUtc": "2026-11-30T15:00:00Z",
       "teamA": "Sioni",
       "teamB": "Merani Martvili"
     },
@@ -1457,18 +1673,6 @@
     {
       "channel": "",
       "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/9sh35r1779942438.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/lec0bk1779941482.png",
-      "id": "skopje-shkendija-haracine-2026-12-01",
-      "league": "Macedonian First League",
-      "sport": "Football",
-      "startUtc": "2026-12-01T11:00:00Z",
-      "teamA": "Skopje",
-      "teamB": "Shkëndija Haraçinë"
-    },
-    {
-      "channel": "",
-      "channels": [],
       "flagA": "https://r2.thesportsdb.com/images/media/team/badge/gq0stf1721480730.png",
       "flagB": "https://r2.thesportsdb.com/images/media/team/badge/y9hem51721480707.png",
       "id": "sharjah-warriorz-gulf-giants-2026-12-01",
@@ -1503,6 +1707,18 @@
       "teamB": "Dinamo Batumi"
     },
     {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/im8fjy1752946389.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/e9tykm1752947048.png",
+      "id": "dunav-ruse-cska-sofia-2026-12-01",
+      "league": "Bulgarian First League",
+      "sport": "Football",
+      "startUtc": "2026-12-01T16:30:00Z",
+      "teamA": "Dunav Ruse",
+      "teamB": "CSKA Sofia"
+    },
+    {
       "channel": "Star Sports Select 1",
       "channels": [
         "Star Sports Select 1",
@@ -1520,5 +1736,5 @@
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-28T01:08:40Z"
+  "updatedAt": "2026-11-28T15:01:29Z"
 }
