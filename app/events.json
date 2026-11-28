@@ -1,70 +1,6 @@
 {
   "events": [
     {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/pbkchi1735403745.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/4609ae1617286791.png",
-      "id": "aragvi-dusheti-merani-martvili-2026-11-26",
-      "league": "Georgian Erovnuli Liga 2",
-      "sport": "Football",
-      "startUtc": "2026-11-26T09:30:00Z",
-      "teamA": "Aragvi Dusheti",
-      "teamB": "Merani Martvili"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/kfh9161617286784.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/5nsfht1677239195.png",
-      "id": "gareji-samtredia-2026-11-26",
-      "league": "Georgian Erovnuli Liga 2",
-      "sport": "Football",
-      "startUtc": "2026-11-26T09:30:00Z",
-      "teamA": "Gareji",
-      "teamB": "Samtredia"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/llghxr1721480701.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/6ttrki1721480699.png",
-      "id": "abu-dhabi-knight-riders-mi-emirates-2026-11-26",
-      "league": "International League T20",
-      "sport": "Cricket",
-      "startUtc": "2026-11-26T14:30:00Z",
-      "teamA": "Abu Dhabi Knight Riders",
-      "teamB": "MI Emirates"
-    },
-    {
-      "channel": "STAR SPORTS 1 HD",
-      "channels": [
-        "STAR SPORTS 1 HD",
-        "T Sports",
-        "PTV Sports HD"
-      ],
-      "flagA": "🇳🇿",
-      "flagB": "🇮🇳",
-      "id": "new-zealand-india-2026-11-26",
-      "league": "ICC World Test Championship",
-      "sport": "Cricket",
-      "startUtc": "2026-11-26T22:00:00Z",
-      "teamA": "New Zealand",
-      "teamB": "India"
-    },
-    {
-      "channel": "",
-      "channels": [],
-      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/sxpupx1473538135.png",
-      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/u36jfy1579341655.png",
-      "id": "sao-paulo-remo-2026-11-26",
-      "league": "Brazilian Serie A",
-      "sport": "Football",
-      "startUtc": "2026-11-26T23:00:00Z",
-      "teamA": "São Paulo",
-      "teamB": "Remo"
-    },
-    {
       "channel": "ABC Australia",
       "channels": [
         "ABC Australia"
@@ -142,7 +78,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
@@ -425,7 +360,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
@@ -441,7 +375,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
@@ -469,7 +402,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
@@ -497,7 +429,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
@@ -781,7 +712,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
@@ -1217,7 +1147,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
@@ -1281,7 +1210,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
@@ -1329,7 +1257,6 @@
       "channel": "Sony Ten Sports 2 HD",
       "channels": [
         "Sony Ten Sports 2 HD",
-        "Sony Ten 2 HD",
         "Bein Sports 1"
       ],
       "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
@@ -1508,8 +1435,90 @@
       "startUtc": "2026-11-30T20:00:00Z",
       "teamA": "Espanyol",
       "teamB": "Getafe"
+    },
+    {
+      "channel": "Gazi TV",
+      "channels": [
+        "Gazi TV",
+        "T Sports",
+        "T Sports 2",
+        "Nagorik TV",
+        "Gazi TV HD"
+      ],
+      "flagA": "🇿🇦",
+      "flagB": "🇧🇩",
+      "id": "south-africa-bangladesh-2026-12-01",
+      "league": "One Day International Series",
+      "sport": "Cricket",
+      "startUtc": "2026-12-01T08:00:00Z",
+      "teamA": "South Africa",
+      "teamB": "Bangladesh"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/9sh35r1779942438.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/lec0bk1779941482.png",
+      "id": "skopje-shkendija-haracine-2026-12-01",
+      "league": "Macedonian First League",
+      "sport": "Football",
+      "startUtc": "2026-12-01T11:00:00Z",
+      "teamA": "Skopje",
+      "teamB": "Shkëndija Haraçinë"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/gq0stf1721480730.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/y9hem51721480707.png",
+      "id": "sharjah-warriorz-gulf-giants-2026-12-01",
+      "league": "International League T20",
+      "sport": "Cricket",
+      "startUtc": "2026-12-01T14:30:00Z",
+      "teamA": "Sharjah Warriorz",
+      "teamB": "Gulf Giants"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/6h9m7t1579289130.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/9pwe0q1610049557.png",
+      "id": "dila-gori-samgurali-tskhaltubo-2026-12-01",
+      "league": "Georgian Erovnuli Liga",
+      "sport": "Football",
+      "startUtc": "2026-12-01T15:00:00Z",
+      "teamA": "Dila Gori",
+      "teamB": "Samgurali Tskhaltubo"
+    },
+    {
+      "channel": "",
+      "channels": [],
+      "flagA": "https://r2.thesportsdb.com/images/media/team/badge/ifxpmk1615900731.png",
+      "flagB": "https://r2.thesportsdb.com/images/media/team/badge/3npx941579289150.png",
+      "id": "iberia-1999-dinamo-batumi-2026-12-01",
+      "league": "Georgian Erovnuli Liga",
+      "sport": "Football",
+      "startUtc": "2026-12-01T15:00:00Z",
+      "teamA": "Iberia 1999",
+      "teamB": "Dinamo Batumi"
+    },
+    {
+      "channel": "Star Sports Select 1",
+      "channels": [
+        "Star Sports Select 1",
+        "TNT Sport 1",
+        "Bein Sports 1"
+      ],
+      "flagA": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+      "flagB": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+      "id": "coventry-city-ipswich-town-2026-12-01",
+      "league": "English Premier League",
+      "sport": "Football",
+      "startUtc": "2026-12-01T20:00:00Z",
+      "teamA": "Coventry City",
+      "teamB": "Ipswich Town"
     }
   ],
   "generator": "BDlivetv Events Bot",
-  "updatedAt": "2026-11-27T16:05:51Z"
+  "updatedAt": "2026-11-28T01:08:40Z"
 }
